@@ -110,15 +110,14 @@ def build_pitch(c, house_cases):
 <section class="hero"><div class="container">
   <p class="eyebrow reveal">{t(p["eyebrow"])}</p>
   <h1 class="display h-xl reveal">{t(h["before"])} <span class="mark">{t(h["mark"])}</span> {t(h["after"])}</h1>
-  <p class="hero__sub reveal">{t(p["subheadline"])}</p>
   <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(p["vslNote"])}</p></div>
-  <div class="hero__actions reveal"><a class="btn btn--ghost" href="#bridge">Start here {DOWN}</a><a class="btn btn--ghost" href="#deliverables">See the deliverables {DOWN}</a></div>
+  <div class="hero__actions reveal"><a class="btn btn--ghost" href="#deliverables">See the deliverables {DOWN}</a></div>
 </div></section>
 
 <section class="section" id="bridge"><div class="container">
   <div class="bridge__head"><p class="eyebrow reveal">{t(br["eyebrow"])}</p><h2 class="display h-lg reveal">{t(br["title"])}</h2></div>
   <div class="beats">{''.join(beat(n, b) for n, b in enumerate(br["beats"], 1))}</div>
-  <div class="bridge__close reveal"><p class="bridge__closing">{t(br["closing"])}</p><a class="btn btn--primary" href="#deliverables">See what's built {DOWN}</a></div>
+  <div class="bridge__close reveal"><p class="bridge__closing">{t(br["closing"])}</p></div>
 </div></section>
 
 <section class="section" id="deliverables"><div class="container">
@@ -129,14 +128,11 @@ def build_pitch(c, house_cases):
 <section class="section"><div class="container">
   <h2 class="display h-lg reveal" style="text-align:center">{t(p["cases"]["title"])}</h2>
   <div class="cases">{case_html}</div>
-  <p class="cases__note">{t(p["cases"]["note"])}</p>
 </div></section>
 
 <section class="section cta" id="cta"><div class="container">
   <h2 class="display h-lg reveal">{t(p["cta"]["title"])}</h2>
-  <p class="cta__sub reveal">{t(p["cta"]["sub"])}</p>
   <div class="cal reveal"><div class="calendly-inline-widget" data-url="{cal}?hide_gdpr_banner=1&amp;background_color=ffffff&amp;primary_color=7c5a16"></div></div>
-  <p class="cal__fallback">Calendar not loading? <a href="{cal}" rel="noopener">Open it in a new tab</a></p>
 </div></section>
 </main>
 <a class="sticky" href="#cta">Book a call</a>

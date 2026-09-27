@@ -25,7 +25,6 @@
       "mark": "mentorship funnel",
       "after": "your “Mentor | Coach” bio already promises, ready to switch on."
     },
-    "subheadline": "Application page, qualification, booking, pre-call emails and ads for a Trading Diva mentorship, all in your look and based only on what's public on your channels.",
     "vslNote": "{{SWAP}} 3–5 min Loom walkthrough",
     "bridge": {
       "eyebrow": "Before the deliverables",
@@ -145,12 +144,10 @@
     ],
     "cases": {
       "title": "Case studies",
-      "items": [],
-      "note": "Real results from past clients only. Nothing here is a promise about your numbers."
+      "items": []
     },
     "cta": {
       "title": "Book a call",
-      "sub": "A 30-minute call. No pitch deck and no price, just whether a mentorship tier makes sense for Trading Diva. If it does, we plan it on the call.",
       "calendly": "https://calendly.com/maliksmouni/30min"
     },
     "footer": "Trading Diva mentorship funnel"
