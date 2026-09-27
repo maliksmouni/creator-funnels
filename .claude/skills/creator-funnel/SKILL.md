@@ -136,13 +136,14 @@ Neue Wünsche des Nutzers zum Design immer im Template umsetzen (nicht nur für 
 
 Zwei getrennte Design-Systeme, nie mischen:
 - **Pitch-Seite an den Creator:** immer `_shared/pitch-master.css` (Design-Master aus `HOUSE.md`). Warmes Papier (#f5f2ec), Bricolage Grotesque für Headlines, Inter für Text, JetBrains Mono für Labels, Bronze-Akzent (#7c5a16). Aufbau: zentrierter Hero mit markiertem Kernversprechen (ohne Unterzeile), großem Video (Platzhalter = Thumbnail des neuesten YouTube-Uploads, lokal gespeichert), ohne Buttons darunter, „Four things I noticed“ (ohne Eyebrow) als nummerierte Karten ohne Quellenzeilen, Abschlusssatz ohne Button, Deliverables gruppiert als kompakte Browser-Vorschauen (alle Karten gleich groß, max. ca. 430px breit, zentriert), Case Studies ohne Zusatznotiz, „Book a call“ nur mit Überschrift und Calendly-Karte (kein Untertext, kein Fallback-Link), Sticky-„Book a call“. Stil-Referenz: phil-pitch.pages.dev.
-- **Funnel des Creators:** `_shared/creator-funnel.css` mit den Farben aus `content.json → brand`. Farben aus dem bestehenden Auftritt des Creators ableiten (YouTube-Banner, Profilbild, Website); Farbwerte per Bild-Quantisierung extrahieren, nie frei erfinden. Ohne definierte Markenpalette: als abgeleitet dokumentieren und `[CONFIRM]` setzen. Typografie neutral (Inter), damit nichts vom Master-Design übernommen wird.
+- **Funnel des Creators:** `_shared/creator-funnel.css` mit den Farben aus `content.json → brand`. Farben aus dem bestehenden Auftritt des Creators ableiten (YouTube-Banner, Profilbild, Website); Farbwerte per Bild-Quantisierung extrahieren, nie frei erfinden. Ohne definierte Markenpalette: als abgeleitet dokumentieren (intern `[CONFIRM]`). Typografie neutral (Inter), damit nichts vom Master-Design übernommen wird.
 - Creator-Bild: aus dem öffentlichen Avatar (YouTube 900px bevorzugt). Ränder prüfen und zuschneiden: YouTube-Avatare haben oft fremde Thumbnail-Streifen am Rand. Speichern als `{slug}/assets/{name}.jpg`, max. 600px.
 
 ### Ehrlichkeitsregeln (nicht verhandelbar)
 
 - Niemals Testimonials, Zitate, Kundenergebnisse oder Preise erfinden.
-- Fehlende Information (z. B. Preis nicht öffentlich): `[CONFIRM]`, nicht raten.
+- Fehlende Information (z. B. Preis nicht öffentlich): nicht raten. Intern (`dossier.md`, `README.md`, `content.json`-Notizen) als `[CONFIRM]` führen.
+- **Auf den Seiten steht nie ein `[CONFIRM]`.** Details, die unser Vorschlag sind (Session-Frequenz, Review-Format, Community-Plattform, Call-Länge), als konkreten Vorschlag ausformulieren und in `README.md` unter „Vorgeschlagene Standardwerte“ auflisten. Fakten, die fehlen (Preise, Kapazität, Regulierungsstatus), nicht erfinden, sondern den Satz so formulieren, dass er sie nicht braucht (z. B. „the investment is explained on the call“). Keine unbelegte Knappheit („limited spots“).
 - Fehlendes Beweismaterial: `{{SWAP}}`, keine fiktiven Inhalte.
 - Jede Zahl im Output muss auf eine konkrete Quelle aus Phase 1 zurückführbar sein. Die Quellen stehen im `dossier.md`, nicht auf der Pitch-Seite (Ausnahme: Herkunft eines wörtlichen Zitats).
 - Reale Aussagen nur sinngemäß referenzieren. Wörtlich zitieren nur öffentliche Aussagen des Creators selbst, mit Quelle.

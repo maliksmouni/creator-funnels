@@ -253,7 +253,7 @@ def build_thankyou(c):
   <span class="eyebrow reveal">Application received</span>
   <h1 class="reveal">Last step: pick your call time.</h1>
   <p class="lead reveal">If your application is a fit, book a slot below. You'll get a confirmation email right away.</p>
-  <div class="vsl reveal" role="img" aria-label="Calendar placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note"><span class="flag">[CONFIRM] Simran's booking calendar embed</span></p></div>
+  <div class="vsl reveal" role="img" aria-label="Calendar placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(c.get("thankYouCalendarNote", "Booking calendar"))}</p></div>
 </div></section>
 <section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">Before the call</span><h2 class="reveal">Three things to do now</h2></div>
   <ol class="steps">{steps([

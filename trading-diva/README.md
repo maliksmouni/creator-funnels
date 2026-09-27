@@ -40,6 +40,23 @@ Hinweis: `deck/` entfällt. Die Pitch-Seite selbst ist die Präsentation. Das Sk
 12. Meta Ad Library: laufen bereits Ads? (nicht geprüft)
 13. **Compliance Indien (SEBI):** Status von Bildungs-Content vs. Beratung, VIP-Trade-Calls, Ad-Richtlinien für Finanzthemen. Vor dem Livegang rechtlich prüfen lassen.
 
+## Vorgeschlagene Standardwerte auf den Seiten (mit Simran abstimmen)
+
+Auf den Seiten steht kein `[CONFIRM]` mehr. Diese Punkte sind als Vorschlag ausformuliert:
+
+| Seite | Vorschlag |
+|---|---|
+| Funnel · What's inside | Wöchentliche Live-Sessions (Nifty, Bank Nifty, Gold, BTC) |
+| Funnel · What's inside | Journal-Reviews in einem festen Wochenblock |
+| Funnel · What's inside | Eine offizielle Telegram-Gruppe nur für Mitglieder |
+| Funnel · How it works | Call mit „Simran's team“ (wer genau die Calls führt, klären) |
+| Funnel · Bewerbung | Frage 6 ohne Preisangabe; die Investition wird im Call erklärt |
+| Alle Funnel-Seiten · Footer | Disclaimer ohne Hinweis auf Regulierungsstatus (SEBI-Prüfung bleibt offen, siehe oben) |
+| Thank-you | Platzhalter „Booking calendar“ statt ihres Kalenders |
+| E-Mail 4 | Call-Länge ca. 30 Minuten |
+| Ad 2 | „Official page is linked in the caption“ statt Domain |
+| Ad 4 | „Every application is reviewed personally“ statt „Limited spots“ (keine unbelegte Knappheit) |
+
 ## Offene `{{SWAP}}`-Stellen
 
 - Pitch-Seite: Loom-Walkthrough (3–5 Min.)

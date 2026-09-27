@@ -200,7 +200,7 @@
       ]
     },
     "deliverables": {
-      "title": "What's inside [CONFIRM]",
+      "title": "What's inside",
       "items": [
         {
           "title": "Crown Strategy course",
@@ -208,11 +208,11 @@
         },
         {
           "title": "Live mentorship sessions",
-          "body": "Guided sessions on Nifty, Bank Nifty, Gold and BTC. Frequency [CONFIRM]."
+          "body": "Weekly guided sessions on Nifty, Bank Nifty, Gold and BTC."
         },
         {
           "title": "Journal reviews",
-          "body": "Your trades reviewed against the plan. Format [CONFIRM]."
+          "body": "Your trades reviewed against the plan in a fixed weekly block."
         },
         {
           "title": "Risk framework",
@@ -220,7 +220,7 @@
         },
         {
           "title": "Private community",
-          "body": "One official group, no fakes. Platform [CONFIRM]."
+          "body": "One official members-only Telegram group. No fakes, no DM sales."
         },
         {
           "title": "30-day roadmap",
@@ -246,7 +246,7 @@
         },
         {
           "title": "Book a call",
-          "body": "If it looks like a fit, pick a time for a call with Simran's team [CONFIRM]."
+          "body": "If it looks like a fit, pick a time for a call with Simran's team."
         },
         {
           "title": "Decide on the call",
@@ -302,7 +302,7 @@
           ]
         },
         {
-          "q": "If you're accepted, are you ready to invest in a mentorship now? Price [CONFIRM]",
+          "q": "If you're accepted, are you ready to invest in a mentorship now?",
           "type": "choice",
           "options": [
             "Yes",
@@ -328,7 +328,7 @@
       "title": "One official way in.",
       "body": "No DMs, no \"VIP\" links from strangers. If it doesn't come from this page or @tradingdiva_, it isn't Simran.",
       "cta": "Apply now",
-      "disclaimer": "Educational content only, not investment advice. Trading carries a high risk of loss. Regulatory status [CONFIRM]."
+      "disclaimer": "Educational content only, not investment advice. Trading carries a high risk of loss."
     }
   },
   "preCallEmails": [
@@ -358,7 +358,7 @@
       "type": "Expectations",
       "subject": "What the call is (and isn't)",
       "previewText": "No trade tips, no promises, a straight conversation",
-      "body": "Hi {{first_name}},\n\nSo you know what to expect:\n\n- The call takes about {{call_length}} minutes [CONFIRM].\n- We'll ask about your experience, markets, risk and journal.\n- If the mentorship fits, we'll explain what's included and the investment [CONFIRM].\n- If it doesn't fit, we'll tell you and point you to the free resources.\n\nWhat the call is not: there are no trade calls, no signals and no promises of returns. Trading involves real risk of loss.\n\nTeam Trading Diva"
+      "body": "Hi {{first_name}},\n\nSo you know what to expect:\n\n- The call takes about 30 minutes.\n- We'll ask about your experience, markets, risk and journal.\n- If the mentorship fits, we'll explain what's included and the investment.\n- If it doesn't fit, we'll tell you and point you to the free resources.\n\nWhat the call is not: there are no trade calls, no signals and no promises of returns. Trading involves real risk of loss.\n\nTeam Trading Diva"
     },
     {
       "emailNumber": 5,
@@ -384,7 +384,7 @@
     {
       "angle": "Official path / anti-fake (Instagram + Telegram audience)",
       "hook": "If someone DMs you a \"Trading Diva VIP\" link, it's not me.",
-      "script": "[Simran, direct to camera]\nIf someone DMs you a \"Trading Diva VIP\" link, it's not me.\nFake channels use my name.\nSo there's now one official way to work with me: the application page linked here.\nNo payment in DMs. Ever.\nIf you want structured mentorship, apply there. If not, the YouTube content stays free.\n[On-screen: the only official page: {{funnel_domain}} [CONFIRM]]"
+      "script": "[Simran, direct to camera]\nIf someone DMs you a \"Trading Diva VIP\" link, it's not me.\nFake channels use my name.\nSo there's now one official way to work with me: the application page linked here.\nNo payment in DMs. Ever.\nIf you want structured mentorship, apply there. If not, the YouTube content stays free.\n[On-screen: the official page is linked in the caption]"
     },
     {
       "angle": "Journal (reuses the organic \"Comment JOURNAL\" topic)",
@@ -394,7 +394,7 @@
     {
       "angle": "Live viewers → next step (live stream retargeting)",
       "hook": "You watch the lives. Here's what the lives can't do for you.",
-      "script": "[Clip from a live, then Simran on camera]\nSo many of you join the lives, thank you.\nBut in a live, I can't look at your trades.\nThe mentorship is where I can: your setups, your risk, your journal.\nLimited spots [CONFIRM]. Apply with the link below.\n[On-screen: Trading involves risk of loss.]"
+      "script": "[Clip from a live, then Simran on camera]\nSo many of you join the lives, thank you.\nBut in a live, I can't look at your trades.\nThe mentorship is where I can: your setups, your risk, your journal.\nEvery application is reviewed personally. Apply with the link below.\n[On-screen: Trading involves risk of loss.]"
     }
   ],
   "demoBanner": "Demo built for Simran Nigam (Trading Diva). Not her official site.",
@@ -402,5 +402,6 @@
     "thumb": "assets/video-thumb.jpg",
     "youtubeId": "lDG_Dx4YXiU",
     "title": "Liquidity in Trading | How Smart Money Hunts Liquidity (Complete Guide)"
-  }
+  },
+  "thankYouCalendarNote": "Booking calendar"
 }
