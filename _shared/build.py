@@ -116,7 +116,7 @@ def build_pitch(c, house_cases):
 <section class="hero"><div class="container">
   <p class="eyebrow reveal">{t(p["eyebrow"])}</p>
   <h1 class="display h-xl reveal">{t(h["before"])} <span class="mark">{t(h["mark"])}</span>{"" if h["after"][:1] in ".,!?:;" else " "}{t(h["after"])}</h1>
-  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder">{vsl_thumb(c)}<div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(p["vslNote"])}</p></div>
+  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder">{vsl_thumb(c)}<div class="vsl__play">{PLAY}</div></div>
   <div class="hero__actions reveal"><a class="btn btn--ghost" href="#deliverables">See the deliverables {DOWN}</a></div>
 </div></section>
 

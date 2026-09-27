@@ -78,7 +78,7 @@ pitch:                                    ← Pitch-Seite an den Creator (Master
   headline { before, mark, after }        kurz (max. ~10 Wörter) und konkret: was gebaut + das Angebot beim Namen,
                                           z. B. „I built the call funnel for your [Crown Strategy mentorship].“
                                           mark = Angebotsname des Creators. Keine Zahlenlisten, Umsatz nur mit Quelle.
-  vslNote ({{SWAP}} Loom)
+  (kein Hinweistext im Video; der Loom wird später eingesetzt)
 video { thumb, youtubeId, title }        ← von yt_thumb.py gesetzt; Platzhalterbild für Pitch- und Funnel-Video
   bridge { eyebrow, title: "Four things I noticed", closing,
            beats[4]: { kicker, title, text, stats[{value,label}] | quote, source } }
