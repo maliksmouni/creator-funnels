@@ -74,10 +74,9 @@ demoBanner                                                              ← Pfli
 
 pitch:                                    ← Pitch-Seite an den Creator (Master-Design)
   eyebrow                                 z. B. "Already built for {brandName}"
-  headline { before, mark, after }        konkret: wer + was genau gebaut + welches belegte Publikum + welches Ergebnis,
-                                          z. B. „I built {Brand} a [mentorship call funnel] that turns your 56.4K
-                                          YouTube subscribers and livestream viewers into booked sales calls instead of DMs.“
-                                          mark = das gebaute Asset. Umsatzzahlen nur mit Quelle, sonst weglassen.
+  headline { before, mark, after }        kurz (max. ~10 Wörter) und konkret: was gebaut + das Angebot beim Namen,
+                                          z. B. „I built the call funnel for your [Crown Strategy mentorship].“
+                                          mark = Angebotsname des Creators. Keine Zahlenlisten, Umsatz nur mit Quelle.
   vslNote ({{SWAP}} Loom)
   bridge { eyebrow, title: "Four things I noticed", closing,
            beats[4]: { kicker, title, text, stats[{value,label}] | quote, source } }
