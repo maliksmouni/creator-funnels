@@ -201,7 +201,7 @@ def build_funnel(c):
             kind = "checkbox" if q["type"] == "multi" else "radio"
             req = "" if kind == "checkbox" else " required"
             field = '<div class="opts">' + "".join(
-                f'<label class="opt"><input type="{kind}" name="{name}" value="{a(o)}"{req}> {html.escape(o)}</label>' for o in q["options"]
+                f'<label class="opt"><input type="{kind}" name="{name}" value="{a(o)}"{req}{" data-disqualify" if o in q.get("disqualify", []) else ""}> {html.escape(o)}</label>' for o in q["options"]
             ) + "</div>"
         qs.append(f'<fieldset class="reveal"><legend><span>{i}</span>{t(q["q"])}</legend>{field}</fieldset>')
     contact = "".join(
@@ -229,12 +229,18 @@ def build_funnel(c):
 <section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">The process</span><h2 class="reveal">{t(s["howItWorks"]["title"])}</h2></div><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
 <section id="apply"><div class="wrap narrow">
   <div class="sec-head"><span class="eyebrow reveal">Application</span><h2 class="reveal">{t(s["qualification"]["title"])}</h2><p class="lead reveal">Six questions, about two minutes.</p></div>
-  <form class="apply" action="thank-you/" method="get">
+  <form class="apply" id="apply-form" action="thank-you/" method="get">
     {''.join(qs)}
     <fieldset class="reveal"><legend><span>✓</span>Your details</legend>{contact}</fieldset>
     <div><button class="btn" type="submit">{t(s["finalCta"]["cta"])} {ARROW}</button></div>
-    <p class="note">Preview: the form isn't connected yet <span class="flag">[CONFIRM] form tool + qualification logic</span></p>
   </form>
+  <div class="card notfit" id="not-fit" hidden><h3>{t(s["qualification"]["notFit"]["title"])}</h3><p>{t(s["qualification"]["notFit"]["body"])}</p></div>
+  <script>
+  document.getElementById('apply-form').addEventListener('submit',e=>{{
+    if(!e.target.querySelector('input[data-disqualify]:checked'))return;
+    e.preventDefault();e.target.hidden=true;const n=document.getElementById('not-fit');n.hidden=false;n.scrollIntoView({{behavior:'smooth',block:'center'}});
+  }});
+  </script>
 </div></section>
 <section class="final"><div class="wrap narrow"><h2 class="reveal">{t(s["finalCta"]["title"])}</h2><p class="lead reveal">{t(s["finalCta"]["body"])}</p><a class="btn reveal" href="#apply">{t(s["finalCta"]["cta"])} {ARROW}</a></div></section>
 """

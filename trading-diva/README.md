@@ -34,7 +34,7 @@ Hinweis: `deck/` entfällt. Die Pitch-Seite selbst ist die Präsentation. Das Sk
 6. Preis und Modell der VIP-Gruppe
 7. Mentoring-Inhalte: Frequenz der Live-Sessions, Journal-Review-Format, Community-Plattform
 8. Wer führt die Calls (Simran oder Team/Closer), Call-Länge
-9. Ihr Buchungskalender + Formular-Tool (Typeform o. ä.)
+9. Ihr Buchungskalender + Formular-Tool (Typeform / Netlify Forms). Die Qualifizierungslogik ist gebaut: „No“ bei Risikokapital oder Investitionsbereitschaft → Not-a-fit-Hinweis, sonst → Buchungsseite. Das Formular speichert noch nichts.
 10. Eigene Domain für den Funnel
 11. Markenfarben/-schrift (aktuell aus Banner und Profilbild abgeleitet)
 12. Meta Ad Library: laufen bereits Ads? (nicht geprüft)
@@ -53,4 +53,4 @@ Hinweis: `deck/` entfällt. Die Pitch-Seite selbst ist die Präsentation. Das Sk
 - 375 px: kein horizontales Scrollen auf allen 5 Seiten
 - Drittanbieter-Requests: nur `assets.calendly.com` auf der Pitch-Seite; Funnel-Seiten: keine
 - Interne Links: alle erreichbar
-- Das Formular ist in der Vorschau nicht angeschlossen (Submit führt zur Thank-you-Seite)
+- Formular: qualifizierte Antworten → Thank-you-Seite, disqualifizierende → Not-a-fit-Hinweis (4 Pfade getestet). Noch kein Tool angeschlossen.

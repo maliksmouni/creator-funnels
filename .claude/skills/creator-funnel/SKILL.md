@@ -97,7 +97,13 @@ sections:                                 ← Funnel des Creators (seine Marke)
   deliverables { title, items[] }
   proof { title, items ({{SWAP}}), note }
   howItWorks { title, steps[] }
-  qualification { title, questions[{q, type: choice|multi|text, options}], contactFields }
+  qualification { title, questions[{q, type: choice|multi|text, options, disqualify[]}], contactFields,
+                  notFit { title, body } }
+                  disqualify = Antworten, die zum „Not a fit“-Hinweis führen statt zur Buchung
+                  (Standard: „trade only money you can afford to lose“ = No, „ready to invest“ = No).
+                  Das Formular speichert in der Demo nichts. Ein echtes Formular-Tool (z. B. Netlify Forms
+                  oder Typeform) erst anschließen, wenn der Creator zugestimmt hat: sonst sammelt die Demo
+                  echte Kontaktdaten unter seinem Namen. Kein „[CONFIRM] form tool“-Hinweis auf der Seite.
   finalCta { title, body, cta, disclaimer }
 
 preCallEmails[6]: { emailNumber, type (Confirmation / Conviction / Objection handling /

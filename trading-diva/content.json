@@ -296,6 +296,9 @@
           "options": [
             "Yes",
             "No"
+          ],
+          "disqualify": [
+            "No"
           ]
         },
         {
@@ -305,6 +308,9 @@
             "Yes",
             "In 1–3 months",
             "No"
+          ],
+          "disqualify": [
+            "No"
           ]
         }
       ],
@@ -312,7 +318,11 @@
         "Name",
         "Email",
         "WhatsApp number"
-      ]
+      ],
+      "notFit": {
+        "title": "Thanks for being honest.",
+        "body": "Right now the mentorship isn't the right next step for you. Start with the free SMC series on YouTube and the lives, and apply again when you're ready."
+      }
     },
     "finalCta": {
       "title": "One official way in.",
