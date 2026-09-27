@@ -7,7 +7,7 @@ Outreach-Typ: **Aware Outreach**. Simran weiß, dass sie gepitcht wird. Die Pitc
 **Lücke zwischen Reichweite und Monetarisierung** (nur Fakten aus `dossier.md`):
 
 1. **Reichweite ist da, der Weg zu einem höherpreisigen Angebot fehlt.** Sie hat 56,4K YouTube-Abonnenten, 4,51 Mio. YouTube-Views seit Feb 2025, 35.039 Instagram-Follower und 13.134 Telegram-Abonnenten. Das einzige öffentlich verlinkte Produkt ist ein aufgezeichneter Kurs (Crown Strategy) auf Superprofile. Sie nennt sich „Mentor | Coach“, aber es gibt keine Bewerbung, keinen Kalender und keine Mentoring-Seite.
-2. **Das warme Publikum hat keine klare nächste Stufe.** Sie streamt fast täglich live (3,5K–8,7K Views pro Stream) und bekommt YouTube-Uploads mit Ø ~14,3K Views. Der CTA ist immer „join Telegram“ oder „msg me“.
+2. **Das warme Publikum hat keine klare nächste Stufe.** Sie streamt mehrmals pro Woche live (15 Lives vom 22.08. bis 21.09.) (3,5K–8,7K Views pro Stream) und bekommt YouTube-Uploads mit Ø ~14,3K Views. Der CTA ist immer „join Telegram“ oder „msg me“.
 3. **Der DM-Weg ist zugleich ihr Vertrauensproblem.** Die Telegram-Beschreibung warnt ausdrücklich vor Fake-Channels. Der Zugang zur VIP-Gruppe läuft trotzdem über „DM @tradingdivaa“, also genau den Kanal, den Nachahmer nutzen. Die Beschreibung sagt außerdem „no paid services“, während der Kanal einen bezahlten Kurs bewirbt. Ein offizieller, gebrandeter Bewerbungsweg löst beides.
 4. **Lead-Magnete ohne Liste.** Das angepinnte „Comment 'pdf'“-Reel hat 8.223 Kommentare, aber es gibt keine sichtbare E-Mail-Erfassung. Jeder Lead endet in einer DM.
 

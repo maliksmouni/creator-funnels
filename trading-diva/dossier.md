@@ -41,12 +41,12 @@ Recherche-Stand: 27.09.2026. Nur öffentlich zugängliche Quellen. Jede Zahl unt
 | 1 Monat | 6,9K | Single Candle की Physics … |
 
 - **Ø Views letzte 10 Videos: ~14,3K** (Median 12K, Spanne 5,3K–38K)
-- Upload-Frequenz: 15 Long-Form-Videos im Tab zwischen „6 Tagen“ und „1 Monat“ alt, also etwa **2–3 pro Woche**
+- Upload-Frequenz: 15 Long-Form-Videos im Tab zwischen „6 Tagen“ und „1 Monat“ alt. YouTube zeigt „1 Monat“ für 30–59 Tage, das ergibt also **ca. 2 pro Woche**
 - Themen: Smart Money Concepts (SMC-Serie Teil 1–5), ICT, Liquidity, FVG, Order Blocks, Options-Buying (Nifty/Bank Nifty), Gold und Bitcoin
 
 ### YouTube – Livestreams
 
-- 15 Livestreams zwischen „5 Tagen“ und „1 Monat“ alt, also **fast täglich**
+- 15 Livestreams zwischen 22.08. und 21.09.2026 (Datum laut Stream-Titel), also **mehrmals pro Woche**
 - Format: „🚨 LIVE: Gold & Bitcoin Ready to …? | Market Analysis“
 - Views pro Stream: **3,5K–8,7K**
 

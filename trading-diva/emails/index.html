@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Trading Diva: Pre-call emails</title>
+<style>:root{--bg:#0c1016;--surface:#151b23;--line:#262e39;--text:#f2ede4;--muted:#b3aa9c;--accent:#c9a46a;--accent-ink:#14110b;--signal:#3fb67a}
 /* Creator funnel layout. Colors come from each creator's content.json → brand.
    Typography stays neutral (Inter) so it never borrows the pitch master's display face. */
 @font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
@@ -101,3 +109,86 @@ footer{padding:36px 0 48px;color:var(--muted);text-align:center;font-size:.82rem
   .grid3{grid-template-columns:1fr}
   .pillars{grid-template-columns:repeat(2,1fr)}
 }
+</style>
+<script>
+document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',()=>{const els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+els.forEach(e=>io.observe(e))});
+</script>
+</head>
+<body>
+<div class="demo">Demo built for Simran Nigam (Trading Diva). Not her official site.</div>
+<header class="top"><div class="wrap"><span class="logo">Trading <b>Diva</b></span></div></header>
+<main><section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Email sequence · booked to call</span><h1 class="reveal">The pre-call sequence</h1>
+<p class="lead reveal">6 emails from booking to the morning of the call. Placeholders like <code>{{first_name}}</code> are filled by the email tool.</p><div class="doc"><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 1 · Confirmation</span><span class="mail__subj">You&#x27;re booked: here&#x27;s what happens next</span><span class="mail__prev">Your call with the Trading Diva team is confirmed</span></div>
+<div class="mail__body">Hi <code>{{first_name}}</code>,
+
+Your call is booked for <code>{{call_time}}</code> (IST). The link is in your calendar invite.
+
+Two things before we talk:
+1. Keep this time free. We hold a limited number of mentorship calls each week.
+2. If you have a trading journal, even a messy one, keep it open during the call.
+
+One safety note: we will never ask you for money over Telegram DM or WhatsApp. The only official links come from this email address, @tradingdiva_ on Instagram and the Trading Diva YouTube channel.
+
+See you soon,
+Team Trading Diva</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 2 · Conviction</span><span class="mail__subj">Why concepts alone don&#x27;t make you consistent</span><span class="mail__prev">You&#x27;ve watched the SMC videos. Here&#x27;s the missing piece.</span></div>
+<div class="mail__body">Hi <code>{{first_name}}</code>,
+
+If you&#x27;ve watched the SMC series on YouTube, you already know what an order block, an FVG or a liquidity sweep is.
+
+Knowing it doesn&#x27;t make you consistent on a live chart. Two things do: waiting for one specific setup, and a process that shows you your own mistakes.
+
+That&#x27;s what the mentorship is built around. One setup (Crown), a fixed risk plan, and a journal that actually gets reviewed.
+
+On the call we&#x27;ll look at where your process breaks today.
+
+Team Trading Diva</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 3 · Objection handling</span><span class="mail__subj">&quot;Isn&#x27;t all of this on YouTube for free?&quot;</span><span class="mail__prev">Mostly, yes. Here&#x27;s the honest difference.</span></div>
+<div class="mail__body">Hi <code>{{first_name}}</code>,
+
+A fair question we hear a lot: isn&#x27;t everything free on YouTube?
+
+Most of the concepts are, and they&#x27;ll stay free. What YouTube can&#x27;t do is look at your trades, tell you which mistake you repeat, and keep you on one plan when the market gets loud.
+
+If you can do that on your own, you don&#x27;t need a mentorship, and we&#x27;ll tell you so on the call.
+
+If you can&#x27;t yet, that&#x27;s exactly the gap the mentorship covers.
+
+Team Trading Diva</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 4 · Expectations</span><span class="mail__subj">What the call is (and isn&#x27;t)</span><span class="mail__prev">No trade tips, no promises, a straight conversation</span></div>
+<div class="mail__body">Hi <code>{{first_name}}</code>,
+
+So you know what to expect:
+
+- The call takes about <code>{{call_length}}</code> minutes <span class="flag">[CONFIRM]</span>.
+- We&#x27;ll ask about your experience, markets, risk and journal.
+- If the mentorship fits, we&#x27;ll explain what&#x27;s included and the investment <span class="flag">[CONFIRM]</span>.
+- If it doesn&#x27;t fit, we&#x27;ll tell you and point you to the free resources.
+
+What the call is not: there are no trade calls, no signals and no promises of returns. Trading involves real risk of loss.
+
+Team Trading Diva</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 5 · One day out</span><span class="mail__subj">Tomorrow: your Trading Diva call</span><span class="mail__prev">Quick checklist for tomorrow</span></div>
+<div class="mail__body">Hi <code>{{first_name}}</code>,
+
+Reminder: your call is tomorrow at <code>{{call_time}}</code> (IST).
+
+Quick checklist:
+- A quiet place and a stable connection
+- Your last 10–20 trades (journal, screenshots or broker statement)
+- One sentence: what do you want to fix first?
+
+Need to reschedule? Use this link: <code>{{reschedule_link}}</code>
+
+Team Trading Diva</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 6 · Morning of</span><span class="mail__subj">Today at {{call_time}}</span><span class="mail__prev">Your link is inside</span></div>
+<div class="mail__body">Hi <code>{{first_name}}</code>,
+
+Today&#x27;s the day. Your call is at <code>{{call_time}}</code> (IST).
+
+Join here: <code>{{meeting_link}}</code>
+
+See you there,
+Team Trading Diva</div></article></div></div></section></main>
+<footer><div class="wrap">Educational content only, not investment advice. Trading carries a high risk of loss. Regulatory status <span class="flag">[CONFIRM]</span>.</div></footer>
+</body>
+</html>

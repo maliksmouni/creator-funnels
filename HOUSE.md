@@ -35,9 +35,10 @@ Trage hier nur Ergebnisse ein, die du tatsächlich belegen kannst (Name/Pseudony
 
 ## Design-Master (Pitch-Seite)
 
-Vorläufig gesetzt (erster Lauf, [CONFIRM]). Umgesetzt in `_shared/pitch-master.css`:
+Umgesetzt in `_shared/pitch-master.css` (Stil-Referenz: phil-pitch.pages.dev). [CONFIRM], falls du andere Werte willst.
 
-- Primärfarbe: #15171b (Text) auf #f7f6f2 (Hintergrund)
-- Akzentfarbe: #1d4ed8
-- Font: Georgia (Headlines) + System-Sans (Text), keine externen Fonts
-- Grundstil: hell/editorial
+- Hintergrund: #f5f2ec (warmes Papier, feine diagonale Struktur)
+- Text: #1b1917 / Sekundär #5f5850
+- Akzentfarbe: #7c5a16 (Bronze)
+- Fonts: Bricolage Grotesque (Headlines), Inter (Text), JetBrains Mono (Labels), selbst gehostet in `assets/fonts/` (OFL)
+- Grundstil: hell/editorial, zentrierter Hero mit großem Video, nummerierte „Four things I noticed“-Karten, Deliverables als Browser-Vorschauen, Calendly-Karte, Sticky-„Book a call“

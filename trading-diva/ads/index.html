@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Trading Diva: Ad scripts</title>
+<style>:root{--bg:#0c1016;--surface:#151b23;--line:#262e39;--text:#f2ede4;--muted:#b3aa9c;--accent:#c9a46a;--accent-ink:#14110b;--signal:#3fb67a}
 /* Creator funnel layout. Colors come from each creator's content.json → brand.
    Typography stays neutral (Inter) so it never borrows the pitch master's display face. */
 @font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
@@ -101,3 +109,46 @@ footer{padding:36px 0 48px;color:var(--muted);text-align:center;font-size:.82rem
   .grid3{grid-template-columns:1fr}
   .pillars{grid-template-columns:repeat(2,1fr)}
 }
+</style>
+<script>
+document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',()=>{const els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+els.forEach(e=>io.observe(e))});
+</script>
+</head>
+<body>
+<div class="demo">Demo built for Simran Nigam (Trading Diva). Not her official site.</div>
+<header class="top"><div class="wrap"><span class="logo">Trading <b>Diva</b></span></div></header>
+<main><section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Ad creatives · video</span><h1 class="reveal">Ad creative scripts</h1>
+<p class="lead reveal">4 angles for retargeting. Rule for every ad: no return or profit claims, no trade calls, and a risk notice on screen.</p><div class="doc"><article class="mail reveal"><div class="mail__head"><span class="mail__type">Angle 01 · Concepts vs. system (YouTube retargeting)</span><span class="mail__subj">“You&#x27;ve watched every SMC video, so why doesn&#x27;t it work on a live chart?”</span></div>
+<div class="mail__body">[Simran on camera, desk setup]
+You know order blocks. You know FVG. You know liquidity.
+But when the market opens, you still enter late, exit early, and repeat the same mistake next week.
+That&#x27;s not a knowledge problem. It&#x27;s a process problem.
+In the Trading Diva mentorship we focus on one setup, one risk plan, and a journal that actually gets reviewed.
+It&#x27;s application only. Link below. Two minutes, six questions.
+[On-screen: Educational content only. Trading involves risk of loss.]</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Angle 02 · Official path / anti-fake (Instagram + Telegram audience)</span><span class="mail__subj">“If someone DMs you a &quot;Trading Diva VIP&quot; link, it&#x27;s not me.”</span></div>
+<div class="mail__body">[Simran, direct to camera]
+If someone DMs you a &quot;Trading Diva VIP&quot; link, it&#x27;s not me.
+Fake channels use my name.
+So there&#x27;s now one official way to work with me: the application page linked here.
+No payment in DMs. Ever.
+If you want structured mentorship, apply there. If not, the YouTube content stays free.
+[On-screen: the only official page: {{funnel_domain}} <span class="flag">[CONFIRM]</span>]</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Angle 03 · Journal (reuses the organic &quot;Comment JOURNAL&quot; topic)</span><span class="mail__subj">“Your journal will show you the mistake your eyes keep ignoring.”</span></div>
+<div class="mail__body">[Screen recording: a trading journal sheet]
+Entry, exit, setup, R:R, mistake, emotion.
+After 20–30 trades, the pattern shows up. For most traders it&#x27;s the same one or two mistakes.
+In the mentorship, we review those journals with you, so you&#x27;re not guessing.
+Apply below.
+[On-screen: Educational content only. Not investment advice.]</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Angle 04 · Live viewers → next step (live stream retargeting)</span><span class="mail__subj">“You watch the lives. Here&#x27;s what the lives can&#x27;t do for you.”</span></div>
+<div class="mail__body">[Clip from a live, then Simran on camera]
+So many of you join the lives, thank you.
+But in a live, I can&#x27;t look at your trades.
+The mentorship is where I can: your setups, your risk, your journal.
+Limited spots <span class="flag">[CONFIRM]</span>. Apply with the link below.
+[On-screen: Trading involves risk of loss.]</div></article></div></div></section></main>
+<footer><div class="wrap">Educational content only, not investment advice. Trading carries a high risk of loss. Regulatory status <span class="flag">[CONFIRM]</span>.</div></footer>
+</body>
+</html>

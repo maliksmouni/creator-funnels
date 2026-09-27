@@ -19,139 +19,154 @@
   "headline": "Stop piecing trading together from 20 channels. Get a structured mentorship with Trading Diva.",
   "subheadline": "SMC, liquidity, the Crown Strategy and live execution in one guided path, built around your journal, your risk and your mistakes. Applications only.",
   "pitch": {
-    "eyebrow": "Prepared for Simran Nigam · Trading Diva",
-    "headline": "You already teach like a mentor. There's just no way to apply for the mentorship.",
-    "subheadline": "I looked at your YouTube, Instagram and Telegram, then built the call funnel your \"Mentor | Coach\" bio promises, in your look, ready to switch on. Everything below is based on your public channels.",
-    "vslNote": "{{SWAP}} 3–5 min Loom walkthrough of the funnel",
-    "facts": [
+    "eyebrow": "Already built for Trading Diva",
+    "headline": {
+      "before": "I built the",
+      "mark": "mentorship funnel",
+      "after": "your “Mentor | Coach” bio already promises, ready to switch on."
+    },
+    "subheadline": "Application page, qualification, booking, pre-call emails and ads for a Trading Diva mentorship, all in your look and based only on what's public on your channels.",
+    "vslNote": "{{SWAP}} 3–5 min Loom walkthrough",
+    "bridge": {
+      "eyebrow": "Before the deliverables",
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The reach",
+          "title": "56K, 35K and 13K followers across three platforms. There's one thing they can buy.",
+          "text": "The only offer linked anywhere is the Crown Strategy recorded course on Superprofile. Your bio says Mentor | Coach, but there's no application, no calendar and no mentorship page. Anyone ready for more has nowhere official to go.",
+          "stats": [
+            {
+              "value": "56.4K",
+              "label": "YouTube subscribers"
+            },
+            {
+              "value": "35,039",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "13,134",
+              "label": "Telegram subscribers"
+            }
+          ],
+          "source": "YouTube About · Instagram profile · t.me/simchantrade, 27.09.2026"
+        },
+        {
+          "kicker": "The warm room",
+          "title": "You go live several times a week. The call to action is always “join Telegram”.",
+          "text": "The people who sit through a live Gold & Bitcoin session are your warmest audience. Right now the lives and the videos point to Telegram or “msg me”, with no path to the next step.",
+          "stats": [
+            {
+              "value": "3.5K–8.7K",
+              "label": "views per livestream"
+            },
+            {
+              "value": "~14.3K",
+              "label": "avg views, last 10 uploads"
+            }
+          ],
+          "source": "YouTube Videos and Live tabs, 27.09.2026"
+        },
+        {
+          "kicker": "The trust leak",
+          "title": "Your own channel warns about fakes, and VIP access still runs through DMs.",
+          "text": "When buying from you means “DM @tradingdivaa”, anyone copying your name can sell in your place. One official application page on your own domain closes that gap and gives your audience a safe way to pay you.",
+          "quote": "“Kindly stay away from fake channels.”",
+          "source": "Your Telegram channel description"
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“Isn't mentorship a lot more work?” Mostly it's the lives you already run.",
+          "text": "Mentorship done badly is endless 1:1s. Done properly it's group sessions built on the lives and the SMC series you already make, journal reviews in a fixed weekly block, and calls only with people who've applied and qualified.",
+          "stats": [
+            {
+              "value": "15",
+              "label": "livestreams, 22 Aug – 21 Sep"
+            },
+            {
+              "value": "SMC 1–5",
+              "label": "series already on YouTube"
+            }
+          ],
+          "source": "YouTube Live tab (dates from stream titles) · format and capacity [CONFIRM]"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
       {
-        "value": "56.4K",
-        "label": "YouTube subscribers",
-        "source": "YouTube About, 27.09.2026"
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "Your story, the method, what's inside, and a 6-question application.",
+            "href": "funnel/",
+            "url": "your-domain/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar, a what-to-prepare checklist and the official-links-only reminder.",
+            "href": "funnel/thank-you/",
+            "url": "your-domain/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
       },
       {
-        "value": "4.51M",
-        "label": "YouTube views since Feb 2025",
-        "source": "YouTube About, 27.09.2026"
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "Retargeting your live and YouTube viewers. No profit claims, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
       },
       {
-        "value": "35,039",
-        "label": "Instagram followers (verified)",
-        "source": "Instagram profile, 27.09.2026"
-      },
-      {
-        "value": "13,134",
-        "label": "Telegram subscribers",
-        "source": "t.me/simchantrade, 27.09.2026"
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that walk a booked applicant to the call warm, with the objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
       }
     ],
-    "sections": {
-      "problem": {
-        "title": "What I noticed",
-        "cards": [
-          {
-            "title": "One public product",
-            "body": "The only offer linked anywhere is the Crown Strategy recorded course on Superprofile, posted 4× in your last 17 Telegram posts. Your bio says Mentor | Coach, but there's no application, calendar or mentorship page."
-          },
-          {
-            "title": "Daily lives, no next step",
-            "body": "You stream almost daily (3.5K–8.7K views per live) and your last 10 YouTube uploads average ~14.3K views. The call to action is always \"join Telegram\" or \"msg me\", so the warmest viewers have nowhere official to go."
-          },
-          {
-            "title": "DMs are where the fakes are",
-            "body": "Your Telegram description warns about fake channels, yet VIP access runs through \"DM @tradingdivaa\". An official, branded application page gives your audience one safe place to buy from you."
-          }
-        ]
-      },
-      "mechanism": {
-        "title": "The idea",
-        "body": "Keep the course as the entry product. Add a mentorship tier that people apply for. Every live, video and pinned post points to one official page, where they apply, get qualified and book a call. Before the call, a short email sequence answers the questions you'd otherwise repeat in DMs."
-      },
-      "deliverables": {
-        "title": "What's already built (click to preview)",
-        "items": [
-          {
-            "title": "Mentorship landing page",
-            "body": "In your look (dark desk, gold accents), with a VSL slot and an honest, claim-free story.",
-            "href": "funnel/"
-          },
-          {
-            "title": "Application + qualification",
-            "body": "6 questions that filter for experience, markets and the ability to trade only money they can afford to lose.",
-            "href": "funnel/#apply"
-          },
-          {
-            "title": "Booking + confirmation page",
-            "body": "Calendar booking plus a what-to-prepare checklist.",
-            "href": "funnel/thank-you/"
-          },
-          {
-            "title": "6 pre-call emails",
-            "body": "Confirmation → conviction → objections → expectations → day before → morning of.",
-            "href": "emails/pre-call.md"
-          },
-          {
-            "title": "4 ad scripts",
-            "body": "Retargeting your live and YouTube viewers. No profit claims, no trade calls.",
-            "href": "ads/scripts.md"
-          },
-          {
-            "title": "Research dossier",
-            "body": "Every number on this page with its source.",
-            "href": "dossier.md"
-          }
-        ]
-      },
-      "proof": {
-        "title": "Results I've driven",
-        "items": [
-          "{{SWAP}} Case study 1 from HOUSE.md",
-          "{{SWAP}} Case study 2 from HOUSE.md"
-        ],
-        "note": "Only real results from past clients. Nothing here is a promise about your numbers."
-      },
-      "howItWorks": {
-        "title": "How it would work",
-        "steps": [
-          {
-            "title": "15–30 min call",
-            "body": "We check if a mentorship tier fits you: price, capacity, format. [CONFIRM]"
-          },
-          {
-            "title": "Adjust and connect",
-            "body": "Your copy, your calendar, your payment link. The funnel runs on your own domain."
-          },
-          {
-            "title": "Point your channels at it",
-            "body": "Live CTA, Telegram pin, link in bio, video descriptions."
-          },
-          {
-            "title": "Run it",
-            "body": "Retargeting ads plus the email sequence. Compensation model [CONFIRM]."
-          }
-        ]
-      },
-      "qualification": {
-        "title": "This makes sense if…",
-        "items": [
-          "you want to offer mentorship next to the recorded course",
-          "you can hold a few sales calls a week yourself (or with a closer)",
-          "you want one official way to buy from you instead of DMs"
-        ]
-      },
-      "finalCta": {
-        "title": "Worth a 30-minute look?",
-        "body": "Pick a slot. If it's not a fit, you keep the dossier and the ideas.",
-        "calendly": "https://calendly.com/maliksmouni/30min"
-      }
+    "cases": {
+      "title": "Case studies",
+      "items": [],
+      "note": "Real results from past clients only. Nothing here is a promise about your numbers."
     },
-    "signoff": "[CONFIRM] Sender name"
+    "cta": {
+      "title": "Book a call",
+      "sub": "A 30-minute call. No pitch deck and no price, just whether a mentorship tier makes sense for Trading Diva. If it does, we plan it on the call.",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Trading Diva mentorship funnel"
   },
   "sections": {
     "hero": {
-      "eyebrow": "Trading Diva · Mentorship [CONFIRM]",
+      "eyebrow": "Trading Diva · Mentorship",
       "vslNote": "{{SWAP}} Simran's mentorship VSL (3–8 min)",
-      "cta": "Apply for the mentorship"
+      "cta": "Apply for the mentorship",
+      "chips": [
+        "SMC & liquidity",
+        "Crown Strategy",
+        "Nifty · Bank Nifty · Gold · BTC",
+        "Journal reviews"
+      ],
+      "navCta": "Apply"
     },
     "problem": {
       "title": "Sound familiar?",
@@ -379,5 +394,6 @@
       "hook": "You watch the lives. Here's what the lives can't do for you.",
       "script": "[Clip from a live, then Simran on camera]\nSo many of you join the lives, thank you.\nBut in a live, I can't look at your trades.\nThe mentorship is where I can: your setups, your risk, your journal.\nLimited spots [CONFIRM]. Apply with the link below.\n[On-screen: Trading involves risk of loss.]"
     }
-  ]
+  ],
+  "demoBanner": "Demo built for Simran Nigam (Trading Diva). Not her official site."
 }

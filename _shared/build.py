@@ -2,10 +2,12 @@
 """Render a creator folder from its content.json.
 
 Usage: python3 _shared/build.py <slug>
+       node _shared/thumbs.mjs <slug>   (afterwards, refreshes the preview images)
 
 Layout and section order are fixed here; only content.json changes per creator.
 The pitch page always uses pitch-master.css (HOUSE.md design master); the
 creator funnel uses creator-funnel.css with the creator's brand tokens.
+Also writes the site-wide _redirects that keeps internal notes off the web.
 """
 import html
 import json
@@ -16,22 +18,41 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SHARED = ROOT / "_shared"
 FLAG = re.compile(r"(\[CONFIRM[^\]]*\]|\{\{SWAP\}\}[^<\n]*)")
+# Files that stay in the repo but must never be served.
+PRIVATE_PER_CREATOR = ["dossier.md", "offer-deck-filled.md", "README.md", "content.json"]
+PRIVATE_SITE = ["/HOUSE.md", "/README.md", "/_shared/*", "/.claude/*", "/netlify.toml"]
+
+ARROW = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+DOWN = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg>'
+REVEAL_JS = """<script>
+document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',()=>{const els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+els.forEach(e=>io.observe(e))});
+</script>"""
 
 
 def t(s):
-    """Escape text and highlight open [CONFIRM] / {{SWAP}} markers."""
-    return FLAG.sub(r'<mark class="flag">\1</mark>', html.escape(s))
+    """Escape text and render open [CONFIRM] / {{SWAP}} markers as visible chips."""
+    return FLAG.sub(r'<span class="flag">\1</span>', html.escape(s))
 
 
-def page(title, css, body, lang="en", extra_head=""):
+def a(s):
+    return html.escape(s, quote=True)
+
+
+def page(title, css, body, extra_head=""):
     return f"""<!doctype html>
-<html lang="{lang}">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex, nofollow">
 <title>{html.escape(title)}</title>
 <style>{css}</style>
+{REVEAL_JS}
 {extra_head}</head>
 <body>
 {body}
@@ -40,88 +61,135 @@ def page(title, css, body, lang="en", extra_head=""):
 """
 
 
-def cards(items, cls="card"):
-    return "".join(
-        f'<div class="{cls}"><h3>{t(i["title"])}</h3><p>{t(i["body"])}</p></div>' for i in items
-    )
-
-
-def steps(items):
-    return "".join(
-        f'<li><span class="n">{n}</span><div><h3>{t(s["title"])}</h3><p>{t(s["body"])}</p></div></li>'
-        for n, s in enumerate(items, 1)
-    )
-
-
-def proof(p):
-    li = "".join(f'<div class="proof-slot">{t(i)}</div>' for i in p["items"])
-    return f'<div class="proof-grid">{li}</div><p class="note">{t(p["note"])}</p>'
-
-
 # ---------- pitch page (master design, identical for every creator) ----------
 
-def build_pitch(c):
-    p, s = c["pitch"], c["pitch"]["sections"]
-    facts = "".join(
-        f'<div class="fact"><strong>{t(f["value"])}</strong><span>{t(f["label"])}</span><small>{t(f["source"])}</small></div>'
-        for f in p["facts"]
-    )
-    deliv = "".join(
-        f'<a class="card link" href="{html.escape(d["href"])}"><h3>{t(d["title"])} <span aria-hidden="true">→</span></h3><p>{t(d["body"])}</p></a>'
-        for d in s["deliverables"]["items"]
-    )
-    qual = "".join(f"<li>{t(i)}</li>" for i in s["qualification"]["items"])
-    cal = html.escape(s["finalCta"]["calendly"])
-    body = f"""
-<header class="top"><div class="wrap"><span class="eyebrow">{t(p["eyebrow"])}</span></div></header>
-<main>
-<section class="hero"><div class="wrap hero-grid">
-  <div>
-    <h1>{t(p["headline"])}</h1>
-    <p class="lead">{t(p["subheadline"])}</p>
-    <a class="btn" href="#book">Book 30 minutes</a>
-  </div>
-  <figure class="portrait"><img src="{html.escape(c["image"])}" alt="{html.escape(c["name"])}" width="600" height="600"></figure>
-</div>
-<div class="wrap"><div class="vsl" role="img" aria-label="Video placeholder"><span>▶</span><p>{t(p["vslNote"])}</p></div></div>
-</section>
+def beat(n, b):
+    aside = ""
+    if b.get("stats"):
+        aside += "".join(f'<div class="aside__stat"><strong>{t(s["value"])}</strong><span>{t(s["label"])}</span></div>' for s in b["stats"])
+    if b.get("quote"):
+        aside += f"<blockquote>{t(b['quote'])}</blockquote>"
+    aside += f'<p class="aside__src">{t(b["source"])}</p>'
+    return f"""<article class="beat reveal">
+  <span class="beat__idx">{n:02d}</span>
+  <div><p class="beat__kicker">{t(b["kicker"])}</p><h3 class="beat__title">{t(b["title"])}</h3><p class="beat__text">{t(b["text"])}</p></div>
+  <aside class="aside">{aside}</aside>
+</article>"""
 
-<section><div class="wrap"><h2>The numbers</h2><div class="facts">{facts}</div></div></section>
-<section><div class="wrap"><h2>{t(s["problem"]["title"])}</h2><div class="grid3">{cards(s["problem"]["cards"])}</div></div></section>
-<section><div class="wrap narrow"><h2>{t(s["mechanism"]["title"])}</h2><p class="lead">{t(s["mechanism"]["body"])}</p></div></section>
-<section><div class="wrap"><h2>{t(s["deliverables"]["title"])}</h2><div class="grid3">{deliv}</div></div></section>
-<section><div class="wrap"><h2>{t(s["proof"]["title"])}</h2>{proof(s["proof"])}</div></section>
-<section><div class="wrap narrow"><h2>{t(s["howItWorks"]["title"])}</h2><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
-<section><div class="wrap narrow"><h2>{t(s["qualification"]["title"])}</h2><ul class="checks">{qual}</ul></div></section>
-<section id="book" class="final"><div class="wrap narrow">
-  <h2>{t(s["finalCta"]["title"])}</h2><p class="lead">{t(s["finalCta"]["body"])}</p>
-  <div class="calendly-inline-widget" data-url="{cal}?hide_gdpr_banner=1" style="min-width:280px;height:700px;"></div>
-  <p class="fallback"><a href="{cal}" rel="noopener">Open the calendar in a new tab →</a></p>
-  <p class="sign">{t(p["signoff"])}</p>
+
+def pcard(i):
+    return f"""<a class="pcard reveal" href="{a(i["href"])}">
+  <div class="thumb"><div class="thumb__bar"><i></i><i></i><i></i><span class="thumb__url">{t(i["url"])}</span></div><img src="{a(i["thumb"])}" alt="" loading="lazy" width="1280" height="800"></div>
+  <div class="pcard__body"><span class="pcard__kicker">{t(i["kicker"])}</span><span class="pcard__title">{t(i["title"])}</span><span class="pcard__desc">{t(i["desc"])}</span><span class="pcard__link">Open preview {ARROW}</span></div>
+</a>"""
+
+
+def build_pitch(c, house_cases):
+    p = c["pitch"]
+    h = p["headline"]
+    br = p["bridge"]
+    groups = "".join(
+        f"""<div class="group"><div class="group__head reveal"><div><span class="group__label">{t(g["label"])}</span><span class="group__count">{len(g["items"]):02d}</span></div></div>
+<div class="cards{' cards--wide' if len(g['items']) == 1 else ''}">{''.join(pcard(i) for i in g["items"])}</div></div>"""
+        for g in p["groups"]
+    )
+    cases = house_cases or []
+    if cases:
+        case_html = "".join(
+            f'<div class="case reveal"><span class="case__metric">{t(x["metric"])}</span><p class="case__name">{t(x["name"])}</p><p class="case__text">{t(x["text"])}</p></div>'
+            for x in cases
+        )
+    else:
+        case_html = "".join(
+            f'<div class="case case--empty reveal"><span class="flag">{{{{SWAP}}}} Case study {n} from HOUSE.md</span></div>' for n in (1, 2)
+        )
+    cal = a(p["cta"]["calendly"])
+    body = f"""
+<header class="topbar"><span>{t(c["brandName"])} · proposal</span></header>
+<main>
+<section class="hero"><div class="container">
+  <p class="eyebrow reveal">{t(p["eyebrow"])}</p>
+  <h1 class="display h-xl reveal">{t(h["before"])} <span class="mark">{t(h["mark"])}</span> {t(h["after"])}</h1>
+  <p class="hero__sub reveal">{t(p["subheadline"])}</p>
+  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(p["vslNote"])}</p></div>
+  <div class="hero__actions reveal"><a class="btn btn--ghost" href="#bridge">Start here {DOWN}</a><a class="btn btn--ghost" href="#deliverables">See the deliverables {DOWN}</a></div>
+</div></section>
+
+<section class="section" id="bridge"><div class="container">
+  <div class="bridge__head"><p class="eyebrow reveal">{t(br["eyebrow"])}</p><h2 class="display h-lg reveal">{t(br["title"])}</h2></div>
+  <div class="beats">{''.join(beat(n, b) for n, b in enumerate(br["beats"], 1))}</div>
+  <div class="bridge__close reveal"><p class="bridge__closing">{t(br["closing"])}</p><a class="btn btn--primary" href="#deliverables">See what's built {DOWN}</a></div>
+</div></section>
+
+<section class="section" id="deliverables"><div class="container">
+  <div class="deliv__head"><h2 class="display h-lg reveal">{t(p["deliverablesTitle"])}</h2></div>
+  {groups}
+</div></section>
+
+<section class="section"><div class="container">
+  <h2 class="display h-lg reveal" style="text-align:center">{t(p["cases"]["title"])}</h2>
+  <div class="cases">{case_html}</div>
+  <p class="cases__note">{t(p["cases"]["note"])}</p>
+</div></section>
+
+<section class="section cta" id="cta"><div class="container">
+  <h2 class="display h-lg reveal">{t(p["cta"]["title"])}</h2>
+  <p class="cta__sub reveal">{t(p["cta"]["sub"])}</p>
+  <div class="cal reveal"><div class="calendly-inline-widget" data-url="{cal}?hide_gdpr_banner=1&amp;background_color=ffffff&amp;primary_color=7c5a16"></div></div>
+  <p class="cal__fallback">Calendar not loading? <a href="{cal}" rel="noopener">Open it in a new tab</a></p>
 </div></section>
 </main>
-<footer><div class="wrap"><small>Research sources: <a href="dossier.md">dossier.md</a> · Prepared {html.escape(c["slug"])}</small></div></footer>
+<a class="sticky" href="#cta">Book a call</a>
+<footer class="footer"><span>{t(p["footer"])}</span></footer>
 """
     head = '<script src="https://assets.calendly.com/assets/external/widget.js" async></script>\n'
-    css = (SHARED / "pitch-master.css").read_text()
-    return page(f'{c["brandName"]}: call funnel proposal', css, body, extra_head=head)
+    return page(f'{c["brandName"]}: proposal', (SHARED / "pitch-master.css").read_text(), body, head)
 
 
 # ---------- creator funnel (creator brand) ----------
 
 def brand_css(c):
-    b = c["brand"]
-    tokens = ";".join(f"--{k}:{v}" for k, v in b.items() if not k.startswith("_"))
+    tokens = ";".join(f"--{k}:{v}" for k, v in c["brand"].items() if not k.startswith("_"))
     return f":root{{{tokens}}}\n" + (SHARED / "creator-funnel.css").read_text()
+
+
+def logo(c):
+    parts = c["brandName"].split(" ", 1)
+    return f'<span class="logo">{t(parts[0])}{" <b>" + t(parts[1]) + "</b>" if len(parts) > 1 else ""}</span>'
+
+
+def funnel_shell(c, inner, cta_href=None):
+    s = c["sections"]
+    cta = f'<a class="btn sm" href="{cta_href}">{t(s["hero"].get("navCta", s["hero"]["cta"]))}</a>' if cta_href else ""
+    return f"""<div class="demo">{t(c["demoBanner"])}</div>
+<header class="top"><div class="wrap">{logo(c)}{cta}</div></header>
+<main>{inner}</main>
+<footer><div class="wrap">{t(s["finalCta"]["disclaimer"])}</div></footer>"""
+
+
+def numbered(items):
+    return "".join(
+        f'<div class="card reveal"><span class="num">{n:02d}</span><h3>{t(i["title"])}</h3><p>{t(i["body"])}</p></div>'
+        for n, i in enumerate(items, 1)
+    )
+
+
+def steps(items):
+    return "".join(
+        f'<li class="reveal"><span class="n">{n}</span><div><h3>{t(x["title"])}</h3><p>{t(x["body"])}</p></div></li>'
+        for n, x in enumerate(items, 1)
+    )
 
 
 def build_funnel(c):
     s = c["sections"]
     h = s["hero"]
+    chips = "".join(f"<li>{t(x)}</li>" for x in h.get("chips", []))
     pillars = "".join(
-        f'<div class="pillar"><span>{n:02d}</span><h3>{t(p["title"])}</h3><p>{t(p["body"])}</p></div>'
+        f'<div class="pillar reveal"><span>{n:02d}</span><h3>{t(p["title"])}</h3><p>{t(p["body"])}</p></div>'
         for n, p in enumerate(s["mechanism"]["pillars"], 1)
     )
+    proof = "".join(f'<div class="proof-slot reveal">{t(i)}</div>' for i in s["proof"]["items"])
     qs = []
     for i, q in enumerate(s["qualification"]["questions"], 1):
         name = f"q{i}"
@@ -130,112 +198,113 @@ def build_funnel(c):
         else:
             kind = "checkbox" if q["type"] == "multi" else "radio"
             req = "" if kind == "checkbox" else " required"
-            field = "".join(
-                f'<label class="opt"><input type="{kind}" name="{name}" value="{html.escape(o)}"{req}> {html.escape(o)}</label>'
-                for o in q["options"]
-            )
-        qs.append(f'<fieldset><legend><span>{i}</span> {t(q["q"])}</legend>{field}</fieldset>')
+            field = '<div class="opts">' + "".join(
+                f'<label class="opt"><input type="{kind}" name="{name}" value="{a(o)}"{req}> {html.escape(o)}</label>' for o in q["options"]
+            ) + "</div>"
+        qs.append(f'<fieldset class="reveal"><legend><span>{i}</span>{t(q["q"])}</legend>{field}</fieldset>')
     contact = "".join(
-        f'<label class="field">{html.escape(f)}<input name="{html.escape(f.lower().split()[0])}" required></label>'
+        f'<label class="field">{html.escape(f)}<input name="{a(f.lower().split()[0])}" required></label>'
         for f in s["qualification"]["contactFields"]
     )
-    body = f"""
-<header class="top"><div class="wrap"><span class="logo">{t(c["brandName"])}</span><a class="btn sm" href="#apply">{t(h["cta"])}</a></div></header>
-<main>
-<section class="hero"><div class="wrap hero-grid">
-  <div>
-    <span class="eyebrow">{t(h["eyebrow"])}</span>
-    <h1>{t(c["headline"])}</h1>
-    <p class="lead">{t(c["subheadline"])}</p>
-    <a class="btn" href="#apply">{t(h["cta"])}</a>
+    inner = f"""
+<section class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow reveal">{t(h["eyebrow"])}</span>
+      <h1 class="reveal">{t(c["headline"])}</h1>
+      <p class="lead reveal">{t(c["subheadline"])}</p>
+      <ul class="chips reveal">{chips}</ul>
+      <a class="btn reveal" href="#apply">{t(h["cta"])} {ARROW}</a>
+    </div>
+    <figure class="portrait reveal"><img src="../{a(c["image"])}" alt="{a(c["name"])}" width="600" height="600"></figure>
   </div>
-  <figure class="portrait"><img src="../{html.escape(c["image"])}" alt="{html.escape(c["name"])}" width="600" height="600"></figure>
-</div>
-<div class="wrap"><div class="vsl" role="img" aria-label="Video placeholder"><span>▶</span><p>{t(h["vslNote"])}</p></div></div>
-</section>
-<section><div class="wrap"><h2>{t(s["problem"]["title"])}</h2><div class="grid3">{cards(s["problem"]["cards"])}</div></div></section>
-<section><div class="wrap"><h2>{t(s["mechanism"]["title"])}</h2><p class="lead narrow">{t(s["mechanism"]["body"])}</p><div class="pillars">{pillars}</div></div></section>
-<section><div class="wrap"><h2>{t(s["deliverables"]["title"])}</h2><div class="grid3">{cards(s["deliverables"]["items"])}</div></div></section>
-<section><div class="wrap"><h2>{t(s["proof"]["title"])}</h2>{proof(s["proof"])}</div></section>
-<section><div class="wrap narrow"><h2>{t(s["howItWorks"]["title"])}</h2><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
+  <div class="vsl reveal" role="img" aria-label="Video placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(h["vslNote"])}</p></div>
+</div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The problem</span><h2 class="reveal">{t(s["problem"]["title"])}</h2></div><div class="grid3">{numbered(s["problem"]["cards"])}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The method</span><h2 class="reveal">{t(s["mechanism"]["title"])}</h2><p class="lead reveal">{t(s["mechanism"]["body"])}</p></div><div class="pillars">{pillars}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The mentorship</span><h2 class="reveal">{t(s["deliverables"]["title"])}</h2></div><div class="grid3">{numbered(s["deliverables"]["items"])}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">Proof</span><h2 class="reveal">{t(s["proof"]["title"])}</h2></div><div class="proof-grid">{proof}</div><p class="note">{t(s["proof"]["note"])}</p></div></section>
+<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">The process</span><h2 class="reveal">{t(s["howItWorks"]["title"])}</h2></div><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
 <section id="apply"><div class="wrap narrow">
-  <h2>{t(s["qualification"]["title"])}</h2>
+  <div class="sec-head"><span class="eyebrow reveal">Application</span><h2 class="reveal">{t(s["qualification"]["title"])}</h2><p class="lead reveal">Six questions, about two minutes.</p></div>
   <form class="apply" action="thank-you/" method="get">
     {''.join(qs)}
-    <fieldset><legend>Contact</legend>{contact}</fieldset>
-    <button class="btn" type="submit">{t(s["finalCta"]["cta"])}</button>
-    <p class="note">Preview: the form isn't connected to a tool yet. <mark class="flag">[CONFIRM] Typeform/form tool + qualification logic</mark></p>
+    <fieldset class="reveal"><legend><span>✓</span>Your details</legend>{contact}</fieldset>
+    <div><button class="btn" type="submit">{t(s["finalCta"]["cta"])} {ARROW}</button></div>
+    <p class="note">Preview: the form isn't connected yet <span class="flag">[CONFIRM] form tool + qualification logic</span></p>
   </form>
 </div></section>
-<section class="final"><div class="wrap narrow"><h2>{t(s["finalCta"]["title"])}</h2><p class="lead">{t(s["finalCta"]["body"])}</p><a class="btn" href="#apply">{t(s["finalCta"]["cta"])}</a></div></section>
-</main>
-<footer><div class="wrap"><small>{t(s["finalCta"]["disclaimer"])}</small></div></footer>
+<section class="final"><div class="wrap narrow"><h2 class="reveal">{t(s["finalCta"]["title"])}</h2><p class="lead reveal">{t(s["finalCta"]["body"])}</p><a class="btn reveal" href="#apply">{t(s["finalCta"]["cta"])} {ARROW}</a></div></section>
 """
-    return page(f'{c["brandName"]}: Mentorship', brand_css(c), body)
+    return page(f'{c["brandName"]}: Mentorship', brand_css(c), funnel_shell(c, inner, "#apply"))
 
 
 def build_thankyou(c):
-    body = f"""
-<header class="top"><div class="wrap"><span class="logo">{t(c["brandName"])}</span></div></header>
-<main><section><div class="wrap narrow">
-  <span class="eyebrow">Application received</span>
-  <h1>Last step: pick your call time.</h1>
-  <p class="lead">If your application is a fit, book a slot below. You'll get a confirmation email right away.</p>
-  <div class="vsl" role="img" aria-label="Calendar placeholder"><span>📅</span><p><mark class="flag">[CONFIRM] Simran's booking calendar embed</mark></p></div>
-  <h2>Before the call</h2>
-  <ol class="steps">
-    <li><span class="n">1</span><div><h3>Check your inbox</h3><p>Confirmation plus a few short emails so the call is useful.</p></div></li>
-    <li><span class="n">2</span><div><h3>Prepare your last 10–20 trades</h3><p>Journal, screenshots or broker statement are all fine.</p></div></li>
-    <li><span class="n">3</span><div><h3>Only official links</h3><p>We never ask for payment via Telegram DM or WhatsApp.</p></div></li>
-  </ol>
-  <p><a href="../">← Back to the page</a></p>
-</div></section></main>
-<footer><div class="wrap"><small>{t(c["sections"]["finalCta"]["disclaimer"])}</small></div></footer>
-"""
-    return page(f'{c["brandName"]}: Booking', brand_css(c), body)
+    inner = f"""
+<section class="hero"><div class="wrap narrow">
+  <span class="eyebrow reveal">Application received</span>
+  <h1 class="reveal">Last step: pick your call time.</h1>
+  <p class="lead reveal">If your application is a fit, book a slot below. You'll get a confirmation email right away.</p>
+  <div class="vsl reveal" role="img" aria-label="Calendar placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note"><span class="flag">[CONFIRM] Simran's booking calendar embed</span></p></div>
+</div></section>
+<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">Before the call</span><h2 class="reveal">Three things to do now</h2></div>
+  <ol class="steps">{steps([
+      {"title": "Check your inbox", "body": "A confirmation plus a few short emails so the call is useful."},
+      {"title": "Prepare your last 10–20 trades", "body": "Journal, screenshots or a broker statement are all fine."},
+      {"title": "Only trust official links", "body": "We never ask for payment via Telegram DM or WhatsApp."}])}</ol>
+  <p class="note"><a href="../">← Back to the page</a></p>
+</div></section>"""
+    return page(f'{c["brandName"]}: Booked', brand_css(c), funnel_shell(c, inner))
 
 
-def build_deck(c):
-    p, s = c["pitch"], c["pitch"]["sections"]
-    slides = [
-        f'<h1>{t(p["headline"])}</h1><p class="lead">{t(p["eyebrow"])}</p>',
-        '<h2>The numbers</h2><div class="facts">' + "".join(
-            f'<div class="fact"><strong>{t(f["value"])}</strong><span>{t(f["label"])}</span><small>{t(f["source"])}</small></div>'
-            for f in p["facts"]) + "</div>",
-        f'<h2>{t(s["problem"]["title"])}</h2><div class="grid3">{cards(s["problem"]["cards"])}</div>',
-        f'<h2>{t(s["mechanism"]["title"])}</h2><p class="lead">{t(s["mechanism"]["body"])}</p>',
-        f'<h2>{t(s["deliverables"]["title"])}</h2><div class="grid3">{cards(s["deliverables"]["items"])}</div>',
-        f'<h2>{t(s["proof"]["title"])}</h2>{proof(s["proof"])}',
-        f'<h2>{t(s["howItWorks"]["title"])}</h2><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol>',
-        f'<h2>{t(s["finalCta"]["title"])}</h2><p class="lead">{t(s["finalCta"]["body"])}</p><a class="btn" href="{html.escape(s["finalCta"]["calendly"])}">Book 30 minutes</a>',
-    ]
-    body = "<main class=\"deck\">" + "".join(
-        f'<section class="slide"><div class="wrap">{sl}</div><span class="pg">{i}/{len(slides)}</span></section>'
-        for i, sl in enumerate(slides, 1)
-    ) + "</main>"
-    css = (SHARED / "pitch-master.css").read_text() + DECK_CSS
-    return page(f'{c["brandName"]}: Deck', css, body)
+MERGE_TAG = re.compile(r"(\{\{[a-z_]+\}\})")
 
 
-DECK_CSS = """
-.deck{scroll-snap-type:y mandatory;height:100vh;overflow-y:auto}
-.slide{min-height:100vh;display:flex;align-items:center;scroll-snap-align:start;position:relative;border-bottom:1px solid var(--line)}
-.slide .pg{position:absolute;right:16px;bottom:12px;color:var(--muted);font-size:.8rem}
-"""
+def tags(s):
+    return MERGE_TAG.sub(r"<code>\1</code>", t(s))
 
 
-def md_emails(c):
-    out = [f'# Pre-Call-Sequenz: {c["brandName"]}\n', "Placeholders like `{{first_name}}` are filled by the email tool.\n"]
-    for e in c["preCallEmails"]:
-        out.append(f'\n## Email {e["emailNumber"]}: {e["type"]}\n\n**Subject:** {e["subject"]}  \n**Preview:** {e["previewText"]}\n\n{e["body"]}\n')
-    return "".join(out)
+def build_emails(c):
+    mails = "".join(
+        f"""<article class="mail reveal"><div class="mail__head"><span class="mail__type">Email {e["emailNumber"]} · {t(e["type"])}</span><span class="mail__subj">{t(e["subject"])}</span><span class="mail__prev">{t(e["previewText"])}</span></div>
+<div class="mail__body">{tags(e["body"])}</div></article>"""
+        for e in c["preCallEmails"]
+    )
+    inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Email sequence · booked to call</span><h1 class="reveal">The pre-call sequence</h1>
+<p class="lead reveal">{len(c["preCallEmails"])} emails from booking to the morning of the call. Placeholders like <code>{{{{first_name}}}}</code> are filled by the email tool.</p><div class="doc">{mails}</div></div></section>"""
+    return page(f'{c["brandName"]}: Pre-call emails', brand_css(c), funnel_shell(c, inner))
 
 
-def md_ads(c):
-    out = [f'# Ad Scripts: {c["brandName"]}\n', "Rule: no return or profit claims, no trade calls, a risk notice in every ad.\n"]
-    for n, a in enumerate(c["adScripts"], 1):
-        out.append(f'\n## {n}. {a["angle"]}\n\n**Hook:** {a["hook"]}\n\n```\n{a["script"]}\n```\n')
-    return "".join(out)
+def build_ads(c):
+    ads = "".join(
+        f"""<article class="mail reveal"><div class="mail__head"><span class="mail__type">Angle {n:02d} · {t(x["angle"])}</span><span class="mail__subj">“{t(x["hook"])}”</span></div>
+<div class="mail__body">{t(x["script"])}</div></article>"""
+        for n, x in enumerate(c["adScripts"], 1)
+    )
+    inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Ad creatives · video</span><h1 class="reveal">Ad creative scripts</h1>
+<p class="lead reveal">{len(c["adScripts"])} angles for retargeting. Rule for every ad: no return or profit claims, no trade calls, and a risk notice on screen.</p><div class="doc">{ads}</div></div></section>"""
+    return page(f'{c["brandName"]}: Ad scripts', brand_css(c), funnel_shell(c, inner))
+
+
+def house_cases():
+    """Case studies from HOUSE.md: only filled entries (no [placeholders]) are used."""
+    txt = (ROOT / "HOUSE.md").read_text()
+    out = []
+    for m in re.finditer(r"\d+\. Kunde: (.+)\n\s+Ergebnis: (.+)\n\s+Zeitraum: (.+)\n\s+Beweis: (.+)", txt):
+        name, res, period, _ = (g.strip() for g in m.groups())
+        if "[" in name or "[" in res:
+            continue
+        out.append({"metric": f"{res} {period}", "name": name, "text": ""})
+    return out
+
+
+def write_redirects():
+    lines = ["# Generated by _shared/build.py: internal notes stay in the repo but are never served."]
+    lines += [f"{p}  /404.html  404!" for p in PRIVATE_SITE]
+    for cj in sorted(ROOT.glob("*/content.json")):
+        slug = cj.parent.name
+        lines += [f"/{slug}/{f}  /404.html  404!" for f in PRIVATE_PER_CREATOR]
+    (ROOT / "_redirects").write_text("\n".join(lines) + "\n")
 
 
 def main():
@@ -243,18 +312,19 @@ def main():
     d = ROOT / slug
     c = json.loads((d / "content.json").read_text())
     files = {
-        "index.html": build_pitch(c),
+        "index.html": build_pitch(c, house_cases()),
         "funnel/index.html": build_funnel(c),
         "funnel/thank-you/index.html": build_thankyou(c),
-        "deck/index.html": build_deck(c),
-        "emails/pre-call.md": md_emails(c),
-        "ads/scripts.md": md_ads(c),
+        "emails/index.html": build_emails(c),
+        "ads/index.html": build_ads(c),
     }
     for rel, content in files.items():
         f = d / rel
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(content)
         print("wrote", f.relative_to(ROOT))
+    write_redirects()
+    print("wrote _redirects")
 
 
 if __name__ == "__main__":

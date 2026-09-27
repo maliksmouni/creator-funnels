@@ -9,21 +9,24 @@ Aware-Outreach-Pitch für einen Call-Funnel (Mentoring). Stand: 27.09.2026. Stat
 | `index.html` | Pitch-Seite an Simran (Master-Design, Calendly-Embed) |
 | `funnel/` | Mentoring-Landingpage + Bewerbungsformular (ihre Optik) |
 | `funnel/thank-you/` | Buchungs-/Bestätigungsseite |
-| `deck/` | Pitch als Slides (8 Folien, scrollbar) |
-| `emails/pre-call.md` | 6 Pre-Call-E-Mails |
-| `ads/scripts.md` | 4 Ad-Scripts |
+| `emails/` | 6 Pre-Call-E-Mails (HTML-Vorschau in ihrer Optik) |
+| `ads/` | 4 Ad-Scripts (HTML-Vorschau in ihrer Optik) |
+| `assets/previews/` | Vorschaubilder für die Pitch-Seite (`node _shared/thumbs.mjs trading-diva`) |
 | `dossier.md` | Recherche mit Quellen |
 | `offer-deck-filled.md` | Wedge, Angebot, Design-Tokens |
 | `content.json` | **Einzige Quelle für alle Texte.** Nach Änderungen neu bauen: `python3 _shared/build.py trading-diva` |
 
-Hinweis: Das Skill-Schema sieht `register/`, `replay/` vor. Die sind für Webinar-Funnels. Dieser Funnel ist ein Call-Funnel und nutzt deshalb `funnel/` + `funnel/thank-you/`.
+Nicht öffentlich: `dossier.md`, `offer-deck-filled.md`, `README.md` und `content.json` werden per `_redirects` auf 404 gesetzt. Die Funnel-Seiten tragen einen Demo-Banner.
+
+Hinweis: `deck/` entfällt. Die Pitch-Seite selbst ist die Präsentation. Das Skill-Schema sieht `register/`, `replay/` vor. Die sind für Webinar-Funnels. Dieser Funnel ist ein Call-Funnel und nutzt deshalb `funnel/` + `funnel/thank-you/`.
 
 ## Offene `[CONFIRM]`-Stellen
 
 **Vor dem Versand des Pitches an Simran:**
-1. Absender-Name für die Signatur (HOUSE.md hat keinen)
+1. Loom-Walkthrough für das Video auf der Pitch-Seite
 2. Vergütungsmodell / Angebot von dir an sie (HOUSE.md, nicht definiert)
 3. Tonalität / Anrede (HOUSE.md leer; aktuell: Englisch, „you“, direkt)
+   Case Studies in HOUSE.md eintragen: sie erscheinen dann automatisch auf der Pitch-Seite
 
 **Zum Creator (im Call mit Simran klären):**
 4. Will sie überhaupt Mentoring/1:1 verkaufen? Name, Preis, Kapazität
@@ -46,8 +49,8 @@ Hinweis: Das Skill-Schema sieht `register/`, `replay/` vor. Die sind für Webina
 
 ## QA (Phase 5), Ergebnis
 
-- Kontrast: alle Text/Hintergrund-Paare beider Design-Systeme ≥ 4,5:1 (WCAG AA). Minimum 6,2:1
-- 375 px: kein horizontales Scrollen auf allen 4 Seiten
+- Kontrast: alle Text/Hintergrund-Paare beider Design-Systeme ≥ 4,5:1 (WCAG AA). Minimum 5,6:1
+- 375 px: kein horizontales Scrollen auf allen 5 Seiten
 - Drittanbieter-Requests: nur `assets.calendly.com` auf der Pitch-Seite; Funnel-Seiten: keine
 - Interne Links: alle erreichbar
 - Das Formular ist in der Vorschau nicht angeschlossen (Submit führt zur Thank-you-Seite)
