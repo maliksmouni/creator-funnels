@@ -18,6 +18,7 @@ HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf lie
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
 _shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten
 _shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
+_shared/site.json           öffentliche Basis-URL (für Link-Vorschau-Tags), aktuell https://infooperate.netlify.app
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)
 _shared/creator-funnel.css  Funnel-Layout; Farben kommen aus content.json → brand
 assets/fonts/               selbst gehostete OFL-Fonts (Bricolage Grotesque, Inter, JetBrains Mono)
@@ -129,6 +130,8 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 | Case Studies | nur Karten (aus `HOUSE.md`) | Hinweistext darunter |
 | Book a call | Überschrift + Calendly-Karte, Sticky-Button | Untertext, „Calendar not loading?“-Link |
 | Signatur | keine | Absendername/Unterschrift |
+| Link-Vorschau | og/twitter-Tags: Titel „Built for {Brand}“, Beschreibung = Headline, Bild = 1200×630-Karte (Eyebrow + Headline links, Video-Thumbnail mit Play-Button rechts) | nackte URL ohne Vorschau |
+| Zusammenarbeit/Vergütung | steht nicht auf der Seite; der Nutzer bespricht das in der Cold-DM/E-Mail | Abschnitt „How we'd work together“ |
 
 Neue Wünsche des Nutzers zum Design immer im Template umsetzen (nicht nur für einen Creator), in diese Tabelle eintragen, pushen und live prüfen.
 
@@ -156,7 +159,7 @@ Zwei getrennte Design-Systeme, nie mischen:
 python3 _shared/yt_thumb.py {slug} {youtube-handle}   # immer: neuestes Upload-Thumbnail als Video-Platzhalter
 python3 _shared/build.py {slug}          # schreibt index.html, funnel/, funnel/thank-you/, emails/, ads/ und _redirects
 python3 -m http.server 8788 --bind 127.0.0.1 &   # vom Repo-Root aus (Fonts liegen unter /assets)
-node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg
+node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg + Link-Vorschau-Karte {slug}/assets/og.jpg
 ```
 `thumbs.mjs` braucht Playwright: `PW=/pfad/zu/node_modules/playwright/index.mjs` und `CHROME=/opt/pw-browsers/chromium-*/chrome-linux/chrome` setzen, falls nicht auflösbar. Playwright nie in ein `package.json` im Repo aufnehmen (Netlify würde es installieren).
 
@@ -177,7 +180,7 @@ Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Sessio
 ### Phase 8: Deploy (nur auf „deploy it“)
 
 1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
-2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://infooperate.netlify.app`, Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.
+2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://infooperate.netlify.app` (auch in `_shared/site.json`; bei Umbenennung beides ändern), Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.
 3. Nach dem Push auf den Deploy warten (z. B. bis ein neuer Text live ist) und prüfen:
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
    - `/{slug}/dossier.md`, `/{slug}/content.json`, `/{slug}/offer-deck-filled.md`, `/{slug}/README.md`, `/HOUSE.md`, `/_shared/*`, `/.claude/*` → 404

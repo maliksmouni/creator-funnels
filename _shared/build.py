@@ -91,6 +91,21 @@ def pcard(i):
 </a>"""
 
 
+def og_tags(c):
+    """Link preview (WhatsApp, iMessage, LinkedIn, email): title, line and the og.jpg card from thumbs.mjs."""
+    site = json.loads((SHARED / "site.json").read_text())["siteUrl"].rstrip("/")
+    h = c["pitch"]["headline"]
+    line = f'{h["before"]} {h["mark"]}{"" if h["after"][:1] in ".,!?:;" else " "}{h["after"]}'.strip()
+    url, img = f'{site}/{c["slug"]}/', f'{site}/{c["slug"]}/assets/og.jpg'
+    title = f'Built for {c["brandName"]}'
+    return "".join(f'<meta {k}="{a(n)}" content="{a(v)}">\n' for k, n, v in [
+        ("property", "og:type", "website"), ("property", "og:url", url), ("property", "og:title", title),
+        ("property", "og:description", line), ("property", "og:image", img),
+        ("property", "og:image:width", "1200"), ("property", "og:image:height", "630"),
+        ("name", "twitter:card", "summary_large_image"), ("name", "twitter:title", title),
+        ("name", "twitter:description", line), ("name", "twitter:image", img), ("name", "description", line)])
+
+
 def build_pitch(c, house_cases):
     p = c["pitch"]
     h = p["headline"]
@@ -144,7 +159,7 @@ def build_pitch(c, house_cases):
 <a class="sticky" href="#cta">Book a call</a>
 <footer class="footer"><span>{t(p["footer"])}</span></footer>
 """
-    head = '<script src="https://assets.calendly.com/assets/external/widget.js" async></script>\n'
+    head = og_tags(c) + '<script src="https://assets.calendly.com/assets/external/widget.js" async></script>\n'
     return page(f'{c["brandName"]}', (SHARED / "pitch-master.css").read_text(), body, head)
 
 
