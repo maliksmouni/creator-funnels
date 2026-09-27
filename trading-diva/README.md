@@ -47,7 +47,7 @@ Hinweis: `deck/` entfällt. Die Pitch-Seite selbst ist die Präsentation. Das Sk
 - Funnel: Simrans Mentoring-VSL
 - Funnel: 3 echte Schüler-Stories (nur mit Erlaubnis, keine gefunden)
 
-## QA (Phase 5), Ergebnis
+## QA (Phase 6), Ergebnis
 
 - Kontrast: alle Text/Hintergrund-Paare beider Design-Systeme ≥ 4,5:1 (WCAG AA). Minimum 5,6:1
 - 375 px: kein horizontales Scrollen auf allen 5 Seiten
