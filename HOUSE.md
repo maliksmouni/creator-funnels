@@ -35,7 +35,9 @@ Trage hier nur Ergebnisse ein, die du tatsächlich belegen kannst (Name/Pseudony
 
 ## Design-Master (Pitch-Seite)
 
-- Primärfarbe: [HEX]
-- Akzentfarbe: [HEX]
-- Font: [FONT-NAME]
-- Grundstil: [z. B. dunkel/editorial, hell/minimalistisch]
+Vorläufig gesetzt (erster Lauf, [CONFIRM]). Umgesetzt in `_shared/pitch-master.css`:
+
+- Primärfarbe: #15171b (Text) auf #f7f6f2 (Hintergrund)
+- Akzentfarbe: #1d4ed8
+- Font: Georgia (Headlines) + System-Sans (Text), keine externen Fonts
+- Grundstil: hell/editorial

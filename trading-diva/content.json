@@ -1,0 +1,383 @@
+{
+  "slug": "trading-diva",
+  "name": "Simran Nigam",
+  "brandName": "Trading Diva",
+  "niche": "Trading education for Indian retail traders (SMC/ICT, Nifty & Bank Nifty options, Gold, Forex, Crypto)",
+  "offerName": "Crown Strategy (recorded course) → proposed: Crown Mentorship [CONFIRM]",
+  "image": "assets/simran.jpg",
+  "brand": {
+    "_note": "derived from YouTube banner + avatar, [CONFIRM]",
+    "bg": "#0c1016",
+    "surface": "#151b23",
+    "line": "#262e39",
+    "text": "#f2ede4",
+    "muted": "#b3aa9c",
+    "accent": "#c9a46a",
+    "accent-ink": "#14110b",
+    "signal": "#3fb67a"
+  },
+  "headline": "Stop piecing trading together from 20 channels. Get a structured mentorship with Trading Diva.",
+  "subheadline": "SMC, liquidity, the Crown Strategy and live execution in one guided path, built around your journal, your risk and your mistakes. Applications only.",
+  "pitch": {
+    "eyebrow": "Prepared for Simran Nigam · Trading Diva",
+    "headline": "You already teach like a mentor. There's just no way to apply for the mentorship.",
+    "subheadline": "I looked at your YouTube, Instagram and Telegram, then built the call funnel your \"Mentor | Coach\" bio promises, in your look, ready to switch on. Everything below is based on your public channels.",
+    "vslNote": "{{SWAP}} 3–5 min Loom walkthrough of the funnel",
+    "facts": [
+      {
+        "value": "56.4K",
+        "label": "YouTube subscribers",
+        "source": "YouTube About, 27.09.2026"
+      },
+      {
+        "value": "4.51M",
+        "label": "YouTube views since Feb 2025",
+        "source": "YouTube About, 27.09.2026"
+      },
+      {
+        "value": "35,039",
+        "label": "Instagram followers (verified)",
+        "source": "Instagram profile, 27.09.2026"
+      },
+      {
+        "value": "13,134",
+        "label": "Telegram subscribers",
+        "source": "t.me/simchantrade, 27.09.2026"
+      }
+    ],
+    "sections": {
+      "problem": {
+        "title": "What I noticed",
+        "cards": [
+          {
+            "title": "One public product",
+            "body": "The only offer linked anywhere is the Crown Strategy recorded course on Superprofile, posted 4× in your last 17 Telegram posts. Your bio says Mentor | Coach, but there's no application, calendar or mentorship page."
+          },
+          {
+            "title": "Daily lives, no next step",
+            "body": "You stream almost daily (3.5K–8.7K views per live) and your last 10 YouTube uploads average ~14.3K views. The call to action is always \"join Telegram\" or \"msg me\", so the warmest viewers have nowhere official to go."
+          },
+          {
+            "title": "DMs are where the fakes are",
+            "body": "Your Telegram description warns about fake channels, yet VIP access runs through \"DM @tradingdivaa\". An official, branded application page gives your audience one safe place to buy from you."
+          }
+        ]
+      },
+      "mechanism": {
+        "title": "The idea",
+        "body": "Keep the course as the entry product. Add a mentorship tier that people apply for. Every live, video and pinned post points to one official page, where they apply, get qualified and book a call. Before the call, a short email sequence answers the questions you'd otherwise repeat in DMs."
+      },
+      "deliverables": {
+        "title": "What's already built (click to preview)",
+        "items": [
+          {
+            "title": "Mentorship landing page",
+            "body": "In your look (dark desk, gold accents), with a VSL slot and an honest, claim-free story.",
+            "href": "funnel/"
+          },
+          {
+            "title": "Application + qualification",
+            "body": "6 questions that filter for experience, markets and the ability to trade only money they can afford to lose.",
+            "href": "funnel/#apply"
+          },
+          {
+            "title": "Booking + confirmation page",
+            "body": "Calendar booking plus a what-to-prepare checklist.",
+            "href": "funnel/thank-you/"
+          },
+          {
+            "title": "6 pre-call emails",
+            "body": "Confirmation → conviction → objections → expectations → day before → morning of.",
+            "href": "emails/pre-call.md"
+          },
+          {
+            "title": "4 ad scripts",
+            "body": "Retargeting your live and YouTube viewers. No profit claims, no trade calls.",
+            "href": "ads/scripts.md"
+          },
+          {
+            "title": "Research dossier",
+            "body": "Every number on this page with its source.",
+            "href": "dossier.md"
+          }
+        ]
+      },
+      "proof": {
+        "title": "Results I've driven",
+        "items": [
+          "{{SWAP}} Case study 1 from HOUSE.md",
+          "{{SWAP}} Case study 2 from HOUSE.md"
+        ],
+        "note": "Only real results from past clients. Nothing here is a promise about your numbers."
+      },
+      "howItWorks": {
+        "title": "How it would work",
+        "steps": [
+          {
+            "title": "15–30 min call",
+            "body": "We check if a mentorship tier fits you: price, capacity, format. [CONFIRM]"
+          },
+          {
+            "title": "Adjust and connect",
+            "body": "Your copy, your calendar, your payment link. The funnel runs on your own domain."
+          },
+          {
+            "title": "Point your channels at it",
+            "body": "Live CTA, Telegram pin, link in bio, video descriptions."
+          },
+          {
+            "title": "Run it",
+            "body": "Retargeting ads plus the email sequence. Compensation model [CONFIRM]."
+          }
+        ]
+      },
+      "qualification": {
+        "title": "This makes sense if…",
+        "items": [
+          "you want to offer mentorship next to the recorded course",
+          "you can hold a few sales calls a week yourself (or with a closer)",
+          "you want one official way to buy from you instead of DMs"
+        ]
+      },
+      "finalCta": {
+        "title": "Worth a 30-minute look?",
+        "body": "Pick a slot. If it's not a fit, you keep the dossier and the ideas.",
+        "calendly": "https://calendly.com/maliksmouni/30min"
+      }
+    },
+    "signoff": "[CONFIRM] Sender name"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Trading Diva · Mentorship [CONFIRM]",
+      "vslNote": "{{SWAP}} Simran's mentorship VSL (3–8 min)",
+      "cta": "Apply for the mentorship"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "Too many concepts, no system",
+          "body": "Order blocks, FVG, BOS, CHoCH, liquidity. You've watched it all, but on a live chart it still doesn't come together."
+        },
+        {
+          "title": "Good setups, bad execution",
+          "body": "You see the move, then enter late, size too big or exit on emotion. The strategy isn't the problem. The process is."
+        },
+        {
+          "title": "No one checks your trades",
+          "body": "Without a journal and someone who reviews it, the same mistake repeats for months without you noticing."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "The Trading Diva method",
+      "body": "One path instead of twenty playlists: understand where liquidity sits (SMC), wait for the Crown Strategy setup, execute it live with a fixed risk plan, and write every trade into a journal that gets reviewed. The free YouTube content teaches the concepts. The mentorship is where they turn into your process.",
+      "pillars": [
+        {
+          "title": "Read",
+          "body": "Liquidity, structure and order flow, the SMC foundation."
+        },
+        {
+          "title": "Wait",
+          "body": "The Crown Strategy setup, and nothing else."
+        },
+        {
+          "title": "Execute",
+          "body": "Live sessions with a predefined risk per trade."
+        },
+        {
+          "title": "Review",
+          "body": "Journal: entry, exit, setup, R:R, mistake, emotion."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside [CONFIRM]",
+      "items": [
+        {
+          "title": "Crown Strategy course",
+          "body": "Full recorded course included."
+        },
+        {
+          "title": "Live mentorship sessions",
+          "body": "Guided sessions on Nifty, Bank Nifty, Gold and BTC. Frequency [CONFIRM]."
+        },
+        {
+          "title": "Journal reviews",
+          "body": "Your trades reviewed against the plan. Format [CONFIRM]."
+        },
+        {
+          "title": "Risk framework",
+          "body": "Position sizing and daily loss limits you set before the market opens."
+        },
+        {
+          "title": "Private community",
+          "body": "One official group, no fakes. Platform [CONFIRM]."
+        },
+        {
+          "title": "30-day roadmap",
+          "body": "The structured start plan from the \"30 Days Plan\" series, applied to you."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Students",
+      "items": [
+        "{{SWAP}} Real student story 1 (with permission)",
+        "{{SWAP}} Real student story 2 (with permission)",
+        "{{SWAP}} Real student story 3 (with permission)"
+      ],
+      "note": "Trading involves risk of loss. Past results of any student do not guarantee yours."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time for a call with Simran's team [CONFIRM]."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether the mentorship makes sense. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "Not yet / under 6 months",
+            "6 months – 2 years",
+            "More than 2 years"
+          ]
+        },
+        {
+          "q": "Which markets do you trade?",
+          "type": "multi",
+          "options": [
+            "Nifty / Bank Nifty options",
+            "Stocks",
+            "Gold",
+            "Forex",
+            "Crypto"
+          ]
+        },
+        {
+          "q": "What's your biggest problem in trading right now?",
+          "type": "text"
+        },
+        {
+          "q": "Do you keep a trading journal?",
+          "type": "choice",
+          "options": [
+            "Yes, every trade",
+            "Sometimes",
+            "No"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in a mentorship now? Price [CONFIRM]",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "WhatsApp number"
+      ]
+    },
+    "finalCta": {
+      "title": "One official way in.",
+      "body": "No DMs, no \"VIP\" links from strangers. If it doesn't come from this page or @tradingdiva_, it isn't Simran.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not investment advice. Trading carries a high risk of loss. Regulatory status [CONFIRM]."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call with the Trading Diva team is confirmed",
+      "body": "Hi {{first_name}},\n\nYour call is booked for {{call_time}} (IST). The link is in your calendar invite.\n\nTwo things before we talk:\n1. Keep this time free. We hold a limited number of mentorship calls each week.\n2. If you have a trading journal, even a messy one, keep it open during the call.\n\nOne safety note: we will never ask you for money over Telegram DM or WhatsApp. The only official links come from this email address, @tradingdiva_ on Instagram and the Trading Diva YouTube channel.\n\nSee you soon,\nTeam Trading Diva"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why concepts alone don't make you consistent",
+      "previewText": "You've watched the SMC videos. Here's the missing piece.",
+      "body": "Hi {{first_name}},\n\nIf you've watched the SMC series on YouTube, you already know what an order block, an FVG or a liquidity sweep is.\n\nKnowing it doesn't make you consistent on a live chart. Two things do: waiting for one specific setup, and a process that shows you your own mistakes.\n\nThat's what the mentorship is built around. One setup (Crown), a fixed risk plan, and a journal that actually gets reviewed.\n\nOn the call we'll look at where your process breaks today.\n\nTeam Trading Diva"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"Isn't all of this on YouTube for free?\"",
+      "previewText": "Mostly, yes. Here's the honest difference.",
+      "body": "Hi {{first_name}},\n\nA fair question we hear a lot: isn't everything free on YouTube?\n\nMost of the concepts are, and they'll stay free. What YouTube can't do is look at your trades, tell you which mistake you repeat, and keep you on one plan when the market gets loud.\n\nIf you can do that on your own, you don't need a mentorship, and we'll tell you so on the call.\n\nIf you can't yet, that's exactly the gap the mentorship covers.\n\nTeam Trading Diva"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What the call is (and isn't)",
+      "previewText": "No trade tips, no promises, a straight conversation",
+      "body": "Hi {{first_name}},\n\nSo you know what to expect:\n\n- The call takes about {{call_length}} minutes [CONFIRM].\n- We'll ask about your experience, markets, risk and journal.\n- If the mentorship fits, we'll explain what's included and the investment [CONFIRM].\n- If it doesn't fit, we'll tell you and point you to the free resources.\n\nWhat the call is not: there are no trade calls, no signals and no promises of returns. Trading involves real risk of loss.\n\nTeam Trading Diva"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your Trading Diva call",
+      "previewText": "Quick checklist for tomorrow",
+      "body": "Hi {{first_name}},\n\nReminder: your call is tomorrow at {{call_time}} (IST).\n\nQuick checklist:\n- A quiet place and a stable connection\n- Your last 10–20 trades (journal, screenshots or broker statement)\n- One sentence: what do you want to fix first?\n\nNeed to reschedule? Use this link: {{reschedule_link}}\n\nTeam Trading Diva"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today at {{call_time}}",
+      "previewText": "Your link is inside",
+      "body": "Hi {{first_name}},\n\nToday's the day. Your call is at {{call_time}} (IST).\n\nJoin here: {{meeting_link}}\n\nSee you there,\nTeam Trading Diva"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Concepts vs. system (YouTube retargeting)",
+      "hook": "You've watched every SMC video, so why doesn't it work on a live chart?",
+      "script": "[Simran on camera, desk setup]\nYou know order blocks. You know FVG. You know liquidity.\nBut when the market opens, you still enter late, exit early, and repeat the same mistake next week.\nThat's not a knowledge problem. It's a process problem.\nIn the Trading Diva mentorship we focus on one setup, one risk plan, and a journal that actually gets reviewed.\nIt's application only. Link below. Two minutes, six questions.\n[On-screen: Educational content only. Trading involves risk of loss.]"
+    },
+    {
+      "angle": "Official path / anti-fake (Instagram + Telegram audience)",
+      "hook": "If someone DMs you a \"Trading Diva VIP\" link, it's not me.",
+      "script": "[Simran, direct to camera]\nIf someone DMs you a \"Trading Diva VIP\" link, it's not me.\nFake channels use my name.\nSo there's now one official way to work with me: the application page linked here.\nNo payment in DMs. Ever.\nIf you want structured mentorship, apply there. If not, the YouTube content stays free.\n[On-screen: the only official page: {{funnel_domain}} [CONFIRM]]"
+    },
+    {
+      "angle": "Journal (reuses the organic \"Comment JOURNAL\" topic)",
+      "hook": "Your journal will show you the mistake your eyes keep ignoring.",
+      "script": "[Screen recording: a trading journal sheet]\nEntry, exit, setup, R:R, mistake, emotion.\nAfter 20–30 trades, the pattern shows up. For most traders it's the same one or two mistakes.\nIn the mentorship, we review those journals with you, so you're not guessing.\nApply below.\n[On-screen: Educational content only. Not investment advice.]"
+    },
+    {
+      "angle": "Live viewers → next step (live stream retargeting)",
+      "hook": "You watch the lives. Here's what the lives can't do for you.",
+      "script": "[Clip from a live, then Simran on camera]\nSo many of you join the lives, thank you.\nBut in a live, I can't look at your trades.\nThe mentorship is where I can: your setups, your risk, your journal.\nLimited spots [CONFIRM]. Apply with the link below.\n[On-screen: Trading involves risk of loss.]"
+    }
+  ]
+}
