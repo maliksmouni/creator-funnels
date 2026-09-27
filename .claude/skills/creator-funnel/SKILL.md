@@ -170,7 +170,7 @@ Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Sessio
 ### Phase 8: Deploy (nur auf „deploy it“)
 
 1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
-2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://starlit-kangaroo-62a92c.netlify.app`, Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.
+2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://infooperate.netlify.app`, Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.
 3. Nach dem Push auf den Deploy warten (z. B. bis ein neuer Text live ist) und prüfen:
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
    - `/{slug}/dossier.md`, `/{slug}/content.json`, `/{slug}/offer-deck-filled.md`, `/{slug}/README.md`, `/HOUSE.md`, `/_shared/*`, `/.claude/*` → 404
