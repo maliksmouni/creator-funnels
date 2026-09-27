@@ -25,7 +25,7 @@ _redirects, _headers, 404.html   Netlify: interne Dateien → 404, noindex (gene
 {slug}/                     ein Ordner pro Creator (siehe Output-Struktur)
 ```
 
-Seiten niemals von Hand editieren. Texte ändern: `content.json`, danach bauen (Phase 6).
+Seiten niemals von Hand editieren. Texte ändern: `content.json`, danach bauen (Phase 5).
 
 ## Setup (einmalig)
 
@@ -72,6 +72,7 @@ slug, name, brandName, niche, offerName, image
 brand: { bg, surface, line, text, muted, accent, accent-ink, signal }   ← Creator-Marke
 headline, subheadline                                                   ← Funnel-Hero
 demoBanner                                                              ← Pflicht, siehe Ehrlichkeitsregeln
+video { thumb, youtubeId, title }        ← von yt_thumb.py gesetzt; Platzhalterbild für Pitch- und Funnel-Video
 
 pitch:                                    ← Pitch-Seite an den Creator (Master-Design)
   eyebrow                                 z. B. "Already built for {brandName}"
@@ -79,7 +80,6 @@ pitch:                                    ← Pitch-Seite an den Creator (Master
                                           z. B. „I built the call funnel for your [Crown Strategy mentorship].“
                                           mark = Angebotsname des Creators. Keine Zahlenlisten, Umsatz nur mit Quelle.
   (kein Hinweistext im Video; der Loom wird später eingesetzt)
-video { thumb, youtubeId, title }        ← von yt_thumb.py gesetzt; Platzhalterbild für Pitch- und Funnel-Video
   bridge { title: "Four things I noticed", closing,
            beats[4]: { kicker, title, text, stats[{value,label}] | quote, source (nur bei Zitaten) } }
            Beat 1 = Reichweite vs. Angebot, 2 = ungenutztes warmes Publikum,
@@ -106,6 +106,24 @@ adScripts[]: { angle, hook, script }
 ```
 
 Funnel-Typ: Der Call-Funnel nutzt `funnel/` (Seite + Bewerbung) und `funnel/thank-you/`. Für einen Webinar-Funnel kommen `register/`, `thank-you/`, `replay/` sowie Pre-/Post-Webinar-Mails hinzu. `build.py` muss dafür erweitert werden; das Master-Design bleibt gleich.
+
+### Festgelegte Entscheidungen des Nutzers (Pitch-Seite)
+
+Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Creator und sind im Template (`build.py` + `pitch-master.css`) umgesetzt. Nicht wieder einbauen, außer der Nutzer verlangt es:
+
+| Bereich | So ist es | Nicht (mehr) vorhanden |
+|---|---|---|
+| Stil | Wie phil-pitch.pages.dev: Papier-Hintergrund, Grotesk-Headlines, Mono-Labels, Bronze | alter schlichter Stil |
+| Headline | kurz, ~10 Wörter, nennt das Angebot beim Namen („I built the call funnel for your [Crown Strategy mentorship].“) | lange Headlines mit Zahlenaufzählungen, Umsatzversprechen ohne Quelle |
+| Hero | Eyebrow „Already built for {Brand}“, Headline, Video | Unterzeile, „Start here“, „See the deliverables“, Loom-/SWAP-Hinweis im Video |
+| Video | Platzhalter = Thumbnail des **neuesten** YouTube-Uploads (`yt_thumb.py`), Play-Button darüber | leere dunkle Fläche |
+| Four things I noticed | nur Titel, 4 nummerierte Karten mit Zahlen, Abschlusssatz | Eyebrow „Before the deliverables“, Quellenzeilen unter den Zahlen, Button „See what's built“ |
+| Deliverables | gruppiert, kompakte Browser-Vorschauen, alle Karten gleich groß (max. ~430px) | große bzw. seitenbreite Karten, Link zum Dossier |
+| Case Studies | nur Karten (aus `HOUSE.md`) | Hinweistext darunter |
+| Book a call | Überschrift + Calendly-Karte, Sticky-Button | Untertext, „Calendar not loading?“-Link |
+| Signatur | keine | Absendername/Unterschrift |
+
+Neue Wünsche des Nutzers zum Design immer im Template umsetzen (nicht nur für einen Creator), in diese Tabelle eintragen, pushen und live prüfen.
 
 ### Phase 4: Design
 
@@ -150,7 +168,7 @@ Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Sessio
 
 ### Phase 8: Deploy (nur auf „deploy it“)
 
-1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch.
+1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
 2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://starlit-kangaroo-62a92c.netlify.app`, Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.
 3. Nach dem Push auf den Deploy warten (z. B. bis ein neuer Text live ist) und prüfen:
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
