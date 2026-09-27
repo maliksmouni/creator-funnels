@@ -115,6 +115,7 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 |---|---|---|
 | Stil | Wie phil-pitch.pages.dev: Papier-Hintergrund, Grotesk-Headlines, Mono-Labels, Bronze | alter schlichter Stil |
 | Headline | kurz, ~10 Wörter, nennt das Angebot beim Namen („I built the call funnel for your [Crown Strategy mentorship].“) | lange Headlines mit Zahlenaufzählungen, Umsatzversprechen ohne Quelle |
+| Kopfzeile | nur der Brand-Name oben links (Tab-Titel = Brand-Name) | „· proposal“ |
 | Hero | Eyebrow „Already built for {Brand}“, Headline, Video | Unterzeile, „Start here“, „See the deliverables“, Loom-/SWAP-Hinweis im Video |
 | Video | Platzhalter = Thumbnail des **neuesten** YouTube-Uploads (`yt_thumb.py`), Play-Button darüber | leere dunkle Fläche |
 | Four things I noticed | nur Titel, 4 nummerierte Karten mit Zahlen, Abschlusssatz | Eyebrow „Before the deliverables“, Quellenzeilen unter den Zahlen, Button „See what's built“ |

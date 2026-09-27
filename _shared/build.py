@@ -112,7 +112,7 @@ def build_pitch(c, house_cases):
         )
     cal = a(p["cta"]["calendly"])
     body = f"""
-<header class="topbar"><span>{t(c["brandName"])} · proposal</span></header>
+<header class="topbar"><span>{t(c["brandName"])}</span></header>
 <main>
 <section class="hero"><div class="container">
   <p class="eyebrow reveal">{t(p["eyebrow"])}</p>
@@ -145,7 +145,7 @@ def build_pitch(c, house_cases):
 <footer class="footer"><span>{t(p["footer"])}</span></footer>
 """
     head = '<script src="https://assets.calendly.com/assets/external/widget.js" async></script>\n'
-    return page(f'{c["brandName"]}: proposal', (SHARED / "pitch-master.css").read_text(), body, head)
+    return page(f'{c["brandName"]}', (SHARED / "pitch-master.css").read_text(), body, head)
 
 
 # ---------- creator funnel (creator brand) ----------
