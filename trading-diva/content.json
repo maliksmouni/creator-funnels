@@ -26,7 +26,6 @@
       "after": "."
     },
     "bridge": {
-      "eyebrow": "Before the deliverables",
       "title": "Four things I noticed",
       "beats": [
         {
@@ -46,8 +45,7 @@
               "value": "13,134",
               "label": "Telegram subscribers"
             }
-          ],
-          "source": "YouTube About · Instagram profile · t.me/simchantrade, 27.09.2026"
+          ]
         },
         {
           "kicker": "The warm room",
@@ -62,8 +60,7 @@
               "value": "~14.3K",
               "label": "avg views, last 10 uploads"
             }
-          ],
-          "source": "YouTube Videos and Live tabs, 27.09.2026"
+          ]
         },
         {
           "kicker": "The trust leak",
@@ -85,8 +82,7 @@
               "value": "SMC 1–5",
               "label": "series already on YouTube"
             }
-          ],
-          "source": "YouTube Live tab (dates from stream titles) · format and capacity [CONFIRM]"
+          ]
         }
       ],
       "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."

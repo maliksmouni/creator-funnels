@@ -75,7 +75,8 @@ def beat(n, b):
         aside += "".join(f'<div class="aside__stat"><strong>{t(s["value"])}</strong><span>{t(s["label"])}</span></div>' for s in b["stats"])
     if b.get("quote"):
         aside += f"<blockquote>{t(b['quote'])}</blockquote>"
-    aside += f'<p class="aside__src">{t(b["source"])}</p>'
+    if b.get("source"):
+        aside += f'<p class="aside__src">{t(b["source"])}</p>'
     return f"""<article class="beat reveal">
   <span class="beat__idx">{n:02d}</span>
   <div><p class="beat__kicker">{t(b["kicker"])}</p><h3 class="beat__title">{t(b["title"])}</h3><p class="beat__text">{t(b["text"])}</p></div>
@@ -117,11 +118,10 @@ def build_pitch(c, house_cases):
   <p class="eyebrow reveal">{t(p["eyebrow"])}</p>
   <h1 class="display h-xl reveal">{t(h["before"])} <span class="mark">{t(h["mark"])}</span>{"" if h["after"][:1] in ".,!?:;" else " "}{t(h["after"])}</h1>
   <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder">{vsl_thumb(c)}<div class="vsl__play">{PLAY}</div></div>
-  <div class="hero__actions reveal"><a class="btn btn--ghost" href="#deliverables">See the deliverables {DOWN}</a></div>
 </div></section>
 
 <section class="section" id="bridge"><div class="container">
-  <div class="bridge__head"><p class="eyebrow reveal">{t(br["eyebrow"])}</p><h2 class="display h-lg reveal">{t(br["title"])}</h2></div>
+  <div class="bridge__head"><h2 class="display h-lg reveal">{t(br["title"])}</h2></div>
   <div class="beats">{''.join(beat(n, b) for n, b in enumerate(br["beats"], 1))}</div>
   <div class="bridge__close reveal"><p class="bridge__closing">{t(br["closing"])}</p></div>
 </div></section>

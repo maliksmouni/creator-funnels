@@ -80,8 +80,8 @@ pitch:                                    ← Pitch-Seite an den Creator (Master
                                           mark = Angebotsname des Creators. Keine Zahlenlisten, Umsatz nur mit Quelle.
   (kein Hinweistext im Video; der Loom wird später eingesetzt)
 video { thumb, youtubeId, title }        ← von yt_thumb.py gesetzt; Platzhalterbild für Pitch- und Funnel-Video
-  bridge { eyebrow, title: "Four things I noticed", closing,
-           beats[4]: { kicker, title, text, stats[{value,label}] | quote, source } }
+  bridge { title: "Four things I noticed", closing,
+           beats[4]: { kicker, title, text, stats[{value,label}] | quote, source (nur bei Zitaten) } }
            Beat 1 = Reichweite vs. Angebot, 2 = ungenutztes warmes Publikum,
            3 = konkreter Engpass/Risiko, 4 = die Einwand-Vorwegnahme
   deliverablesTitle
@@ -110,7 +110,7 @@ Funnel-Typ: Der Call-Funnel nutzt `funnel/` (Seite + Bewerbung) und `funnel/than
 ### Phase 4: Design
 
 Zwei getrennte Design-Systeme, nie mischen:
-- **Pitch-Seite an den Creator:** immer `_shared/pitch-master.css` (Design-Master aus `HOUSE.md`). Warmes Papier (#f5f2ec), Bricolage Grotesque für Headlines, Inter für Text, JetBrains Mono für Labels, Bronze-Akzent (#7c5a16). Aufbau: zentrierter Hero mit markiertem Kernversprechen (ohne Unterzeile), großem Video (Platzhalter = Thumbnail des neuesten YouTube-Uploads, lokal gespeichert) und einem Button „See the deliverables“, „Four things I noticed“ als nummerierte Karten mit Quellen, Abschlusssatz ohne Button, Deliverables gruppiert als kompakte Browser-Vorschauen (alle Karten gleich groß, max. ca. 430px breit, zentriert), Case Studies ohne Zusatznotiz, „Book a call“ nur mit Überschrift und Calendly-Karte (kein Untertext, kein Fallback-Link), Sticky-„Book a call“. Stil-Referenz: phil-pitch.pages.dev.
+- **Pitch-Seite an den Creator:** immer `_shared/pitch-master.css` (Design-Master aus `HOUSE.md`). Warmes Papier (#f5f2ec), Bricolage Grotesque für Headlines, Inter für Text, JetBrains Mono für Labels, Bronze-Akzent (#7c5a16). Aufbau: zentrierter Hero mit markiertem Kernversprechen (ohne Unterzeile), großem Video (Platzhalter = Thumbnail des neuesten YouTube-Uploads, lokal gespeichert), ohne Buttons darunter, „Four things I noticed“ (ohne Eyebrow) als nummerierte Karten ohne Quellenzeilen, Abschlusssatz ohne Button, Deliverables gruppiert als kompakte Browser-Vorschauen (alle Karten gleich groß, max. ca. 430px breit, zentriert), Case Studies ohne Zusatznotiz, „Book a call“ nur mit Überschrift und Calendly-Karte (kein Untertext, kein Fallback-Link), Sticky-„Book a call“. Stil-Referenz: phil-pitch.pages.dev.
 - **Funnel des Creators:** `_shared/creator-funnel.css` mit den Farben aus `content.json → brand`. Farben aus dem bestehenden Auftritt des Creators ableiten (YouTube-Banner, Profilbild, Website); Farbwerte per Bild-Quantisierung extrahieren, nie frei erfinden. Ohne definierte Markenpalette: als abgeleitet dokumentieren und `[CONFIRM]` setzen. Typografie neutral (Inter), damit nichts vom Master-Design übernommen wird.
 - Creator-Bild: aus dem öffentlichen Avatar (YouTube 900px bevorzugt). Ränder prüfen und zuschneiden: YouTube-Avatare haben oft fremde Thumbnail-Streifen am Rand. Speichern als `{slug}/assets/{name}.jpg`, max. 600px.
 
@@ -119,7 +119,7 @@ Zwei getrennte Design-Systeme, nie mischen:
 - Niemals Testimonials, Zitate, Kundenergebnisse oder Preise erfinden.
 - Fehlende Information (z. B. Preis nicht öffentlich): `[CONFIRM]`, nicht raten.
 - Fehlendes Beweismaterial: `{{SWAP}}`, keine fiktiven Inhalte.
-- Jede Zahl im Output muss auf eine konkrete Quelle aus Phase 1 zurückführbar sein. Auf der Pitch-Seite steht die Quelle direkt am Beat.
+- Jede Zahl im Output muss auf eine konkrete Quelle aus Phase 1 zurückführbar sein. Die Quellen stehen im `dossier.md`, nicht auf der Pitch-Seite (Ausnahme: Herkunft eines wörtlichen Zitats).
 - Reale Aussagen nur sinngemäß referenzieren. Wörtlich zitieren nur öffentliche Aussagen des Creators selbst, mit Quelle.
 - Finanz-, Trading- und Gesundheitsnischen: keine Rendite- oder Ergebnisversprechen, keine Trade-Calls, Risikohinweis in jedem Ad und im Funnel-Footer. Regulatorik des Landes (z. B. SEBI in Indien) als `[CONFIRM]` für eine Rechtsprüfung aufnehmen.
 - Der Funnel in Creator-Optik ist ein Demo, bevor der Creator zustimmt. Deshalb trägt jede Funnel-Seite den `demoBanner` („Demo built for {Name}. Not their official site.“), damit er öffentlich nicht als offizielle Seite des Creators durchgeht.
