@@ -61,6 +61,12 @@ def page(title, css, body, extra_head=""):
 """
 
 
+def vsl_thumb(c, prefix=""):
+    """Latest YouTube upload thumbnail as the video placeholder (see _shared/yt_thumb.py)."""
+    v = c.get("video")
+    return f'<img class="vsl__img" src="{prefix}{a(v["thumb"])}" alt="" width="1280" height="720">' if v else ""
+
+
 # ---------- pitch page (master design, identical for every creator) ----------
 
 def beat(n, b):
@@ -110,7 +116,7 @@ def build_pitch(c, house_cases):
 <section class="hero"><div class="container">
   <p class="eyebrow reveal">{t(p["eyebrow"])}</p>
   <h1 class="display h-xl reveal">{t(h["before"])} <span class="mark">{t(h["mark"])}</span>{"" if h["after"][:1] in ".,!?:;" else " "}{t(h["after"])}</h1>
-  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(p["vslNote"])}</p></div>
+  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder">{vsl_thumb(c)}<div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(p["vslNote"])}</p></div>
   <div class="hero__actions reveal"><a class="btn btn--ghost" href="#deliverables">See the deliverables {DOWN}</a></div>
 </div></section>
 
@@ -214,7 +220,7 @@ def build_funnel(c):
     </div>
     <figure class="portrait reveal"><img src="../{a(c["image"])}" alt="{a(c["name"])}" width="600" height="600"></figure>
   </div>
-  <div class="vsl reveal" role="img" aria-label="Video placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(h["vslNote"])}</p></div>
+  <div class="vsl reveal" role="img" aria-label="Video placeholder">{vsl_thumb(c, "../")}<div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(h["vslNote"])}</p></div>
 </div></section>
 <section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The problem</span><h2 class="reveal">{t(s["problem"]["title"])}</h2></div><div class="grid3">{numbered(s["problem"]["cards"])}</div></div></section>
 <section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The method</span><h2 class="reveal">{t(s["mechanism"]["title"])}</h2><p class="lead reveal">{t(s["mechanism"]["body"])}</p></div><div class="pillars">{pillars}</div></div></section>

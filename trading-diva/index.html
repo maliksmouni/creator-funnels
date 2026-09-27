@@ -64,6 +64,9 @@ a{color:inherit;text-decoration:none}
 .hero__sub{max-width:58ch;margin:22px auto 0;color:var(--text-2);font-size:1.08rem;text-wrap:balance}
 .vsl{position:relative;margin:clamp(36px,6vh,52px) auto 0;max-width:780px;aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;
   background:radial-gradient(60% 60% at 50% 50%,rgba(124,90,22,.28),transparent 70%),#0d0b08;box-shadow:0 40px 80px -40px rgba(27,25,23,.55),0 2px 0 rgba(255,255,255,.04) inset;display:grid;place-items:center}
+.vsl__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vsl:has(.vsl__img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.45))}
+.vsl__play,.vsl__note{position:relative;z-index:1}
 .vsl__play{width:84px;height:84px;border-radius:50%;background:var(--accent);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(124,90,22,.18)}
 .vsl__play svg{width:26px;height:26px;margin-left:4px;fill:var(--accent-ink)}
 .vsl__note{position:absolute;left:0;right:0;bottom:18px;color:rgba(251,248,241,.7);font:500 .72rem var(--mono);letter-spacing:.08em}
@@ -164,7 +167,7 @@ els.forEach(e=>io.observe(e))});
 <section class="hero"><div class="container">
   <p class="eyebrow reveal">Already built for Trading Diva</p>
   <h1 class="display h-xl reveal">I built the call funnel for your <span class="mark">Crown Strategy mentorship</span>.</h1>
-  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div><p class="vsl__note"><span class="flag">{{SWAP}} 3–5 min Loom walkthrough</span></p></div>
+  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder"><img class="vsl__img" src="assets/video-thumb.jpg" alt="" width="1280" height="720"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div><p class="vsl__note"><span class="flag">{{SWAP}} 3–5 min Loom walkthrough</span></p></div>
   <div class="hero__actions reveal"><a class="btn btn--ghost" href="#deliverables">See the deliverables <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
 </div></section>
 

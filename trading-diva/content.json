@@ -392,5 +392,10 @@
       "script": "[Clip from a live, then Simran on camera]\nSo many of you join the lives, thank you.\nBut in a live, I can't look at your trades.\nThe mentorship is where I can: your setups, your risk, your journal.\nLimited spots [CONFIRM]. Apply with the link below.\n[On-screen: Trading involves risk of loss.]"
     }
   ],
-  "demoBanner": "Demo built for Simran Nigam (Trading Diva). Not her official site."
+  "demoBanner": "Demo built for Simran Nigam (Trading Diva). Not her official site.",
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "lDG_Dx4YXiU",
+    "title": "Liquidity in Trading | How Smart Money Hunts Liquidity (Complete Guide)"
+  }
 }

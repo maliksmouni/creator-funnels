@@ -50,6 +50,9 @@ section{padding:clamp(64px,10vh,112px) 0}
 
 .vsl{margin-top:clamp(40px,6vh,64px);aspect-ratio:16/9;max-height:560px;width:100%;border-radius:22px;border:1px solid var(--line);display:grid;place-items:center;text-align:center;padding:16px;position:relative;overflow:hidden;
   background:radial-gradient(55% 60% at 50% 50%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 70%),var(--surface)}
+.vsl__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vsl:has(.vsl__img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.45))}
+.vsl__play,.vsl__note{position:relative;z-index:1}
 .vsl__play{width:82px;height:82px;border-radius:50%;background:var(--accent);display:grid;place-items:center;box-shadow:0 0 0 12px color-mix(in srgb,var(--accent) 16%,transparent)}
 .vsl__play svg{width:26px;height:26px;margin-left:4px;fill:var(--accent-ink)}
 .vsl__note{position:absolute;bottom:16px;left:0;right:0;font-size:.8rem;color:var(--muted)}
@@ -133,7 +136,7 @@ els.forEach(e=>io.observe(e))});
     </div>
     <figure class="portrait reveal"><img src="../assets/simran.jpg" alt="Simran Nigam" width="600" height="600"></figure>
   </div>
-  <div class="vsl reveal" role="img" aria-label="Video placeholder"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div><p class="vsl__note"><span class="flag">{{SWAP}} Simran&#x27;s mentorship VSL (3–8 min)</span></p></div>
+  <div class="vsl reveal" role="img" aria-label="Video placeholder"><img class="vsl__img" src="../assets/video-thumb.jpg" alt="" width="1280" height="720"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div><p class="vsl__note"><span class="flag">{{SWAP}} Simran&#x27;s mentorship VSL (3–8 min)</span></p></div>
 </div></section>
 <section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The problem</span><h2 class="reveal">Sound familiar?</h2></div><div class="grid3"><div class="card reveal"><span class="num">01</span><h3>Too many concepts, no system</h3><p>Order blocks, FVG, BOS, CHoCH, liquidity. You&#x27;ve watched it all, but on a live chart it still doesn&#x27;t come together.</p></div><div class="card reveal"><span class="num">02</span><h3>Good setups, bad execution</h3><p>You see the move, then enter late, size too big or exit on emotion. The strategy isn&#x27;t the problem. The process is.</p></div><div class="card reveal"><span class="num">03</span><h3>No one checks your trades</h3><p>Without a journal and someone who reviews it, the same mistake repeats for months without you noticing.</p></div></div></div></section>
 <section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The method</span><h2 class="reveal">The Trading Diva method</h2><p class="lead reveal">One path instead of twenty playlists: understand where liquidity sits (SMC), wait for the Crown Strategy setup, execute it live with a fixed risk plan, and write every trade into a journal that gets reviewed. The free YouTube content teaches the concepts. The mentorship is where they turn into your process.</p></div><div class="pillars"><div class="pillar reveal"><span>01</span><h3>Read</h3><p>Liquidity, structure and order flow, the SMC foundation.</p></div><div class="pillar reveal"><span>02</span><h3>Wait</h3><p>The Crown Strategy setup, and nothing else.</p></div><div class="pillar reveal"><span>03</span><h3>Execute</h3><p>Live sessions with a predefined risk per trade.</p></div><div class="pillar reveal"><span>04</span><h3>Review</h3><p>Journal: entry, exit, setup, R:R, mistake, emotion.</p></div></div></div></section>

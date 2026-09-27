@@ -42,6 +42,9 @@ section{padding:clamp(64px,10vh,112px) 0}
 
 .vsl{margin-top:clamp(40px,6vh,64px);aspect-ratio:16/9;max-height:560px;width:100%;border-radius:22px;border:1px solid var(--line);display:grid;place-items:center;text-align:center;padding:16px;position:relative;overflow:hidden;
   background:radial-gradient(55% 60% at 50% 50%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 70%),var(--surface)}
+.vsl__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vsl:has(.vsl__img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.45))}
+.vsl__play,.vsl__note{position:relative;z-index:1}
 .vsl__play{width:82px;height:82px;border-radius:50%;background:var(--accent);display:grid;place-items:center;box-shadow:0 0 0 12px color-mix(in srgb,var(--accent) 16%,transparent)}
 .vsl__play svg{width:26px;height:26px;margin-left:4px;fill:var(--accent-ink)}
 .vsl__note{position:absolute;bottom:16px;left:0;right:0;font-size:.8rem;color:var(--muted)}

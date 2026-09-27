@@ -17,6 +17,7 @@ Referenz-Umsetzung: `trading-diva/` (Simran Nigam, Call-Funnel für Mentoring).
 HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf liest das)
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
 _shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten
+_shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)
 _shared/creator-funnel.css  Funnel-Layout; Farben kommen aus content.json → brand
 assets/fonts/               selbst gehostete OFL-Fonts (Bricolage Grotesque, Inter, JetBrains Mono)
@@ -78,6 +79,7 @@ pitch:                                    ← Pitch-Seite an den Creator (Master
                                           z. B. „I built the call funnel for your [Crown Strategy mentorship].“
                                           mark = Angebotsname des Creators. Keine Zahlenlisten, Umsatz nur mit Quelle.
   vslNote ({{SWAP}} Loom)
+video { thumb, youtubeId, title }        ← von yt_thumb.py gesetzt; Platzhalterbild für Pitch- und Funnel-Video
   bridge { eyebrow, title: "Four things I noticed", closing,
            beats[4]: { kicker, title, text, stats[{value,label}] | quote, source } }
            Beat 1 = Reichweite vs. Angebot, 2 = ungenutztes warmes Publikum,
@@ -108,7 +110,7 @@ Funnel-Typ: Der Call-Funnel nutzt `funnel/` (Seite + Bewerbung) und `funnel/than
 ### Phase 4: Design
 
 Zwei getrennte Design-Systeme, nie mischen:
-- **Pitch-Seite an den Creator:** immer `_shared/pitch-master.css` (Design-Master aus `HOUSE.md`). Warmes Papier (#f5f2ec), Bricolage Grotesque für Headlines, Inter für Text, JetBrains Mono für Labels, Bronze-Akzent (#7c5a16). Aufbau: zentrierter Hero mit markiertem Kernversprechen (ohne Unterzeile), großem Video und einem Button „See the deliverables“, „Four things I noticed“ als nummerierte Karten mit Quellen, Abschlusssatz ohne Button, Deliverables gruppiert als kompakte Browser-Vorschauen (alle Karten gleich groß, max. ca. 430px breit, zentriert), Case Studies ohne Zusatznotiz, „Book a call“ nur mit Überschrift und Calendly-Karte (kein Untertext, kein Fallback-Link), Sticky-„Book a call“. Stil-Referenz: phil-pitch.pages.dev.
+- **Pitch-Seite an den Creator:** immer `_shared/pitch-master.css` (Design-Master aus `HOUSE.md`). Warmes Papier (#f5f2ec), Bricolage Grotesque für Headlines, Inter für Text, JetBrains Mono für Labels, Bronze-Akzent (#7c5a16). Aufbau: zentrierter Hero mit markiertem Kernversprechen (ohne Unterzeile), großem Video (Platzhalter = Thumbnail des neuesten YouTube-Uploads, lokal gespeichert) und einem Button „See the deliverables“, „Four things I noticed“ als nummerierte Karten mit Quellen, Abschlusssatz ohne Button, Deliverables gruppiert als kompakte Browser-Vorschauen (alle Karten gleich groß, max. ca. 430px breit, zentriert), Case Studies ohne Zusatznotiz, „Book a call“ nur mit Überschrift und Calendly-Karte (kein Untertext, kein Fallback-Link), Sticky-„Book a call“. Stil-Referenz: phil-pitch.pages.dev.
 - **Funnel des Creators:** `_shared/creator-funnel.css` mit den Farben aus `content.json → brand`. Farben aus dem bestehenden Auftritt des Creators ableiten (YouTube-Banner, Profilbild, Website); Farbwerte per Bild-Quantisierung extrahieren, nie frei erfinden. Ohne definierte Markenpalette: als abgeleitet dokumentieren und `[CONFIRM]` setzen. Typografie neutral (Inter), damit nichts vom Master-Design übernommen wird.
 - Creator-Bild: aus dem öffentlichen Avatar (YouTube 900px bevorzugt). Ränder prüfen und zuschneiden: YouTube-Avatare haben oft fremde Thumbnail-Streifen am Rand. Speichern als `{slug}/assets/{name}.jpg`, max. 600px.
 
@@ -125,6 +127,7 @@ Zwei getrennte Design-Systeme, nie mischen:
 ### Phase 5: Bauen
 
 ```
+python3 _shared/yt_thumb.py {slug} {youtube-handle}   # immer: neuestes Upload-Thumbnail als Video-Platzhalter
 python3 _shared/build.py {slug}          # schreibt index.html, funnel/, funnel/thank-you/, emails/, ads/ und _redirects
 python3 -m http.server 8788 --bind 127.0.0.1 &   # vom Repo-Root aus (Fonts liegen unter /assets)
 node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg
