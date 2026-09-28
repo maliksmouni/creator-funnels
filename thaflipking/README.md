@@ -1,6 +1,6 @@
 # thaflipking: Donyell Green „ThaFlipKing“ (Flip Capital Academy)
 
-Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GHL/Typeform-Funnels für die „Flip Capital Academy Inner Circle“). Stand: 28.09.2026. Status: **draft** (auf Cloudflare und Netlify gesperrt). Ziel-URL nach „deploy it“: https://infooperate.pages.dev/thaflipking/
+Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GHL/Typeform-Funnels für die „Flip Capital Academy Inner Circle“). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.pages.dev/thaflipking/ (noch nicht live geprüft)
 
 Kontakt: Thaflipking@gmail.com (vom Nutzer aus seiner Liste, 28.09.2026). Selbst veröffentlicht auf donyellgreen.com/post-booking (FAQ): donyell8@icloud.com.
 
