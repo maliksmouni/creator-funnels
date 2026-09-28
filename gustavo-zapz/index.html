@@ -116,8 +116,12 @@ a{color:inherit;text-decoration:none}
 .pcard:hover .pcard__link svg{transform:translateX(3px)}
 
 /* case studies */
-.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:960px;margin:40px auto 0}
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:960px;margin:40px auto 0}
 .case{background:var(--surface);border-radius:var(--radius);padding:28px 26px;text-align:center;border:1px solid var(--line-soft);box-shadow:0 30px 60px -45px rgba(27,25,23,.35)}
+.case:has(.case__img){padding:0;overflow:hidden;display:flex;flex-direction:column}
+.case__img{aspect-ratio:4/5;overflow:hidden;background:#1b1917}
+.case__img img{width:100%;height:100%;object-fit:cover;object-position:center}
+.case:has(.case__img) .case__body{padding:22px 22px 26px}
 .case--empty{background:transparent;border:1.5px dashed var(--line);box-shadow:none;color:var(--text-2)}
 .case__metric{font:500 .72rem var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
 .case__name{margin:10px 0 8px;font:600 1.15rem var(--display)}
@@ -226,7 +230,7 @@ els.forEach(e=>io.observe(e))});
 
 <section class="section"><div class="container">
   <h2 class="display h-lg reveal" style="text-align:center">Case studies</h2>
-  <div class="cases"><div class="case case--empty reveal"><span class="flag">{{SWAP}} Case study 1 from HOUSE.md</span></div><div class="case case--empty reveal"><span class="flag">{{SWAP}} Case study 2 from HOUSE.md</span></div></div>
+  <div class="cases"><div class="case reveal"><div class="case__img"><img src="/assets/cases/karl-pierre.jpg" alt="" loading="lazy" style="object-position:50% 22%"></div><div class="case__body"><span class="case__metric">$10K in 2 days</span><p class="case__name">Karl Pierre · new info product</p><p class="case__text">Launched a new info product and did $10K in sales in the first two days.</p></div></div><div class="case reveal"><div class="case__img"><img src="/assets/cases/high-ticket-calls.jpg" alt="" loading="lazy"></div><div class="case__body"><span class="case__metric">6 qualified calls in 1 day</span><p class="case__name">Creator · new high-ticket offer</p><p class="case__text">Launched a new high-ticket offer and booked six qualified sales calls in a single day.</p></div></div><div class="case reveal"><div class="case__img"><img src="/assets/cases/client-launch.jpg" alt="" loading="lazy"></div><div class="case__body"><span class="case__metric">€5.3K revenue in 8 days</span><p class="case__name">Client · offer launch</p><p class="case__text">€5.3K ($6.2K) in revenue and €3.9K ($4.6K) cash collected in eight days.</p></div></div></div>
 </div></section>
 
 <section class="section cta" id="cta"><div class="container">

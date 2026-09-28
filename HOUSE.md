@@ -21,15 +21,30 @@ Feste Daten, die bei jedem Funnel-Bau automatisch verwendet werden. Einmal ausf�
 
 Trage hier nur Ergebnisse ein, die du tatsächlich belegen kannst (Name/Pseudonym des Kunden, Ergebnis, Zeitraum, ggf. Beweis-Link/Screenshot). Diese werden als Proof in jedem neuen Funnel wiederverwendet - NICHT für den jeweiligen Prospect selbst erfunden.
 
-1. Kunde: [NAME/PSEUDONYM]
-   Ergebnis: [z. B. "$X generiert"]
-   Zeitraum: [z. B. "in 14 Tagen"]
-   Beweis: [Link/Referenz]
+1. Kunde: Karl Pierre
+   Angebot: Neues Info-Produkt
+   Ergebnis: $10K
+   Zeitraum: in 2 Tagen
+   Kennzahl: $10K in 2 days
+   Text: Launched a new info product and did $10K in sales in the first two days.
+   Beweis: assets/cases/karl-pierre.jpg (Überweisung meines Anteils, $2,000, 9. April 2025)
+   Bildausschnitt: 50% 22%
 
-2. Kunde: [NAME/PSEUDONYM]
-   Ergebnis: [...]
-   Zeitraum: [...]
-   Beweis: [...]
+2. Kunde: Creator (Name nicht öffentlich)
+   Angebot: Neues High-Ticket-Angebot
+   Ergebnis: 6 qualifizierte Calls
+   Zeitraum: an einem Tag
+   Kennzahl: 6 qualified calls in 1 day
+   Text: Launched a new high-ticket offer and booked six qualified sales calls in a single day.
+   Beweis: assets/cases/high-ticket-calls.jpg (Kalender, August 2025)
+
+3. Kunde: Kunde (Name nicht öffentlich)
+   Angebot: Launch
+   Ergebnis: €5.3K ($6.2K) Umsatz, €3.9K ($4.6K) Cash collected
+   Zeitraum: in 8 Tagen (21.–28. August)
+   Kennzahl: €5.3K revenue in 8 days
+   Text: €5.3K ($6.2K) in revenue and €3.9K ($4.6K) cash collected in eight days.
+   Beweis: assets/cases/client-launch.jpg (Sales- und Zahlungs-Screenshots)
 
 (weitere nach Bedarf ergänzen)
 

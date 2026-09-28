@@ -106,6 +106,13 @@ def og_tags(c):
         ("name", "twitter:description", line), ("name", "twitter:image", img), ("name", "description", line)])
 
 
+def case_card(x):
+    pos = f' style="object-position:{a(x["focus"])}"' if x.get("focus") else ""
+    img = f'<div class="case__img"><img src="{a(x["image"])}" alt="" loading="lazy"{pos}></div>' if x.get("image") else ""
+    return (f'<div class="case reveal">{img}<div class="case__body"><span class="case__metric">{t(x["metric"])}</span>'
+            f'<p class="case__name">{t(x["name"])}</p><p class="case__text">{t(x["text"])}</p></div></div>')
+
+
 def build_pitch(c, house_cases):
     p = c["pitch"]
     h = p["headline"]
@@ -118,7 +125,7 @@ def build_pitch(c, house_cases):
     cases = house_cases or []
     if cases:
         case_html = "".join(
-            f'<div class="case reveal"><span class="case__metric">{t(x["metric"])}</span><p class="case__name">{t(x["name"])}</p><p class="case__text">{t(x["text"])}</p></div>'
+            case_card(x)
             for x in cases
         )
     else:
@@ -310,15 +317,32 @@ def build_ads(c):
 
 
 def house_cases():
-    """Case studies from HOUSE.md: only filled entries (no [placeholders]) are used."""
+    """Case studies from HOUSE.md. Each entry is "N. Kunde: …" followed by indented "Key: value" lines;
+    entries with [placeholders] are skipped. Card = Kennzahl (metric), Kunde · Angebot, Text, Beweis image."""
     txt = (ROOT / "HOUSE.md").read_text()
     out = []
-    for m in re.finditer(r"\d+\. Kunde: (.+)\n\s+Ergebnis: (.+)\n\s+Zeitraum: (.+)\n\s+Beweis: (.+)", txt):
-        name, res, period, _ = (g.strip() for g in m.groups())
-        if "[" in name or "[" in res:
+    for block in re.split(r"\n(?=\d+\. Kunde:)", txt):
+        m = re.match(r"\d+\. Kunde: (.+)", block)
+        if not m:
             continue
-        out.append({"metric": f"{res} {period}", "name": name, "text": ""})
+        f = {"Kunde": m.group(1).strip()}
+        f.update({k: v.strip() for k, v in re.findall(r"\n\s+([A-Za-zäöüÄÖÜß]+): (.+)", block)})
+        if any("[" in f.get(k, "") for k in ("Kunde", "Ergebnis")):
+            continue
+        img = f.get("Beweis", "").split(" ")[0]
+        who = f["Kunde"].replace(" (Name nicht öffentlich)", "")
+        who = {"Kunde": "Client", "Creator": "Creator"}.get(who, who)
+        out.append({
+            "metric": f.get("Kennzahl") or f"{f.get('Ergebnis', '')} {f.get('Zeitraum', '')}".strip(),
+            "name": f"{who} · {CASE_OFFER.get(f.get('Angebot', ''), f.get('Angebot', ''))}".strip(" ·"),
+            "text": f.get("Text", ""),
+            "image": "/" + img if img.startswith("assets/") else "",
+            "focus": f.get("Bildausschnitt", ""),
+        })
     return out
+
+
+CASE_OFFER = {"Neues Info-Produkt": "new info product", "Neues High-Ticket-Angebot": "new high-ticket offer", "Launch": "offer launch"}
 
 
 def write_redirects():

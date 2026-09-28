@@ -30,7 +30,6 @@ Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/`.
 Hinweis: Das Video auf der Pitch-Seite steht für seine VSL (Thumbnail seines neuesten Uploads). Das ist kein offener Punkt.
 
 
-- Pitch-Seite: Case Studies aus HOUSE.md (noch leer)
 - Funnel: Gustavos Mentoring-VSL
 
 ## QA

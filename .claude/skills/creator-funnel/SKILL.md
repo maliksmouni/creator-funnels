@@ -30,7 +30,7 @@ Seiten niemals von Hand editieren. Texte ändern: `content.json`, danach bauen (
 
 ## Setup (einmalig)
 
-`HOUSE.md` im Projekt-Root enthält Operator-Name (optional), Logo (optional), Calendly-Link, Case Studies, Ton/Stil und den Design-Master. Der Design-Master ist in `_shared/pitch-master.css` umgesetzt. Case Studies aus `HOUSE.md` erscheinen automatisch auf der Pitch-Seite, sobald sie ausgefüllt sind (Einträge mit `[...]`-Platzhaltern werden ignoriert und als `{{SWAP}}` gezeigt). Die Datei wird bei jedem Lauf gelesen und nie pro Creator neu abgefragt.
+`HOUSE.md` im Projekt-Root enthält Operator-Name (optional), Logo (optional), Calendly-Link, Case Studies, Ton/Stil und den Design-Master. Case-Study-Format je Eintrag: `N. Kunde: …` plus eingerückte Zeilen `Angebot`, `Ergebnis`, `Zeitraum`, `Kennzahl` (Karte, Englisch), `Text` (ein Satz, Englisch), `Beweis: assets/cases/{name}.jpg (…)`, optional `Bildausschnitt: 50% 22%`. Screenshots liegen unter `/assets/cases/` (öffentlich, für alle Creator gleich). Der Design-Master ist in `_shared/pitch-master.css` umgesetzt. Case Studies aus `HOUSE.md` erscheinen automatisch auf der Pitch-Seite, sobald sie ausgefüllt sind (Einträge mit `[...]`-Platzhaltern werden ignoriert und als `{{SWAP}}` gezeigt). Die Datei wird bei jedem Lauf gelesen und nie pro Creator neu abgefragt.
 
 ## Input pro Lauf
 
@@ -130,7 +130,7 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 | Video | steht für die **VSL des Creators** für seinen Funnel (kein Walkthrough des Nutzers). Platzhalter = Thumbnail des **neuesten** YouTube-Uploads (`yt_thumb.py`), Play-Button darüber; kein offener Punkt | leere dunkle Fläche, Loom-Hinweis |
 | Four things I noticed | nur Titel, 4 nummerierte Karten mit Zahlen, Abschlusssatz | Eyebrow „Before the deliverables“, Quellenzeilen unter den Zahlen, Button „See what's built“ |
 | Deliverables | gruppiert, kompakte Browser-Vorschauen, alle Karten gleich groß (max. ~430px) | große bzw. seitenbreite Karten, Link zum Dossier |
-| Case Studies | nur Karten (aus `HOUSE.md`) | Hinweistext darunter |
+| Case Studies | 3 Karten aus `HOUSE.md`: oben der Beweis-Screenshot (`assets/cases/*.jpg`, Format 4:5, Ausschnitt per `Bildausschnitt`), darunter Kennzahl, „Kunde · Angebot“, ein Satz | Hinweistext darunter, erfundene Ergebnisse |
 | Book a call | Überschrift + Calendly-Karte, Sticky-Button | Untertext, „Calendar not loading?“-Link |
 | Signatur | keine | Absendername/Unterschrift |
 | Link-Vorschau | og/twitter-Tags: Titel „Built for {Brand}“, Beschreibung = Headline, Bild = 1200×630-Karte (Eyebrow + Headline links, Video-Thumbnail mit Play-Button rechts) | nackte URL ohne Vorschau |
