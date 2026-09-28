@@ -20,7 +20,7 @@ SHARED = ROOT / "_shared"
 FLAG = re.compile(r"(\[CONFIRM[^\]]*\]|\{\{SWAP\}\}[^<\n]*)")
 # Files that stay in the repo but must never be served.
 PRIVATE_PER_CREATOR = ["dossier.md", "offer-deck-filled.md", "README.md", "content.json"]
-PRIVATE_SITE = ["/HOUSE.md", "/README.md", "/_shared/*", "/.claude/*", "/netlify.toml"]
+PRIVATE_SITE = ["/HOUSE.md", "/README.md", "/CLAUDE.md", "/_shared/*", "/.claude/*", "/netlify.toml"]
 
 ARROW = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 DOWN = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
