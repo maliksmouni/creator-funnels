@@ -1,6 +1,6 @@
 # gocholive: Franklin Ovalles „Gocho“ (El Trading Club)
 
-Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GoHighLevel-Funnels für das „Programa de 0 a Trader“). Stand: 28.09.2026. Status: **draft** (per `_redirects` gesperrt, nicht öffentlich).
+Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GoHighLevel-Funnels für das „Programa de 0 a Trader“). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.netlify.app/gocholive/.
 
 Seiten: `index.html` (Pitch, Englisch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/` (Spanisch über `content.json → ui`). Texte nur in `content.json` ändern, dann `python3 _shared/build.py gocholive`.
 
