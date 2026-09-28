@@ -18,11 +18,11 @@ HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf lie
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
 _shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten
 _shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
-_shared/site.json           öffentliche Basis-URL je Host (für Link-Vorschau-Tags): cloudflare = https://infooperate.pages.dev, netlify = https://infooperate.netlify.app
+_shared/site.json           öffentliche Basis-URL je Host (für Link-Vorschau-Tags): cloudflare = https://creator-funnels.smounimalik.workers.dev, netlify = https://infooperate.netlify.app
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)
 _shared/creator-funnel.css  Funnel-Layout; Farben kommen aus content.json → brand
 assets/fonts/               selbst gehostete OFL-Fonts (Bricolage Grotesque, Inter, JetBrains Mono)
-_shared/publish.py          Cloudflare-Build: kopiert nur öffentliche Dateien live geschalteter Creator nach dist/
+_shared/publish.py          Cloudflare-Build (siehe wrangler.jsonc): kopiert nur öffentliche Dateien live geschalteter Creator nach dist/
 _headers, 404.html          noindex für alle Seiten, 404-Seite (werden mit nach dist/ kopiert)
 _redirects                  Netlify (generiert): sperrt interne Dateien, Entwürfe und alle Cloudflare-Creator
 {slug}/                     ein Ordner pro Creator (siehe Output-Struktur)
@@ -188,7 +188,7 @@ Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Sessio
 Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `publish.py` kopiert dann nichts aus `/{slug}/` nach `dist/` (404). So kann der Stand gepusht werden (der Stop-Hook verlangt Pushes, und nichts geht verloren), ohne öffentlich zu sein. Bei „deploy it“: `status` auf `"live"` setzen, bauen, pushen, live prüfen.
 
 1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
-2. Neue Creator laufen auf Cloudflare Pages; gustavo-zapz und trading-diva bleiben auf Netlify (`host: "netlify"`, Netlify-Setup unverändert: Repo-Root, kein Build-Command, `_redirects`). Cloudflare Pages baut automatisch aus dem verbundenen Repo. Stand: Projekt `https://infooperate.pages.dev` (auch in `_shared/site.json`; bei Umbenennung beides ändern), Production-Branch `claude/add-skill-k8god6`, Build-Command `python3 _shared/publish.py`, Output-Verzeichnis `dist`. Private Dateien werden gar nicht hochgeladen (Allowlist in `publish.py`); neue private Dateien in `PRIVATE_PER_CREATOR` eintragen. Lokal prüfen: `python3 _shared/publish.py` und `npx wrangler pages dev dist`.
+2. Neue Creator laufen auf Cloudflare (Worker mit statischen Assets); gustavo-zapz und trading-diva bleiben auf Netlify (`host: "netlify"`, Netlify-Setup unverändert: Repo-Root, kein Build-Command, `_redirects`). Cloudflare: Worker `creator-funnels` unter `https://creator-funnels.smounimalik.workers.dev` (auch in `_shared/site.json` → cloudflare), Konfiguration in `wrangler.jsonc` (Assets aus `dist/`, 404-Seite), Build-Branch `claude/add-skill-k8god6`, Root-Verzeichnis leer, Build-Command `python3 _shared/publish.py`, Deploy-Command `npx wrangler deploy`. Private Dateien werden gar nicht hochgeladen (Allowlist in `publish.py`); neue private Dateien in `PRIVATE_PER_CREATOR` eintragen. Lokal prüfen: `python3 _shared/publish.py` und `npx wrangler dev`.
 3. Nach dem Push auf den Deploy warten (z. B. bis ein neuer Text live ist) und prüfen:
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
    - `/{slug}/dossier.md`, `/{slug}/content.json`, `/{slug}/offer-deck-filled.md`, `/{slug}/README.md`, `/HOUSE.md`, `/_shared/*`, `/.claude/*` → 404

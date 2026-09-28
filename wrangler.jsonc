@@ -1,0 +1,13 @@
+// Cloudflare Worker (static assets only) for the creators with content.json → host "cloudflare".
+// Build command: python3 _shared/publish.py   Deploy command: npx wrangler deploy
+// Only dist/ is uploaded: publish.py copies an allowlist, so research notes, content.json and READMEs never reach Cloudflare.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "creator-funnels",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

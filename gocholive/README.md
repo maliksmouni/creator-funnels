@@ -1,6 +1,6 @@
 # gocholive: Franklin Ovalles „Gocho“ (El Trading Club)
 
-Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GoHighLevel-Funnels für das „Programa de 0 a Trader“). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.pages.dev/gocholive/ (Umzug von Netlify, Deploy noch nicht geprüft).
+Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GoHighLevel-Funnels für das „Programa de 0 a Trader“). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://creator-funnels.smounimalik.workers.dev/gocholive/ (Cloudflare Worker, Deploy noch nicht geprüft).
 
 Kontakt: franklin@eltradingclub.com (vom Nutzer per Screenshot geliefert, 28.09.2026). Auf eltradingclub.com (/privacy-policy, /terms-conditions) steht nur admin@eltrandingclub.com mit Tippfehler; diese Domain existiert nicht.
 
