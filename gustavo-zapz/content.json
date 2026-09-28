@@ -1,0 +1,405 @@
+{
+  "slug": "gustavo-zapz",
+  "name": "Gustavo Zapz",
+  "brandName": "ZapzTrading",
+  "niche": "Forex, indices and crypto trading education for traders going for funded (prop firm) accounts",
+  "offerName": "ZapzTrading Paid Education Group ($200/mo) → proposed: ZapzWay Funded-Trader Mentorship [CONFIRM]",
+  "image": "assets/gustavo.jpg",
+  "brand": {
+    "_note": "derived from ZapzWay logo, YouTube banner, website CSS [CONFIRM]",
+    "bg": "#0a0b0d",
+    "surface": "#15171c",
+    "line": "#2a2d35",
+    "text": "#f5f3ea",
+    "muted": "#b0ada3",
+    "accent": "#fedf4f",
+    "accent-ink": "#0a0a0a",
+    "signal": "#139cc8"
+  },
+  "headline": "Stop blowing challenges. Get your trades reviewed the Zapz Way.",
+  "subheadline": "Direct mentorship with Gustavo Zapz for traders going for a funded account: your plan, your risk rules and your trades, reviewed every week. Applications only.",
+  "demoBanner": "Demo built for Gustavo Zapz (ZapzTrading). Not his official site.",
+  "pitch": {
+    "eyebrow": "Already built for ZapzTrading",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "ZapzWay funded-trader mentorship",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "One price for everything",
+          "title": "100+ members, 10+ years of experience, and one price: $200 a month.",
+          "text": "Courses, daily breakdowns, live Q&A and group mentorship all sit inside the same monthly plan. A member who wants direct access to you has nothing to upgrade to.",
+          "stats": [
+            {
+              "value": "$200",
+              "label": "per month, the only plan"
+            },
+            {
+              "value": "100+",
+              "label": "active members"
+            },
+            {
+              "value": "8",
+              "label": "courses included"
+            }
+          ]
+        },
+        {
+          "kicker": "The results",
+          "title": "Your students post five- and six-figure wins. Your pricing is a monthly subscription.",
+          "text": "You already publish the proof: student results on your homepage, a social-proof wall, and a podcast episode with a student who got funded. That's the evidence a high-ticket tier is built on.",
+          "stats": [
+            {
+              "value": "3",
+              "label": "student results on your homepage"
+            },
+            {
+              "value": "The Zapz Way",
+              "label": "podcast with student stories"
+            }
+          ]
+        },
+        {
+          "kicker": "The discount loop",
+          "title": "Three of your pages send buyers to your DMs for a discount.",
+          "text": "The homepage, pricing page and results page all say “DM me for a discount”. That pushes your price down and pulls you into DMs. An application with a call works the other way around: people qualify themselves before you spend a minute.",
+          "quote": "“DM Me On Telegram For Instant Discount”",
+          "source": "zapztrading.com"
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“Won't a higher tier hurt the $200 group?” It sits on top of it.",
+          "text": "The group stays as it is. The mentorship is for the members going for a funded account who want someone to check their trades and their rule breaks. You already talk about exactly that: your newest video is about withdrawing, and your podcast features a funded student.",
+          "stats": [
+            {
+              "value": "14",
+              "label": "lesson forex series on YouTube"
+            },
+            {
+              "value": "$45K",
+              "label": "payout-denied short you posted"
+            }
+          ]
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "The funded-trader story, the method, what's inside, and a 6-question application.",
+            "href": "funnel/",
+            "url": "zapztrading.com/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar, a what-to-prepare checklist and the no-DM-payments reminder.",
+            "href": "funnel/thank-you/",
+            "url": "zapztrading.com/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram and podcast audience. No income claims, no signals.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that walk a booked applicant to the call warm, with the objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "ZapzTrading mentorship funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "ZapzWay · Funded-Trader Mentorship",
+      "chips": [
+        "Forex · Indices · Crypto",
+        "Prop firm prep",
+        "Risk & psychology",
+        "Weekly trade reviews"
+      ],
+      "cta": "Apply for the mentorship",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Gustavo's mentorship VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You fail challenges on the rules, not the setups",
+          "body": "One oversized trade, one daily-drawdown breach, and the account is gone. The strategy was fine. The process wasn't."
+        },
+        {
+          "title": "You learn alone",
+          "body": "Courses and videos teach the concepts. Nobody looks at your actual trades and tells you what you keep doing wrong."
+        },
+        {
+          "title": "Passing isn't the finish line",
+          "body": "Getting funded is one step. Keeping the account and getting paid out needs the same discipline, every week."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "The Zapz Way",
+      "body": "No signals and no hype. You build one plan, follow fixed risk rules that match your prop firm's limits, execute it, and every week your trades get reviewed against that plan until the mistakes stop repeating.",
+      "pillars": [
+        {
+          "title": "Plan",
+          "body": "One setup, written down, with clear entry and exit rules."
+        },
+        {
+          "title": "Protect",
+          "body": "Risk rules built around your firm's drawdown limits."
+        },
+        {
+          "title": "Execute",
+          "body": "Trade the plan and log every trade."
+        },
+        {
+          "title": "Review",
+          "body": "Weekly review of your trades with Gustavo."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside",
+      "items": [
+        {
+          "title": "Full ZapzTrading membership",
+          "body": "Everything in the $200 group: all courses, daily breakdowns and the community."
+        },
+        {
+          "title": "Weekly mentorship call",
+          "body": "A small-group live call focused on members going for funded accounts."
+        },
+        {
+          "title": "Weekly trade reviews",
+          "body": "Your trades and journal reviewed against your plan."
+        },
+        {
+          "title": "Prop firm rule check",
+          "body": "Your risk rules set up around your firm's daily and max drawdown."
+        },
+        {
+          "title": "Direct mentorship chat",
+          "body": "A private Telegram chat for mentorship members."
+        },
+        {
+          "title": "Funded-account roadmap",
+          "body": "A step-by-step plan from challenge to first payout."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Students",
+      "items": [
+        "Andy: reports over $100,000 in profits this year (testimonial on zapztrading.com)",
+        "Joey: reports $78,000 (testimonial on zapztrading.com)",
+        "Angel: reports $43,000 (testimonial on zapztrading.com)"
+      ],
+      "note": "Individual results, not typical. Trading involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Gustavo's team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether the mentorship makes sense. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "Under 6 months",
+            "6 months – 2 years",
+            "More than 2 years"
+          ]
+        },
+        {
+          "q": "What are you working toward?",
+          "type": "choice",
+          "options": [
+            "Passing a prop firm challenge",
+            "Keeping a funded account and getting paid out",
+            "Growing my personal account"
+          ]
+        },
+        {
+          "q": "Which markets do you trade?",
+          "type": "multi",
+          "options": [
+            "Forex",
+            "Indices",
+            "Crypto",
+            "Futures"
+          ]
+        },
+        {
+          "q": "What's your biggest problem in trading right now?",
+          "type": "text"
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in a mentorship now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thanks for being honest.",
+        "body": "Right now the mentorship isn't the right next step for you. Start with the free ZapzWay course and the lessons on YouTube, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready for someone to check your trades?",
+      "body": "Apply here. No DMs, no discount codes: just one application.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading involves substantial risk of loss. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call with the ZapzTrading team is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free. We only hold a few mentorship calls each week.\n2. Have your last 20 trades ready: a journal, screenshots or your challenge dashboard all work.\n\nOne note: payments for the mentorship never happen in DMs. Only through the official links from this email address.\n\nTalk soon,\nTeam ZapzTrading"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why most traders fail challenges on the rules",
+      "previewText": "It's rarely the setup",
+      "body": "Hey {{first_name}},\n\nMost failed challenges don't come from a bad setup. They come from one oversized position, one revenge trade, or one daily-drawdown breach.\n\nThat's why the mentorship starts with your rules, not a new strategy: risk per trade, max trades per day, and a stop when the day goes wrong.\n\nOn the call we'll look at where your process breaks today.\n\nTeam ZapzTrading"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I already have the $200 group. Why more?\"",
+      "previewText": "Fair question. Here's the difference.",
+      "body": "Hey {{first_name}},\n\nIf you're in the ZapzTrading group, you already have the courses and the daily breakdowns. That doesn't change.\n\nWhat the group can't do is look at your trades one by one and tell you which mistake you keep repeating. That's what the mentorship is for.\n\nIf you can fix that on your own, you don't need it, and we'll tell you so on the call.\n\nTeam ZapzTrading"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What the call is (and isn't)",
+      "previewText": "No signals, no promises, just a straight conversation",
+      "body": "Hey {{first_name}},\n\nSo you know what to expect:\n\n- The call takes about 30 minutes.\n- We'll ask about your experience, your goal (challenge, funded account or personal account) and your risk rules.\n- If the mentorship fits, we'll explain what's included and the investment.\n- If it doesn't, we'll tell you and point you to the free resources.\n\nWhat the call isn't: no signals, no trade calls, no promises of profits. Trading involves substantial risk.\n\nTeam ZapzTrading"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your ZapzTrading call",
+      "previewText": "Quick checklist for tomorrow",
+      "body": "Hey {{first_name}},\n\nReminder: your call is tomorrow at {{call_time}}.\n\nQuick checklist:\n- A quiet place and a stable connection\n- Your last 20 trades\n- Your prop firm's rules (daily and max drawdown), if you're in a challenge\n\nNeed to reschedule? {{reschedule_link}}\n\nTeam ZapzTrading"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today at {{call_time}}",
+      "previewText": "Your link is inside",
+      "body": "Hey {{first_name}},\n\nToday's the day. Your call is at {{call_time}}.\n\nJoin here: {{meeting_link}}\n\nSee you there,\nTeam ZapzTrading"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Rules, not setups (prop firm traders)",
+      "hook": "You didn't fail that challenge because of your strategy.",
+      "script": "[Gustavo on camera, charts behind]\nYou didn't fail that challenge because of your strategy.\nYou failed it on one oversized trade. Or one revenge trade after a loss.\nThat's a rules problem, and rules can be trained.\nIn the ZapzWay mentorship we set your risk rules around your firm's limits and review your trades every week.\nIt's application only. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Group members → next step",
+      "hook": "The group teaches you the concepts. This is for when you want your trades checked.",
+      "script": "[Gustavo, direct to camera]\nIf you're in the ZapzTrading group, you've got the courses and the daily breakdowns.\nBut nobody's looking at your trades one by one.\nThat's what the mentorship is: weekly reviews of your actual trades, with me.\nApply below. If it's not a fit, I'll tell you.\n[On-screen: Educational content only. Not financial advice.]"
+    },
+    {
+      "angle": "Payout, not just passing (podcast audience)",
+      "hook": "Getting funded is step one. Getting paid out is the real test.",
+      "script": "[Clip from The Zapz Way podcast, then Gustavo on camera]\nGetting funded is step one.\nKeeping the account and getting paid out takes the same discipline every single week.\nThat's what we work on in the mentorship: your plan, your risk and your reviews.\nApply with the link below.\n[On-screen: Individual results vary. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "No signals (anti-hype)",
+      "hook": "No signals. No hype. Just someone checking your trades.",
+      "script": "[Screen recording: a trade journal]\nNo signals. No hype. No rented lifestyle.\nJust your trades, reviewed against your plan, every week.\nThat's the ZapzWay mentorship.\nApplications are reviewed personally. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "7H6qvSE4jqA",
+    "title": "Why Your Trading Strategy Doesn't Matter (If You Can't Withdraw)"
+  }
+}

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ZapzTrading</title>
+<style>/* Pitch master design (HOUSE.md → Design-Master). Identical for every creator.
+   Warm paper canvas, grotesk display, mono labels, bronze accent. */
+@font-face{font-family:"Bricolage Grotesque";src:url("/assets/fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2");font-weight:200 800;font-display:swap}
+@font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"JetBrains Mono";src:url("/assets/fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2");font-weight:100 800;font-display:swap}
+
+:root{
+  --bg:#f5f2ec;--bg-2:#ece7dd;--surface:#fff;--surface-2:#faf8f4;
+  --line:rgba(27,25,23,.12);--line-soft:rgba(27,25,23,.07);
+  --text:#1b1917;--text-2:#5f5850;
+  --accent:#7c5a16;--accent-deep:#5e430e;--accent-ink:#fbf8f1;--accent-soft:rgba(124,90,22,.10);
+  --font:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  --display:"Bricolage Grotesque","Inter",-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --container:1120px;--gutter:clamp(16px,5vw,32px);--section-y:clamp(72px,11vh,128px);--radius:18px;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box}
+html{background:var(--bg);-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;color:var(--text);font:17px/1.5 var(--font);letter-spacing:-.01em;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background:
+    radial-gradient(60% 40% at 100% 0%,rgba(124,90,22,.10),transparent 60%),
+    radial-gradient(50% 40% at 0% 100%,rgba(124,90,22,.06),transparent 60%),
+    repeating-linear-gradient(115deg,rgba(27,25,23,.018) 0 1px,transparent 1px 9px),
+    linear-gradient(115deg,var(--bg),var(--bg-2));background-attachment:fixed}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--accent);color:var(--accent-ink)}
+.container{max-width:var(--container);margin-inline:auto;padding-inline:var(--gutter)}
+.section{padding-block:var(--section-y)}
+
+/* type */
+.eyebrow{margin:0 0 18px;font:500 .74rem/1.4 var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--accent)}
+.display{font-family:var(--display);font-weight:700;letter-spacing:-.035em;line-height:1.02;margin:0;text-wrap:balance}
+.h-xl{font-size:clamp(2rem,4.6vw,3.3rem)}
+.h-lg{font-size:clamp(2rem,4.4vw,3.2rem)}
+.mark{color:var(--accent);text-decoration:underline;text-decoration-thickness:.07em;text-underline-offset:.12em}
+.muted{color:var(--text-2)}
+.flag{font:500 .72em/1 var(--mono);letter-spacing:.02em;color:var(--accent-deep);background:var(--accent-soft);border:1px dashed rgba(124,90,22,.35);border-radius:6px;padding:.25em .45em;overflow-wrap:anywhere;-webkit-box-decoration-break:clone;box-decoration-break:clone;vertical-align:.1em}
+
+/* top bar */
+.topbar{position:absolute;top:0;left:0;right:0;padding:26px var(--gutter)}
+.topbar span{font:500 .72rem var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--text-2)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:14px 26px;font:600 1rem var(--font);transition:transform .3s var(--ease),background .3s,border-color .3s;cursor:pointer}
+.btn--primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 10px 30px -10px rgba(94,67,14,.55)}
+.btn--primary:hover{background:var(--accent-deep);transform:translateY(-1px)}
+.btn--ghost{border:1px solid var(--line);background:rgba(255,255,255,.35);color:var(--text)}
+.btn--ghost:hover{border-color:var(--accent);color:var(--accent)}
+.btn svg{width:14px;height:14px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+
+/* hero */
+.hero{padding:clamp(110px,16vh,150px) 0 clamp(56px,8vh,80px);text-align:center}
+.hero .display{max-width:28ch;margin-inline:auto}
+.hero__sub{max-width:58ch;margin:22px auto 0;color:var(--text-2);font-size:1.08rem;text-wrap:balance}
+.vsl{position:relative;margin:clamp(36px,6vh,52px) auto 0;max-width:780px;aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;
+  background:radial-gradient(60% 60% at 50% 50%,rgba(124,90,22,.28),transparent 70%),#0d0b08;box-shadow:0 40px 80px -40px rgba(27,25,23,.55),0 2px 0 rgba(255,255,255,.04) inset;display:grid;place-items:center}
+.vsl__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vsl:has(.vsl__img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.45))}
+.vsl__play,.vsl__note{position:relative;z-index:1}
+.vsl__play{width:84px;height:84px;border-radius:50%;background:var(--accent);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(124,90,22,.18)}
+.vsl__play svg{width:26px;height:26px;margin-left:4px;fill:var(--accent-ink)}
+.vsl__note{position:absolute;left:0;right:0;bottom:18px;color:rgba(251,248,241,.7);font:500 .72rem var(--mono);letter-spacing:.08em}
+.vsl__note .flag{color:#f0dcb0;background:rgba(124,90,22,.25);border-color:rgba(240,220,176,.35)}
+.hero__actions{margin-top:36px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+
+/* bridge: numbered beats */
+.bridge__head{text-align:center;margin-bottom:clamp(48px,8vh,88px)}
+.beats{display:grid;gap:clamp(20px,3vw,28px)}
+.beat{display:grid;grid-template-columns:72px 1fr minmax(240px,320px);gap:clamp(18px,3vw,40px);background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius);padding:clamp(22px,3.4vw,40px);box-shadow:0 30px 60px -45px rgba(27,25,23,.35)}
+.beat__idx{font:500 .9rem var(--mono);color:var(--accent);letter-spacing:.1em}
+.beat__kicker{margin:0 0 10px;font:500 .72rem var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--text-2)}
+.beat__title{margin:0 0 12px;font:650 clamp(1.3rem,2.2vw,1.65rem)/1.18 var(--display);letter-spacing:-.025em;text-wrap:balance}
+.beat__text{margin:0;color:var(--text-2)}
+.aside{border-left:1px solid var(--line);padding-left:clamp(16px,2vw,24px);align-self:center}
+.aside__stat{padding:10px 0;border-bottom:1px solid var(--line-soft)}
+.aside__stat:last-of-type{border-bottom:0}
+.aside__stat strong{display:block;font:700 1.45rem/1.1 var(--display);letter-spacing:-.02em}
+.aside__stat span{font-size:.88rem;color:var(--text-2)}
+.aside__src{margin:10px 0 0;font:500 .66rem/1.5 var(--mono);letter-spacing:.06em;color:var(--text-2);text-transform:uppercase}
+.aside blockquote{margin:0;font:500 1rem/1.5 var(--font);color:var(--text)}
+.bridge__close{text-align:center;padding-top:clamp(44px,7vh,72px);display:grid;gap:24px;justify-items:center}
+.bridge__closing{margin:0;max-width:46ch;font:600 clamp(1.15rem,1.9vw,1.45rem)/1.35 var(--display);letter-spacing:-.015em;text-wrap:balance}
+
+/* deliverables */
+.deliv__head{text-align:center;margin-bottom:clamp(40px,6vh,64px)}
+.group{margin-top:clamp(56px,8vh,88px)}
+.group__head{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:22px;max-width:620px;margin:0 auto 34px;text-align:center}
+.group__head::before,.group__head::after{content:"";height:1px;background:var(--line)}
+.group__label{font:600 1.05rem var(--display);letter-spacing:-.01em}
+.group__count{display:block;margin-top:6px;font:500 .72rem var(--mono);letter-spacing:.2em;color:var(--text-2)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:880px;margin-inline:auto}
+.cards--wide{grid-template-columns:1fr;max-width:428px}
+.pcard{display:flex;flex-direction:column;background:var(--surface);border-radius:var(--radius);padding:12px 12px 22px;box-shadow:0 30px 60px -40px rgba(27,25,23,.4);border:1px solid var(--line-soft);transition:transform .5s var(--ease),box-shadow .5s var(--ease)}
+.pcard:hover{transform:translateY(-4px);box-shadow:0 40px 70px -40px rgba(27,25,23,.5)}
+.thumb{min-width:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0d0b08}
+.thumb__bar{display:flex;align-items:center;gap:6px;padding:8px 10px;background:var(--surface-2);border-bottom:1px solid var(--line)}
+.thumb__bar i{width:9px;height:9px;border-radius:50%;background:#ed6a5e}.thumb__bar i:nth-child(2){background:#f5bf4f}.thumb__bar i:nth-child(3){background:#61c554}
+.thumb__url{margin-left:8px;flex:1;min-width:0;background:rgba(27,25,23,.05);border-radius:6px;padding:3px 10px;font:500 .66rem var(--mono);color:var(--text-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.thumb img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.pcard__body{padding:18px 8px 0;display:flex;flex-direction:column;gap:6px;flex:1}
+.pcard__kicker{font:500 .7rem var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+.pcard__title{font:600 1.3rem/1.2 var(--display);letter-spacing:-.02em}
+.pcard__desc{color:var(--text-2);font-size:.97rem}
+.pcard__link{margin-top:auto;padding-top:12px;display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--accent)}
+.pcard__link svg{width:12px;height:12px;transition:transform .3s var(--ease)}
+.pcard:hover .pcard__link svg{transform:translateX(3px)}
+
+/* case studies */
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:960px;margin:40px auto 0}
+.case{background:var(--surface);border-radius:var(--radius);padding:28px 26px;text-align:center;border:1px solid var(--line-soft);box-shadow:0 30px 60px -45px rgba(27,25,23,.35)}
+.case--empty{background:transparent;border:1.5px dashed var(--line);box-shadow:none;color:var(--text-2)}
+.case__metric{font:500 .72rem var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+.case__name{margin:10px 0 8px;font:600 1.15rem var(--display)}
+.case__text{margin:0;color:var(--text-2)}
+.cases__note{text-align:center;margin-top:20px;font-size:.85rem;color:var(--text-2)}
+
+/* cta */
+.cta{text-align:center}
+.cta__sub{max-width:52ch;margin:18px auto 0;color:var(--text-2);text-wrap:balance}
+.cal{max-width:900px;margin:40px auto 0;background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 50px 90px -50px rgba(27,25,23,.5)}
+.cal .calendly-inline-widget{min-width:280px;height:700px}
+.cal__fallback{margin-top:16px;font-size:.9rem}
+.cal__fallback a{color:var(--accent);font-weight:600}
+
+/* sticky + footer */
+.sticky{position:fixed;right:clamp(16px,2.4vw,28px);bottom:clamp(16px,2.4vw,28px);z-index:20;display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-weight:600;box-shadow:0 18px 40px -14px rgba(94,67,14,.7);transition:transform .3s var(--ease)}
+.sticky:hover{transform:translateY(-2px);background:var(--accent-deep)}
+.sticky::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent-ink);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.footer{padding:34px 0;text-align:center;border-top:1px solid var(--line-soft);background:rgba(236,231,221,.6)}
+.footer span{font:500 .72rem var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--text-2)}
+
+/* reveal (progressive: content visible without JS) */
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.sticky::before{animation:none}}
+
+@media (max-width:860px){
+  .beat{grid-template-columns:1fr;gap:14px}
+  .aside{border-left:0;border-top:1px solid var(--line);padding:14px 0 0}
+  .sticky{padding:12px 18px}
+}
+</style>
+<script>
+document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',()=>{const els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+els.forEach(e=>io.observe(e))});
+</script>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://infooperate.netlify.app/gustavo-zapz/">
+<meta property="og:title" content="Built for ZapzTrading">
+<meta property="og:description" content="I built the call funnel for your ZapzWay funded-trader mentorship.">
+<meta property="og:image" content="https://infooperate.netlify.app/gustavo-zapz/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Built for ZapzTrading">
+<meta name="twitter:description" content="I built the call funnel for your ZapzWay funded-trader mentorship.">
+<meta name="twitter:image" content="https://infooperate.netlify.app/gustavo-zapz/assets/og.jpg">
+<meta name="description" content="I built the call funnel for your ZapzWay funded-trader mentorship.">
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</head>
+<body>
+
+<header class="topbar"><span>ZapzTrading</span></header>
+<main>
+<section class="hero"><div class="container">
+  <p class="eyebrow reveal">Already built for ZapzTrading</p>
+  <h1 class="display h-xl reveal">I built the call funnel for your <span class="mark">ZapzWay funded-trader mentorship</span>.</h1>
+  <div class="vsl reveal" role="img" aria-label="Video walkthrough placeholder"><img class="vsl__img" src="assets/video-thumb.jpg" alt="" width="1280" height="720"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div></div>
+</div></section>
+
+<section class="section" id="bridge"><div class="container">
+  <div class="bridge__head"><h2 class="display h-lg reveal">Four things I noticed</h2></div>
+  <div class="beats"><article class="beat reveal">
+  <span class="beat__idx">01</span>
+  <div><p class="beat__kicker">One price for everything</p><h3 class="beat__title">100+ members, 10+ years of experience, and one price: $200 a month.</h3><p class="beat__text">Courses, daily breakdowns, live Q&amp;A and group mentorship all sit inside the same monthly plan. A member who wants direct access to you has nothing to upgrade to.</p></div>
+  <aside class="aside"><div class="aside__stat"><strong>$200</strong><span>per month, the only plan</span></div><div class="aside__stat"><strong>100+</strong><span>active members</span></div><div class="aside__stat"><strong>8</strong><span>courses included</span></div></aside>
+</article><article class="beat reveal">
+  <span class="beat__idx">02</span>
+  <div><p class="beat__kicker">The results</p><h3 class="beat__title">Your students post five- and six-figure wins. Your pricing is a monthly subscription.</h3><p class="beat__text">You already publish the proof: student results on your homepage, a social-proof wall, and a podcast episode with a student who got funded. That&#x27;s the evidence a high-ticket tier is built on.</p></div>
+  <aside class="aside"><div class="aside__stat"><strong>3</strong><span>student results on your homepage</span></div><div class="aside__stat"><strong>The Zapz Way</strong><span>podcast with student stories</span></div></aside>
+</article><article class="beat reveal">
+  <span class="beat__idx">03</span>
+  <div><p class="beat__kicker">The discount loop</p><h3 class="beat__title">Three of your pages send buyers to your DMs for a discount.</h3><p class="beat__text">The homepage, pricing page and results page all say “DM me for a discount”. That pushes your price down and pulls you into DMs. An application with a call works the other way around: people qualify themselves before you spend a minute.</p></div>
+  <aside class="aside"><blockquote>“DM Me On Telegram For Instant Discount”</blockquote><p class="aside__src">zapztrading.com</p></aside>
+</article><article class="beat reveal">
+  <span class="beat__idx">04</span>
+  <div><p class="beat__kicker">The objection you&#x27;re already forming</p><h3 class="beat__title">“Won&#x27;t a higher tier hurt the $200 group?” It sits on top of it.</h3><p class="beat__text">The group stays as it is. The mentorship is for the members going for a funded account who want someone to check their trades and their rule breaks. You already talk about exactly that: your newest video is about withdrawing, and your podcast features a funded student.</p></div>
+  <aside class="aside"><div class="aside__stat"><strong>14</strong><span>lesson forex series on YouTube</span></div><div class="aside__stat"><strong>$45K</strong><span>payout-denied short you posted</span></div></aside>
+</article></div>
+  <div class="bridge__close reveal"><p class="bridge__closing">So instead of explaining it, I built it. The page, the application, the emails and the ads, all below.</p></div>
+</div></section>
+
+<section class="section" id="deliverables"><div class="container">
+  <div class="deliv__head"><h2 class="display h-lg reveal">Here are the sample deliverables:</h2></div>
+  <div class="group"><div class="group__head reveal"><div><span class="group__label">The funnel</span><span class="group__count">02</span></div></div>
+<div class="cards"><a class="pcard reveal" href="funnel/">
+  <div class="thumb"><div class="thumb__bar"><i></i><i></i><i></i><span class="thumb__url">zapztrading.com/mentorship</span></div><img src="assets/previews/funnel.jpg" alt="" loading="lazy" width="1280" height="800"></div>
+  <div class="pcard__body"><span class="pcard__kicker">01 · Application</span><span class="pcard__title">Mentorship page</span><span class="pcard__desc">The funded-trader story, the method, what&#x27;s inside, and a 6-question application.</span><span class="pcard__link">Open preview <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+</a><a class="pcard reveal" href="funnel/thank-you/">
+  <div class="thumb"><div class="thumb__bar"><i></i><i></i><i></i><span class="thumb__url">zapztrading.com/mentorship/booked</span></div><img src="assets/previews/thank-you.jpg" alt="" loading="lazy" width="1280" height="800"></div>
+  <div class="pcard__body"><span class="pcard__kicker">02 · Booked</span><span class="pcard__title">Booking + thank-you</span><span class="pcard__desc">Calendar, a what-to-prepare checklist and the no-DM-payments reminder.</span><span class="pcard__link">Open preview <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+</a></div></div><div class="group"><div class="group__head reveal"><div><span class="group__label">Ad creatives</span><span class="group__count">01</span></div></div>
+<div class="cards cards--wide"><a class="pcard reveal" href="ads/">
+  <div class="thumb"><div class="thumb__bar"><i></i><i></i><i></i><span class="thumb__url">scripts · 4 angles</span></div><img src="assets/previews/ads.jpg" alt="" loading="lazy" width="1280" height="800"></div>
+  <div class="pcard__body"><span class="pcard__kicker">4 angles · video</span><span class="pcard__title">Ad creative scripts</span><span class="pcard__desc">For your Instagram and podcast audience. No income claims, no signals.</span><span class="pcard__link">Open preview <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+</a></div></div><div class="group"><div class="group__head reveal"><div><span class="group__label">Email sequence</span><span class="group__count">01</span></div></div>
+<div class="cards cards--wide"><a class="pcard reveal" href="emails/">
+  <div class="thumb"><div class="thumb__bar"><i></i><i></i><i></i><span class="thumb__url">sequence · 6 emails</span></div><img src="assets/previews/emails.jpg" alt="" loading="lazy" width="1280" height="800"></div>
+  <div class="pcard__body"><span class="pcard__kicker">6 emails · booked to call</span><span class="pcard__title">Pre-call sequence</span><span class="pcard__desc">Six emails that walk a booked applicant to the call warm, with the objections already answered.</span><span class="pcard__link">Open preview <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+</a></div></div>
+</div></section>
+
+<section class="section"><div class="container">
+  <h2 class="display h-lg reveal" style="text-align:center">Case studies</h2>
+  <div class="cases"><div class="case case--empty reveal"><span class="flag">{{SWAP}} Case study 1 from HOUSE.md</span></div><div class="case case--empty reveal"><span class="flag">{{SWAP}} Case study 2 from HOUSE.md</span></div></div>
+</div></section>
+
+<section class="section cta" id="cta"><div class="container">
+  <h2 class="display h-lg reveal">Book a call</h2>
+  <div class="cal reveal"><div class="calendly-inline-widget" data-url="https://calendly.com/maliksmouni/30min?hide_gdpr_banner=1&amp;background_color=ffffff&amp;primary_color=7c5a16"></div></div>
+</div></section>
+</main>
+<a class="sticky" href="#cta">Book a call</a>
+<footer class="footer"><span>ZapzTrading mentorship funnel</span></footer>
+
+</body>
+</html>

@@ -9,7 +9,7 @@ description: Baut aus einem Creator-Link (Instagram o. ä.) einen individuellen 
 
 Baut aus einem Creator-Link (plus optional Name und Angebotsname) einen individuellen Creator-Funnel: eine Pitch-Seite an den Creator plus ein fertig gebauter Funnel in seiner Optik, Pre-Call-Sequenz und Ad-Scripts. Alles basiert auf echter Recherche statt erfundener Inhalte. Layout und Struktur bleiben über alle Creator hinweg identisch; nur `content.json` ändert sich.
 
-Referenz-Umsetzung: `trading-diva/` (Simran Nigam, Call-Funnel für Mentoring).
+Referenz-Umsetzungen: `trading-diva/` (Simran Nigam, Mentoring über einem Recorded Course) und `gustavo-zapz/` (Gustavo Zapz, Mentoring über einer $200/Monat-Community).
 
 ## Repo-Aufbau (fest)
 
@@ -45,6 +45,9 @@ Nur öffentlich zugängliche Informationen. Braucht Netzwerkzugriff (Environment
 | Quelle | Zugriff | Was holen |
 |---|---|---|
 | Instagram | `curl -H "x-ig-app-id: 936619743392459" "https://i.instagram.com/api/v1/users/web_profile_info/?username=HANDLE"` (die normale Profilseite leitet zum Login um) | full_name, biography, bio_links, Follower, Posts, letzte 12 Posts mit Views/Likes/Kommentaren/Captions, Profilbild |
+| Instagram (Fallback) | Bei 401 „Please wait a few minutes“: **eine** Anfrage an `https://www.instagram.com/api/v1/users/web_profile_info/?username=HANDLE` mit Desktop-User-Agent + `x-ig-app-id` + `Referer`. Antwort sofort in eine eigene Datei speichern, nie mit einem Folgeversuch überschreiben. Kein Dauer-Retry. Sonst: Follower per Websuche (als `[CONFIRM]`) und den Nutzer nach den Bio-Links oder einem Screenshot fragen | wie oben |
+| Eigene Website (aus Link-in-Bio) | curl, Text aus HTML ziehen; Unterseiten `/join`, `/pay`, `/pricing`, `/student-results`, `/faqs` prüfen; Plattform aus dem Quelltext (ClickFunnels, Kajabi, Stan, Skool …) | Angebot, Preis, Mitgliederzahl, Rabatt-/DM-Hinweise, veröffentlichte Schülerergebnisse |
+| Podcast | `https://open.spotify.com/oembed?url=SHOW_URL` und `/embed/show/ID` (`__NEXT_DATA__`) | Showname, aktuelle Folge |
 | YouTube | `curl -b "CONSENT=YES+1" https://www.youtube.com/@HANDLE/about` bzw. `/videos` und `/streams`, `ytInitialData` parsen (`lockupViewModel`) | Abonnenten, Videoanzahl, Gesamt-Views, Beitrittsdatum, Land, Beschreibung, letzte 10 Uploads, Livestreams, Avatar/Banner |
 | Telegram | `https://t.me/KANAL` (Abonnenten, Beschreibung) und `https://t.me/s/KANAL` (letzte Posts mit Views) | Angebotslinks, VIP-/Paid-Hinweise, DM-Handles |
 | Website / Checkout | curl; hinter JS/Bot-Check → Wert als `[CONFIRM]` markieren | Preis, Programm, Checkout-Plattform |
@@ -150,7 +153,8 @@ Zwei getrennte Design-Systeme, nie mischen:
 - Fehlendes Beweismaterial: `{{SWAP}}`, keine fiktiven Inhalte.
 - Jede Zahl im Output muss auf eine konkrete Quelle aus Phase 1 zurückführbar sein. Die Quellen stehen im `dossier.md`, nicht auf der Pitch-Seite (Ausnahme: Herkunft eines wörtlichen Zitats).
 - Reale Aussagen nur sinngemäß referenzieren. Wörtlich zitieren nur öffentliche Aussagen des Creators selbst, mit Quelle.
-- Finanz-, Trading- und Gesundheitsnischen: keine Rendite- oder Ergebnisversprechen, keine Trade-Calls, Risikohinweis in jedem Ad und im Funnel-Footer. Regulatorik des Landes (z. B. SEBI in Indien) als `[CONFIRM]` für eine Rechtsprüfung aufnehmen.
+- Finanz-, Trading- und Gesundheitsnischen: keine Rendite- oder Ergebnisversprechen, keine Trade-Calls, Risikohinweis in jedem Ad und im Funnel-Footer. Regulatorik des Landes (z. B. SEBI in Indien, FTC/CFTC in den USA) als `[CONFIRM]` für eine Rechtsprüfung aufnehmen.
+- Schülerergebnisse, die der Creator selbst veröffentlicht: im Funnel nur sinngemäß, mit Quelle („testimonial on {site}“) und dem Hinweis „Individual results, not typical“. In Ads keine Einkommenszahlen.
 - Der Funnel in Creator-Optik ist ein Demo, bevor der Creator zustimmt. Deshalb trägt jede Funnel-Seite den `demoBanner` („Demo built for {Name}. Not their official site.“), damit er öffentlich nicht als offizielle Seite des Creators durchgeht.
 
 ### Phase 5: Bauen
