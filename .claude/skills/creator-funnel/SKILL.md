@@ -1,6 +1,6 @@
 ---
 name: creator-funnel
-description: Baut aus einem Creator-Link (Instagram o. ä.) einen individuellen Creator-Funnel (Pitch-Seite, Call- oder Webinar-Funnel, Pre-Call-E-Mails, Ad-Scripts) auf Basis echter öffentlicher Recherche und deployed ihn über Netlify. Nutzen, wenn ein neuer Funnel/Pitch für einen Creator erstellt werden soll, bei Änderungen an einem bestehenden Creator-Ordner oder bei "deploy it".
+description: Baut aus einem Creator-Link (Instagram o. ä.) einen individuellen Creator-Funnel (Pitch-Seite, Call- oder Webinar-Funnel, Pre-Call-E-Mails, Ad-Scripts) auf Basis echter öffentlicher Recherche und deployed ihn über Cloudflare Pages. Nutzen, wenn ein neuer Funnel/Pitch für einen Creator erstellt werden soll, bei Änderungen an einem bestehenden Creator-Ordner oder bei "deploy it".
 ---
 
 # Creator Funnel Skill
@@ -18,11 +18,13 @@ HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf lie
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
 _shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten
 _shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
-_shared/site.json           öffentliche Basis-URL (für Link-Vorschau-Tags), aktuell https://infooperate.netlify.app
+_shared/site.json           öffentliche Basis-URL (für Link-Vorschau-Tags), aktuell https://infooperate.pages.dev
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)
 _shared/creator-funnel.css  Funnel-Layout; Farben kommen aus content.json → brand
 assets/fonts/               selbst gehostete OFL-Fonts (Bricolage Grotesque, Inter, JetBrains Mono)
-_redirects, _headers, 404.html   Netlify: interne Dateien → 404, noindex (generiert bzw. fest)
+_shared/publish.py          Cloudflare-Build: kopiert nur öffentliche Dateien live geschalteter Creator nach dist/
+_headers, 404.html          noindex für alle Seiten, 404-Seite (werden mit nach dist/ kopiert)
+_redirects                  Altlast von Netlify (wird nicht deployed)
 {slug}/                     ein Ordner pro Creator (siehe Output-Struktur)
 ```
 
@@ -105,7 +107,7 @@ sections:                                 ← Funnel des Creators (seine Marke)
                   notFit { title, body } }
                   disqualify = Antworten, die zum „Not a fit“-Hinweis führen statt zur Buchung
                   (Standard: „trade only money you can afford to lose“ = No, „ready to invest“ = No).
-                  Das Formular speichert in der Demo nichts. Ein echtes Formular-Tool (z. B. Netlify Forms
+                  Das Formular speichert in der Demo nichts. Ein echtes Formular-Tool (z. B. Tally
                   oder Typeform) erst anschließen, wenn der Creator zugestimmt hat: sonst sammelt die Demo
                   echte Kontaktdaten unter seinem Namen. Kein „[CONFIRM] form tool“-Hinweis auf der Seite.
   finalCta { title, body, cta, disclaimer }
@@ -165,7 +167,7 @@ python3 _shared/build.py {slug}          # schreibt index.html, funnel/, funnel/
 python3 -m http.server 8788 --bind 127.0.0.1 &   # vom Repo-Root aus (Fonts liegen unter /assets)
 node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg + Link-Vorschau-Karte {slug}/assets/og.jpg
 ```
-`thumbs.mjs` braucht Playwright: `PW=/pfad/zu/node_modules/playwright/index.mjs` und `CHROME=/opt/pw-browsers/chromium-*/chrome-linux/chrome` setzen, falls nicht auflösbar. Playwright nie in ein `package.json` im Repo aufnehmen (Netlify würde es installieren).
+`thumbs.mjs` braucht Playwright: `PW=/pfad/zu/node_modules/playwright/index.mjs` und `CHROME=/opt/pw-browsers/chromium-*/chrome-linux/chrome` setzen, falls nicht auflösbar. Playwright nie in ein `package.json` im Repo aufnehmen (Cloudflare würde es installieren).
 
 ### Phase 6: QA vor der Vorschau
 
@@ -183,17 +185,17 @@ Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Sessio
 
 ### Phase 8: Deploy (nur auf „deploy it“)
 
-Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `build.py` sperrt dann `/{slug}/*` per `_redirects` (404). So kann der Stand gepusht werden (der Stop-Hook verlangt Pushes, und nichts geht verloren), ohne öffentlich zu sein. Bei „deploy it“: `status` auf `"live"` setzen, bauen, pushen, live prüfen.
+Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `publish.py` kopiert dann nichts aus `/{slug}/` nach `dist/` (404). So kann der Stand gepusht werden (der Stop-Hook verlangt Pushes, und nichts geht verloren), ohne öffentlich zu sein. Bei „deploy it“: `status` auf `"live"` setzen, bauen, pushen, live prüfen.
 
 1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
-2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://infooperate.netlify.app` (auch in `_shared/site.json`; bei Umbenennung beides ändern), Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.
+2. Cloudflare Pages baut automatisch aus dem verbundenen Repo. Stand: Projekt `https://infooperate.pages.dev` (auch in `_shared/site.json`; bei Umbenennung beides ändern), Production-Branch `claude/add-skill-k8god6`, Build-Command `python3 _shared/publish.py`, Output-Verzeichnis `dist`. Private Dateien werden gar nicht hochgeladen (Allowlist in `publish.py`); neue private Dateien in `PRIVATE_PER_CREATOR` eintragen. Lokal prüfen: `python3 _shared/publish.py` und `npx wrangler pages dev dist`.
 3. Nach dem Push auf den Deploy warten (z. B. bis ein neuer Text live ist) und prüfen:
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
    - `/{slug}/dossier.md`, `/{slug}/content.json`, `/{slug}/offer-deck-filled.md`, `/{slug}/README.md`, `/HOUSE.md`, `/_shared/*`, `/.claude/*` → 404
    - Header `x-robots-tag: noindex`
 4. Die Live-Links an den Nutzer geben.
 
-Hinweis: Das GitHub-Repo ist öffentlich. Dossier und Notizen sind dort sichtbar, auch wenn Netlify sie nicht ausliefert. Den Nutzer darauf hinweisen, solange das so ist.
+Hinweis: Das GitHub-Repo ist öffentlich. Dossier und Notizen sind dort sichtbar, auch wenn Cloudflare sie nicht ausliefert. Den Nutzer darauf hinweisen, solange das so ist.
 
 ## Output-Struktur pro Creator
 

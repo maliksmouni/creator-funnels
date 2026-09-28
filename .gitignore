@@ -1,2 +1,5 @@
 qa-*.png
 node_modules/
+dist/
+__pycache__/
+.wrangler/
