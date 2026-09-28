@@ -1,4 +1,4 @@
-// Cloudflare Worker (static assets only) for the creators with content.json → host "cloudflare".
+// Legacy Cloudflare Worker (creator-funnels.smounimalik.workers.dev): kept only so the link already emailed to gocholive keeps working. Main host is Cloudflare Pages (infooperate.pages.dev).
 // Deploy command: npx wrangler deploy (it runs build.command first, so no separate build command is needed)
 // Only dist/ is uploaded: publish.py copies an allowlist, so research notes, content.json and READMEs never reach Cloudflare.
 {
