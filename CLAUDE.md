@@ -4,13 +4,20 @@ Repo für Creator-Funnels. Ablauf und Regeln stehen im Skill `.claude/skills/cre
 
 ## Outreach-E-Mail nach dem Livegang
 
-After every funnel is live and verified, send the email via Gmail to the creator's email address using the email template below. Replace {Name} with the creator's first name, {Nische} with their niche in one or two words, and {Link} with the pitch page URL. If you don't have their email address, create a Gmail draft instead and tell me.
+After every funnel is live and verified, create a Gmail **draft** (never send it) to the creator's email address using the email template below. Replace {Name} with the creator's first name and {Nische} with their niche in one or two words. Put the placeholder line `>>> PASTE LINK HERE <<<` where {Link} goes. The user pastes the link and sends the draft themselves.
 
+- Why no sending and no link in the draft: the Gmail connector rewrites every URL (plain text, HTML, bare domains, drafts) to an unsigned `https://www.google.com/url?q=…` link, and clicking it shows Google's "Redirect notice" warning page instead of the funnel (tested 28.09.2026). A link pasted by hand in Gmail works normally.
+- At the very end of the reply for each finished funnel, show the pitch link on its own line in a code block for easy copy and paste, e.g.
+
+  ```
+  https://infooperate.pages.dev/{slug}/
+  ```
+
+  and say that the draft is waiting in Gmail → Drafts.
 - "Live and verified" means: Phase 8 of the skill passed (all pages 200 on the live site, private files 404).
-- {Link} is the pitch page, e.g. `https://infooperate.pages.dev/{slug}/`, not the funnel. No workers.dev address, no tracking link.
-- The Gmail connector rewrites every URL in a plain-text body (and in drafts) to `https://www.google.com/url?q=…`, and that is what the creator then sees. So always send with `htmlBody` (same text in `body` as fallback) and write the link as `<a href="https://infooperate.pages.dev/{slug}/">https://infooperate.pages.dev/{slug}/</a>`: the visible text stays clean, only the hidden href is wrapped (tested 28.09.2026).
-- Use only an email address the creator publishes themselves (bio, website, YouTube "About"). Record where it came from in `{slug}/README.md`.
-- If the Gmail connector isn't available in the session, say so and hand over the finished email text instead.
+- The link is the pitch page `https://infooperate.pages.dev/{slug}/`, not the funnel. No workers.dev address, no tracking link.
+- Use only an email address the creator publishes themselves (bio, website, YouTube "About") or one the user gives. Record where it came from in `{slug}/README.md`.
+- If the Gmail connector isn't available in the session, say so and hand over the finished email text (with the real link) instead.
 
 Template:
 
