@@ -5,6 +5,8 @@
 /CLAUDE.md  /404.html  404!
 /_shared/*  /404.html  404!
 /.claude/*  /404.html  404!
+/functions/*  /404.html  404!
+/wrangler.jsonc  /404.html  404!
 /netlify.toml  /404.html  404!
 /gocholive/dossier.md  /404.html  404!
 /gocholive/offer-deck-filled.md  /404.html  404!
