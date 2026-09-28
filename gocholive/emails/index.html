@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Trading Diva: Booked</title>
-<style>:root{--bg:#0c1016;--surface:#151b23;--line:#262e39;--text:#f2ede4;--muted:#b3aa9c;--accent:#c9a46a;--accent-ink:#14110b;--signal:#3fb67a}
+<title>El Trading Club: Correos antes de la llamada</title>
+<style>:root{--bg:#0a1628;--surface:#0f2140;--line:#243a5e;--text:#f0ead0;--muted:#b5ae99;--accent:#c4aa7a;--accent-ink:#0a1628;--signal:#e8d48a}
 /* Creator funnel layout. Colors come from each creator's content.json → brand.
    Typography stays neutral (Inter) so it never borrows the pitch master's display face. */
 @font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
@@ -124,19 +124,72 @@ els.forEach(e=>io.observe(e))});
 </script>
 </head>
 <body>
-<div class="demo">Demo built for Simran Nigam (Trading Diva). Not her official site.</div>
-<header class="top"><div class="wrap"><span class="logo">Trading <b>Diva</b></span></div></header>
-<main>
-<section class="hero"><div class="wrap narrow">
-  <span class="eyebrow reveal">Application received</span>
-  <h1 class="reveal">Last step: pick your call time.</h1>
-  <p class="lead reveal">If your application is a fit, book a slot below. You&#x27;ll get a confirmation email right away.</p>
-  <div class="vsl reveal" role="img" aria-label="Calendar placeholder"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div><p class="vsl__note">Booking calendar</p></div>
-</div></section>
-<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">Before the call</span><h2 class="reveal">Three things to do now</h2></div>
-  <ol class="steps"><li class="reveal"><span class="n">1</span><div><h3>Check your inbox</h3><p>A confirmation plus a few short emails so the call is useful.</p></div></li><li class="reveal"><span class="n">2</span><div><h3>Prepare your last 10–20 trades</h3><p>Journal, screenshots or a broker statement are all fine.</p></div></li><li class="reveal"><span class="n">3</span><div><h3>Only trust official links</h3><p>We never ask for payment via Telegram DM or WhatsApp.</p></div></li></ol>
-  <p class="note"><a href="../">← Back to the page</a></p>
-</div></section></main>
-<footer><div class="wrap">Educational content only, not investment advice. Trading carries a high risk of loss.</div></footer>
+<div class="demo">Demo built for Franklin Ovalles (El Trading Club). Not their official site. · Demo, no es su sitio oficial.</div>
+<header class="top"><div class="wrap"><span class="logo">El <b>Trading Club</b></span></div></header>
+<main><section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Secuencia de correos · de la reserva a la llamada</span><h1 class="reveal">La secuencia antes de la llamada</h1>
+<p class="lead reveal">6 correos desde la reserva hasta la mañana de la llamada. Campos como <code>{{first_name}}</code> los rellena la herramienta de email.</p><div class="doc"><article class="mail reveal"><div class="mail__head"><span class="mail__type">Correo 1 · Confirmación</span><span class="mail__subj">Tu llamada está agendada: esto es lo que sigue</span><span class="mail__prev">Tu llamada con El Trading Club está confirmada</span></div>
+<div class="mail__body">Hola <code>{{first_name}}</code>,
+
+Tu llamada está confirmada para <code>{{call_time}}</code>. El enlace está en la invitación de tu calendario.
+
+Antes de hablar:
+1. Reserva ese horario. Hacemos pocas llamadas por semana.
+2. Piensa en tu punto de partida: cuánto tiempo llevas en el trading (o si empiezas de cero) y qué has probado.
+
+Una nota importante: nunca pedimos pagos por mensaje directo de Instagram o WhatsApp. Solo a través de los enlaces oficiales que enviamos desde este correo.
+
+Nos vemos pronto,
+Equipo El Trading Club</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Correo 2 · Convicción</span><span class="mail__subj">Por qué operamos en vivo</span><span class="mail__prev">Ver a alguien operar enseña lo que un video no puede</span></div>
+<div class="mail__body">Hola <code>{{first_name}}</code>,
+
+Un curso te enseña los conceptos. Lo que casi nadie te enseña es qué hacer cuando el mercado se mueve en contra y tienes el dedo en el botón.
+
+Por eso el programa tiene una Sala de Trading en vivo durante 3 meses: operas futuros junto a Gocho, ves cómo sigue su plan y cuándo decide no operar.
+
+En la llamada vemos si ese formato encaja contigo.
+
+Equipo El Trading Club</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Correo 3 · Objeciones</span><span class="mail__subj">&quot;Ya vi todo en YouTube. ¿Para qué el programa?&quot;</span><span class="mail__prev">Buena pregunta. Esta es la diferencia.</span></div>
+<div class="mail__body">Hola <code>{{first_name}}</code>,
+
+En YouTube tienes mucho contenido gratuito de Gocho, y está bien empezar por ahí.
+
+Lo que YouTube no hace es darte un sistema completo en orden, clases en vivo cada semana y a alguien que responde tus dudas por WhatsApp y en Skool.
+
+Si puedes avanzar solo con lo gratuito, te lo diremos en la llamada.
+
+Equipo El Trading Club</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Correo 4 · Expectativas</span><span class="mail__subj">Qué es (y qué no es) la llamada</span><span class="mail__prev">Sin señales ni promesas: una conversación honesta</span></div>
+<div class="mail__body">Hola <code>{{first_name}}</code>,
+
+Para que sepas qué esperar:
+
+- La llamada dura unos 30 minutos.
+- Te preguntaremos por tu experiencia, tu objetivo y cuánto tiempo puedes dedicarle.
+- Si el programa encaja, te explicamos qué incluye y la inversión.
+- Si no encaja, te lo decimos y te indicamos los recursos gratuitos.
+
+Lo que no es: no damos señales, no hacemos llamadas de operaciones y no prometemos ganancias. El trading conlleva un riesgo sustancial de pérdida.
+
+Equipo El Trading Club</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Correo 5 · Un día antes</span><span class="mail__subj">Mañana: tu llamada con El Trading Club</span><span class="mail__prev">Checklist rápido para mañana</span></div>
+<div class="mail__body">Hola <code>{{first_name}}</code>,
+
+Recordatorio: tu llamada es mañana a las <code>{{call_time}}</code>.
+
+Checklist rápido:
+- Un lugar tranquilo y buena conexión
+- Tus preguntas sobre el programa
+- Si decides con alguien más (pareja, familia), que pueda estar presente
+
+¿Necesitas cambiar la hora? <code>{{reschedule_link}}</code>
+
+Equipo El Trading Club</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Correo 6 · El mismo día</span><span class="mail__subj">Hoy a las {{call_time}}</span><span class="mail__prev">Tu enlace está aquí</span></div>
+<div class="mail__body">Hola <code>{{first_name}}</code>,
+
+Hoy es el día. Tu llamada es a las <code>{{call_time}}</code>.
+
+Entra aquí: <code>{{meeting_link}}</code>
+
+Nos vemos,
+Equipo El Trading Club</div></article></div></div></section></main>
+<footer><div class="wrap">Contenido educativo, no es asesoría financiera. El trading de futuros y forex conlleva un riesgo sustancial de pérdida y no es adecuado para todos. Los resultados individuales varían y no son típicos. El rendimiento pasado no indica resultados futuros.</div></footer>
 </body>
 </html>

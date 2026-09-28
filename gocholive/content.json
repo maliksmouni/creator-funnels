@@ -1,0 +1,448 @@
+{
+  "status": "draft",
+  "slug": "gocholive",
+  "name": "Franklin Ovalles",
+  "brandName": "El Trading Club",
+  "niche": "Nasdaq (NQ) and Dow futures day-trading education for Spanish-speaking beginners going for funded (prop firm) accounts",
+  "offerName": "Programa de 0 a Trader (The Trading Club LLC). Price not public [CONFIRM]; his survey asks for budget in bands up to \"Más de $3000\"",
+  "image": "assets/franklin.jpg",
+  "brand": {
+    "_note": "taken from eltradingclub.com CSS (navy #0a1628, gold #c4aa7a, cream #f0ead0, #e8d48a); surface/line/muted derived [CONFIRM]",
+    "bg": "#0a1628",
+    "surface": "#0f2140",
+    "line": "#243a5e",
+    "text": "#f0ead0",
+    "muted": "#b5ae99",
+    "accent": "#c4aa7a",
+    "accent-ink": "#0a1628",
+    "signal": "#e8d48a"
+  },
+  "ui": {
+    "lang": "es",
+    "funnelTitle": "Programa de 0 a Trader",
+    "problemEyebrow": "El problema",
+    "methodEyebrow": "El método",
+    "offerEyebrow": "El programa",
+    "proofEyebrow": "Alumnos",
+    "processEyebrow": "El proceso",
+    "applyEyebrow": "Aplicación",
+    "applyLead": "Seis preguntas, unos dos minutos.",
+    "detailsLegend": "Tus datos",
+    "bookedTitle": "Llamada agendada",
+    "tyEyebrow": "Aplicación recibida",
+    "tyTitle": "Último paso: elige la hora de tu llamada.",
+    "tyLead": "Si tu aplicación encaja, reserva un horario abajo. Recibirás un correo de confirmación al instante.",
+    "tyCalendarNote": "Calendario de reservas",
+    "tyStepsEyebrow": "Antes de la llamada",
+    "tyStepsTitle": "Tres cosas que hacer ahora",
+    "tySteps": [
+      {
+        "title": "Revisa tu correo",
+        "body": "Te llega la confirmación y unos correos cortos para que la llamada te sirva de verdad."
+      },
+      {
+        "title": "Anota tu punto de partida",
+        "body": "Cuánto tiempo llevas operando (o si empiezas de cero), qué has probado y qué te frena."
+      },
+      {
+        "title": "Solo enlaces oficiales",
+        "body": "Nunca pedimos pagos por mensaje directo de Instagram o WhatsApp."
+      }
+    ],
+    "tyBack": "← Volver a la página",
+    "emailsTitle": "Correos antes de la llamada",
+    "emailsEyebrow": "Secuencia de correos · de la reserva a la llamada",
+    "emailsHeading": "La secuencia antes de la llamada",
+    "emailsLead": "{n} correos desde la reserva hasta la mañana de la llamada. Campos como {tag} los rellena la herramienta de email.",
+    "emailLabel": "Correo",
+    "adsTitle": "Guiones de anuncios",
+    "adsEyebrow": "Anuncios · video",
+    "adsHeading": "Guiones de anuncios",
+    "adsLead": "{n} ángulos para retargeting. Regla en cada anuncio: sin promesas de ingresos ni de rentabilidad, sin señales y con aviso de riesgo en pantalla.",
+    "adLabel": "Ángulo"
+  },
+  "headline": "Aprende a operar futuros del Nasdaq en vivo, con Gocho a tu lado.",
+  "subheadline": "El Programa de 0 a Trader: un sistema paso a paso, clases en vivo cada semana y tres meses en la Sala de Trading en vivo, antes de aplicar a una cuenta de fondeo. Solo por aplicación.",
+  "demoBanner": "Demo built for Franklin Ovalles (El Trading Club). Not their official site. · Demo, no es su sitio oficial.",
+  "pitch": {
+    "eyebrow": "Already built for El Trading Club",
+    "headline": {
+      "before": "I rebuilt the call funnel for your",
+      "mark": "Programa de 0 a Trader",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the door",
+          "title": "81K on Instagram, and one way into the program: a booking survey.",
+          "text": "The recorded course, three months of live classes and the live trading room are all sold through one survey and a WhatsApp confirmation. Everyone who sees your content ends up at the same step.",
+          "stats": [
+            {
+              "value": "81K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "23.5K",
+              "label": "on X"
+            },
+            {
+              "value": "6.44K",
+              "label": "YouTube subscribers"
+            }
+          ]
+        },
+        {
+          "kicker": "Your best proof",
+          "title": "People already watch you trade live. The page doesn't lead with that.",
+          "text": "Your live NQ sessions average more views than your edited videos, and your free Skool group has 545 members. The trading room is the product and the live streams are its demo. Right now the page opens with an income number instead.",
+          "stats": [
+            {
+              "value": "1.2K",
+              "label": "avg. views, last 10 live sessions"
+            },
+            {
+              "value": "830",
+              "label": "avg. views, last 10 videos"
+            },
+            {
+              "value": "545",
+              "label": "members in your free Skool"
+            }
+          ]
+        },
+        {
+          "kicker": "The risk on the page",
+          "title": "The headline promises a minimum income to people with no experience.",
+          "text": "The same page carries your CFTC Rule 4.41 notice and says nobody is promised profits. A minimum-income headline is the first thing Meta ad review and the FTC look at, and it attracts people shopping for a number, which your survey then has to filter out.",
+          "quote": "“El método paso a paso para ganar $86.000 (mínimo) al año con trading. Sin tener experiencia.”",
+          "source": "eltradingclub.com"
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“I already have a funnel.” This keeps what works and fixes the handoff.",
+          "text": "Your survey is good: it asks about the decision-maker, urgency and budget, and that logic carries over. What changes is the lead (the live trading room, not an income figure), a pre-call email sequence, and ads with no income claims.",
+          "quote": "“Escríbenos al Whatsapp para confirmar la cita.”",
+          "source": "eltradingclub.com/gracias-por-agendar"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, in Spanish, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Program page",
+            "desc": "Leads with the live trading room, explains the 3-phase method, and ends in a 6-question application.",
+            "href": "funnel/",
+            "url": "eltradingclub.com/programa",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar, what to prepare, and the no-payments-by-DM reminder.",
+            "href": "funnel/thank-you/",
+            "url": "eltradingclub.com/programa/agendado",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "Built from your live sessions. No income claims, no signals, risk notice on screen.",
+            "href": "ads/",
+            "url": "guiones · 4 ángulos",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "secuencia · 6 correos",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "El Trading Club call funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "El Trading Club · Programa de 0 a Trader",
+      "chips": [
+        "Futuros NQ · Dow",
+        "Sala de Trading en vivo",
+        "Clases en vivo semanales",
+        "Preparación para fondeo"
+      ],
+      "cta": "Aplica al programa",
+      "navCta": "Aplicar",
+      "vslNote": "{{SWAP}} VSL de Gocho para el programa (3–8 min)"
+    },
+    "problem": {
+      "title": "¿Te suena?",
+      "cards": [
+        {
+          "title": "Has visto mucho contenido, pero no operas con consistencia",
+          "body": "Videos, cursos, indicadores. Sabes mucho, pero cuando abres el gráfico no tienes un plan claro que seguir."
+        },
+        {
+          "title": "Aprendes solo",
+          "body": "Nadie te ve operar en tiempo real ni te dice en qué momento te saltas tus propias reglas."
+        },
+        {
+          "title": "Las cuentas de fondeo se pierden por las reglas",
+          "body": "Una operación demasiado grande o un día sin límite de pérdida y la evaluación se termina, aunque la estrategia fuera buena."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "De 0 a Trader, en tres fases",
+      "body": "Sin señales y sin atajos. Primero aprendes y validas un sistema, después lo aplicas en vivo junto a Gocho en la Sala de Trading, y solo entonces aplicas a una cuenta de fondeo, con control de riesgo.",
+      "pillars": [
+        {
+          "title": "Estudia",
+          "body": "El curso grabado paso a paso, con acceso de por vida."
+        },
+        {
+          "title": "Valida",
+          "body": "Pruebas tu sistema con el manual, el checklist y la hoja de Excel."
+        },
+        {
+          "title": "Opera en vivo",
+          "body": "Entras a la Sala de Trading en vivo con Gocho durante 3 meses."
+        },
+        {
+          "title": "Fondeo con control",
+          "body": "Aplicas a una cuenta de fondeo cuando tus reglas están claras."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "Lo que incluye el programa",
+      "items": [
+        {
+          "title": "Curso grabado paso a paso",
+          "body": "Acceso de por vida al sistema completo."
+        },
+        {
+          "title": "Clases en vivo semanales",
+          "body": "Durante 3 meses, con preguntas en directo."
+        },
+        {
+          "title": "Sala de Trading en vivo",
+          "body": "Durante 3 meses, operando futuros junto a Gocho."
+        },
+        {
+          "title": "Manual, checklist y hoja de Excel",
+          "body": "Para seguir y registrar tu plan en cada sesión."
+        },
+        {
+          "title": "Soporte directo",
+          "body": "Por WhatsApp y en la comunidad privada de Skool."
+        },
+        {
+          "title": "Uso ilimitado del sistema",
+          "body": "El Sistema de Trading es tuyo para seguir usándolo."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Historias de alumnos",
+      "items": [
+        "{{SWAP}} Video testimonial: Andreina D'Angelo (published on eltradingclub.com)",
+        "{{SWAP}} Video testimonial: José Alejandro Pérez Conde (published on eltradingclub.com)",
+        "{{SWAP}} Video testimonial: Wilmerson Serrano (published on eltradingclub.com)"
+      ],
+      "note": "Resultados individuales, no típicos. El trading de futuros conlleva un riesgo sustancial de pérdida."
+    },
+    "howItWorks": {
+      "title": "Cómo funciona",
+      "steps": [
+        {
+          "title": "Aplica",
+          "body": "6 preguntas cortas, unos 2 minutos."
+        },
+        {
+          "title": "Agenda tu llamada",
+          "body": "Si encajas, eliges un horario para hablar con el equipo de Gocho."
+        },
+        {
+          "title": "Decide en la llamada",
+          "body": "Vemos dónde estás y si el programa tiene sentido para ti. Sin presión."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Aplica al Programa de 0 a Trader",
+      "questions": [
+        {
+          "q": "¿Eres mayor de edad?",
+          "type": "choice",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "¿Cuál es tu nivel de experiencia en el trading?",
+          "type": "choice",
+          "options": [
+            "Ninguna, estoy empezando desde cero",
+            "Básico: he visto contenido, pero no opero con consistencia",
+            "Intermedio: he invertido en formación, pero sin resultados sólidos",
+            "Avanzado: ya opero en real y quiero más estructura"
+          ]
+        },
+        {
+          "q": "¿Qué quieres lograr en los próximos 6 meses?",
+          "type": "choice",
+          "options": [
+            "Aprender a operar desde cero con seguridad",
+            "Conseguir consistencia y dejar de perder dinero en real",
+            "Prepararme para una cuenta de fondeo"
+          ]
+        },
+        {
+          "q": "¿Qué es lo que más te frena ahora mismo?",
+          "type": "text"
+        },
+        {
+          "q": "¿Operas (u operarías) solo con dinero que puedes permitirte perder?",
+          "type": "choice",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "Si eres aceptado/a, ¿estás listo/a para invertir en tu formación ahora?",
+          "type": "choice",
+          "options": [
+            "Sí",
+            "En 1–3 meses",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Nombre",
+        "Email",
+        "WhatsApp"
+      ],
+      "notFit": {
+        "title": "Gracias por tu sinceridad.",
+        "body": "Ahora mismo el programa no es el paso adecuado para ti. Empieza con las clases gratuitas en YouTube y la comunidad gratuita en Skool, y vuelve a aplicar cuando estés listo/a."
+      }
+    },
+    "finalCta": {
+      "title": "¿Listo/a para operar con un plan y no solo con contenido?",
+      "body": "Aplica aquí. Una aplicación, una llamada y una respuesta clara.",
+      "cta": "Enviar aplicación",
+      "disclaimer": "Contenido educativo, no es asesoría financiera. El trading de futuros y forex conlleva un riesgo sustancial de pérdida y no es adecuado para todos. Los resultados individuales varían y no son típicos. El rendimiento pasado no indica resultados futuros."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmación",
+      "subject": "Tu llamada está agendada: esto es lo que sigue",
+      "previewText": "Tu llamada con El Trading Club está confirmada",
+      "body": "Hola {{first_name}},\n\nTu llamada está confirmada para {{call_time}}. El enlace está en la invitación de tu calendario.\n\nAntes de hablar:\n1. Reserva ese horario. Hacemos pocas llamadas por semana.\n2. Piensa en tu punto de partida: cuánto tiempo llevas en el trading (o si empiezas de cero) y qué has probado.\n\nUna nota importante: nunca pedimos pagos por mensaje directo de Instagram o WhatsApp. Solo a través de los enlaces oficiales que enviamos desde este correo.\n\nNos vemos pronto,\nEquipo El Trading Club"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Convicción",
+      "subject": "Por qué operamos en vivo",
+      "previewText": "Ver a alguien operar enseña lo que un video no puede",
+      "body": "Hola {{first_name}},\n\nUn curso te enseña los conceptos. Lo que casi nadie te enseña es qué hacer cuando el mercado se mueve en contra y tienes el dedo en el botón.\n\nPor eso el programa tiene una Sala de Trading en vivo durante 3 meses: operas futuros junto a Gocho, ves cómo sigue su plan y cuándo decide no operar.\n\nEn la llamada vemos si ese formato encaja contigo.\n\nEquipo El Trading Club"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objeciones",
+      "subject": "\"Ya vi todo en YouTube. ¿Para qué el programa?\"",
+      "previewText": "Buena pregunta. Esta es la diferencia.",
+      "body": "Hola {{first_name}},\n\nEn YouTube tienes mucho contenido gratuito de Gocho, y está bien empezar por ahí.\n\nLo que YouTube no hace es darte un sistema completo en orden, clases en vivo cada semana y a alguien que responde tus dudas por WhatsApp y en Skool.\n\nSi puedes avanzar solo con lo gratuito, te lo diremos en la llamada.\n\nEquipo El Trading Club"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectativas",
+      "subject": "Qué es (y qué no es) la llamada",
+      "previewText": "Sin señales ni promesas: una conversación honesta",
+      "body": "Hola {{first_name}},\n\nPara que sepas qué esperar:\n\n- La llamada dura unos 30 minutos.\n- Te preguntaremos por tu experiencia, tu objetivo y cuánto tiempo puedes dedicarle.\n- Si el programa encaja, te explicamos qué incluye y la inversión.\n- Si no encaja, te lo decimos y te indicamos los recursos gratuitos.\n\nLo que no es: no damos señales, no hacemos llamadas de operaciones y no prometemos ganancias. El trading conlleva un riesgo sustancial de pérdida.\n\nEquipo El Trading Club"
+    },
+    {
+      "emailNumber": 5,
+      "type": "Un día antes",
+      "subject": "Mañana: tu llamada con El Trading Club",
+      "previewText": "Checklist rápido para mañana",
+      "body": "Hola {{first_name}},\n\nRecordatorio: tu llamada es mañana a las {{call_time}}.\n\nChecklist rápido:\n- Un lugar tranquilo y buena conexión\n- Tus preguntas sobre el programa\n- Si decides con alguien más (pareja, familia), que pueda estar presente\n\n¿Necesitas cambiar la hora? {{reschedule_link}}\n\nEquipo El Trading Club"
+    },
+    {
+      "emailNumber": 6,
+      "type": "El mismo día",
+      "subject": "Hoy a las {{call_time}}",
+      "previewText": "Tu enlace está aquí",
+      "body": "Hola {{first_name}},\n\nHoy es el día. Tu llamada es a las {{call_time}}.\n\nEntra aquí: {{meeting_link}}\n\nNos vemos,\nEquipo El Trading Club"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Operar en vivo (audiencia de los directos)",
+      "hook": "Esto es lo que no te enseña un video grabado.",
+      "script": "[Clip de un directo de NQ, luego Gocho a cámara]\nEsto es lo que no te enseña un video grabado:\nqué haces cuando el precio va en tu contra y tienes que seguir tu plan.\nEn el Programa de 0 a Trader pasas 3 meses en la Sala de Trading en vivo, operando futuros conmigo.\nEs solo por aplicación. Enlace abajo.\n[En pantalla: Contenido educativo. El trading conlleva un riesgo sustancial de pérdida.]"
+    },
+    {
+      "angle": "Contenido vs. sistema (seguidores que ya consumen)",
+      "hook": "Si has visto 100 videos de trading y sigues sin un plan, el problema no es la información.",
+      "script": "[Gocho a cámara, gráfico detrás]\nSi has visto 100 videos de trading y sigues sin un plan, el problema no es la información.\nEs el orden y la práctica.\nEn el programa aprendes un sistema paso a paso, lo validas y después lo aplicas en vivo con acompañamiento.\nAplica con el enlace. Si no encajas, te lo digo.\n[En pantalla: Contenido educativo, no es asesoría financiera.]"
+    },
+    {
+      "angle": "Fondeo con reglas (traders de fondeo)",
+      "hook": "No perdiste la cuenta de fondeo por la estrategia.",
+      "script": "[Gocho a cámara]\nNo perdiste la cuenta de fondeo por la estrategia.\nLa perdiste por una operación demasiado grande o un día sin límite de pérdida.\nEso son reglas, y las reglas se entrenan.\nEn el Programa de 0 a Trader las defines antes de aplicar al fondeo, no después.\nAplica abajo.\n[En pantalla: Resultados individuales varían. El trading conlleva un riesgo sustancial de pérdida.]"
+    },
+    {
+      "angle": "Sin señales (anti-hype)",
+      "hook": "Sin señales. Sin atajos. Solo tú, un plan y la Sala en vivo.",
+      "script": "[Grabación de pantalla: gráfico del NQ y checklist]\nSin señales. Sin atajos. Sin promesas de hacerte rico.\nUn sistema paso a paso, clases en vivo cada semana y 3 meses operando en la Sala conmigo.\nEso es el Programa de 0 a Trader.\nRevisamos cada aplicación. Enlace abajo.\n[En pantalla: Contenido educativo. El trading conlleva un riesgo sustancial de pérdida.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "ca0qW76tcUc",
+    "title": "Por Qué la Mayoria Fracasa en el Trading (Demostrado por la Ciencia)"
+  }
+}

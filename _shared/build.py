@@ -43,9 +43,9 @@ def a(s):
     return html.escape(s, quote=True)
 
 
-def page(title, css, body, extra_head=""):
+def page(title, css, body, extra_head="", lang="en"):
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{a(lang)}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -172,6 +172,48 @@ def build_pitch(c, house_cases):
 
 # ---------- creator funnel (creator brand) ----------
 
+# Fixed labels of the funnel, thank-you, email and ad pages. A creator whose audience speaks
+# another language overrides any of them in content.json → ui (plus ui.lang for <html lang>).
+UI = {
+    "lang": "en",
+    "funnelTitle": "Mentorship",
+    "problemEyebrow": "The problem",
+    "methodEyebrow": "The method",
+    "offerEyebrow": "The mentorship",
+    "proofEyebrow": "Proof",
+    "processEyebrow": "The process",
+    "applyEyebrow": "Application",
+    "applyLead": "Six questions, about two minutes.",
+    "detailsLegend": "Your details",
+    "bookedTitle": "Booked",
+    "tyEyebrow": "Application received",
+    "tyTitle": "Last step: pick your call time.",
+    "tyLead": "If your application is a fit, book a slot below. You'll get a confirmation email right away.",
+    "tyCalendarNote": "Booking calendar",
+    "tyStepsEyebrow": "Before the call",
+    "tyStepsTitle": "Three things to do now",
+    "tySteps": [
+        {"title": "Check your inbox", "body": "A confirmation plus a few short emails so the call is useful."},
+        {"title": "Prepare your last 10–20 trades", "body": "Journal, screenshots or a broker statement are all fine."},
+        {"title": "Only trust official links", "body": "We never ask for payment via Telegram DM or WhatsApp."}],
+    "tyBack": "← Back to the page",
+    "emailsTitle": "Pre-call emails",
+    "emailsEyebrow": "Email sequence · booked to call",
+    "emailsHeading": "The pre-call sequence",
+    "emailsLead": "{n} emails from booking to the morning of the call. Placeholders like {tag} are filled by the email tool.",
+    "emailLabel": "Email",
+    "adsTitle": "Ad scripts",
+    "adsEyebrow": "Ad creatives · video",
+    "adsHeading": "Ad creative scripts",
+    "adsLead": "{n} angles for retargeting. Rule for every ad: no return or profit claims, no trade calls, and a risk notice on screen.",
+    "adLabel": "Angle",
+}
+
+
+def ui(c, key):
+    return c.get("ui", {}).get(key, UI[key])
+
+
 def brand_css(c):
     tokens = ";".join(f"--{k}:{v}" for k, v in c["brand"].items() if not k.startswith("_"))
     return f":root{{{tokens}}}\n" + (SHARED / "creator-funnel.css").read_text()
@@ -244,16 +286,16 @@ def build_funnel(c):
   </div>
   <div class="vsl reveal" role="img" aria-label="Video placeholder">{vsl_thumb(c, "../")}<div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(h["vslNote"])}</p></div>
 </div></section>
-<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The problem</span><h2 class="reveal">{t(s["problem"]["title"])}</h2></div><div class="grid3">{numbered(s["problem"]["cards"])}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The method</span><h2 class="reveal">{t(s["mechanism"]["title"])}</h2><p class="lead reveal">{t(s["mechanism"]["body"])}</p></div><div class="pillars">{pillars}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The mentorship</span><h2 class="reveal">{t(s["deliverables"]["title"])}</h2></div><div class="grid3">{numbered(s["deliverables"]["items"])}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">Proof</span><h2 class="reveal">{t(s["proof"]["title"])}</h2></div><div class="proof-grid">{proof}</div><p class="note">{t(s["proof"]["note"])}</p></div></section>
-<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">The process</span><h2 class="reveal">{t(s["howItWorks"]["title"])}</h2></div><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "problemEyebrow"))}</span><h2 class="reveal">{t(s["problem"]["title"])}</h2></div><div class="grid3">{numbered(s["problem"]["cards"])}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "methodEyebrow"))}</span><h2 class="reveal">{t(s["mechanism"]["title"])}</h2><p class="lead reveal">{t(s["mechanism"]["body"])}</p></div><div class="pillars">{pillars}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "offerEyebrow"))}</span><h2 class="reveal">{t(s["deliverables"]["title"])}</h2></div><div class="grid3">{numbered(s["deliverables"]["items"])}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "proofEyebrow"))}</span><h2 class="reveal">{t(s["proof"]["title"])}</h2></div><div class="proof-grid">{proof}</div><p class="note">{t(s["proof"]["note"])}</p></div></section>
+<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "processEyebrow"))}</span><h2 class="reveal">{t(s["howItWorks"]["title"])}</h2></div><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
 <section id="apply"><div class="wrap narrow">
-  <div class="sec-head"><span class="eyebrow reveal">Application</span><h2 class="reveal">{t(s["qualification"]["title"])}</h2><p class="lead reveal">Six questions, about two minutes.</p></div>
+  <div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "applyEyebrow"))}</span><h2 class="reveal">{t(s["qualification"]["title"])}</h2><p class="lead reveal">{t(ui(c, "applyLead"))}</p></div>
   <form class="apply" id="apply-form" action="thank-you/" method="get">
     {''.join(qs)}
-    <fieldset class="reveal"><legend><span>✓</span>Your details</legend>{contact}</fieldset>
+    <fieldset class="reveal"><legend><span>✓</span>{t(ui(c, "detailsLegend"))}</legend>{contact}</fieldset>
     <div><button class="btn" type="submit">{t(s["finalCta"]["cta"])} {ARROW}</button></div>
   </form>
   <div class="card notfit" id="not-fit" hidden><h3>{t(s["qualification"]["notFit"]["title"])}</h3><p>{t(s["qualification"]["notFit"]["body"])}</p></div>
@@ -266,25 +308,22 @@ def build_funnel(c):
 </div></section>
 <section class="final"><div class="wrap narrow"><h2 class="reveal">{t(s["finalCta"]["title"])}</h2><p class="lead reveal">{t(s["finalCta"]["body"])}</p><a class="btn reveal" href="#apply">{t(s["finalCta"]["cta"])} {ARROW}</a></div></section>
 """
-    return page(f'{c["brandName"]}: Mentorship', brand_css(c), funnel_shell(c, inner, "#apply"))
+    return page(f'{c["brandName"]}: {ui(c, "funnelTitle")}', brand_css(c), funnel_shell(c, inner, "#apply"), lang=ui(c, "lang"))
 
 
 def build_thankyou(c):
     inner = f"""
 <section class="hero"><div class="wrap narrow">
-  <span class="eyebrow reveal">Application received</span>
-  <h1 class="reveal">Last step: pick your call time.</h1>
-  <p class="lead reveal">If your application is a fit, book a slot below. You'll get a confirmation email right away.</p>
-  <div class="vsl reveal" role="img" aria-label="Calendar placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(c.get("thankYouCalendarNote", "Booking calendar"))}</p></div>
+  <span class="eyebrow reveal">{t(ui(c, "tyEyebrow"))}</span>
+  <h1 class="reveal">{t(ui(c, "tyTitle"))}</h1>
+  <p class="lead reveal">{t(ui(c, "tyLead"))}</p>
+  <div class="vsl reveal" role="img" aria-label="Calendar placeholder"><div class="vsl__play">{PLAY}</div><p class="vsl__note">{t(c.get("thankYouCalendarNote", ui(c, "tyCalendarNote")))}</p></div>
 </div></section>
-<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">Before the call</span><h2 class="reveal">Three things to do now</h2></div>
-  <ol class="steps">{steps([
-      {"title": "Check your inbox", "body": "A confirmation plus a few short emails so the call is useful."},
-      {"title": "Prepare your last 10–20 trades", "body": "Journal, screenshots or a broker statement are all fine."},
-      {"title": "Only trust official links", "body": "We never ask for payment via Telegram DM or WhatsApp."}])}</ol>
-  <p class="note"><a href="../">← Back to the page</a></p>
+<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "tyStepsEyebrow"))}</span><h2 class="reveal">{t(ui(c, "tyStepsTitle"))}</h2></div>
+  <ol class="steps">{steps(ui(c, "tySteps"))}</ol>
+  <p class="note"><a href="../">{t(ui(c, "tyBack"))}</a></p>
 </div></section>"""
-    return page(f'{c["brandName"]}: Booked', brand_css(c), funnel_shell(c, inner))
+    return page(f'{c["brandName"]}: {ui(c, "bookedTitle")}', brand_css(c), funnel_shell(c, inner), lang=ui(c, "lang"))
 
 
 MERGE_TAG = re.compile(r"(\{\{[a-z_]+\}\})")
@@ -296,24 +335,26 @@ def tags(s):
 
 def build_emails(c):
     mails = "".join(
-        f"""<article class="mail reveal"><div class="mail__head"><span class="mail__type">Email {e["emailNumber"]} · {t(e["type"])}</span><span class="mail__subj">{t(e["subject"])}</span><span class="mail__prev">{t(e["previewText"])}</span></div>
+        f"""<article class="mail reveal"><div class="mail__head"><span class="mail__type">{t(ui(c, "emailLabel"))} {e["emailNumber"]} · {t(e["type"])}</span><span class="mail__subj">{t(e["subject"])}</span><span class="mail__prev">{t(e["previewText"])}</span></div>
 <div class="mail__body">{tags(e["body"])}</div></article>"""
         for e in c["preCallEmails"]
     )
-    inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Email sequence · booked to call</span><h1 class="reveal">The pre-call sequence</h1>
-<p class="lead reveal">{len(c["preCallEmails"])} emails from booking to the morning of the call. Placeholders like <code>{{{{first_name}}}}</code> are filled by the email tool.</p><div class="doc">{mails}</div></div></section>"""
-    return page(f'{c["brandName"]}: Pre-call emails', brand_css(c), funnel_shell(c, inner))
+    lead = t(ui(c, "emailsLead")).replace("{n}", str(len(c["preCallEmails"]))).replace("{tag}", "<code>{{first_name}}</code>")
+    inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">{t(ui(c, "emailsEyebrow"))}</span><h1 class="reveal">{t(ui(c, "emailsHeading"))}</h1>
+<p class="lead reveal">{lead}</p><div class="doc">{mails}</div></div></section>"""
+    return page(f'{c["brandName"]}: {ui(c, "emailsTitle")}', brand_css(c), funnel_shell(c, inner), lang=ui(c, "lang"))
 
 
 def build_ads(c):
     ads = "".join(
-        f"""<article class="mail reveal"><div class="mail__head"><span class="mail__type">Angle {n:02d} · {t(x["angle"])}</span><span class="mail__subj">“{t(x["hook"])}”</span></div>
+        f"""<article class="mail reveal"><div class="mail__head"><span class="mail__type">{t(ui(c, "adLabel"))} {n:02d} · {t(x["angle"])}</span><span class="mail__subj">“{t(x["hook"])}”</span></div>
 <div class="mail__body">{t(x["script"])}</div></article>"""
         for n, x in enumerate(c["adScripts"], 1)
     )
-    inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Ad creatives · video</span><h1 class="reveal">Ad creative scripts</h1>
-<p class="lead reveal">{len(c["adScripts"])} angles for retargeting. Rule for every ad: no return or profit claims, no trade calls, and a risk notice on screen.</p><div class="doc">{ads}</div></div></section>"""
-    return page(f'{c["brandName"]}: Ad scripts', brand_css(c), funnel_shell(c, inner))
+    lead = t(ui(c, "adsLead")).replace("{n}", str(len(c["adScripts"])))
+    inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">{t(ui(c, "adsEyebrow"))}</span><h1 class="reveal">{t(ui(c, "adsHeading"))}</h1>
+<p class="lead reveal">{lead}</p><div class="doc">{ads}</div></div></section>"""
+    return page(f'{c["brandName"]}: {ui(c, "adsTitle")}', brand_css(c), funnel_shell(c, inner), lang=ui(c, "lang"))
 
 
 def house_cases():
