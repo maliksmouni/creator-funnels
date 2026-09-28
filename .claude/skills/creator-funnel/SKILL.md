@@ -18,7 +18,7 @@ HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf lie
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
 _shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten
 _shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
-_shared/site.json           öffentliche Basis-URL je Host (für Link-Vorschau-Tags): cloudflare = https://creator-funnels.smounimalik.workers.dev, netlify = https://infooperate.netlify.app
+_shared/site.json           öffentliche Basis-URL je Host (für Link-Vorschau-Tags): cloudflare = https://infooperate.pages.dev, netlify = https://infooperate.netlify.app
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)
 _shared/creator-funnel.css  Funnel-Layout; Farben kommen aus content.json → brand
 assets/fonts/               selbst gehostete OFL-Fonts (Bricolage Grotesque, Inter, JetBrains Mono)

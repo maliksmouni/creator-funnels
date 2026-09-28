@@ -1,0 +1,401 @@
+{
+  "status": "draft",
+  "slug": "thaflipking",
+  "name": "Donyell Green",
+  "brandName": "Flip Capital Academy",
+  "niche": "Forex, gold and index trading education (US), sold via Whop signals/courses and a high-ticket 120-day mentorship",
+  "offerName": "Flip Capital Academy Inner Circle (120-day mentorship, \"5-figure investment\" per donyellgreen.com/post-booking; exact price not public [CONFIRM])",
+  "image": "assets/donyell.jpg",
+  "brand": {
+    "_note": "from donyellgreen.com CSS (#080f0a / #0b140d near-black green, #7fd96a / #a8e890 green); surface/line/muted derived [CONFIRM]",
+    "bg": "#080f0a",
+    "surface": "#0f1b12",
+    "line": "#23372a",
+    "text": "#f0f5ee",
+    "muted": "#a9b5ab",
+    "accent": "#7fd96a",
+    "accent-ink": "#080f0a",
+    "signal": "#a8e890"
+  },
+  "headline": "Stop blowing accounts. Get 120 days of structure with Donyell.",
+  "subheadline": "Flip Capital Academy Inner Circle: a 120-day roadmap, bi-weekly 1-on-1 calls, weekly live trading sessions and direct chat with Donyell. Applications only.",
+  "demoBanner": "Demo built for Donyell Green (ThaFlipKing). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for ThaFlipKing",
+    "headline": {
+      "before": "I rebuilt the call funnel for your",
+      "mark": "Flip Capital Academy Inner Circle",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offers",
+          "title": "51.4K on Instagram, four products on Whop, and a 5-figure mentorship on top.",
+          "text": "Signals, a 3-day mentorship, Pip Precision Trading Academy and the Inner Circle all compete for the same follower. The one that matters most, the Inner Circle, is the hardest one to find.",
+          "stats": [
+            {
+              "value": "51.4K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "7.94K",
+              "label": "YouTube subscribers"
+            },
+            {
+              "value": "4",
+              "label": "products on your Whop"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "Your Linktree never sends anyone to the Inner Circle.",
+          "text": "The top link goes to Whop signals, then YouTube, your broker, your book and the free Telegram. The application page on donyellgreen.com isn't on it. Your free Telegram alone has 1,653 members who already follow your trades.",
+          "stats": [
+            {
+              "value": "1,653",
+              "label": "members in your free Telegram"
+            },
+            {
+              "value": "0",
+              "label": "Linktree links to the application"
+            }
+          ]
+        },
+        {
+          "kicker": "The risk on the page",
+          "title": "The headline sells payouts. The program sells structure.",
+          "text": "The page promises $10K to $50K+ payouts, then lists one-day wins, then a disclaimer that nobody should expect similar results. Income headlines are the first thing Meta ad review and the FTC look at, and they attract buyers looking for a number, not a 120-day process.",
+          "quote": "“Struggling Traders Are Turning Small Accounts Into $10K, $20K, and $50K+ Payouts Using One Proven System”",
+          "source": "donyellgreen.com"
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“I already have a funnel.” This keeps what works and fixes the handoff.",
+          "text": "The application, the booking page and your FAQ are good, and they carry over. What changes is the lead (the 120-day structure instead of payouts), six pre-call emails so booked applicants show up, and ads with no income claims.",
+          "quote": "“Your Call Is Not Yet Confirmed. Watch This Now.”",
+          "source": "donyellgreen.com/post-booking"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Inner Circle page",
+            "desc": "Leads with the 120-day structure, explains the framework, and ends in a 6-question application.",
+            "href": "funnel/",
+            "url": "donyellgreen.com/inner-circle",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar, what to prepare, and the no-payments-by-DM reminder.",
+            "href": "funnel/thank-you/",
+            "url": "donyellgreen.com/inner-circle/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram, YouTube and Telegram audience. No income claims, no signals.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Flip Capital Academy call funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Flip Capital Academy · Inner Circle",
+      "chips": [
+        "Forex · Gold · Indices",
+        "120-day roadmap",
+        "Bi-weekly 1-on-1 calls",
+        "Weekly live sessions"
+      ],
+      "cta": "Apply for the Inner Circle",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Donyell's Inner Circle VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You keep blowing accounts",
+          "body": "One oversized position or one revenge trade and the account is gone. The setup was fine. The risk wasn't."
+        },
+        {
+          "title": "You're chasing indicators",
+          "body": "A new indicator, a new signal group, a new strategy. None of it sticks because there's no structure behind it."
+        },
+        {
+          "title": "Demo feels fine, live doesn't",
+          "body": "Everything works until real money is on the line. Then the rules go out the window."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "The Flip Capital Framework",
+      "body": "Structure and discipline beat any indicator. Over 120 days you work through psychology, market structure, risk management and capital scaling, with live trade reviews along the way, from demo to live.",
+      "pillars": [
+        {
+          "title": "Mindset",
+          "body": "Trading as a skill, built on data, not luck."
+        },
+        {
+          "title": "Structure",
+          "body": "Read market structure and take fewer, better setups."
+        },
+        {
+          "title": "Risk",
+          "body": "Risk control is the entire game. Protect the account first."
+        },
+        {
+          "title": "Scale",
+          "body": "Grow capital with consistency, not bigger lot sizes."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What you get inside",
+      "items": [
+        {
+          "title": "120-day roadmap",
+          "body": "A clear path from day one to structured trading."
+        },
+        {
+          "title": "Direct chat with Donyell",
+          "body": "1-on-1 chat access for the full 120 days."
+        },
+        {
+          "title": "Bi-weekly 1-on-1 calls",
+          "body": "Private calls every two weeks to review your progress."
+        },
+        {
+          "title": "Full course and resource library",
+          "body": "All course materials, frameworks and resources."
+        },
+        {
+          "title": "Weekly live trading sessions",
+          "body": "Real execution in real time, with Q&A after every session."
+        },
+        {
+          "title": "Inner Circle community",
+          "body": "Connect with other members, share trades and stay accountable."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Students",
+      "items": [
+        "Kenny: reports a $13,153.65 payout on a 300K funded account (testimonial on donyellgreen.com)",
+        "A student reports $12,000 in profits trading gold and Nasdaq on a funded account (testimonial on donyellgreen.com)",
+        "{{SWAP}} Student interview video from the booking page"
+      ],
+      "note": "Individual results, not typical. Trading forex and futures involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Donyell's team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether the Inner Circle makes sense. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the Inner Circle",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Forex pairs",
+            "Gold",
+            "Indices (US30, NAS)",
+            "Futures",
+            "Not yet"
+          ]
+        },
+        {
+          "q": "What do you want from the next 120 days?",
+          "type": "choice",
+          "options": [
+            "Learn to trade with structure from the start",
+            "Stop blowing accounts and get consistent",
+            "Pass a funded account challenge",
+            "Scale an account that already works"
+          ]
+        },
+        {
+          "q": "What's your biggest problem in trading right now?",
+          "type": "text"
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "The Inner Circle is a high-ticket mentorship. If you're accepted, are you ready to invest now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thanks for being honest.",
+        "body": "Right now the Inner Circle isn't the right next step for you. Start with the free Telegram and the lessons on YouTube, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to trade with structure?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading foreign exchange and futures involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call with the Flip Capital Academy team is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free. The call takes 45 to 60 minutes.\n2. Bring your broker history or a few screenshots if you have them. If you're brand new, just come ready to be honest about where you are.\n\nOne note: payments never happen in DMs. Only through the official links from this email address.\n\nTalk soon,\nTeam Flip Capital Academy"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why most traders blow accounts",
+      "previewText": "It's rarely the setup",
+      "body": "Hey {{first_name}},\n\nMost blown accounts don't come from a bad setup. They come from one oversized position, one revenge trade, or no stop when the day goes wrong.\n\nThat's why the Inner Circle starts with structure and risk, not a new indicator.\n\nOn the call we'll look at where your process breaks today.\n\nTeam Flip Capital Academy"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I already follow the signals. Why more?\"",
+      "previewText": "Fair question. Here's the difference.",
+      "body": "Hey {{first_name}},\n\nSignals tell you what to trade today. They don't teach you why, and they don't fix the habits that blow accounts.\n\nThe Inner Circle is 120 days of structure: a roadmap, bi-weekly 1-on-1 calls with Donyell, weekly live sessions and direct chat.\n\nIf you don't need that, we'll tell you so on the call.\n\nTeam Flip Capital Academy"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What the call is (and isn't)",
+      "previewText": "No signals, no promises, just a straight conversation",
+      "body": "Hey {{first_name}},\n\nSo you know what to expect:\n\n- The call takes 45 to 60 minutes.\n- We'll ask about your experience, your goals and what's been holding you back.\n- If the Inner Circle fits, we'll explain what's included and the investment.\n- If it doesn't, we'll tell you and point you to the free resources.\n\nWhat the call isn't: no signals, no trade calls, no promises of profits. Trading involves substantial risk of loss.\n\nTeam Flip Capital Academy"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your Flip Capital Academy call",
+      "previewText": "Quick checklist for tomorrow",
+      "body": "Hey {{first_name}},\n\nReminder: your call is tomorrow at {{call_time}}.\n\nQuick checklist:\n- A quiet place and a stable connection\n- Your broker history or screenshots, if you have them\n- A notebook and your questions\n\nNeed to reschedule? {{reschedule_link}}\n\nTeam Flip Capital Academy"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today at {{call_time}}",
+      "previewText": "Your link is inside",
+      "body": "Hey {{first_name}},\n\nToday's the day. Your call is at {{call_time}}.\n\nJoin here: {{meeting_link}}\n\nSee you there,\nTeam Flip Capital Academy"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Blown accounts (struggling traders)",
+      "hook": "You didn't blow that account because of your strategy.",
+      "script": "[Donyell on camera, charts behind]\nYou didn't blow that account because of your strategy.\nYou blew it on one oversized trade. Or one revenge trade after a loss.\nThat's a structure problem, and structure can be trained.\nIn the Flip Capital Academy Inner Circle we build it over 120 days, with 1-on-1 calls and live sessions.\nIt's application only. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Signals → structure (Whop and Telegram members)",
+      "hook": "Signals tell you what to trade. They don't teach you why.",
+      "script": "[Donyell, direct to camera]\nIf you're in my signals or my free Telegram, you've seen the trades.\nBut copying a trade isn't the same as knowing when to take one.\nThe Inner Circle is 120 days of structure: roadmap, bi-weekly 1-on-1s with me, and weekly live sessions.\nApply below. If it's not a fit, I'll tell you.\n[On-screen: Educational content only. Not financial advice.]"
+    },
+    {
+      "angle": "Demo vs. live",
+      "hook": "Everything works on demo. Then real money shows up.",
+      "script": "[Screen recording: a demo account next to a live account]\nEverything works on demo. Then real money shows up and the rules disappear.\nThe Inner Circle takes you from demo to live with a plan, risk rules and live trade reviews.\nApplications are reviewed personally. Link below.\n[On-screen: Individual results vary. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Anti-indicator (mindset)",
+      "hook": "You don't need a better indicator.",
+      "script": "[Donyell on camera]\nYou don't need a better indicator.\nYou need fewer trades, better setups and risk you actually respect.\nThat's what we work on for 120 days in the Flip Capital Academy Inner Circle.\nApply with the link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "u3AOzEFFE_0",
+    "title": "How I Turned $5K Into $160K With the Right Trading Mindset"
+  }
+}
