@@ -16,7 +16,7 @@ Referenz-Umsetzungen: `trading-diva/` (Simran Nigam, Mentoring über einem Recor
 ```
 HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf liest das)
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
-_shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten
+_shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten, die Link-Vorschau-Karte (og.jpg) und die Instagram-Story (story.jpg)
 _shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
 _shared/site.json           öffentliche Basis-URL je Host (für Link-Vorschau-Tags): cloudflare = https://infooperate.pages.dev, netlify = https://infooperate.netlify.app
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)
@@ -137,6 +137,7 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 | Signatur | keine | Absendername/Unterschrift |
 | Link-Vorschau | og/twitter-Tags: Titel „Built for {Brand}“, Beschreibung = Headline, Bild = 1200×630-Karte (Eyebrow + Headline links, Video-Thumbnail mit Play-Button rechts) | nackte URL ohne Vorschau |
 | Favicon | Inline-SVG (kein extra File): abgerundetes Quadrat mit dem ersten Buchstaben des Brand-Namens; Pitch-Seite Bronze #7c5a16 / Papier, Funnel-Seiten Creator-`accent` / `accent-ink` (`favicon()` in `build.py`) | kein Favicon (Browser-Standard) |
+| Instagram-Story (Close Friends) | `story.jpg`, 1080×1920 im Pitch-Master-Stil: Eyebrow „Already built for {Brand}“, Pitch-Headline, Funnel-Vorschau im Browser-Rahmen („your call funnel“), „{Vorname}, the page, the application, the emails and the ads are ready.“, „Tap the link ↓“; darunter ≥ 340px frei für Link- und @Mention-Sticker (lange Headlines werden automatisch kleiner). Wird nach dem Livegang mit Anleitung an den Nutzer geschickt; posten kann nur der Nutzer (App) | automatisch posten (keine API für Close Friends/Link-Sticker) |
 | Zusammenarbeit/Vergütung | steht nicht auf der Seite; der Nutzer bespricht das in der Cold-DM/E-Mail | Abschnitt „How we'd work together“ |
 
 Neue Wünsche des Nutzers zum Design immer im Template umsetzen (nicht nur für einen Creator), in diese Tabelle eintragen, pushen und live prüfen.
@@ -166,7 +167,7 @@ Zwei getrennte Design-Systeme, nie mischen:
 python3 _shared/yt_thumb.py {slug} {youtube-handle}   # immer: neuestes Upload-Thumbnail als Video-Platzhalter
 python3 _shared/build.py {slug}          # schreibt index.html, funnel/, funnel/thank-you/, emails/, ads/ und _redirects
 python3 -m http.server 8788 --bind 127.0.0.1 &   # vom Repo-Root aus (Fonts liegen unter /assets)
-node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg + Link-Vorschau-Karte {slug}/assets/og.jpg
+node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg + Link-Vorschau-Karte {slug}/assets/og.jpg + Story {slug}/assets/story.jpg
 ```
 `thumbs.mjs` braucht Playwright: `PW=/pfad/zu/node_modules/playwright/index.mjs` und `CHROME=/opt/pw-browsers/chromium-*/chrome-linux/chrome` setzen, falls nicht auflösbar. Playwright nie in ein `package.json` im Repo aufnehmen (Cloudflare würde es installieren).
 
@@ -194,7 +195,7 @@ Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `p
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
    - `/{slug}/dossier.md`, `/{slug}/content.json`, `/{slug}/offer-deck-filled.md`, `/{slug}/README.md`, `/HOUSE.md`, `/_shared/*`, `/.claude/*` → 404
    - Header `x-robots-tag: noindex`
-4. Die Live-Links an den Nutzer geben.
+4. Die Live-Links an den Nutzer geben. Danach Outreach laut `CLAUDE.md`: Gmail-Entwurf mit Link-Platzhalter, `{slug}/assets/story.jpg` per Datei schicken (mit Close-Friends-Anleitung), am Ende den Pitch-Link zum Kopieren.
 
 Hinweis: Das GitHub-Repo ist öffentlich. Dossier und Notizen sind dort sichtbar, auch wenn Cloudflare sie nicht ausliefert. Den Nutzer darauf hinweisen, solange das so ist.
 
