@@ -1,6 +1,6 @@
 # mightystocks: Marcelo Estrada „MightyStocks“ (Merciless Markets University)
 
-Aware-Outreach-Pitch für einen Call-Funnel für das „1 On 1 Coaching“ ($5,997) von MMU. Stand: 28.09.2026. Status: **draft** (auf Cloudflare und Netlify gesperrt). Ziel-URL nach „deploy it“: https://infooperate.pages.dev/mightystocks/
+Aware-Outreach-Pitch für einen Call-Funnel für das „1 On 1 Coaching“ ($5,997) von MMU. Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.pages.dev/mightystocks/ (noch nicht live geprüft)
 
 Kontakt: marcelodaytrading@gmail.com (vom Nutzer aus seiner Liste, 28.09.2026; passt zu seinem Calendly-Handle „marcelodaytrading“).
 
