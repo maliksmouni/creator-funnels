@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Merciless Markets: Pre-call emails</title>
+<style>:root{--bg:#0b0b0c;--surface:#161618;--line:#2c2b29;--text:#f7f5f0;--muted:#b3aea4;--accent:#f4ce80;--accent-ink:#0b0b0c;--signal:#e4a26e}
+/* Creator funnel layout. Colors come from each creator's content.json → brand.
+   Typography stays neutral (Inter) so it never borrows the pitch master's display face. */
+@font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--bg)}
+body{margin:0;color:var(--text);font:17px/1.6 "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;letter-spacing:-.01em;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background:radial-gradient(70% 50% at 85% 0%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 60%),radial-gradient(50% 40% at 0% 60%,color-mix(in srgb,var(--signal) 7%,transparent),transparent 60%),var(--bg);background-attachment:fixed}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--accent)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(16px,5vw,32px)}
+.narrow{max-width:780px}
+h1,h2,h3{margin:0 0 .5em;line-height:1.08;letter-spacing:-.035em;text-wrap:balance}
+h1{font-size:clamp(2.1rem,5vw,3.6rem);font-weight:800}
+h2{font-size:clamp(1.7rem,3.4vw,2.5rem);font-weight:800}
+h3{font-size:1.1rem;font-weight:700;letter-spacing:-.015em;line-height:1.25}
+p{margin:0 0 1em}
+.lead{font-size:1.12rem;color:var(--muted);text-wrap:pretty}
+.flag{font:600 .72em/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent);border:1px dashed color-mix(in srgb,var(--accent) 45%,transparent);border-radius:6px;padding:.25em .45em;overflow-wrap:anywhere;-webkit-box-decoration-break:clone;box-decoration-break:clone;vertical-align:.1em}
+
+.demo{background:var(--accent);color:var(--accent-ink);text-align:center;font-size:.82rem;font-weight:600;padding:8px 16px}
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:12px 0}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.logo{white-space:nowrap;font-weight:900;letter-spacing:.16em;text-transform:uppercase;font-size:.9rem;color:var(--text)}
+.logo b{color:var(--accent)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.74rem;text-transform:uppercase;letter-spacing:.2em;color:var(--accent);font-weight:700;margin-bottom:18px}
+.eyebrow::before{content:"";width:24px;height:1px;background:var(--accent)}
+
+section{padding:clamp(64px,10vh,112px) 0}
+.hero{padding-top:clamp(48px,8vh,88px)}
+.hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.portrait{margin:0;position:relative}
+.portrait::after{content:"";position:absolute;inset:auto -12px -12px auto;width:60%;height:60%;border:1px solid color-mix(in srgb,var(--accent) 50%,transparent);border-radius:22px;z-index:-1}
+.portrait img{width:100%;border-radius:22px;border:1px solid var(--line);box-shadow:0 40px 80px -40px rgba(0,0,0,.8)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none}
+.chips li{font-size:.8rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px;background:color-mix(in srgb,var(--surface) 70%,transparent)}
+
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:var(--accent-ink);padding:15px 26px;border-radius:999px;text-decoration:none;font-weight:700;border:0;font-size:1rem;cursor:pointer;box-shadow:0 14px 34px -14px color-mix(in srgb,var(--accent) 80%,transparent);transition:transform .25s,filter .25s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.btn svg{width:14px;height:14px;flex:none}
+.btn.sm{padding:9px 16px;font-size:.88rem;box-shadow:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+.vsl{margin-top:clamp(40px,6vh,64px);aspect-ratio:16/9;max-height:560px;width:100%;border-radius:22px;border:1px solid var(--line);display:grid;place-items:center;text-align:center;padding:16px;position:relative;overflow:hidden;
+  background:radial-gradient(55% 60% at 50% 50%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 70%),var(--surface)}
+.vsl__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vsl:has(.vsl__img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.45))}
+.vsl__play,.vsl__note{position:relative;z-index:1}
+.vsl__play{width:82px;height:82px;border-radius:50%;background:var(--accent);display:grid;place-items:center;box-shadow:0 0 0 12px color-mix(in srgb,var(--accent) 16%,transparent)}
+.vsl__play svg{width:26px;height:26px;margin-left:4px;fill:var(--accent-ink)}
+.vsl__note{position:absolute;bottom:16px;left:0;right:0;font-size:.8rem;color:var(--muted)}
+
+.sec-head{max-width:720px;margin-bottom:clamp(32px,5vh,48px)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(180deg,color-mix(in srgb,var(--surface) 100%,transparent),color-mix(in srgb,var(--surface) 60%,transparent));border:1px solid var(--line);border-radius:18px;padding:26px}
+.card .num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);font-weight:800;font-size:.85rem;margin-bottom:16px}
+.card p{color:var(--muted);margin:0}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:36px}
+.pillar{border-top:1px solid var(--accent);padding-top:16px}
+.pillar span{color:var(--signal);font-weight:800;font-size:.8rem;letter-spacing:.14em}
+.pillar h3{margin-top:8px}
+.pillar p{color:var(--muted);margin:0}
+.proof-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.proof-slot{border:1.5px dashed var(--line);border-radius:18px;padding:36px 20px;text-align:center;color:var(--muted)}
+.note{font-size:.84rem;color:var(--muted);margin-top:14px}
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.steps li{display:flex;gap:18px;padding:22px;border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--surface) 70%,transparent)}
+.steps .n{flex:0 0 38px;height:38px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-weight:800}
+.steps h3{margin:6px 0 4px}
+.steps p{margin:0;color:var(--muted)}
+
+.apply{display:grid;gap:14px}
+.apply fieldset{border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:0;background:color-mix(in srgb,var(--surface) 80%,transparent)}
+.apply legend{font-weight:700;padding:0 8px;margin-left:-8px}
+.apply legend span{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-size:.8rem;margin-right:8px}
+.opts{display:grid;gap:8px;margin-top:10px}
+.opt{display:flex;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:12px;cursor:pointer;transition:border-color .2s,background .2s}
+.opt:hover{border-color:var(--accent)}
+.opt:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.opt input{accent-color:var(--accent);width:18px;height:18px;margin:0}
+.field{display:block;margin:10px 0 0;font-size:.88rem;color:var(--muted)}
+.apply input:not([type]),.apply textarea{display:block;width:100%;margin-top:6px;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit}
+.apply textarea{margin-top:10px}
+.apply input:focus,.apply textarea:focus{border-color:var(--accent);outline:none}
+.final{text-align:center}
+.final .wrap{border:1px solid var(--line);border-radius:28px;padding:clamp(40px,7vw,72px) clamp(20px,5vw,56px);background:radial-gradient(60% 80% at 50% 0%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 70%),var(--surface)}
+footer{padding:36px 0 48px;color:var(--muted);text-align:center;font-size:.82rem}
+
+/* long-form pages (emails, ads) */
+.doc{display:grid;gap:18px}
+.mail{border:1px solid var(--line);border-radius:18px;background:var(--surface);overflow:hidden}
+.mail__head{padding:18px 22px;border-bottom:1px solid var(--line);display:grid;gap:4px}
+.mail__type{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.mail__subj{font-weight:700;font-size:1.08rem}
+.mail__prev{font-size:.88rem;color:var(--muted)}
+.mail__body{padding:20px 22px;white-space:pre-wrap;color:var(--text);font-size:.96rem;line-height:1.65}
+.mail__body code{color:var(--accent);font:inherit}
+
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .portrait{max-width:340px}
+  .grid3{grid-template-columns:1fr}
+  .pillars{grid-template-columns:repeat(2,1fr)}
+}
+.notfit{text-align:center;padding:36px 28px}.notfit h3{font-size:1.4rem}
+</style>
+<script>
+document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',()=>{const els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+els.forEach(e=>io.observe(e))});
+</script>
+</head>
+<body>
+<div class="demo">Demo built for Marcelo Estrada (MightyStocks). Not their official site.</div>
+<header class="top"><div class="wrap"><span class="logo">Merciless <b>Markets</b></span></div></header>
+<main><section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">Email sequence · booked to call</span><h1 class="reveal">The pre-call sequence</h1>
+<p class="lead reveal">6 emails from booking to the morning of the call. Placeholders like <code>{{first_name}}</code> are filled by the email tool.</p><div class="doc"><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 1 · Confirmation</span><span class="mail__subj">You&#x27;re booked: here&#x27;s what happens next</span><span class="mail__prev">Your call with Marcelo is confirmed</span></div>
+<div class="mail__body">Hey <code>{{first_name}}</code>,
+
+Your call is booked for <code>{{call_time}}</code>. The link is in your calendar invite.
+
+Before we talk:
+1. Keep the time free.
+2. Have a few recent trades ready: screenshots, a trade tracker or your broker history all work. If you&#x27;re brand new, just come ready to talk about your goals.
+
+One note: payments only happen through the official Merciless Markets links, never in DMs.
+
+Talk soon,
+Marcelo</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 2 · Conviction</span><span class="mail__subj">Why most small-cap traders give it all back</span><span class="mail__prev">It&#x27;s rarely the stock pick</span></div>
+<div class="mail__body">Hey <code>{{first_name}}</code>,
+
+Most traders who blow up on small caps pick decent stocks. They lose it on execution: chasing, holding a halt, sizing up after a loss.
+
+That&#x27;s why coaching starts with your process, not a new setup: when you trade, how big, and when you stop for the day.
+
+On the call we&#x27;ll look at where your process breaks today.
+
+Marcelo</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 3 · Objection handling</span><span class="mail__subj">&quot;I already have the courses. Why coaching?&quot;</span><span class="mail__prev">Fair question. Here&#x27;s the difference.</span></div>
+<div class="mail__body">Hey <code>{{first_name}}</code>,
+
+The MMU courses teach the strategy. That doesn&#x27;t change.
+
+What a course can&#x27;t do is look at your trades one by one and tell you which mistake you keep repeating. That&#x27;s what 1-on-1 coaching is for: a plan for you, trade revisions and direct Q&amp;A.
+
+If you can fix it on your own, you don&#x27;t need it, and I&#x27;ll tell you so on the call.
+
+Marcelo</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 4 · Expectations</span><span class="mail__subj">What the call is (and isn&#x27;t)</span><span class="mail__prev">No trade calls, no promises, just a straight conversation</span></div>
+<div class="mail__body">Hey <code>{{first_name}}</code>,
+
+So you know what to expect:
+
+- The call takes about 30 minutes.
+- We&#x27;ll talk about your experience, your goals and what&#x27;s been holding you back.
+- If coaching fits, I&#x27;ll explain what&#x27;s included and the investment.
+- If it doesn&#x27;t, I&#x27;ll tell you and point you to the free resources.
+
+What the call isn&#x27;t: no stock picks, no trade calls, no promises of profits. Day trading involves substantial risk.
+
+Marcelo</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 5 · One day out</span><span class="mail__subj">Tomorrow: your call with Marcelo</span><span class="mail__prev">Quick checklist for tomorrow</span></div>
+<div class="mail__body">Hey <code>{{first_name}}</code>,
+
+Reminder: your call is tomorrow at <code>{{call_time}}</code>.
+
+Quick checklist:
+- A quiet place and a stable connection
+- A few recent trades or your trade tracker
+- Your questions
+
+Need to reschedule? <code>{{reschedule_link}}</code>
+
+Marcelo</div></article><article class="mail reveal"><div class="mail__head"><span class="mail__type">Email 6 · Morning of</span><span class="mail__subj">Today at {{call_time}}</span><span class="mail__prev">Your link is inside</span></div>
+<div class="mail__body">Hey <code>{{first_name}}</code>,
+
+Today&#x27;s the day. Your call is at <code>{{call_time}}</code>.
+
+Join here: <code>{{meeting_link}}</code>
+
+See you there,
+Marcelo</div></article></div></div></section></main>
+<footer><div class="wrap">Educational content only, not financial advice. Day trading involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical.</div></footer>
+</body>
+</html>

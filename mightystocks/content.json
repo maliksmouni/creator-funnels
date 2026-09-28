@@ -1,0 +1,404 @@
+{
+  "status": "draft",
+  "slug": "mightystocks",
+  "name": "Marcelo Estrada",
+  "brandName": "Merciless Markets",
+  "niche": "Small-cap momentum day trading (hyper-scalping low-float stocks), US; co-founder of Merciless Markets University (MMU) with Tarique Jeffrey",
+  "offerName": "MMU 1 On 1 Coaching ($5,997 on mmu4.teachable.com) → call funnel for 1-on-1 Hyper-Scalping Coaching with Marcelo",
+  "image": "assets/marcelo.jpg",
+  "brand": {
+    "_note": "MMU logo (black/white, gold-peach gradient #f4ce80 / #e4a26e) and Teachable site; surface/line/muted derived [CONFIRM]",
+    "bg": "#0b0b0c",
+    "surface": "#161618",
+    "line": "#2c2b29",
+    "text": "#f7f5f0",
+    "muted": "#b3aea4",
+    "accent": "#f4ce80",
+    "accent-ink": "#0b0b0c",
+    "signal": "#e4a26e"
+  },
+  "headline": "Learn to hyper-scalp small caps, one-on-one with Marcelo.",
+  "subheadline": "1-on-1 Hyper-Scalping Coaching: a coaching plan, trade revisions, Q&A sessions and daily live trading with Marcelo, plus full access to Merciless Markets University. Applications only.",
+  "demoBanner": "Demo built for Marcelo Estrada (MightyStocks). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for Merciless Markets",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "1-on-1 Hyper-Scalping Coaching",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "17.8K on Instagram, and your top offer is a $5,997 coaching program.",
+          "text": "MMU has three tiers: the Blueprint, the Mastery mentoring and 1-on-1 coaching with you and Tarique. The highest one is the one that needs a real sales process, not a checkout button.",
+          "stats": [
+            {
+              "value": "17.8K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "3",
+              "label": "MMU tiers, up to $5,997"
+            },
+            {
+              "value": "529",
+              "label": "subscribers on the MMU YouTube"
+            }
+          ]
+        },
+        {
+          "kicker": "The hourly calendar",
+          "title": "The first link on your Linktree sells your time by the hour.",
+          "text": "One hour with you is $247, two hours $347, booked straight on Calendly with no questions first. The $5,997 coaching program never comes up. A call funnel turns the same interest into applications for the coaching instead of one-off sessions.",
+          "stats": [
+            {
+              "value": "$247",
+              "label": "1-hour call on your Calendly"
+            },
+            {
+              "value": "$347",
+              "label": "2-hour call"
+            },
+            {
+              "value": "$5,997",
+              "label": "1 On 1 Coaching on MMU"
+            }
+          ]
+        },
+        {
+          "kicker": "The channel you lost",
+          "title": "Your YouTube channel is gone. Your pages still say you share your progress there.",
+          "text": "The Mighty Stocks channel now shows a removal notice, and the Merciless Markets channel has one video. Trust now has to be built on Instagram and in your own funnel, not on YouTube.",
+          "quote": "“This channel was removed because it violated our Community Guidelines.”",
+          "source": "youtube.com, Mighty Stocks channel"
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“Teachable and Calendly already work.” They stay.",
+          "text": "Teachable keeps delivering the courses and Calendly keeps the calendar. The funnel sits in front of both: a page that sells the coaching, an application before the calendar, six pre-call emails, and ads without profit screenshots, in line with what you already tell people.",
+          "quote": "“Remember Day Trading is hard and there is NO GUARANTEES of success”",
+          "source": "Marcelo on mmu4.teachable.com"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Coaching page",
+            "desc": "Sells the 1-on-1 coaching, explains the hyper-scalping process, and ends in a 6-question application.",
+            "href": "funnel/",
+            "url": "mercilessmarkets.com/coaching",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and the official-links reminder.",
+            "href": "funnel/thank-you/",
+            "url": "mercilessmarkets.com/coaching/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram and Discord audience. No profit screenshots, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Merciless Markets coaching funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Merciless Markets University · 1-on-1 Coaching",
+      "chips": [
+        "Small caps · Low float",
+        "Hyper-scalping",
+        "1-on-1 coaching calls",
+        "Daily live trading"
+      ],
+      "cta": "Apply for coaching",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Marcelo's coaching VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You chase the move and get stuck",
+          "body": "The stock rips, you buy late, it halts or dumps, and the gain turns red. The idea was right. The execution wasn't."
+        },
+        {
+          "title": "You learn alone",
+          "body": "Videos and chatrooms show the trades. Nobody reviews yours and tells you what you keep doing wrong."
+        },
+        {
+          "title": "One bad day undoes a good week",
+          "body": "Without hard rules for size and stopping, a single choppy session takes back everything."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "The Hyper-Scalping process",
+      "body": "Hyper-scalping means many small, fast trades on volatile small caps, with strict risk on every one. It only works with discipline. In coaching you build it step by step with Marcelo: the strategy, the tape reading, the execution and a daily routine you can repeat.",
+      "pillars": [
+        {
+          "title": "Strategy",
+          "body": "The full A-Z hyper-scalping curriculum and master classes."
+        },
+        {
+          "title": "Tape reading",
+          "body": "Read the 1-minute chart, breakouts and halts in real time."
+        },
+        {
+          "title": "Execution",
+          "body": "Daily live trading so you see every decision as it happens."
+        },
+        {
+          "title": "Review",
+          "body": "Your trades revised 1-on-1 until the mistakes stop repeating."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's included",
+      "items": [
+        {
+          "title": "1-on-1 coaching calls",
+          "body": "Private calls with Marcelo, built around your trading."
+        },
+        {
+          "title": "Coaching plan",
+          "body": "A plan for your strategy, sizing and daily routine."
+        },
+        {
+          "title": "Trade revisions",
+          "body": "Your trades reviewed so you know exactly what to fix."
+        },
+        {
+          "title": "Q&A sessions",
+          "body": "Bring your questions and get direct answers."
+        },
+        {
+          "title": "Daily live trading",
+          "body": "Watch the strategy executed live in the market."
+        },
+        {
+          "title": "Full MMU access",
+          "body": "All advanced courses, MMU scanners and chatrooms."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Marcelo's story",
+      "items": [
+        "Featured in “Marcelo & Ross Cameron Story” (Warrior Trading)",
+        "Interviewed on The Friendly Bear podcast (David Capablanca)",
+        "{{SWAP}} Student result from the MMU community"
+      ],
+      "note": "Individual results, not typical. Day trading involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Marcelo."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether 1-on-1 coaching makes sense. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for 1-on-1 coaching",
+      "questions": [
+        {
+          "q": "How long have you been day trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade right now?",
+          "type": "multi",
+          "options": [
+            "Small-cap momentum stocks",
+            "Large caps",
+            "Options",
+            "Futures",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "What do you want from coaching?",
+          "type": "choice",
+          "options": [
+            "Learn hyper-scalping from the ground up",
+            "Get consistent and stop giving back gains",
+            "Scale a strategy that already works"
+          ]
+        },
+        {
+          "q": "What's your biggest problem in trading right now?",
+          "type": "text"
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in 1-on-1 coaching now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thanks for being honest.",
+        "body": "Right now 1-on-1 coaching isn't the right next step for you. Start with the free Day Trading 101 class and the free small-cap chatroom, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to trade with a coach in your corner?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Day trading involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call with Marcelo is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a few recent trades ready: screenshots, a trade tracker or your broker history all work. If you're brand new, just come ready to talk about your goals.\n\nOne note: payments only happen through the official Merciless Markets links, never in DMs.\n\nTalk soon,\nMarcelo"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why most small-cap traders give it all back",
+      "previewText": "It's rarely the stock pick",
+      "body": "Hey {{first_name}},\n\nMost traders who blow up on small caps pick decent stocks. They lose it on execution: chasing, holding a halt, sizing up after a loss.\n\nThat's why coaching starts with your process, not a new setup: when you trade, how big, and when you stop for the day.\n\nOn the call we'll look at where your process breaks today.\n\nMarcelo"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I already have the courses. Why coaching?\"",
+      "previewText": "Fair question. Here's the difference.",
+      "body": "Hey {{first_name}},\n\nThe MMU courses teach the strategy. That doesn't change.\n\nWhat a course can't do is look at your trades one by one and tell you which mistake you keep repeating. That's what 1-on-1 coaching is for: a plan for you, trade revisions and direct Q&A.\n\nIf you can fix it on your own, you don't need it, and I'll tell you so on the call.\n\nMarcelo"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What the call is (and isn't)",
+      "previewText": "No trade calls, no promises, just a straight conversation",
+      "body": "Hey {{first_name}},\n\nSo you know what to expect:\n\n- The call takes about 30 minutes.\n- We'll talk about your experience, your goals and what's been holding you back.\n- If coaching fits, I'll explain what's included and the investment.\n- If it doesn't, I'll tell you and point you to the free resources.\n\nWhat the call isn't: no stock picks, no trade calls, no promises of profits. Day trading involves substantial risk.\n\nMarcelo"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Marcelo",
+      "previewText": "Quick checklist for tomorrow",
+      "body": "Hey {{first_name}},\n\nReminder: your call is tomorrow at {{call_time}}.\n\nQuick checklist:\n- A quiet place and a stable connection\n- A few recent trades or your trade tracker\n- Your questions\n\nNeed to reschedule? {{reschedule_link}}\n\nMarcelo"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today at {{call_time}}",
+      "previewText": "Your link is inside",
+      "body": "Hey {{first_name}},\n\nToday's the day. Your call is at {{call_time}}.\n\nJoin here: {{meeting_link}}\n\nSee you there,\nMarcelo"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Execution, not picks (small-cap traders)",
+      "hook": "You picked the right stock. You still lost money.",
+      "script": "[Marcelo on camera, 1-minute chart behind]\nYou picked the right stock. You still lost money.\nBecause you chased the move, held through the halt, or sized up after a loss.\nThat's execution, and execution can be coached.\nIn 1-on-1 coaching we build your plan and review your trades until the mistakes stop.\nApplications only. Link below.\n[On-screen: Educational content only. Day trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Chatroom → coaching (Discord and MMU members)",
+      "hook": "The chatroom shows you the trades. Coaching shows you yours.",
+      "script": "[Marcelo, direct to camera]\nIf you're in the chatroom, you see the trades every day.\nBut nobody's looking at your trades one by one.\nThat's what 1-on-1 coaching is: a plan, trade revisions and direct Q&A with me.\nApply below. If it's not a fit, I'll tell you.\n[On-screen: Educational content only. Not financial advice.]"
+    },
+    {
+      "angle": "What hyper-scalping really is",
+      "hook": "Hundreds of small trades. One rule that matters.",
+      "script": "[Screen recording: fast small-cap tape]\nHyper-scalping is hundreds of small, fast trades on volatile stocks.\nIt only works if your risk is fixed on every single one.\nThat's what we train in 1-on-1 coaching: strategy, tape reading, execution and review.\nLink below to apply.\n[On-screen: Individual results vary. Day trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Immigrant-story trust (Instagram audience)",
+      "hook": "I didn't start with money. I started with discipline.",
+      "script": "[Marcelo on camera]\nI didn't start with money or connections. I started with discipline, and years of trial and error.\nNow I coach traders one-on-one on the process I use every day.\nNo shortcuts, no guarantees, just the work.\nApply with the link below.\n[On-screen: Educational content only. Day trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "3ZZw7OHYqJI",
+    "title": "Day Trading 101 (The Hyper-Scalping Strategy)"
+  }
+}
