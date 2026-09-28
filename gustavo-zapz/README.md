@@ -1,6 +1,6 @@
 # gustavo-zapz: Gustavo Zapz (ZapzTrading)
 
-Aware-Outreach-Pitch für einen Call-Funnel (Mentoring-Stufe über der $200-Gruppe). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.pages.dev/gustavo-zapz/
+Aware-Outreach-Pitch für einen Call-Funnel (Mentoring-Stufe über der $200-Gruppe). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.netlify.app/gustavo-zapz/
 
 Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/`. Texte nur in `content.json` ändern, dann `python3 _shared/build.py gustavo-zapz`.
 

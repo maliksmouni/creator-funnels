@@ -5,14 +5,15 @@ Usage: python3 _shared/publish.py   (Cloudflare build command; output directory:
 
 Only an allowlist is copied, so internal files never reach the host:
 - site root: 404.html, _headers (noindex for every page), assets/ (fonts, case-study screenshots)
-- each creator with status "live": everything except PRIVATE_PER_CREATOR (dossier, content.json, notes)
-Draft creators, HOUSE.md, CLAUDE.md, _shared/, .claude/ and the Netlify _redirects stay out.
+- each creator with status "live" and host "cloudflare" (the default): everything except
+  PRIVATE_PER_CREATOR (dossier, content.json, notes)
+Draft creators, Netlify creators (content.json → host: "netlify"), HOUSE.md, CLAUDE.md, _shared/, .claude/ and the Netlify _redirects stay out.
 """
 import json
 import shutil
 from pathlib import Path
 
-from build import PRIVATE_PER_CREATOR, ROOT
+from build import PRIVATE_PER_CREATOR, ROOT, host
 
 DIST = ROOT / "dist"
 ROOT_FILES = ["404.html", "_headers"]
@@ -28,9 +29,9 @@ def main():
         shutil.copytree(ROOT / d, DIST / d)
     for cj in sorted(ROOT.glob("*/content.json")):
         src = cj.parent
-        status = json.loads(cj.read_text()).get("status")
-        if status != "live":
-            print(f"skip {src.name} ({status})")
+        c = json.loads(cj.read_text())
+        if c.get("status") != "live" or host(c) != "cloudflare":
+            print(f"skip {src.name} ({c.get('status')}, {host(c)})")
             continue
         shutil.copytree(src, DIST / src.name, ignore=shutil.ignore_patterns(*PRIVATE_PER_CREATOR, ".*"))
         print(f"copy {src.name}")
