@@ -1,6 +1,6 @@
 # gustavo-zapz: Gustavo Zapz (ZapzTrading)
 
-Aware-Outreach-Pitch für einen Call-Funnel (Mentoring-Stufe über der $200-Gruppe). Stand: 28.09.2026. Status: **lokal gebaut, nicht deployed** (wartet auf „deploy it“).
+Aware-Outreach-Pitch für einen Call-Funnel (Mentoring-Stufe über der $200-Gruppe). Stand: 28.09.2026. Status: **Entwurf** (`"status": "draft"`): im Repo, auf Netlify gesperrt (404) bis „deploy it“.
 
 Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/`. Texte nur in `content.json` ändern, dann `python3 _shared/build.py gustavo-zapz`.
 

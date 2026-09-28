@@ -72,7 +72,7 @@ Aus dem Dossier ableiten: Wo ist die Lücke zwischen Reichweite und Monetarisier
 Struktur und Reihenfolge ändern sich nie, nur die Inhalte. Vorlage: `trading-diva/content.json`.
 
 ```
-slug, name, brandName, niche, offerName, image
+status ("draft" bis „deploy it“, dann "live"), slug, name, brandName, niche, offerName, image
 brand: { bg, surface, line, text, muted, accent, accent-ink, signal }   ← Creator-Marke
 headline, subheadline                                                   ← Funnel-Hero
 demoBanner                                                              ← Pflicht, siehe Ehrlichkeitsregeln
@@ -182,6 +182,8 @@ node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/prev
 Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Session nicht öffnen: Screenshots schicken oder eine selbstständige HTML-Datei (Bild als data-URI) per Datei senden. Den Funnel in Creator-Optik nicht als öffentlichen Artifact-Link veröffentlichen.
 
 ### Phase 8: Deploy (nur auf „deploy it“)
+
+Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `build.py` sperrt dann `/{slug}/*` per `_redirects` (404). So kann der Stand gepusht werden (der Stop-Hook verlangt Pushes, und nichts geht verloren), ohne öffentlich zu sein. Bei „deploy it“: `status` auf `"live"` setzen, bauen, pushen, live prüfen.
 
 1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
 2. Netlify baut automatisch aus dem verbundenen Repo. Stand: Site `https://infooperate.netlify.app` (auch in `_shared/site.json`; bei Umbenennung beides ändern), Branch `claude/add-skill-k8god6`, kein Build-Command, Publish-Verzeichnis = Repo-Root.

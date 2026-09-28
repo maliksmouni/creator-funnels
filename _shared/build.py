@@ -327,6 +327,9 @@ def write_redirects():
     for cj in sorted(ROOT.glob("*/content.json")):
         slug = cj.parent.name
         lines += [f"/{slug}/{f}  /404.html  404!" for f in PRIVATE_PER_CREATOR]
+        if json.loads(cj.read_text()).get("status") == "draft":
+            # pushed to the repo but not public until the user says "deploy it"
+            lines += [f"/{slug}  /404.html  404!", f"/{slug}/*  /404.html  404!"]
     (ROOT / "_redirects").write_text("\n".join(lines) + "\n")
 
 
