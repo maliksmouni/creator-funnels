@@ -83,7 +83,7 @@ pitch:                                    ← Pitch-Seite an den Creator (Master
   headline { before, mark, after }        kurz (max. ~10 Wörter) und konkret: was gebaut + das Angebot beim Namen,
                                           z. B. „I built the call funnel for your [Crown Strategy mentorship].“
                                           mark = Angebotsname des Creators. Keine Zahlenlisten, Umsatz nur mit Quelle.
-  (kein Hinweistext im Video; der Loom wird später eingesetzt)
+  (Video = steht für die VSL, die der Creator für seinen Funnel aufnehmen würde; Thumbnail des neuesten Uploads als Platzhalter, kein Hinweistext, kein offener Punkt)
   bridge { title: "Four things I noticed", closing,
            beats[4]: { kicker, title, text, stats[{value,label}] | quote, source (nur bei Zitaten) } }
            Beat 1 = Reichweite vs. Angebot, 2 = ungenutztes warmes Publikum,
@@ -127,7 +127,7 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 | Headline | kurz, ~10 Wörter, nennt das Angebot beim Namen („I built the call funnel for your [Crown Strategy mentorship].“) | lange Headlines mit Zahlenaufzählungen, Umsatzversprechen ohne Quelle |
 | Kopfzeile | nur der Brand-Name oben links (Tab-Titel = Brand-Name) | „· proposal“ |
 | Hero | Eyebrow „Already built for {Brand}“, Headline, Video | Unterzeile, „Start here“, „See the deliverables“, Loom-/SWAP-Hinweis im Video |
-| Video | Platzhalter = Thumbnail des **neuesten** YouTube-Uploads (`yt_thumb.py`), Play-Button darüber | leere dunkle Fläche |
+| Video | steht für die **VSL des Creators** für seinen Funnel (kein Walkthrough des Nutzers). Platzhalter = Thumbnail des **neuesten** YouTube-Uploads (`yt_thumb.py`), Play-Button darüber; kein offener Punkt | leere dunkle Fläche, Loom-Hinweis |
 | Four things I noticed | nur Titel, 4 nummerierte Karten mit Zahlen, Abschlusssatz | Eyebrow „Before the deliverables“, Quellenzeilen unter den Zahlen, Button „See what's built“ |
 | Deliverables | gruppiert, kompakte Browser-Vorschauen, alle Karten gleich groß (max. ~430px) | große bzw. seitenbreite Karten, Link zum Dossier |
 | Case Studies | nur Karten (aus `HOUSE.md`) | Hinweistext darunter |

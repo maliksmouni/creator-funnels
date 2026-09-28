@@ -23,7 +23,7 @@ Hinweis: `deck/` entfällt. Die Pitch-Seite selbst ist die Präsentation. Das Sk
 ## Offene `[CONFIRM]`-Stellen
 
 **Vor dem Versand des Pitches an Simran:**
-1. Loom-Walkthrough für das Video auf der Pitch-Seite
+1. Video auf der Pitch-Seite = Platzhalter für ihre VSL (Thumbnail ihres neuesten Uploads), kein offener Punkt
 2. Vergütungsmodell / Angebot von dir an sie (HOUSE.md, nicht definiert)
 3. Tonalität / Anrede (HOUSE.md leer; aktuell: Englisch, „you“, direkt)
    Case Studies in HOUSE.md eintragen: sie erscheinen dann automatisch auf der Pitch-Seite
@@ -59,7 +59,6 @@ Auf den Seiten steht kein `[CONFIRM]` mehr. Diese Punkte sind als Vorschlag ausf
 
 ## Offene `{{SWAP}}`-Stellen
 
-- Pitch-Seite: Loom-Walkthrough (3–5 Min.)
 - Pitch-Seite: 2 eigene Case Studies aus HOUSE.md (HOUSE.md ist noch leer)
 - Funnel: Simrans Mentoring-VSL
 - Funnel: 3 echte Schüler-Stories (nur mit Erlaubnis, keine gefunden)
