@@ -136,6 +136,7 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 | Book a call | Überschrift + Calendly-Karte, Sticky-Button | Untertext, „Calendar not loading?“-Link |
 | Signatur | keine | Absendername/Unterschrift |
 | Link-Vorschau | og/twitter-Tags: Titel „Built for {Brand}“, Beschreibung = Headline, Bild = 1200×630-Karte (Eyebrow + Headline links, Video-Thumbnail mit Play-Button rechts) | nackte URL ohne Vorschau |
+| Favicon | Inline-SVG (kein extra File): abgerundetes Quadrat mit dem ersten Buchstaben des Brand-Namens; Pitch-Seite Bronze #7c5a16 / Papier, Funnel-Seiten Creator-`accent` / `accent-ink` (`favicon()` in `build.py`) | kein Favicon (Browser-Standard) |
 | Zusammenarbeit/Vergütung | steht nicht auf der Seite; der Nutzer bespricht das in der Cold-DM/E-Mail | Abschnitt „How we'd work together“ |
 
 Neue Wünsche des Nutzers zum Design immer im Template umsetzen (nicht nur für einen Creator), in diese Tabelle eintragen, pushen und live prüfen.

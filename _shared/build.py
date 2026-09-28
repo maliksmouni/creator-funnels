@@ -13,6 +13,7 @@ import html
 import json
 import re
 import sys
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -64,6 +65,18 @@ def page(title, css, body, extra_head="", lang="en"):
 </body>
 </html>
 """
+
+
+def favicon(c, bg, fg):
+    """Inline SVG favicon: rounded square with the brand's first letter (no extra file to publish)."""
+    letter = html.escape(next((ch for ch in c["brandName"] if ch.isalnum()), "·").upper())
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="{bg}"/>'
+           f'<text x="32" y="45" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" fill="{fg}">{letter}</text></svg>')
+    return f'<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{urllib.parse.quote(svg)}">\n'
+
+
+def funnel_favicon(c):
+    return favicon(c, c["brand"]["accent"], c["brand"]["accent-ink"])
 
 
 def vsl_thumb(c, prefix=""):
@@ -172,7 +185,7 @@ def build_pitch(c, house_cases):
 <footer class="footer"><span>{t(p["footer"])}</span></footer>
 """
     head = og_tags(c) + '<script src="https://assets.calendly.com/assets/external/widget.js" async></script>\n'
-    return page(f'{c["brandName"]}', (SHARED / "pitch-master.css").read_text(), body, head)
+    return page(f'{c["brandName"]}', (SHARED / "pitch-master.css").read_text(), body, favicon(c, "#7c5a16", "#f5f2ec") + head)
 
 
 # ---------- creator funnel (creator brand) ----------
@@ -313,7 +326,7 @@ def build_funnel(c):
 </div></section>
 <section class="final"><div class="wrap narrow"><h2 class="reveal">{t(s["finalCta"]["title"])}</h2><p class="lead reveal">{t(s["finalCta"]["body"])}</p><a class="btn reveal" href="#apply">{t(s["finalCta"]["cta"])} {ARROW}</a></div></section>
 """
-    return page(f'{c["brandName"]}: {ui(c, "funnelTitle")}', brand_css(c), funnel_shell(c, inner, "#apply"), lang=ui(c, "lang"))
+    return page(f'{c["brandName"]}: {ui(c, "funnelTitle")}', brand_css(c), funnel_shell(c, inner, "#apply"), funnel_favicon(c), lang=ui(c, "lang"))
 
 
 def build_thankyou(c):
@@ -328,7 +341,7 @@ def build_thankyou(c):
   <ol class="steps">{steps(ui(c, "tySteps"))}</ol>
   <p class="note"><a href="../">{t(ui(c, "tyBack"))}</a></p>
 </div></section>"""
-    return page(f'{c["brandName"]}: {ui(c, "bookedTitle")}', brand_css(c), funnel_shell(c, inner), lang=ui(c, "lang"))
+    return page(f'{c["brandName"]}: {ui(c, "bookedTitle")}', brand_css(c), funnel_shell(c, inner), funnel_favicon(c), lang=ui(c, "lang"))
 
 
 MERGE_TAG = re.compile(r"(\{\{[a-z_]+\}\})")
@@ -347,7 +360,7 @@ def build_emails(c):
     lead = t(ui(c, "emailsLead")).replace("{n}", str(len(c["preCallEmails"]))).replace("{tag}", "<code>{{first_name}}</code>")
     inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">{t(ui(c, "emailsEyebrow"))}</span><h1 class="reveal">{t(ui(c, "emailsHeading"))}</h1>
 <p class="lead reveal">{lead}</p><div class="doc">{mails}</div></div></section>"""
-    return page(f'{c["brandName"]}: {ui(c, "emailsTitle")}', brand_css(c), funnel_shell(c, inner), lang=ui(c, "lang"))
+    return page(f'{c["brandName"]}: {ui(c, "emailsTitle")}', brand_css(c), funnel_shell(c, inner), funnel_favicon(c), lang=ui(c, "lang"))
 
 
 def build_ads(c):
@@ -359,7 +372,7 @@ def build_ads(c):
     lead = t(ui(c, "adsLead")).replace("{n}", str(len(c["adScripts"])))
     inner = f"""<section class="hero"><div class="wrap narrow"><span class="eyebrow reveal">{t(ui(c, "adsEyebrow"))}</span><h1 class="reveal">{t(ui(c, "adsHeading"))}</h1>
 <p class="lead reveal">{lead}</p><div class="doc">{ads}</div></div></section>"""
-    return page(f'{c["brandName"]}: {ui(c, "adsTitle")}', brand_css(c), funnel_shell(c, inner), lang=ui(c, "lang"))
+    return page(f'{c["brandName"]}: {ui(c, "adsTitle")}', brand_css(c), funnel_shell(c, inner), funnel_favicon(c), lang=ui(c, "lang"))
 
 
 def house_cases():
