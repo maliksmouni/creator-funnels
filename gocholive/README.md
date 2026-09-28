@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel (Rebuild des bestehenden GoHighLevel-Funnels für das „Programa de 0 a Trader“). Stand: 28.09.2026. Status: **live** seit 28.09.2026: https://infooperate.netlify.app/gocholive/.
 
+Kontakt: franklin@eltradingclub.com (vom Nutzer per Screenshot geliefert, 28.09.2026). Auf eltradingclub.com (/privacy-policy, /terms-conditions) steht nur admin@eltrandingclub.com mit Tippfehler; diese Domain existiert nicht.
+
 Seiten: `index.html` (Pitch, Englisch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/` (Spanisch über `content.json → ui`). Texte nur in `content.json` ändern, dann `python3 _shared/build.py gocholive`.
 
 ## Offene `[CONFIRM]`-Stellen (intern)
