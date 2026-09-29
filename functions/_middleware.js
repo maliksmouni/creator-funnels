@@ -4,7 +4,9 @@
 //
 // Visit alerts: when a real person opens a pitch page or one of its deliverables, a push goes to
 // ntfy (https://ntfy.sh). The topic is a secret set in Cloudflare (Pages → Settings → Variables and
-// Secrets → NTFY_TOPIC), never in this public repo; without it nothing is sent. Link-preview bots,
+// Secrets → NTFY_TOPIC), never in this public repo; without it nothing is sent. NTFY_TOKEN (an ntfy account
+// access token, also a secret) is needed in practice: anonymous ntfy.sh limits per IP, and Cloudflare's
+// shared egress IPs hit that daily quota (429) before any visitor arrives. Link-preview bots,
 // prefetches and the owner's own devices (opened once with ?me=1, which sets a cookie) are skipped.
 const ALLOW = ["/assets/", "/gocholive/", "/havemercitrades/", "/mightystocks/", "/thaflipking/"];
 const PRIVATE = new Set(["dossier.md", "offer-deck-filled.md", "README.md", "content.json"]);
@@ -67,7 +69,9 @@ function maybeNotify(ctx, url, path, status) {
 
 function sendAlert(ctx, msg) {
   return fetch((ctx.env.NTFY_SERVER || "https://ntfy.sh").replace(/\/$/, "") + "/", {
-    method: "POST", headers: { "content-type": "application/json", "user-agent": "infooperate-visit-alert" }, body: JSON.stringify(msg),
+    method: "POST", body: JSON.stringify(msg),
+    headers: Object.assign({ "content-type": "application/json", "user-agent": "infooperate-visit-alert" },
+      ctx.env.NTFY_TOKEN ? { authorization: "Bearer " + ctx.env.NTFY_TOKEN } : {}),
   });
 }
 
