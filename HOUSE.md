@@ -57,3 +57,8 @@ Umgesetzt in `_shared/pitch-master.css` (Stil-Referenz: phil-pitch.pages.dev). [
 - Akzentfarbe: #7c5a16 (Bronze)
 - Fonts: Bricolage Grotesque (Headlines), Inter (Text), JetBrains Mono (Labels), selbst gehostet in `assets/fonts/` (OFL)
 - Grundstil: hell/editorial, zentrierter Hero mit großem Video, nummerierte „Four things I noticed“-Karten, Deliverables als Browser-Vorschauen, Calendly-Karte, Sticky-„Book a call“
+
+## Besuchs-Alarm (Telegram)
+
+Öffnet jemand eine Pitch-Seite oder ein Deliverable auf infooperate.pages.dev, schickt der eigene Telegram-Bot eine Nachricht (Name, Seite, Stadt/Land, Gerät, Quelle, Button zum Instagram-Profil). Einrichtung: Cloudflare Pages `infooperate` → Settings → Variables and secrets (Production): `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. Eigene Geräte einmal mit `?me=1` öffnen. Selbsttest: `/{slug}/?alerttest={chat id}`.
+
