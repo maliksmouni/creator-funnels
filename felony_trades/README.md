@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel vor der „FelonyTrades Mentorship“ ($3,000, heute direkter Whop-Checkout). Stand: 29.09.2026. Status: **live** seit 29.09.2026. Adresse nach Livegang: https://infooperate.pages.dev/felony_trades/
 
+Live geprüft 29.09.2026: 5 Seiten 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an felonytrades@gmail.com am 29.09.2026 (Link fügt der Nutzer ein).
+
 Kontakt: felonytrades@gmail.com (vom Nutzer geliefert, 29.09.2026).
 
 Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/`. Texte nur in `content.json` ändern, dann `python3 _shared/build.py felony_trades`. Video-Platzhalter = neuester Livestream (`yt_thumb.py felony_trades FelonyFST streams`), weil die letzten normalen Videos 2–3 Jahre alt sind.
