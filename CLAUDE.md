@@ -15,11 +15,9 @@ After every funnel is live and verified, create a Gmail **draft** (never send it
 
   and say that the draft is waiting in Gmail → Drafts.
 - Also send the user `{slug}/assets/story.jpg` (the Instagram story, made by `_shared/thumbs.mjs`) as a file, with these steps: upload as a story, add a link sticker with the pitch link under "Tap the link", add a mention sticker `@{creator handle}`, share to **Close Friends** (creator on the list). Posting is always done by the user in the app.
-- Right after the story image, show the creator's Instagram profile link on its own line in a code block (so the user can open it and add them to Close Friends), e.g.
+- Right after the story image, show the creator's Instagram profile link on its own line as a **clickable link, not in a code block** (the user taps it on mobile to open the profile and add them to Close Friends), e.g.
 
-  ```
-  https://www.instagram.com/{handle}/
-  ```
+  [instagram.com/{handle}](https://www.instagram.com/{handle}/)
 
   Order at the end of the reply: story image + steps → Instagram profile link → pitch link.
 - "Live and verified" means: Phase 8 of the skill passed (all pages 200 on the live site, private files 404).

@@ -195,7 +195,7 @@ Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `p
    - `/{slug}/`, `/{slug}/funnel/`, `/{slug}/funnel/thank-you/`, `/{slug}/emails/`, `/{slug}/ads/` → 200
    - `/{slug}/dossier.md`, `/{slug}/content.json`, `/{slug}/offer-deck-filled.md`, `/{slug}/README.md`, `/HOUSE.md`, `/_shared/*`, `/.claude/*` → 404
    - Header `x-robots-tag: noindex`
-4. Die Live-Links an den Nutzer geben. Danach Outreach laut `CLAUDE.md`: Gmail-Entwurf mit Link-Platzhalter, `{slug}/assets/story.jpg` per Datei schicken (mit Close-Friends-Anleitung), dann den Instagram-Profil-Link des Creators und am Ende den Pitch-Link, jeweils als eigener Codeblock zum Kopieren.
+4. Die Live-Links an den Nutzer geben. Danach Outreach laut `CLAUDE.md`: Gmail-Entwurf mit Link-Platzhalter, `{slug}/assets/story.jpg` per Datei schicken (mit Close-Friends-Anleitung), dann den Instagram-Profil-Link des Creators als anklickbaren Link (kein Codeblock, damit er mobil direkt aufgeht) und am Ende den Pitch-Link als Codeblock zum Kopieren.
 
 Hinweis: Das GitHub-Repo ist öffentlich. Dossier und Notizen sind dort sichtbar, auch wenn Cloudflare sie nicht ausliefert. Den Nutzer darauf hinweisen, solange das so ist.
 
