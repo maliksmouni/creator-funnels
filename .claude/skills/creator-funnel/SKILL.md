@@ -166,6 +166,7 @@ Zwei getrennte Design-Systeme, nie mischen:
 
 ```
 python3 _shared/yt_thumb.py {slug} {youtube-handle}   # immer: neuestes Upload-Thumbnail als Video-Platzhalter
+# Sind die letzten normalen Videos alt (> 6 Monate) und laufen regelmäßig Livestreams: `python3 _shared/yt_thumb.py {slug} {handle} streams` (neuester Stream)
 python3 _shared/build.py {slug}          # schreibt index.html, funnel/, funnel/thank-you/, emails/, ads/ und _redirects
 python3 -m http.server 8788 --bind 127.0.0.1 &   # vom Repo-Root aus (Fonts liegen unter /assets)
 node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/previews/*.jpg + Link-Vorschau-Karte {slug}/assets/og.jpg + Story {slug}/assets/story.jpg

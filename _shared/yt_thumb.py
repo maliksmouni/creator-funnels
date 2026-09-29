@@ -21,8 +21,8 @@ def curl(url, out=None):
     return subprocess.run(cmd, check=True, capture_output=True).stdout.decode("utf-8", "replace")
 
 
-def latest_video(handle):
-    page = curl(f"https://www.youtube.com/@{handle.lstrip('@')}/videos")
+def latest_video(handle, tab="videos"):
+    page = curl(f"https://www.youtube.com/@{handle.lstrip('@')}/{tab}")
     data = json.loads(re.search(r"var ytInitialData = (\{.*?\});</script>", page).group(1))
     found = []
 
@@ -37,13 +37,14 @@ def latest_video(handle):
                 walk(v)
 
     walk(data)
-    v = found[0]  # the Videos tab is sorted newest first
+    v = found[0]  # the Videos and Live tabs are sorted newest first
     return v["contentId"], v["metadata"]["lockupMetadataViewModel"]["title"]["content"]
 
 
 def main():
     slug, handle = sys.argv[1], sys.argv[2]
-    vid, title = latest_video(handle)
+    # optional 3rd arg "streams": use the latest livestream (for creators whose long-form uploads are old)
+    vid, title = latest_video(handle, sys.argv[3] if len(sys.argv) > 3 else "videos")
     out = ROOT / slug / "assets" / "video-thumb.jpg"
     out.parent.mkdir(parents=True, exist_ok=True)
     for size in ("maxresdefault", "sddefault", "hqdefault"):

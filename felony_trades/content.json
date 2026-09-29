@@ -1,0 +1,412 @@
+{
+  "status": "draft",
+  "slug": "felony_trades",
+  "instagram": "felony_trades",
+  "name": "Conner Tyrrell",
+  "brandName": "FelonyTrades",
+  "niche": "Options, futures and equities day trading; live trading community First Step Trading, US",
+  "offerName": "FelonyTrades Mentorship ($3,000 one-time, Whop checkout, no application or call)",
+  "image": "assets/felony.jpg",
+  "brand": {
+    "_note": "YouTube avatar (dark purple #1f014b, orange #f59435) and website accent #AB83FA; surface/line/muted derived [CONFIRM]",
+    "bg": "#1f014b",
+    "surface": "#2b0f5e",
+    "line": "#48287e",
+    "text": "#f7f2ff",
+    "muted": "#cdbfe8",
+    "accent": "#f59435",
+    "accent-ink": "#1f014b",
+    "signal": "#ab83fa"
+  },
+  "headline": "Trade options and futures live, next to a full-time trader.",
+  "subheadline": "The FelonyTrades Mentorship: daily live trading, live classes you can re-watch for life, and the First Step Trading community. Apply first, talk to us, then decide.",
+  "demoBanner": "Demo built for Conner (FelonyTrades). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for FelonyTrades",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "FelonyTrades Mentorship",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "63.7K on Instagram, and a $3,000 mentorship behind a Buy button.",
+          "text": "“Become my mentee” on felonytrades.co goes straight to a Whop checkout: $3,000, one click, no application and no call. You've mentored 500+ traders that way, so the demand is real. What's missing is the conversation for everyone who hesitates at $3,000.",
+          "stats": [
+            {
+              "value": "63.7K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "$3,000",
+              "label": "mentorship, one-time"
+            },
+            {
+              "value": "500+",
+              "label": "traders mentored"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "83 Sunday streams in a row, and no next step at the end of them.",
+          "text": "Sunday Stock Service runs every week at 9PM EST, and each episode pulls 1.2K to 1.9K views. Those are people who show up for you on a Sunday night. Right now the only path from there to the mentorship is a $3,000 checkout.",
+          "stats": [
+            {
+              "value": "83",
+              "label": "Sunday Stock Service episodes"
+            },
+            {
+              "value": "1.2–1.9K",
+              "label": "views per stream"
+            },
+            {
+              "value": "908",
+              "label": "reviews on Whop, 4.8"
+            }
+          ]
+        },
+        {
+          "kicker": "The bottleneck",
+          "title": "A $3,000 decision gets two sentences and a cart.",
+          "text": "The mentorship page on Whop is a tagline, two sentences and four FAQs, next to the same cart as the $100 live group. The ones who aren't sure leave without asking, and the ones who aren't a fit can buy anyway. An application and a call fix both.",
+          "stats": [
+            {
+              "value": "2",
+              "label": "sentences describing the mentorship"
+            },
+            {
+              "value": "0",
+              "label": "calls before a $3,000 purchase"
+            }
+          ]
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“Whop already works.” It stays.",
+          "text": "Whop keeps the checkout, the community and the $100 live group. The funnel only sits in front of the mentorship: one page, a short application, a call with you or your team, and emails that get people to the call. Your own FAQ already says what a call is for.",
+          "quote": "“We care, first and foremost. We care not only about your success as a trader but you as a person.”",
+          "source": "First Step Trading FAQ on Whop"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "Sells the FelonyTrades Mentorship, shows how the live trading works, and ends in a 6-question application.",
+            "href": "funnel/",
+            "url": "felonytrades.co/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and where the official links are.",
+            "href": "funnel/thank-you/",
+            "url": "felonytrades.co/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram, YouTube and Sunday stream audience. No P&L numbers, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "FelonyTrades mentorship funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "FelonyTrades · Mentorship",
+      "chips": [
+        "Options · Futures · Equities",
+        "Daily live trading",
+        "Lifetime access",
+        "500+ traders mentored"
+      ],
+      "cta": "Apply for the mentorship",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Felony's mentorship VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You watch the clips, then freeze live",
+          "body": "The setups look obvious on a replay. At the open you hesitate, chase, or take a trade your plan never allowed."
+        },
+        {
+          "title": "You trade alone",
+          "body": "No one sees your entries, no one asks why you took them, and the same mistakes repeat every week."
+        },
+        {
+          "title": "Signals aren't a skill",
+          "body": "Copying alerts gets you in a trade. It doesn't teach you why, when to size down, or when to sit out."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "Learn it live, then do it yourself",
+      "body": "You trade the session next to Felony in real time, learn the reasoning behind every entry and exit in live classes, and build the habits that keep you consistent. Every class is recorded, so nothing is missed.",
+      "pillars": [
+        {
+          "title": "Prepare",
+          "body": "Watchlist and key levels before the week and before the open."
+        },
+        {
+          "title": "Execute",
+          "body": "Real-time commentary on options and futures while the market moves."
+        },
+        {
+          "title": "Protect",
+          "body": "Risk rules and position sizing, for small and large accounts."
+        },
+        {
+          "title": "Review",
+          "body": "Recorded classes and trade reviews you can re-watch for life."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside the mentorship",
+      "items": [
+        {
+          "title": "Daily live trading",
+          "body": "Trade the session alongside Felony with real-time commentary."
+        },
+        {
+          "title": "Live classes",
+          "body": "Taught live and recorded, available within an hour of each class."
+        },
+        {
+          "title": "Lifetime access",
+          "body": "One enrollment, no expiry on the classes and the educational content."
+        },
+        {
+          "title": "Sunday Stock Service",
+          "body": "The weekly Sunday night game plan: watchlist, levels and the week ahead."
+        },
+        {
+          "title": "Funded-account guidance",
+          "body": "How to approach prop firm evaluations with rules instead of hope."
+        },
+        {
+          "title": "The mentee community",
+          "body": "The First Step Trading community, on and off the charts."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Mentees",
+      "items": [
+        "{{SWAP}} Mentee review from Whop (908 reviews)",
+        "{{SWAP}} Mentee story from the Florida meetup",
+        "{{SWAP}} Mentee video testimonial"
+      ],
+      "note": "Individual results, not typical. Trading options and futures involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with the FelonyTrades team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether the mentorship makes sense. The investment is explained on the call. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the FelonyTrades Mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Options",
+            "Futures",
+            "Stocks",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "What's the biggest thing holding your trading back right now?",
+          "type": "text"
+        },
+        {
+          "q": "Are you already in the First Step Trading live group?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "I watch the Sunday streams",
+            "No"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the mentorship now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now the mentorship isn't the right next step for you. Join the free Sunday Stock Service on YouTube every Sunday at 9PM EST, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to take the first step?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading options and futures involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your mentorship call is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think about where you are: how long you've been trading, what you trade, and what keeps going wrong.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nFelony"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why watching isn't the same as trading",
+      "previewText": "The replay always looks easy",
+      "body": "Hey {{first_name}},\n\nEvery setup looks obvious on a replay. Live, with a position open, it's a different game.\n\nThat's why the mentorship is built around trading the session live, then breaking it down in classes you can re-watch for life.\n\nOn the call we'll look at where your process breaks today.\n\nFelony"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"My account is too small\"",
+      "previewText": "The question I get most",
+      "body": "Hey {{first_name}},\n\nThe question I get most: do I need a large account?\n\nNo. Small or large, the work is the same: proper habits, fixed risk, and patience. Size comes later.\n\nIf money is the worry, bring it up on the call. We'd rather tell you to wait than have you trade money you can't afford to lose.\n\nFelony"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What we'll cover on the call",
+      "previewText": "About 30 minutes, no pressure",
+      "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want trading to look like in a year.\n3. How the mentorship works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nFelony"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with the FelonyTrades team",
+      "previewText": "Quick reminder",
+      "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nFelony"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today's the day",
+      "previewText": "Your call is at {{call_time}}",
+      "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nFelony"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Live, not replay",
+      "hook": "Every setup looks easy on a replay.",
+      "script": "[Felony at the desk, live chart behind]\nEvery setup looks easy on a replay.\nLive, with a position open, it's different. That's where most traders break.\nIn the FelonyTrades Mentorship you trade the session live next to me, then we break it down in classes you can re-watch for life.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading options and futures involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Sunday stream audience",
+      "hook": "You've watched the Sunday streams. Here's the next step.",
+      "script": "[Clip from Sunday Stock Service]\nIf you're on the Sunday streams every week, you already know how I prepare.\nThe mentorship is where you do it with me, every day, live.\nApply, hop on a call with my team, and we'll tell you honestly if it fits.\n[On-screen: Educational content only. Trading options and futures involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Small account objection",
+      "hook": "No, you don't need a big account.",
+      "script": "[Felony to camera]\nNo, you don't need a big account to learn to trade.\nYou need habits: fixed risk, patience, and someone who sees your mistakes.\nThat's what the mentorship is built on.\nApply at the link.\n[On-screen: Educational content only. Trading options and futures involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Community",
+      "hook": "Trading alone is how the same mistakes repeat.",
+      "script": "[B-roll of the First Step Trading live room, meetup photos]\nTrading alone is how the same mistakes repeat every week.\nFirst Step Trading is a community that trades live together and reviews every day.\nThe mentorship is the deepest level of it.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading options and futures involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "jdWLvPzOjwE",
+    "title": "Sunday Stock Service EP 83: The Moon Landing🚀"
+  }
+}
