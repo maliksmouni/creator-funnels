@@ -13,14 +13,22 @@ const PAGES = { "": "pitch page", "funnel/": "funnel page", "funnel/thank-you/":
 const BOTS = /bot|crawl|spider|slurp|preview|facebookexternalhit|facebot|whatsapp|telegram|slack|discord|skype|linkedin|pinterest|embedly|quora|vkshare|google(?:-|image|other|web)|feedfetcher|mediapartners|headless|playwright|puppeteer|lighthouse|pingdom|uptime|monitor|curl|wget|python|node-fetch|undici|axios|go-http|java\/|okhttp|http-client|scrapy|cloudflare/i;
 
 export async function onRequest(ctx) {
-  console.log("MW", ctx.request.url);
   let url, path;
   try { url = new URL(ctx.request.url); path = decodeURIComponent(url.pathname); } catch { return notFound(ctx); }
   const parts = path.split("/");
   const allowed = path === "/404" || path === "/404.html" || ALLOW.some(a => path === a.slice(0, -1) || path.startsWith(a));
   if (!allowed || PRIVATE.has(parts[parts.length - 1]) || parts.some(x => x.startsWith(".") || x.startsWith("_"))) return notFound(ctx);
-  const res0 = await ctx.next();
-  const res = new Response(res0.body, res0); res.headers.set("x-dbg", "q=" + url.search + ";topic=" + (!!(ctx.env&&ctx.env.NTFY_TOPIC)));
+  const res = await ctx.next();
+  // Self-test: ?alerttest=<the secret topic> sends one alert and reports ntfy's answer in x-alert-result.
+  const at = url.searchParams.get("alerttest");
+  if (at && ctx.env && ctx.env.NTFY_TOPIC && at === ctx.env.NTFY_TOPIC) {
+    let result;
+    try { const r = await sendAlert(ctx, { topic: at, title: "Alert self-test", message: "The visit alert on infooperate.pages.dev works.", tags: ["white_check_mark"] }); result = `ntfy ${r.status} ${(await r.text()).slice(0, 120)}`; }
+    catch (e) { result = `error ${e && e.message}`; }
+    const r = new Response(res.body, res);
+    r.headers.set("x-alert-result", result.split("\n").join(" ").split("\r").join(" "));
+    return r;
+  }
   if (url.searchParams.get("me") === "1") {
     const r = new Response(res.body, res);
     r.headers.append("set-cookie", "io_me=1; Path=/; Max-Age=31536000; Secure; SameSite=Lax");
@@ -54,10 +62,13 @@ function maybeNotify(ctx, url, path, status) {
     priority: m[2] === "" ? 4 : 3,
     click: c.instagram ? `https://www.instagram.com/${c.instagram}/` : url.origin + "/" + m[1] + "/",
   };
-  console.log("PUSH", JSON.stringify(msg));
-  ctx.waitUntil(fetch((ctx.env.NTFY_SERVER || "https://ntfy.sh").replace(/\/$/, "") + "/", {
-    method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(msg),
-  }).then(r => console.log("PUSH status", r.status)).catch(e => console.log("PUSH err", e.message)));
+  ctx.waitUntil(sendAlert(ctx, msg).catch(() => {}));
+}
+
+function sendAlert(ctx, msg) {
+  return fetch((ctx.env.NTFY_SERVER || "https://ntfy.sh").replace(/\/$/, "") + "/", {
+    method: "POST", headers: { "content-type": "application/json", "user-agent": "infooperate-visit-alert" }, body: JSON.stringify(msg),
+  });
 }
 
 async function notFound(ctx) {
