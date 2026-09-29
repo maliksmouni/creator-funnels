@@ -1,6 +1,6 @@
 # havemercitrades: Mercedith „Merci“ (HaveMerciTrades)
 
-Aware-Outreach-Pitch für einen Call-Funnel für die „7-Week Private Mentorship“. Stand: 29.09.2026. Status: **live** seit 29.09.2026: https://infooperate.pages.dev/havemercitrades/ (noch nicht live geprüft)
+Aware-Outreach-Pitch für einen Call-Funnel für die „7-Week Private Mentorship“. Stand: 29.09.2026. Status: **live** seit 29.09.2026: https://infooperate.pages.dev/havemercitrades/ (live geprüft 29.09.2026: 5 Seiten 200, private Dateien 404, noindex). Outreach-Mail als Gmail-Entwurf mit Link-Platzhalter angelegt 29.09.2026; Story-Bild an den Nutzer geschickt
 
 Kontakt: merci@havemercitrades.com (vom Nutzer aus seiner Liste, 29.09.2026). Achtung: die Website havemercitrades.com ist offline (Shopify-Store geschlossen); die E-Mail-Domain hat aktive MX-Einträge (Google Workspace, geprüft 29.09.2026).
 
