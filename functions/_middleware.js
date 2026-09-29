@@ -2,12 +2,13 @@
 // (minus their notes) plus shared assets, whatever the dashboard build settings are, so the
 // research notes, content.json and repo files are never public even if the repo root is deployed.
 //
-// Visit alerts: when a real person opens a pitch page or one of its deliverables, the owner's Telegram
-// bot sends them a message. Bot token and chat id are secrets set in Cloudflare (Pages → Settings →
-// Variables and Secrets → TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID), never in this public repo; without
-// them nothing is sent. Link-preview bots, prefetches and the owner's own devices (opened once with
-// ?me=1, which sets a cookie) are skipped. Self-test: ?alerttest=<chat id> sends one message and
-// reports Telegram's answer in the x-alert-result header. (ntfy.sh was tried first: its free tier
+// Visit alerts: when a real person opens a pitch page or one of its deliverables, a message goes to the
+// owner's Discord channel (webhook) and/or Telegram bot, whichever is configured. The secrets live in
+// Cloudflare (Pages → Settings → Variables and Secrets: DISCORD_WEBHOOK_URL, or TELEGRAM_BOT_TOKEN +
+// TELEGRAM_CHAT_ID), never in this public repo; without them nothing is sent. Link-preview bots,
+// prefetches and the owner's own devices (opened once with ?me=1, which sets a cookie) are skipped.
+// Self-test: ?alerttest=<Discord webhook id or Telegram chat id> sends one message to every configured
+// channel and reports the answers in the x-alert-result header. (ntfy.sh was tried first: its free tier
 // limits per IP, and Cloudflare's shared egress IPs are always over the daily quota.)
 const ALLOW = ["/assets/", "/gocholive/", "/havemercitrades/", "/mightystocks/", "/thaflipking/"];
 const PRIVATE = new Set(["dossier.md", "offer-deck-filled.md", "README.md", "content.json"]);
@@ -23,11 +24,9 @@ export async function onRequest(ctx) {
   if (!allowed || PRIVATE.has(parts[parts.length - 1]) || parts.some(x => x.startsWith(".") || x.startsWith("_"))) return notFound(ctx);
   const res = await ctx.next();
   const at = url.searchParams.get("alerttest");
-  if (at && at.trim() === secret(ctx, "TELEGRAM_CHAT_ID")) {
-    let result;
-    try { const r = await sendAlert(ctx, "✅ Visit alert self-test\nThe alerts from infooperate.pages.dev reach you.", null); result = `telegram ${r.status} ${(await r.text()).slice(0, 160)}`; }
-    catch (e) { result = `error ${e && e.message}`; }
-    return withHeader(res, "x-alert-result", result.split("\n").join(" "));
+  if (at && [secret(ctx, "TELEGRAM_CHAT_ID"), discordId(ctx)].filter(Boolean).includes(at.trim())) {
+    const results = await sendAlert(ctx, "✅ Visit alert self-test\nThe alerts from infooperate.pages.dev reach you.", null);
+    return withHeader(res, "x-alert-result", (results.join(" | ") || "no channel configured").split("\n").join(" "));
   }
   if (url.searchParams.get("me") === "1") return withHeader(res, "set-cookie", "io_me=1; Path=/; Max-Age=31536000; Secure; SameSite=Lax");
   try { maybeNotify(ctx, url, path, res.status); } catch (e) {}
@@ -44,7 +43,7 @@ function withHeader(res, name, value) {
 function secret(ctx, name) { return ((ctx.env && ctx.env[name]) || "").trim(); }
 
 function maybeNotify(ctx, url, path, status) {
-  if (!secret(ctx, "TELEGRAM_BOT_TOKEN") || !secret(ctx, "TELEGRAM_CHAT_ID") || status !== 200 || ctx.request.method !== "GET") return;
+  if (!channels(ctx).length || status !== 200 || ctx.request.method !== "GET") return;
   const m = path.match(/^\/([a-z0-9-]+)\/(.*)$/);
   if (!m || !CREATORS[m[1]] || !(m[2] in PAGES)) return;
   const h = ctx.request.headers, ua = h.get("user-agent") || "";
@@ -60,15 +59,39 @@ function maybeNotify(ctx, url, path, status) {
   try { const ref = h.get("referer"); if (ref) { const rh = new URL(ref).hostname.replace(/^www\./, ""); via = rh === url.hostname ? "their own click on the page" : rh; } } catch (e) {}
   const text = `${m[2] === "" ? "👀" : "👉"} ${c.name} opened the ${PAGES[m[2]]}\n${m[1]} · ${where} · ${device}${app} · via ${via}`;
   const button = c.instagram ? { text: `Open @${c.instagram} on Instagram`, url: `https://www.instagram.com/${c.instagram}/` } : null;
-  ctx.waitUntil(sendAlert(ctx, text, button).catch(() => {}));
+  ctx.waitUntil(sendAlert(ctx, text, button));
 }
 
+function discordId(ctx) { const m = secret(ctx, "DISCORD_WEBHOOK_URL").match(/\/webhooks\/(\d+)\//); return m ? m[1] : ""; }
+
+function channels(ctx) {
+  const out = [];
+  if (secret(ctx, "DISCORD_WEBHOOK_URL")) out.push("discord");
+  if (secret(ctx, "TELEGRAM_BOT_TOKEN") && secret(ctx, "TELEGRAM_CHAT_ID")) out.push("telegram");
+  return out;
+}
+
+// Sends to every configured channel; resolves to one "channel status body" string per channel, never throws.
 function sendAlert(ctx, text, button) {
-  const body = { chat_id: secret(ctx, "TELEGRAM_CHAT_ID"), text, disable_web_page_preview: true };
-  if (button) body.reply_markup = { inline_keyboard: [[button]] };
-  return fetch(`${(ctx.env.TELEGRAM_API || "https://api.telegram.org").replace(/\/$/, "")}/bot${secret(ctx, "TELEGRAM_BOT_TOKEN")}/sendMessage`, {
-    method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body),
-  });
+  return Promise.all(channels(ctx).map(async ch => {
+    try {
+      let r;
+      if (ch === "discord") {
+        const content = button ? `${text}\n<${button.url}>` : text;
+        r = await fetch(secret(ctx, "DISCORD_WEBHOOK_URL"), {
+          method: "POST", headers: { "content-type": "application/json" },
+          body: JSON.stringify({ username: "Funnel visits", content, allowed_mentions: { parse: [] } }),
+        });
+      } else {
+        const body = { chat_id: secret(ctx, "TELEGRAM_CHAT_ID"), text, disable_web_page_preview: true };
+        if (button) body.reply_markup = { inline_keyboard: [[button]] };
+        r = await fetch(`https://api.telegram.org/bot${secret(ctx, "TELEGRAM_BOT_TOKEN")}/sendMessage`, {
+          method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body),
+        });
+      }
+      return `${ch} ${r.status} ${(await r.text()).slice(0, 140)}`;
+    } catch (e) { return `${ch} error ${e && e.message}`; }
+  }));
 }
 
 async function notFound(ctx) {
