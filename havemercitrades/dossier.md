@@ -17,7 +17,7 @@ Recherche-Stand: 29.09.2026. Nur öffentlich zugängliche Quellen. Was nicht bel
 
 | Plattform | Kennzahl | Quelle |
 |---|---|---|
-| Instagram @havemercitrades | **24,1K Follower** (Nutzer-Tabelle); Instagram-API 401 (rate-limitiert) `[CONFIRM]` | Nutzer, 29.09.2026 |
+| Instagram @havemercitrades | **29,6K Follower, 794 Posts, 811 folgt**, verifiziert (blauer Haken). Bio: „Full Time Day Trader • Wife • SAHM • Homeschool Mom / Helping everyday people learn to trade 💕 / ⬇️ Join my community“, Link: **havemercitrades.komi.io**, Threads. Highlights u. a. „Live sessio…“, „Student R…“ (Student Results), „2026 Trad…“, „EBOOKS“, „Futures“, „Books“, „Trading Ti…“, „Nas100 pt2“. Gepinnter Post „About me“: „I'm Merci! I'm a 26-year-old wife, mom of two little boys, and a faith-based day trader with nearly 5 years of experience … I lead a day trading community where I offer daily support, live sessions, and guidance …“. Posts u. a. „How much I made Trading Nasdaq in the Futures Market on a 50k Prop Firm Account Last Week“ (P&L-Screenshots) | Profil-Screenshot vom Nutzer (PDF), 29.09.2026; Nutzer-Tabelle nannte 24,1K |
 | YouTube @HaveMerciTrades | **2,78K Abonnenten, 66 Videos, 143.029 Views**; Beschreibung: „…Visit my website for more information on signals and services!“ | YouTube „About“, 29.09.2026 |
 | Telegram t.me/HaveMerciTrades | **1.700 Abonnenten**; Posts mit 117–385 Views (Juli–Sept. 2026) | t.me, 29.09.2026 |
 | X, Threads | vorhanden, nicht ausgewertet | Websuche |
@@ -26,7 +26,11 @@ Recherche-Stand: 29.09.2026. Nur öffentlich zugängliche Quellen. Was nicht bel
 
 Letzte Long-Form: „The Basics Of Order Blocks“ (369, vor 5 Monaten), „Live Nasdaq Trading Session“ (593, 7 Monate), „What to look for when Day Trading Opening Bell“ (734), „How to Effectively Back-Test Using Tradezella“ (1K), „My Simple Grade A Set-up Trading MNQ/NQ“ (1,9K), „My Prop Firm Risk Management“ (1,3K). Shorts 480–2,1K Views, Themen: Disziplin, Reflexion statt Revenge, 9-to-5-Trader („To anyone learning while working a 9-5…“), Overtrading („Over trading isn't a strategy problem it's a discipline problem“), TradeZella-Journaling.
 
-## Angebote und Links (Linktree linktr.ee/havemercitradess, Reihenfolge)
+## Angebote und Links
+
+Aktueller Bio-Link: havemercitrades.komi.io (Komi-Seite lädt nur per JavaScript/App, Inhalt nicht abrufbar `[CONFIRM]` – Screenshot vom Nutzer anfragen). Die Linktree-Seite ist vermutlich die **alte** Link-Seite (weiterhin öffentlich und bei Google gelistet).
+
+### Alter Linktree (linktr.ee/havemercitradess), Reihenfolge
 
 | # | Link | Befund (29.09.2026) |
 |---|---|---|

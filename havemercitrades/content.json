@@ -18,7 +18,7 @@
     "signal": "#8a5a2e"
   },
   "headline": "Seven weeks to trade Nasdaq with structure, discipline and faith.",
-  "subheadline": "The HaveMerciTrades 7-Week Private Mentorship: small-group classes on order blocks and smart money concepts, homework after every class, and Merci in your corner. Applications only.",
+  "subheadline": "Helping everyday people learn to trade: seven weeks of small-group classes on order blocks and smart money concepts, homework after every class, and Merci in your corner. Applications only.",
   "demoBanner": "Demo built for Mercedith (HaveMerciTrades). Not their official site.",
   "pitch": {
     "eyebrow": "Already built for HaveMerciTrades",
@@ -32,11 +32,11 @@
       "beats": [
         {
           "kicker": "The audience and the price",
-          "title": "24.1K on Instagram, and seven weeks of mentorship for $500.",
+          "title": "29.6K on Instagram, and seven weeks of mentorship for $500.",
           "text": "Your mentorship fills from a Telegram post and a JotForm: $250 to hold a spot, $250 when it starts. One-on-one time is $100 an hour. The demand is there. The sales process and the pricing haven't caught up with it.",
           "stats": [
             {
-              "value": "24.1K",
+              "value": "29.6K",
               "label": "Instagram followers"
             },
             {
@@ -66,8 +66,8 @@
         },
         {
           "kicker": "The broken links",
-          "title": "The first two links on your Linktree lead nowhere.",
-          "text": "Your course link opens a Teachable school with no products, and “HaveMerciTrades Trading Community” points to havemercitrades.com, which shows a closed Shopify store. Your YouTube description sends people to the same website.",
+          "title": "The website your YouTube sends people to shows a closed store.",
+          "text": "Your YouTube description says “Visit my website for more information on signals and services”. havemercitrades.com, also the first Google result for your name, now shows a closed Shopify store, and the course link on your old Linktree opens an empty Teachable school.",
           "quote": "“This store is currently unavailable.”",
           "source": "havemercitrades.com"
         },
@@ -225,9 +225,9 @@
     "proof": {
       "title": "Students",
       "items": [
-        "{{SWAP}} Mentorship student story",
-        "{{SWAP}} Mentorship student story",
-        "{{SWAP}} Community member story"
+        "{{SWAP}} Student result from the “Student Results” highlight on Instagram",
+        "{{SWAP}} Student result from the “Student Results” highlight on Instagram",
+        "{{SWAP}} Mentorship student story"
       ],
       "note": "Individual results, not typical. Trading futures and forex involves substantial risk of loss."
     },

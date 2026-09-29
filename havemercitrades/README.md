@@ -8,7 +8,7 @@ Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/` 
 
 ## Offene `[CONFIRM]`-Stellen (intern)
 
-1. Instagram 24,1K aus der Nutzer-Tabelle; Instagram-API rate-limitiert.
+1. Instagram per Profil-Screenshot des Nutzers: 29,6K (Tabelle sagte 24,1K). Inhalt der aktuellen Bio-Link-Seite havemercitrades.komi.io noch offen (lädt nur per JS) – Screenshot anfragen.
 2. Mighty-Networks-Community: Preis/Pläne hinter Bot-Check.
 3. Ob die Mentorship „small group“ ist (aus „3 filled, 2 left“ abgeleitet) und ob Live-NY-Sessions Teil der Mentorship sind.
 4. Pronomen/Anrede: Seiten und Mails sprechen Merci in der 1. Person bzw. mit Namen an; keine Pronomen verwendet.
