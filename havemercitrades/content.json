@@ -1,0 +1,402 @@
+{
+  "status": "draft",
+  "slug": "havemercitrades",
+  "name": "Mercedith (Merci)",
+  "brandName": "HaveMerciTrades",
+  "niche": "Faith-based day-trading community: Nasdaq (NAS100/NQ/MNQ) futures and forex with smart money concepts (order blocks), US",
+  "offerName": "7-Week Private Mentorship ($250 deposit + $250 at start, or $550 incl. Ebook Volume 3; application via JotForm)",
+  "image": "assets/merci.jpg",
+  "brand": {
+    "_note": "YouTube banner (cream #fff7ec, brown script, gold logo) and avatar (caramel #c99665); accent darkened to #8a5a2e for contrast [CONFIRM]",
+    "bg": "#fff7ec",
+    "surface": "#ffffff",
+    "line": "#eadcc8",
+    "text": "#3a2c1d",
+    "muted": "#6b5641",
+    "accent": "#8a5a2e",
+    "accent-ink": "#fff7ec",
+    "signal": "#8a5a2e"
+  },
+  "headline": "Seven weeks to trade Nasdaq with structure, discipline and faith.",
+  "subheadline": "The HaveMerciTrades 7-Week Private Mentorship: small-group classes on order blocks and smart money concepts, homework after every class, and Merci in your corner. Applications only.",
+  "demoBanner": "Demo built for Mercedith (HaveMerciTrades). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for HaveMerciTrades",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "7-Week Private Mentorship",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the price",
+          "title": "24.1K on Instagram, and seven weeks of mentorship for $500.",
+          "text": "Your mentorship fills from a Telegram post and a JotForm: $250 to hold a spot, $250 when it starts. One-on-one time is $100 an hour. The demand is there. The sales process and the pricing haven't caught up with it.",
+          "stats": [
+            {
+              "value": "24.1K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "$500",
+              "label": "7-week mentorship"
+            },
+            {
+              "value": "$100",
+              "label": "per 1-on-1 hour"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "1,700 people read your Telegram. The mentorship still sells in a single post.",
+          "text": "In August you posted that three spots were filled and two were left in the last mentorship of the year. That's warm demand going through a form with no page, no call and no follow-up in between.",
+          "stats": [
+            {
+              "value": "1,700",
+              "label": "Telegram subscribers"
+            },
+            {
+              "value": "2.78K",
+              "label": "YouTube subscribers"
+            }
+          ]
+        },
+        {
+          "kicker": "The broken links",
+          "title": "The first two links on your Linktree lead nowhere.",
+          "text": "Your course link opens a Teachable school with no products, and “HaveMerciTrades Trading Community” points to havemercitrades.com, which shows a closed Shopify store. Your YouTube description sends people to the same website.",
+          "quote": "“This store is currently unavailable.”",
+          "source": "havemercitrades.com"
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“My community and my form already work.” They stay.",
+          "text": "Mighty Networks stays your community and the application still asks what you ask today. The difference is one official page with your application, a call, and pre-call emails, so people know exactly where the real HaveMerciTrades is and never pay through a DM.",
+          "quote": "“There are A lot of fake tik tok accounts going around of me so please be aware!!”",
+          "source": "Merci on Telegram"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "Sells the 7-week mentorship, explains how you trade Nasdaq, and ends in a 6-question application.",
+            "href": "funnel/",
+            "url": "havemercitrades.com/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and the official-links reminder.",
+            "href": "funnel/thank-you/",
+            "url": "havemercitrades.com/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram, YouTube and Telegram audience. No profit claims, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "HaveMerciTrades mentorship funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "HaveMerciTrades · 7-Week Private Mentorship",
+      "chips": [
+        "Nasdaq · NQ / MNQ",
+        "Order blocks · SMC",
+        "Small group",
+        "Faith-based"
+      ],
+      "cta": "Apply for the mentorship",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Merci's mentorship VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You know the concepts, not the process",
+          "body": "You've watched the order block videos. At the open you still don't know which setup to take, or when to sit on your hands."
+        },
+        {
+          "title": "You overtrade, then revenge trade",
+          "body": "One loss turns into three. It isn't a strategy problem. It's a discipline problem, and nobody is holding you to a plan."
+        },
+        {
+          "title": "You're learning alone next to a 9-to-5",
+          "body": "Limited time, no one to review your trades, and no structure that fits around your job."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "Structured trading is simple trading",
+      "body": "One market, one clear A+ setup and fixed risk. Over seven weeks you learn to read Nasdaq with order blocks and liquidity, trade the New York open with a plan, and journal every trade, with faith and discipline instead of pressure.",
+      "pillars": [
+        {
+          "title": "Structure",
+          "body": "Order blocks, liquidity and a clear bias before the open."
+        },
+        {
+          "title": "Setup",
+          "body": "One Grade A setup on NQ / MNQ, written down."
+        },
+        {
+          "title": "Risk",
+          "body": "Prop-firm style risk rules so losses never overpower wins."
+        },
+        {
+          "title": "Reflection",
+          "body": "Journal every trade and review it, not revenge it."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside the mentorship",
+      "items": [
+        {
+          "title": "7 weeks of live classes",
+          "body": "A small group, one topic a week, from structure to execution."
+        },
+        {
+          "title": "Homework after every class",
+          "body": "Short assignments reviewed so you know the material stuck."
+        },
+        {
+          "title": "Live Nasdaq sessions",
+          "body": "Watch the New York open traded with the same process."
+        },
+        {
+          "title": "Ebook Volume 3",
+          "body": "Merci's newest ebook, included with the mentorship."
+        },
+        {
+          "title": "Trading plan and journal",
+          "body": "A written plan and a journaling routine you keep after week 7."
+        },
+        {
+          "title": "HaveMerciTrades community",
+          "body": "A faith-based community of traders who hold each other accountable."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Students",
+      "items": [
+        "{{SWAP}} Mentorship student story",
+        "{{SWAP}} Mentorship student story",
+        "{{SWAP}} Community member story"
+      ],
+      "note": "Individual results, not typical. Trading futures and forex involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Merci."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether the mentorship makes sense. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the 7-Week Private Mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Nasdaq futures (NQ / MNQ)",
+            "Other futures",
+            "Forex",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "Why do you want to join this mentorship?",
+          "type": "text"
+        },
+        {
+          "q": "Can you commit to the homework after each class?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "Not sure",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the mentorship now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now the mentorship isn't the right next step for you. Start with the free Intro to Day Trading PDF and the free Telegram chat, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to trade with structure?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading futures and forex involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call with Merci is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think about where you are: how long you've been trading, what you trade, and what keeps going wrong.\n\nOne important note: there are fake accounts using my name. I will never ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nMerci"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Overtrading isn't a strategy problem",
+      "previewText": "It's a discipline problem",
+      "body": "Hey {{first_name}},\n\nMost traders don't lose because their strategy is bad. They lose because they take trades their plan never allowed: after a loss, out of boredom, or to \"finish the week strong\".\n\nThat's why the mentorship starts with structure: one market, one A+ setup, fixed risk and a journal.\n\nOn the call we'll look at where your process breaks today.\n\nMerci"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I work a 9-to-5. Can I really do this?\"",
+      "previewText": "Short answer: that's who it's built for",
+      "body": "Hey {{first_name}},\n\nYou don't need perfect timing, you need commitment.\n\nThe mentorship is seven weeks, one topic a week, with homework you can do around your job. What matters is that you show up and do the work.\n\nIf the timing doesn't work for you right now, we'll tell you so on the call.\n\nMerci"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What the call is (and isn't)",
+      "previewText": "No signals, no promises, just a straight conversation",
+      "body": "Hey {{first_name}},\n\nSo you know what to expect:\n\n- The call takes about 20 to 30 minutes.\n- We'll talk about your experience, your goals and what's been holding you back.\n- If the mentorship fits, I'll explain how it works and the investment.\n- If it doesn't, I'll tell you and point you to the free resources.\n\nWhat the call isn't: no signals, no trade calls, no promises of profits. Trading involves substantial risk of loss.\n\nMerci"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Merci",
+      "previewText": "Quick checklist for tomorrow",
+      "body": "Hey {{first_name}},\n\nReminder: your call is tomorrow at {{call_time}}.\n\nQuick checklist:\n- A quiet place and a stable connection\n- A few recent trades or your journal, if you have one\n- Your questions\n\nNeed to reschedule? {{reschedule_link}}\n\nMerci"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today at {{call_time}}",
+      "previewText": "Your link is inside",
+      "body": "Hey {{first_name}},\n\nToday's the day. Your call is at {{call_time}}.\n\nJoin here: {{meeting_link}}\n\nSee you there,\nMerci"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Discipline, not strategy",
+      "hook": "Overtrading isn't a strategy problem.",
+      "script": "[Merci on camera, Nasdaq chart behind]\nOvertrading isn't a strategy problem. It's a discipline problem.\nYou don't need another indicator. You need one setup, fixed risk and someone holding you to your plan.\nThat's what the 7-Week Private Mentorship is.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "9-to-5 traders",
+      "hook": "Learning to trade while working a 9-to-5?",
+      "script": "[Merci, direct to camera]\nIf you're learning to trade while working a 9-to-5, you don't need perfect timing.\nYou need commitment and a structure that fits your life.\nSeven weeks, one topic a week, homework you can do around your job.\nApply below. If it's not a fit, I'll tell you.\n[On-screen: Educational content only. Not financial advice.]"
+    },
+    {
+      "angle": "Order blocks, simplified (YouTube audience)",
+      "hook": "You've watched the order block videos. Now trade them with a plan.",
+      "script": "[Screen recording: order blocks on NQ, then Merci on camera]\nYou've watched the order block videos.\nIn the mentorship we turn them into one Grade A setup, a trading plan and a daily journal.\nSmall group, seven weeks, homework after every class.\nLink below to apply.\n[On-screen: Individual results vary. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Faith and reflection",
+      "hook": "Losses don't need revenge. They need reflection.",
+      "script": "[Merci journaling at her desk]\nLosses don't need revenge. They need reflection.\nHaveMerciTrades is a faith-based trading community built on discipline, patience and structure.\nThe 7-Week Private Mentorship is where we do that work together.\nApply with the link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "HTsN6ZQwgz8",
+    "title": "The Basics Of Order Blocks"
+  }
+}
