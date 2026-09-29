@@ -451,6 +451,14 @@ export async function onRequest(ctx) {
     r.headers.set("x-alert-result", result.split("\\n").join(" ").split("\\r").join(" "));
     return r;
   }
+  // Diagnostics without revealing secrets: ?alertdiag=1 → which settings exist, their length and a SHA-256 fingerprint.
+  if (url.searchParams.get("alertdiag") === "1") {
+    const fp = async v => { const d = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(v)); return [...new Uint8Array(d)].slice(0, 4).map(x => x.toString(16).padStart(2, "0")).join(""); };
+    const t = topicOf(ctx), k = ((ctx.env && ctx.env.NTFY_TOKEN) || "").trim();
+    const r = new Response(res.body, res);
+    r.headers.set("x-alert-diag", `topic:${t ? "set" : "missing"} len=${t.length} fp=${t ? await fp(t) : "-"}; token:${k ? "set" : "missing"} len=${k.length} tk_=${k.startsWith("tk_")}`);
+    return r;
+  }
   if (url.searchParams.get("me") === "1") {
     const r = new Response(res.body, res);
     r.headers.append("set-cookie", "io_me=1; Path=/; Max-Age=31536000; Secure; SameSite=Lax");
