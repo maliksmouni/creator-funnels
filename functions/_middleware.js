@@ -10,9 +10,9 @@
 // Self-test: ?alerttest=<Discord webhook id or Telegram chat id> sends one message to every configured
 // channel and reports the answers in the x-alert-result header. (ntfy.sh was tried first: its free tier
 // limits per IP, and Cloudflare's shared egress IPs are always over the daily quota.)
-const ALLOW = ["/assets/", "/gocholive/", "/havemercitrades/", "/mightystocks/", "/thaflipking/"];
+const ALLOW = ["/assets/", "/felony_trades/", "/gocholive/", "/havemercitrades/", "/mightystocks/", "/thaflipking/"];
 const PRIVATE = new Set(["dossier.md", "offer-deck-filled.md", "README.md", "content.json"]);
-const CREATORS = {"gocholive": {"name": "Franklin Ovalles", "instagram": "gocholive"}, "havemercitrades": {"name": "Mercedith (Merci)", "instagram": "havemercitrades"}, "mightystocks": {"name": "Marcelo Estrada", "instagram": "mightystocks"}, "thaflipking": {"name": "Donyell Green", "instagram": "thaflipking"}};
+const CREATORS = {"felony_trades": {"name": "Conner Tyrrell", "instagram": "felony_trades"}, "gocholive": {"name": "Franklin Ovalles", "instagram": "gocholive"}, "havemercitrades": {"name": "Mercedith (Merci)", "instagram": "havemercitrades"}, "mightystocks": {"name": "Marcelo Estrada", "instagram": "mightystocks"}, "thaflipking": {"name": "Donyell Green", "instagram": "thaflipking"}};
 const PAGES = { "": "pitch page", "funnel/": "funnel page", "funnel/thank-you/": "booking page", "emails/": "email sequence", "ads/": "ad scripts" };
 const BOTS = /bot|crawl|spider|slurp|preview|facebookexternalhit|facebot|whatsapp|telegram|slack|discord|skype|linkedin|pinterest|embedly|quora|vkshare|google(?:-|image|other|web)|feedfetcher|mediapartners|headless|playwright|puppeteer|lighthouse|pingdom|uptime|monitor|curl|wget|python|node-fetch|undici|axios|go-http|java\/|okhttp|http-client|scrapy|cloudflare/i;
 
