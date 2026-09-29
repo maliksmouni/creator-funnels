@@ -2,7 +2,7 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel für die „7-Week Private Mentorship“. Stand: 29.09.2026. Status: **draft** (auf Cloudflare und Netlify gesperrt). Ziel-URL nach „deploy it“: https://infooperate.pages.dev/havemercitrades/
 
-Kontakt: merci@havemercitrades.com (vom Nutzer aus seiner Liste, 29.09.2026). Achtung: die Website havemercitrades.com ist offline (Shopify-Store geschlossen); ob die E-Mail-Domain noch Mails empfängt, ist ungeprüft `[CONFIRM]`.
+Kontakt: merci@havemercitrades.com (vom Nutzer aus seiner Liste, 29.09.2026). Achtung: die Website havemercitrades.com ist offline (Shopify-Store geschlossen); die E-Mail-Domain hat aktive MX-Einträge (Google Workspace, geprüft 29.09.2026).
 
 Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/` (Englisch). Texte nur in `content.json` ändern, dann `python3 _shared/build.py havemercitrades`.
 
@@ -15,7 +15,7 @@ Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/` 
 5. Markenfarben aus Banner/Avatar abgeleitet (Akzent abgedunkelt).
 6. Meta Ad Library nicht geprüft.
 7. **Compliance USA:** FTC, CFTC/NFA („trades called live“ in der Community). Vor Ads rechtlich prüfen.
-8. E-Mail-Domain: MX-Einträge vor dem Versand prüfen.
+8. (erledigt) MX-Einträge vorhanden.
 
 ## Vorgeschlagene Standardwerte auf den Seiten
 
