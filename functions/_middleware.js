@@ -23,9 +23,9 @@ export async function onRequest(ctx) {
   const res = await ctx.next();
   // Self-test: ?alerttest=<the secret topic> sends one alert and reports ntfy's answer in x-alert-result.
   const at = url.searchParams.get("alerttest");
-  if (at && ctx.env && ctx.env.NTFY_TOPIC && at === ctx.env.NTFY_TOPIC) {
+  if (at && at.trim() === topicOf(ctx)) {
     let result;
-    try { const r = await sendAlert(ctx, { topic: at, title: "Alert self-test", message: "The visit alert on infooperate.pages.dev works.", tags: ["white_check_mark"] }); result = `ntfy ${r.status} ${(await r.text()).slice(0, 120)}`; }
+    try { const r = await sendAlert(ctx, { topic: topicOf(ctx), title: "Alert self-test", message: "The visit alert on infooperate.pages.dev works.", tags: ["white_check_mark"] }); result = `ntfy ${r.status} ${(await r.text()).slice(0, 120)}`; }
     catch (e) { result = `error ${e && e.message}`; }
     const r = new Response(res.body, res);
     r.headers.set("x-alert-result", result.split("\n").join(" ").split("\r").join(" "));
@@ -41,7 +41,7 @@ export async function onRequest(ctx) {
 }
 
 function maybeNotify(ctx, url, path, status) {
-  const topic = ctx.env && ctx.env.NTFY_TOPIC;
+  const topic = topicOf(ctx);
   if (!topic || status !== 200 || ctx.request.method !== "GET") return;
   const m = path.match(/^\/([a-z0-9-]+)\/(.*)$/);
   if (!m || !CREATORS[m[1]] || !(m[2] in PAGES)) return;
@@ -67,11 +67,14 @@ function maybeNotify(ctx, url, path, status) {
   ctx.waitUntil(sendAlert(ctx, msg).catch(() => {}));
 }
 
+// Secrets pasted into the dashboard often carry a stray space or newline; ignore it.
+function topicOf(ctx) { return ((ctx.env && ctx.env.NTFY_TOPIC) || "").trim(); }
+
 function sendAlert(ctx, msg) {
   return fetch((ctx.env.NTFY_SERVER || "https://ntfy.sh").replace(/\/$/, "") + "/", {
     method: "POST", body: JSON.stringify(msg),
     headers: Object.assign({ "content-type": "application/json", "user-agent": "infooperate-visit-alert" },
-      ctx.env.NTFY_TOKEN ? { authorization: "Bearer " + ctx.env.NTFY_TOKEN } : {}),
+      (ctx.env.NTFY_TOKEN || "").trim() ? { authorization: "Bearer " + ctx.env.NTFY_TOKEN.trim() } : {}),
   });
 }
 
