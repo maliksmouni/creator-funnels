@@ -8,9 +8,9 @@ Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/` 
 
 ## Offene `[CONFIRM]`-Stellen (intern)
 
-1. Instagram per Profil-Screenshot des Nutzers: 29,6K (Tabelle sagte 24,1K). Inhalt der aktuellen Bio-Link-Seite havemercitrades.komi.io noch offen (lädt nur per JS) – Screenshot anfragen.
+1. Instagram per Profil-Screenshot des Nutzers: 29,6K (Tabelle sagte 24,1K). Bio-Link-Seite havemercitrades.komi.io per PDF vom Nutzer geprüft: Kurs-Link (Teachable ohne Produkte) und 3 Ebook-Links (havemercitrades.store, Domain existiert nicht) kaputt.
 2. Mighty-Networks-Community: Preis/Pläne hinter Bot-Check.
-3. Ob die Mentorship „small group“ ist (aus „3 filled, 2 left“ abgeleitet) und ob Live-NY-Sessions Teil der Mentorship sind.
+3. „Small group, every 7 weeks, waitlist“ ist bestätigt (Komi). Offen: ob Live-NY-Sessions Teil der Mentorship sind.
 4. Pronomen/Anrede: Seiten und Mails sprechen Merci in der 1. Person bzw. mit Namen an; keine Pronomen verwendet.
 5. Markenfarben aus Banner/Avatar abgeleitet (Akzent abgedunkelt).
 6. Meta Ad Library nicht geprüft.

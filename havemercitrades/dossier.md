@@ -28,7 +28,18 @@ Letzte Long-Form: „The Basics Of Order Blocks“ (369, vor 5 Monaten), „Live
 
 ## Angebote und Links
 
-Aktueller Bio-Link: havemercitrades.komi.io (Komi-Seite lädt nur per JavaScript/App, Inhalt nicht abrufbar `[CONFIRM]` – Screenshot vom Nutzer anfragen). Die Linktree-Seite ist vermutlich die **alte** Link-Seite (weiterhin öffentlich und bei Google gelistet).
+Aktueller Bio-Link: **havemercitrades.komi.io** (Inhalt per Screenshot/PDF vom Nutzer, 29.09.2026; die Seite lädt nur im Browser/App). Einleitung: „If you're new to trading or feel stuck, you're in the right place. I teach beginner-friendly step-by-step strategies that actually make sense, no confusion, no over complicated setups.“ Buttons und Befund (29.09.2026):
+
+| Button | Ziel | Befund |
+|---|---|---|
+| Placement Quiz („Not sure where to start? Take this Quiz.“) | tryinteract.com/share/quiz/69e3e89a02d47450b1db5cc8 | lädt (JS) |
+| My Trading Community („HMT DAY TRADING COMMUNITY – Try 3 Days Free!“) | have-merci-trades.mn.co (plans/271457) | Mighty Networks, Bot-Check (vermutlich ok) |
+| Pre-recorded Course („7-Week Step By Step Guide to Profitable Trading Course“) | mercedith-easley-s-school.teachable.com/p/trading-edge-unleashed-… | **„Sorry, this school has no available products“ / „No products found“** |
+| Mentorship („I offer a 7-week small group mentorship every 7 weeks with limited spots available. To join, fill out the form below to be added to the waitlist.“) | jotform.com/form/240268213753050 | lädt |
+| Ebooks V1, V2, (V3) | havemercitrades.store/shop/… (3 Links) | **Domain existiert nicht** (NXDOMAIN bei Google- und Cloudflare-DNS) |
+| Social | Instagram, TikTok @mercitrades, YouTube | – |
+
+→ 4 von 7 Angebots-Links führen ins Leere (Kurs + 3 Ebooks).
 
 ### Alter Linktree (linktr.ee/havemercitradess), Reihenfolge
 

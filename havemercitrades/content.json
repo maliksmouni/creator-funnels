@@ -52,7 +52,7 @@
         {
           "kicker": "The warm audience",
           "title": "1,700 people read your Telegram. The mentorship still sells in a single post.",
-          "text": "In August you posted that three spots were filled and two were left in the last mentorship of the year. That's warm demand going through a form with no page, no call and no follow-up in between.",
+          "text": "You run a small-group mentorship every seven weeks, and in August three spots were filled and two left from a single post. That's warm demand going through a waitlist form with no page, no call and no follow-up in between.",
           "stats": [
             {
               "value": "1,700",
@@ -66,10 +66,18 @@
         },
         {
           "kicker": "The broken links",
-          "title": "The website your YouTube sends people to shows a closed store.",
-          "text": "Your YouTube description says “Visit my website for more information on signals and services”. havemercitrades.com, also the first Google result for your name, now shows a closed Shopify store, and the course link on your old Linktree opens an empty Teachable school.",
-          "quote": "“This store is currently unavailable.”",
-          "source": "havemercitrades.com"
+          "title": "4 of the 7 links on your bio page lead nowhere.",
+          "text": "On your Komi page, the pre-recorded course opens a Teachable school with no products, and all three ebooks point to havemercitrades.store, a domain that no longer exists. Your YouTube description still sends people to havemercitrades.com, which shows a closed store.",
+          "stats": [
+            {
+              "value": "4 of 7",
+              "label": "links on your Komi page that don't open"
+            },
+            {
+              "value": "3",
+              "label": "ebooks on a domain that no longer exists"
+            }
+          ]
         },
         {
           "kicker": "The objection you're already forming",
