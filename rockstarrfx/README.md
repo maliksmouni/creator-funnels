@@ -1,6 +1,6 @@
 # rockstarrfx: Rico Anderton (RockStarrFX / Rockstarr Traders Academy)
 
-Aware-Outreach-Pitch für einen Call-Funnel (Mentorship der „Rockstarr Traders Academy“). Stand: 30.09.2026. Status: **draft**. Adresse nach Livegang: https://infooperate.pages.dev/rockstarrfx/
+Aware-Outreach-Pitch für einen Call-Funnel (Mentorship der „Rockstarr Traders Academy“). Stand: 30.09.2026. Status: **live** seit 30.09.2026. Adresse nach Livegang: https://infooperate.pages.dev/rockstarrfx/
 
 Kontakt: rockstarrprofits@gmail.com (Nutzer-Tabelle, 30.09.2026).
 
