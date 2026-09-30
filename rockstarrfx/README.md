@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel (Mentorship der „Rockstarr Traders Academy“). Stand: 30.09.2026. Status: **live** seit 30.09.2026. Adresse nach Livegang: https://infooperate.pages.dev/rockstarrfx/
 
+Live geprüft 30.09.2026: 5 Seiten 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an rockstarrprofits@gmail.com am 30.09.2026 (Link fügt der Nutzer ein).
+
 Kontakt: rockstarrprofits@gmail.com (Nutzer-Tabelle, 30.09.2026).
 
 ## Offene `[CONFIRM]`-Stellen (intern)
