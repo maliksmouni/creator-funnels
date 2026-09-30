@@ -1,0 +1,411 @@
+{
+ "status": "draft",
+ "slug": "marketmovesmatt",
+ "instagram": "market.moves.matt",
+ "name": "Matt Giannino",
+ "brandName": "Market Moves",
+ "niche": "Options trading (selling premium, LEAPs), Capital Flywheel coaching, US",
+ "offerName": "Capital Flywheel Method coaching (application via Typeform on marketmovesmatt.com/hub; price not public)",
+ "image": "assets/matt.jpg",
+ "brand": {
+  "_note": "YouTube banner (black/charcoal, candle green, yellow tagline) and website buttons (yellow #ffe300, green #009f27); surface/line/muted derived [CONFIRM]",
+  "bg": "#0e0f0e",
+  "surface": "#1a1c1a",
+  "line": "#2e312d",
+  "text": "#f5f5f2",
+  "muted": "#b9bcb5",
+  "accent": "#ffe300",
+  "accent-ink": "#0e0f0e",
+  "signal": "#2bd14f"
+ },
+ "headline": "The Capital Flywheel: a rules-based options system you run in 30–60 minutes a week.",
+ "subheadline": "Coaching with Matt Giannino for options traders who want consistency, discipline and risk control, without staring at charts all day. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Matt Giannino (Market Moves). Not their official site.",
+ "pitch": {
+  "eyebrow": "Already built for Market Moves",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "Capital Flywheel coaching",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "102K on Instagram, 144K on YouTube, and the application sits under 17 buttons.",
+     "text": "Your coaching application is on marketmovesmatt.com/hub, the same page as four courses, a free book, a podcast, a free course, a trial, a giveaway and a Black Friday waitlist. The one offer that needs a conversation competes with everything else.",
+     "stats": [
+      {
+       "value": "102K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "144K",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "17",
+       "label": "buttons on the hub page"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "A new “3 Top Option Trades This Week” every week, 7–10K views each.",
+     "text": "Your weekly trade videos reach 7.1K to 10K views, and your channel link goes to the hub. That's a warm, recurring audience arriving on a page with no single next step.",
+     "stats": [
+      {
+       "value": "7–10K",
+       "label": "views on your weekly trade videos"
+      },
+      {
+       "value": "3.27M",
+       "label": "total YouTube views"
+      }
+     ]
+    },
+    {
+     "kicker": "The broken links",
+     "title": "9 of the 17 buttons don't open what they say.",
+     "text": "“TRADE WITH ME TODAY!”, all four course buttons, the Black Friday waitlist, the free book and “Enter by joining our group” reload the same hub page. “TRY FREE NOW” ends on a ClickFunnels error page.",
+     "stats": [
+      {
+       "value": "8",
+       "label": "buttons that reload the same page"
+      },
+      {
+       "value": "1",
+       "label": "button that ends on an error"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I already have an application.” It stays.",
+     "text": "Your Typeform and your coaching stay as they are. The funnel gives the Flywheel its own page: one offer, one button, the application, a call, and emails that get people to the call on time. A system with rules, like you teach.",
+     "quote": "“This isn't “hope trading.” It's not following random tips online. It's a system with rules.”",
+     "source": "Matt on marketmovesmatt.com"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Flywheel page",
+      "desc": "One offer, one button: sells the Capital Flywheel coaching and ends in a 6-question application.",
+      "href": "funnel/",
+      "url": "marketmovesmatt.com/flywheel",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "marketmovesmatt.com/flywheel/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For your YouTube and Instagram audience. No income claims, no trade calls.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Market Moves Capital Flywheel funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Market Moves · Capital Flywheel",
+   "chips": [
+    "Options · premium selling",
+    "30–60 min a week",
+    "Rules-based",
+    "Discord support"
+   ],
+   "cta": "Apply for the coaching",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Matt's Capital Flywheel VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "Day trading burned you out",
+     "body": "Hours in front of charts, and a trade turns against you in minutes. You need to be right on direction and timing."
+    },
+    {
+     "title": "Your 401K is out of your control",
+     "body": "Every correction moves your retirement, and “buy and hold” feels like hoping."
+    },
+    {
+     "title": "Courses, but no system",
+     "body": "You've bought strategies before. You still don't know exactly what to trade, when, and how to manage it."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Small, consistent, rules-based",
+   "body": "The Capital Flywheel stacks probabilities in your favor instead of swinging for the fences. Clear rules for what to trade, when, and how to manage every position, in short weekly blocks instead of all day.",
+   "pillars": [
+    {
+     "title": "Select",
+     "body": "A short list of tickers and setups that fit the rules."
+    },
+    {
+     "title": "Enter",
+     "body": "Probability-focused entries with defined risk."
+    },
+    {
+     "title": "Manage",
+     "body": "Clear rules for every position, week by week."
+    },
+    {
+     "title": "Compound",
+     "body": "Small, repeatable gains instead of home runs."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the coaching",
+   "items": [
+    {
+     "title": "The Capital Flywheel Method",
+     "body": "Matt's step-by-step, probability-focused options system."
+    },
+    {
+     "title": "Weekly routine",
+     "body": "30–60 minutes a week to review setups, set orders and manage positions."
+    },
+    {
+     "title": "Discord access",
+     "body": "Ask Matt and the group questions any time."
+    },
+    {
+     "title": "Lifetime access",
+     "body": "Not a monthly membership: lifetime access to the group and the teachings."
+    },
+    {
+     "title": "Risk rules",
+     "body": "Defined risk and position management built into every trade."
+    },
+    {
+     "title": "Works with a full-time job",
+     "body": "Built for traders who don't want to watch the market all day."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Students",
+   "items": [
+    "{{SWAP}} Student video from “What Our Students Are Saying” on marketmovesmatt.com",
+    "{{SWAP}} Student story from the “Students” highlight on Instagram",
+    "{{SWAP}} “Inside the Minds of Our Most Profitable Students” clip"
+   ],
+   "note": "User results vary and are not indicative of typical outcomes. Options trading involves substantial risk of loss."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "6 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with the Market Moves team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the Capital Flywheel coaching",
+   "questions": [
+    {
+     "q": "How long have you been trading?",
+     "type": "choice",
+     "options": [
+      "I'm brand new",
+      "Under 1 year",
+      "1–3 years",
+      "More than 3 years"
+     ]
+    },
+    {
+     "q": "How big is the account you'd trade with?",
+     "type": "choice",
+     "options": [
+      "Under $5K",
+      "$5K–$20K",
+      "$20K–$100K",
+      "Over $100K"
+     ],
+     "disqualify": [
+      "Under $5K"
+     ]
+    },
+    {
+     "q": "What's the biggest thing holding your trading back right now?",
+     "type": "text"
+    },
+    {
+     "q": "Can you set aside 30–60 minutes a week?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "Not sure",
+      "No"
+     ]
+    },
+    {
+     "q": "Do you only trade money you can afford to lose?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the program now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the coaching isn't the right next step for you. Start with the free Options Mastery course and the weekly videos on YouTube, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to run a system?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only, not financial advice. Options trading involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. User results vary and are not indicative of typical outcomes."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think about where you are: how long you've been trading, what you trade, and what keeps going wrong.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nMatt"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "I lost $35,000 in 48 hours",
+   "previewText": "What it taught me",
+   "body": "Hey {{first_name}},\n\nEarly on I grew a small account fast and thought I was one step from millionaire status. Then I lost $35,000 in 48 hours.\n\nThat's when I stopped gambling and built the Capital Flywheel: small, rules-based trades that stack probabilities in your favor.\n\nOn the call we'll look at where your process breaks today.\n\nMatt"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I don't have time to watch the market\"",
+   "previewText": "You don't need to",
+   "body": "Hey {{first_name}},\n\nThe Flywheel is built for people with jobs. The routine is 30–60 minutes a week: review setups, set orders, manage positions.\n\nIf time is your worry, bring it up on the call and we'll look at whether your schedule fits.\n\nMatt"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want your trading to look like in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nMatt"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with the Market Moves team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nMatt"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nMatt"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Burnout",
+   "hook": "Day trading burned me out. This didn't.",
+   "script": "[Matt at the desk]\nDay trading had me glued to charts and still losing.\nThe Capital Flywheel is different: rules-based options trades you manage in 30–60 minutes a week.\nApplications are open. Link below.\n[On-screen: Educational content only. Options trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Origin story",
+   "hook": "I lost $35,000 in 48 hours.",
+   "script": "[Matt to camera]\nI lost $35,000 in 48 hours because I was gambling, not trading.\nWhat fixed it was a system with rules. That became the Capital Flywheel.\nIf you want the rules, apply at the link.\n[On-screen: Educational content only. Options trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "YouTube viewers",
+   "hook": "You watch my weekly trades. Here's how to run them yourself.",
+   "script": "[Clip from “3 Top Option Trades This Week”]\nIf you watch my weekly trade videos, the next step is running the system yourself.\nApply, talk to my team, and we'll tell you honestly if it fits.\n[On-screen: Educational content only. Options trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Full-time job",
+   "hook": "You don't need to quit your job to trade options.",
+   "script": "[Matt walking, B-roll]\nYou don't need to quit your job to trade options.\nThe Flywheel runs on 30–60 minutes a week with clear rules.\nApply at the link.\n[On-screen: Educational content only. Options trading involves substantial risk of loss.]"
+  }
+ ],
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "Ep4OclnFi4M",
+  "title": "3 Top Option Trades This Week"
+ }
+}

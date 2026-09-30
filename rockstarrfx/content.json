@@ -1,0 +1,404 @@
+{
+  "status": "draft",
+  "slug": "rockstarrfx",
+  "instagram": "rockstarrfx",
+  "name": "Rico Anderton",
+  "brandName": "RockStarrFX",
+  "niche": "Forex and NAS100 day trading education (YouTube 141K); Whop community Rockstarr Traders Academy (free tier), US",
+  "offerName": "Rockstarr Traders Academy (only a free Whop tier is public; paid offer not found)",
+  "image": "assets/rico.jpg",
+  "brand": {
+    "_note": "YouTube banner (navy #1c1b46/#26255b, gold #d6b35d) and avatar (yellow #ffe505); surface/line/muted derived [CONFIRM]",
+    "bg": "#16153a",
+    "surface": "#221f55",
+    "line": "#3a3570",
+    "text": "#f7f3e8",
+    "muted": "#c9c4d9",
+    "accent": "#d6b35d",
+    "accent-ink": "#16153a",
+    "signal": "#ffe505"
+  },
+  "headline": "Day trading simplified: learn forex and NAS100 with a plan you can follow.",
+  "subheadline": "The Rockstarr Traders Academy mentorship: step-by-step strategy, risk management that fits your account, and live chart breakdowns with Rico. Apply first, talk to us, then decide.",
+  "demoBanner": "Demo built for Rico Anderton (RockStarrFX). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for RockStarrFX",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "Rockstarr Traders Academy",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "141K on YouTube, and the only offer I could find is free.",
+          "text": "Your Whop, Rockstarr Traders Academy, has one product: Free Access, with 216 members. I couldn't find a paid mentorship anywhere public. That's a big audience with no paid next step to take.",
+          "stats": [
+            {
+              "value": "141K",
+              "label": "YouTube subscribers"
+            },
+            {
+              "value": "12.2K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "216",
+              "label": "members on the free tier"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "327 videos, and your last upload was a year ago.",
+          "text": "Your channel still promises new videos every week, and people still find “Forex Pips Explained” (20K views) and your live NAS100 breakdowns. Those viewers are ready for a next step. Right now there isn't one.",
+          "stats": [
+            {
+              "value": "327",
+              "label": "videos on YouTube"
+            },
+            {
+              "value": "1 year",
+              "label": "since the last upload"
+            }
+          ]
+        },
+        {
+          "kicker": "The broken links",
+          "title": "Both of your websites say “Account has been blocked”.",
+          "text": "teachmetotrade.info, the link on your YouTube channel, and rstacademy.com both open a systeme.io page that only says “Account has been blocked”. Everyone who clicks from a video lands there.",
+          "stats": [
+            {
+              "value": "2 of 2",
+              "label": "websites showing “Account has been blocked”"
+            }
+          ]
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“I'm focused on EMG right now.” That's why it's built.",
+          "text": "The funnel doesn't need you posting daily. One page, a short application, and calls on a calendar you control. Your YouTube library keeps sending people, and you only talk to the ones who applied.",
+          "quote": "“Now I'm giving you what no one gave me — the truth, the strategy, and a real shot at freedom!”",
+          "source": "Rico on Whop"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Academy page",
+            "desc": "Sells the mentorship, shows how you simplify day trading, and ends in a 6-question application.",
+            "href": "funnel/",
+            "url": "teachmetotrade.info/academy",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and a reminder about fake accounts.",
+            "href": "funnel/thank-you/",
+            "url": "teachmetotrade.info/academy/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your YouTube and Instagram audience. No profit claims, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "RockStarrFX academy funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "RockStarrFX · Rockstarr Traders Academy",
+      "chips": [
+        "Forex · NAS100 · Indices",
+        "Step-by-step",
+        "Risk management",
+        "MT4 / MT5"
+      ],
+      "cta": "Apply for the academy",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Rico's academy VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You've tried signals and auto traders",
+          "body": "They promised results and built nothing. You still can't read a chart on your own."
+        },
+        {
+          "title": "Too many strategies, no plan",
+          "body": "Every video shows a new setup. You switch every week and never find out what works for you."
+        },
+        {
+          "title": "One trade wipes out the week",
+          "body": "No fixed risk, so a single loss undoes days of work, and then you revenge trade."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "Day trading, simplified",
+      "body": "One market, one clear plan and fixed risk. You learn to read forex and NAS100 step by step, trade with rules instead of emotions, and review every trade, the way Rico went from signals to trading his own plan.",
+      "pillars": [
+        {
+          "title": "Read",
+          "body": "Market structure and key levels on forex pairs and NAS100."
+        },
+        {
+          "title": "Plan",
+          "body": "A written trading plan: when you trade and when you don't."
+        },
+        {
+          "title": "Protect",
+          "body": "Risk management that fits a small or large account."
+        },
+        {
+          "title": "Mindset",
+          "body": "Trading psychology so one loss doesn't turn into three."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside the academy",
+      "items": [
+        {
+          "title": "Step-by-step lessons",
+          "body": "From the basics to a full plan, on MT4, MT5 and TradingView."
+        },
+        {
+          "title": "Live chart breakdowns",
+          "body": "NAS100, forex pairs and indices, broken down with Rico."
+        },
+        {
+          "title": "Risk management",
+          "body": "Position sizing and stop rules you actually follow."
+        },
+        {
+          "title": "Trading psychology",
+          "body": "Mindset work for discipline, patience and consistency."
+        },
+        {
+          "title": "Trading plan template",
+          "body": "Build your own rules and keep them after the program."
+        },
+        {
+          "title": "Rockstarr Traders community",
+          "body": "Traders learning the same process and holding each other accountable."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Students",
+      "items": [
+        "{{SWAP}} Student result from the “Testimonials” highlight on Instagram",
+        "{{SWAP}} Student result from the “Testimonials” highlight on Instagram",
+        "{{SWAP}} Student video testimonial"
+      ],
+      "note": "Individual results, not typical. Trading forex and indices involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "6 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Rico's team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the Rockstarr Traders Academy",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Forex",
+            "NAS100 / indices",
+            "Something else",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "What's the biggest thing holding your trading back right now?",
+          "type": "text"
+        },
+        {
+          "q": "How much time can you give your trading each week?",
+          "type": "choice",
+          "options": [
+            "Under 3 hours",
+            "3–10 hours",
+            "10+ hours"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the program now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now the academy isn't the right next step for you. Start with the free videos on the RockStarrFX YouTube channel, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to trade with a plan?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading forex and indices involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think about where you are: how long you've been trading, what you trade, and what keeps going wrong.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nRico"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Signals didn't make me a trader",
+      "previewText": "What changed for me",
+      "body": "Hey {{first_name}},\n\nBack in 2015 I was chasing signals and auto traders. None of it built anything.\n\nWhat changed was learning one plan and following it: one market, fixed risk, and a review after every trade.\n\nThat's what the academy is built on.\n\nOn the call we'll look at where your process breaks today.\n\nRico"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I've lost money before\"",
+      "previewText": "The most common worry",
+      "body": "Hey {{first_name}},\n\nMost people who apply have lost money before. That's usually why they apply.\n\nThe fix isn't a better signal. It's risk rules you follow and a plan that tells you when not to trade.\n\nIf you're worried about money, bring it up on the call. We'd rather tell you to wait than have you trade money you can't afford to lose.\n\nRico"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What we'll cover on the call",
+      "previewText": "About 30 minutes, no pressure",
+      "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want your trading to look like in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nRico"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Rico's team",
+      "previewText": "Quick reminder",
+      "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nRico"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today's the day",
+      "previewText": "Your call is at {{call_time}}",
+      "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nRico"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "Signals to skill",
+      "hook": "I chased signals for two years. Here's what finally worked.",
+      "script": "[Rico to camera]\nI chased signals and auto traders for two years. None of it built anything.\nWhat worked was one plan, fixed risk, and reviewing every trade.\nThat's what I teach inside the Rockstarr Traders Academy.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading forex and indices involves substantial risk of loss.]"
+    },
+    {
+      "angle": "YouTube viewers",
+      "hook": "You've watched my videos. Here's the next step.",
+      "script": "[Clip from a NAS100 breakdown]\nIf you learned pips and candles from my channel, you're ready for the next step: a plan you actually follow.\nApply, hop on a call with my team, and we'll tell you honestly if it fits.\n[On-screen: Educational content only. Trading forex and indices involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Risk first",
+      "hook": "One trade shouldn't wipe out your week.",
+      "script": "[Rico at the desk, chart behind]\nOne trade shouldn't wipe out your week.\nIf it does, you don't need a new strategy. You need risk rules.\nWe start there in the academy.\nLink below.\n[On-screen: Educational content only. Trading forex and indices involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Fake accounts",
+      "hook": "There's only one official way to join.",
+      "script": "[Rico to camera]\nThere are fake accounts using my name. I will never DM you asking for money.\nThe only way into the academy is the application on my official page.\nLink below.\n[On-screen: Educational content only. Trading forex and indices involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "5vrtvcJkftg",
+    "title": "5 Steps to BUILD a Profitable Trading Plan"
+  }
+}
