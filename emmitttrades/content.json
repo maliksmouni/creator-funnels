@@ -1,0 +1,412 @@
+{
+ "status": "draft",
+ "slug": "emmitttrades",
+ "instagram": "emmitt.trades",
+ "name": "Emmitt Smith",
+ "brandName": "Zen Lab Capital",
+ "niche": "Index and forex day trading (US30, NAS100, GER40) at the New York and London open; Whop community Zen Lab Capital, Tampa, US",
+ "offerName": "Zen Lab Mentorship (proposed; today Zen Lab Elite Access $69.99/month, framework previously sold for $3,000)",
+ "image": "assets/emmitt.jpg",
+ "brand": {
+  "_note": "Banner green #15970f, green hair/car wrap, dark avatar background #0f1616; accent lightened to #3fd16b for contrast; surface/line/muted derived [CONFIRM]",
+  "bg": "#0f1616",
+  "surface": "#18211f",
+  "line": "#2b3835",
+  "text": "#f2f5f2",
+  "muted": "#b5c0bc",
+  "accent": "#3fd16b",
+  "accent-ink": "#0f1616",
+  "signal": "#b8f26a"
+ },
+ "headline": "Discipline creates freedom: trade the New York and London open with one system and Emmitt in your corner.",
+ "subheadline": "The Zen Lab Mentorship: the full Zen Lab system, one-on-one review of your trades, and the live trade rooms. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Emmitt Smith (Zen Lab Capital). Not their official site.",
+ "pitch": {
+  "eyebrow": "Already built for Zen Lab Capital",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "Zen Lab Mentorship",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "You used to charge $3,000 for this framework. Today it's $69.99 a month.",
+     "text": "Your Elite Access page says it's “the same framework I once charged $3,000 for — at a fraction of the cost.” That keeps the community full, but it leaves nothing for the traders who want more than a trade room: your time, one-on-one.",
+     "stats": [
+      {
+       "value": "16.9K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "$69.99",
+       "label": "Elite Access per month"
+      },
+      {
+       "value": "$3,000",
+       "label": "what the framework used to cost"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "921 people in your free community. 84 pay.",
+     "text": "Zen Lab has 1,250 members on Whop and 2,550 on Discord, and your free 5-hour course on YouTube teaches the whole system. Plenty of those people already trust how you trade. A mentorship gives the serious ones a reason to talk to you.",
+     "stats": [
+      {
+       "value": "921",
+       "label": "in the free community"
+      },
+      {
+       "value": "84",
+       "label": "on Elite Access"
+      },
+      {
+       "value": "2,550",
+       "label": "Discord members"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "The only step after free is a $69.99 button.",
+     "text": "Your Linktree leads with the free community and the free course. From there, the only paid step is the Elite Access checkout. Anyone ready to pay for real help never gets asked what they need.",
+     "stats": [
+      {
+       "value": "72",
+       "label": "reviews on Whop, 4.8"
+      },
+      {
+       "value": "0",
+       "label": "calls before anyone buys"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I dropped the price on purpose.” It stays.",
+     "text": "Elite Access stays at $69.99 and keeps the community growing. The mentorship sits on top: one page, a short application, and a call, only for the members who want you one-on-one. Your low-ticket offer becomes the way in, not the ceiling.",
+     "quote": "“After 10+ years of trading the markets, I built Zen Lab to help traders learn through real market experience.”",
+     "source": "Emmitt on Whop"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Mentorship page",
+      "desc": "Sells the Zen Lab Mentorship, explains the system, and ends in a 6-question application.",
+      "href": "funnel/",
+      "url": "zenlabcapital.com/mentorship",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "zenlabcapital.com/mentorship/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For your Instagram, YouTube and Zen Lab audience. No win rates, no profit claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Zen Lab Capital mentorship funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Zen Lab Capital · Mentorship",
+   "chips": [
+    "US30 · NAS100 · GER40",
+    "NY + London open",
+    "One system",
+    "1-on-1 review"
+   ],
+   "cta": "Apply for the mentorship",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Emmitt's mentorship VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You know the system, not your mistakes",
+     "body": "You've watched the course. You still can't tell why your trades go wrong when his go right."
+    },
+    {
+     "title": "You trade too much",
+     "body": "Two clean setups a day turn into six forced ones. Nobody stops you."
+    },
+    {
+     "title": "You switch systems",
+     "body": "A bad week and you're on to the next strategy, so you never master one."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "One system, mastered",
+   "body": "Simplicity wins. You trade one mechanical system during the high-volume sessions, follow fixed risk-to-reward and stop rules, and journal every trade. In the mentorship, Emmitt reviews your trades with you until the system is yours.",
+   "pillars": [
+    {
+     "title": "Session",
+     "body": "Trade only the New York and London open, when volume is there."
+    },
+    {
+     "title": "Entry model",
+     "body": "The Zen Lab entry model with confluence, not guesswork."
+    },
+    {
+     "title": "Risk",
+     "body": "Defined stop, entry and target on every trade, ATR-based stops."
+    },
+    {
+     "title": "Journal",
+     "body": "Every trade logged and reviewed, wins and losses."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the mentorship",
+   "items": [
+    {
+     "title": "1-on-1 trade reviews",
+     "body": "Emmitt goes through your trades and your journal with you."
+    },
+    {
+     "title": "Live trade rooms",
+     "body": "New York and London open, five days a week."
+    },
+    {
+     "title": "The full Zen Lab system",
+     "body": "Entry model, confluence, sessions, risk, start to finish."
+    },
+    {
+     "title": "Zen Lab Ultimate Indicator",
+     "body": "The custom tool the community uses for entries and exits."
+    },
+    {
+     "title": "Trading journal template",
+     "body": "Track your consistency and spot your patterns."
+    },
+    {
+     "title": "Zen Lab community",
+     "body": "Traders following the same system, holding each other to it."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Member review from Whop (72 reviews)",
+    "{{SWAP}} Member review from Whop",
+    "{{SWAP}} Member video testimonial"
+   ],
+   "note": "Individual results, not typical. Trading indices and forex involves substantial risk of loss."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "6 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Emmitt's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the Zen Lab Mentorship",
+   "questions": [
+    {
+     "q": "How long have you been trading?",
+     "type": "choice",
+     "options": [
+      "I'm brand new",
+      "Under 1 year",
+      "1–3 years",
+      "More than 3 years"
+     ]
+    },
+    {
+     "q": "What do you trade?",
+     "type": "multi",
+     "options": [
+      "US30 / NAS100 / GER40",
+      "Forex",
+      "Futures",
+      "Nothing yet"
+     ]
+    },
+    {
+     "q": "What's the biggest thing holding your trading back right now?",
+     "type": "text"
+    },
+    {
+     "q": "Are you already in Zen Lab?",
+     "type": "choice",
+     "options": [
+      "Elite Access",
+      "Free community",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "Do you only trade money you can afford to lose?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the program now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the mentorship isn't the right next step for you. Start with the free Zen Lab community and the free full course on YouTube, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to master one system?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only, not financial advice. Trading indices and forex involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. Individual results vary and are not typical."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think about where you are: how long you've been trading, what you trade, and what keeps going wrong.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nEmmitt"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Why simplicity wins",
+   "previewText": "One system beats ten",
+   "body": "Hey {{first_name}},\n\nMost traders don't fail because their strategy is bad. They fail because they switch strategies every time they lose.\n\nThe mentorship is built on one mechanical system, traded only in the high-volume sessions, with fixed risk on every trade.\n\nOn the call we'll look at where your process breaks today.\n\nEmmitt"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I'm already in Elite Access\"",
+   "previewText": "Then you know the system",
+   "body": "Hey {{first_name}},\n\nGood. Then you know the system and the trade rooms.\n\nThe mentorship is for when watching isn't enough anymore: one-on-one reviews of your own trades and your journal, so you see exactly where you break the rules.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nEmmitt"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want your trading to look like in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nEmmitt"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Emmitt's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nEmmitt"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nEmmitt"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Discipline",
+   "hook": "Discipline creates freedom.",
+   "script": "[Emmitt at the desk, NY open on screen]\nDiscipline creates freedom.\nOne system, two trades max, fixed risk. That's how we trade in Zen Lab.\nIn the mentorship, I review your trades with you until it's yours.\nApply at the link.\n[On-screen: Educational content only. Trading indices and forex involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Free course viewers",
+   "hook": "You watched the free 5-hour course. Here's the next step.",
+   "script": "[Clip from the full course]\nIf you watched the full course, you know the system.\nThe mentorship is where we fix how you trade it, one-on-one.\nApply, talk to my team, and we'll tell you if it fits.\n[On-screen: Educational content only. Trading indices and forex involves substantial risk of loss.]"
+  },
+  {
+   "angle": "One system",
+   "hook": "Stop switching strategies.",
+   "script": "[Emmitt to camera]\nEvery time you switch strategies, you start from zero.\nPick one system and master it. That's what the mentorship is for.\nLink below.\n[On-screen: Educational content only. Trading indices and forex involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Community upgrade",
+   "hook": "Already in Zen Lab? This is the next level.",
+   "script": "[Trade room clip]\nIf you're in the Zen Lab community, this is the next level: one-on-one with me.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading indices and forex involves substantial risk of loss.]"
+  }
+ ],
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "EheofXN9VH8",
+  "title": "How Much Money Do You REALLY Need to Trade Full-Time?"
+ }
+}
