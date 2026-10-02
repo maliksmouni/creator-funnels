@@ -1,6 +1,6 @@
 # devindatrader: Devin Roberts (Red Scorpion FX)
 
-Aware-Outreach-Pitch für einen Call-Funnel vor den Mentorship-Paketen ($1,999 online 1-on-1, $7,500 in person). Stand: 02.10.2026. Status: **draft**. Adresse nach Livegang: https://infooperate.pages.dev/devindatrader/
+Aware-Outreach-Pitch für einen Call-Funnel vor den Mentorship-Paketen ($1,999 online 1-on-1, $7,500 in person). Stand: 02.10.2026. Status: **live** seit 02.10.2026. Adresse nach Livegang: https://infooperate.pages.dev/devindatrader/
 
 Kontakt: devinshine66@gmail.com (Nutzer-Tabelle, 02.10.2026).
 
