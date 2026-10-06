@@ -8,6 +8,7 @@ and writes the remaining leads as JSON for review. Remove brands/companies/dupli
 run build_xlsx.py on the reviewed file.
 """
 import argparse, datetime, json, os, re, subprocess, sys
+from match import matches_channel
 from urllib.parse import urlparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -68,7 +69,7 @@ for l in open(a.channels):
     if r['ig']:
         ch.setdefault(r['ig'][0].split('/')[0].lower(), r)
 today = datetime.date.today().isoformat()
-stats = {'profiles': 0, 'in_range': 0, 'posted_recently': 0}
+stats = {'profiles': 0, 'not_same_person': 0, 'in_range': 0, 'posted_recently': 0}
 leads = []
 with open(os.path.join(HERE, 'checked_handles.tsv'), 'a') as log:
     for f in a.profiles:
@@ -80,18 +81,23 @@ with open(os.path.join(HERE, 'checked_handles.tsv'), 'a') as log:
             n = u.get('followersCount')
             ps = [x['timestamp'][:10] for x in u.get('latestPosts') or [] if x.get('timestamp')]
             last = max(ps) if ps else ''
+            c = ch.get(h, {})
+            source = c.get('ig_source', 'youtube')
+            if source in ('guess', 'website-check') and not matches_channel(u, c):
+                stats['not_same_person'] += 1  # guessed handle belongs to someone else (or a sponsor)
+                continue
             log.write(f'{h}\t{n}\t{last}\t{today}\n')
             if n is None or not a.min <= n <= a.max:
                 continue
             stats['in_range'] += 1
-            c = ch.get(h, {})
             if last < a.ig_since or (c.get('last_upload') or '') < a.yt_since:
                 continue
             stats['posted_recently'] += 1
             leads.append({'name': u.get('fullName') or h, 'handle': h, 'followers': n, 'last_ig_post': last,
                           'youtube': c.get('yt'), 'location': c.get('country'), 'last_yt_upload': c.get('last_upload'),
                           'category': u.get('businessCategoryName'), 'bio': u.get('biography'),
-                          'emails_found': find_emails(u, c), 'email': '', 'email_source': '', 'notes': ''})
+                          'ig_source': source, 'emails_found': find_emails(u, c), 'email': '', 'email_source': '',
+                          'notes': {'youtube': '', 'website': 'Instagram found via their website', 'website-check': 'Instagram found via their website, matched by name/link', 'guess': 'Instagram matched by name (not linked on YouTube)'}[source]})
             print(f'  {h}: {n} followers, emails {list(leads[-1]["emails_found"])}', file=sys.stderr)
 print(stats, file=sys.stderr)
 json.dump(leads, sys.stdout, indent=1, ensure_ascii=False)

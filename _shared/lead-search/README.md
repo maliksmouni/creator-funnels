@@ -6,6 +6,8 @@ Finds creators for outreach: YouTube first, Instagram checked through Apify, onl
 | File | Purpose |
 |---|---|
 | `yt_discover.py` | YouTube search → channel country, Instagram link, emails, last upload (free, no key) |
+| `find_ig.py` | Finds Instagram for channels that don't link it on YouTube (~70%): from their website/link page, else a same-name guess that `filter_leads.py` verifies |
+| `match.py` | Decides whether an Instagram profile belongs to a YouTube channel (shared helper) |
 | `candidates.py` | Instagram handles to check: country + active + Instagram linked, minus exclusions |
 | `apify_ig.py` | Instagram profiles via Apify (`APIFY_TOKEN` env), prints run cost + monthly usage |
 | `filter_leads.py` | Follower range + post dates, collects published emails, logs every checked handle |
@@ -42,18 +44,19 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
 
 1. **Discover** with many varied queries (strategies, markets, formats like "vlog", "live trading", "prop firm", "recap"). Mix channel search and `v:` video search (videos from this month find smaller, active creators). Results repeat quickly, so keep adding new angles; earlier runs used ~110 trading/forex/crypto queries, so look for new ones.
    `python3 yt_discover.py $S/channels.jsonl "query" "v:query" ...`
-2. **Candidates** (skips everyone on an earlier list, every creator with a funnel in this repo, and accounts checked in the last 90 days): `python3 candidates.py $S/channels.jsonl --since <YYYY-MM-DD, YouTube window> --exclude <attached.xlsx> > $S/handles.txt`
+2. **Find missing Instagram handles**: `python3 find_ig.py $S/channels.jsonl --since <YouTube window date>`. Adds handles for channels that don't link Instagram on YouTube: trusted when the creator's own website/link page links an account resembling the channel, otherwise marked for verification. `filter_leads.py` drops any unverified handle whose Instagram profile neither links the YouTube channel nor carries its name (sponsors such as TradingView or prop firms often appear on creators' sites). In the test this turned 0 remaining candidates into 287.
+3. **Candidates** (skips everyone on an earlier list, every creator with a funnel in this repo, and accounts checked in the last 90 days): `python3 candidates.py $S/channels.jsonl --since <YYYY-MM-DD, YouTube window> --exclude <attached.xlsx> > $S/handles.txt`
    Rule of thumb: ~130 candidates per 10 leads. If too few, go back to step 1.
    ~70% of active US/UK channels don't link Instagram on YouTube. If candidates run dry, find their Instagram via their website / link-in-bio page, or try the same handle on Instagram, and only keep it when bio, name or YouTube link confirm it's the same person.
-3. **Instagram via Apify**: `python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
+4. **Instagram via Apify**: `python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
    Never call Instagram directly (this server gets 429 / "please wait" blocks), no mirror sites, never a logged-in Instagram or Google account or cookies.
-4. **Filter + emails**: `python3 filter_leads.py $S/channels.jsonl $S/profiles*.json --min 10000 --max 30000 --ig-since <date> --yt-since <date> > $S/review.json`
-5. **Review review.json by hand** and edit it:
+5. **Filter + emails**: `python3 filter_leads.py $S/channels.jsonl $S/profiles*.json --min 10000 --max 30000 --ig-since <date> --yt-since <date> > $S/review.json`
+6. **Review review.json by hand** and edit it:
    - Remove brands, brokers, prop firms, academies, software, media (e.g. Topstep, IG UK, tastylive, FX Replay, London Academy of Trading), accounts whose bio says they're inactive, and people already on a list under another handle (e.g. @realbthetrader = @bthestory87; add such pairs to `exclude_handles.txt`).
    - Set `email` + `email_source` from `emails_found`, using only the creator's own address. Ignore sponsor/affiliate emails (prop firms, brokers, tools they promote) and generic legal/privacy addresses. Never guess an email; leave it empty if none fits.
    - Set a better `name` if `fullName` is a slogan, and put doubts in `notes` (e.g. bio flag suggests another country than YouTube says, community/brand-like account).
-6. **Sheet**: `python3 build_xlsx.py $S/review.json $S/<niche>_leads_<date>.xlsx`, send it to the user.
-7. **Commit and push** `exclude_handles.txt` (updated by `build_xlsx.py`) and `checked_handles.tsv` (updated by `filter_leads.py`). Without this push the next session would not know these creators.
+7. **Sheet**: `python3 build_xlsx.py $S/review.json $S/<niche>_leads_<date>.xlsx`, send it to the user.
+8. **Commit and push** `exclude_handles.txt` (updated by `build_xlsx.py`) and `checked_handles.tsv` (updated by `filter_leads.py`). Without this push the next session would not know these creators.
 
 ## Report to the user
 
