@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Fetch Instagram profiles through Apify (apify/instagram-profile-scraper). Never call Instagram directly.
 
-Usage: APIFY_TOKEN=... python3 apify_ig.py handles.txt profiles.json
-Prints the run cost and this month's Apify usage.
+Usage: python3 apify_ig.py handles.txt profiles.json
+APIFY_TOKEN must be set in the environment (cloud environment settings). Prints the run cost and this month's Apify usage.
 """
 import json, os, subprocess, sys
 
-token = os.environ['APIFY_TOKEN']
+token = os.environ.get('APIFY_TOKEN') or sys.exit('APIFY_TOKEN is not set: add it in the cloud environment settings (environment menu -> Edit).')
 handles = open(sys.argv[1]).read().split()
 body = json.dumps({'usernames': handles})
 res = subprocess.run(['curl', '-s', '--max-time', '900', '-X', 'POST', '-H', 'Content-Type: application/json',

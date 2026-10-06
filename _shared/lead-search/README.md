@@ -17,7 +17,7 @@ Lead sheets themselves (with emails) are not committed; they go to the user as a
 
 ## Reusable prompt
 
-Copy this into a new session, edit the parameters, attach any lead sheets to skip and paste the Apify token.
+Copy this into a new session, edit the parameters and attach any lead sheets to skip. The Apify token comes from the `APIFY_TOKEN` variable in the cloud environment settings (environment menu in the session title bar → Edit); never paste it into the chat.
 
 ```
 Build me a creator lead list with the lead search in _shared/lead-search/ (read its README first and follow it).
@@ -30,7 +30,7 @@ Parameters:
 - YouTube: channel required, at least one upload in the last 6 months
 - Number of leads: 10
 - Exclude: attached sheet(s) + exclude_handles.txt + checked_handles.tsv
-- Apify token: <PASTE TOKEN> (only as APIFY_TOKEN env var in commands, never written to a file)
+- Apify token: already set as APIFY_TOKEN in the environment (if it's missing, stop and tell me)
 
 When done: commit the updated exclude_handles.txt and checked_handles.tsv (never the token or the lead sheet),
 send me the .xlsx, and report as described in the README.
@@ -45,7 +45,7 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
 2. **Candidates**: `python3 candidates.py $S/channels.jsonl --since <YYYY-MM-DD, YouTube window> --exclude <attached.xlsx> > $S/handles.txt`
    Rule of thumb: ~130 candidates per 10 leads. If too few, go back to step 1.
    ~70% of active US/UK channels don't link Instagram on YouTube. If candidates run dry, find their Instagram via their website / link-in-bio page, or try the same handle on Instagram, and only keep it when bio, name or YouTube link confirm it's the same person.
-3. **Instagram via Apify**: `APIFY_TOKEN=... python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
+3. **Instagram via Apify**: `python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
    Never call Instagram directly (this server gets 429 / "please wait" blocks), no mirror sites, never a logged-in Instagram or Google account or cookies.
 4. **Filter + emails**: `python3 filter_leads.py $S/channels.jsonl $S/profiles*.json --min 10000 --max 30000 --ig-since <date> --yt-since <date> > $S/review.json`
 5. **Review review.json by hand** and edit it:
