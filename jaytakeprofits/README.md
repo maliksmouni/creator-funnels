@@ -1,6 +1,8 @@
 # jaytakeprofits: Jay Wayne (Jay Wayne Trades / Team Take Profits)
 
-Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „Team Take Profits Mentorship“ (1-on-1 durch Prop-Firm-Challenges). Stand: 06.10.2026. Status: **draft** (nicht live). Adresse nach Livegang: https://infooperate.pages.dev/jaytakeprofits/
+Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „Team Take Profits Mentorship“ (1-on-1 durch Prop-Firm-Challenges). Stand: 06.10.2026. Status: **live** seit 06.10.2026. Adresse nach Livegang: https://infooperate.pages.dev/jaytakeprofits/
+
+Live geprüft 06.10.2026: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an jaytakeprofits@gmail.com am 06.10.2026 (Link fügt der Nutzer ein).
 
 Kontakt: jaytakeprofits@gmail.com („Business inquiries“ in seinen YouTube-Videobeschreibungen, 06.10.2026; auch Nutzer-Tabelle).
 

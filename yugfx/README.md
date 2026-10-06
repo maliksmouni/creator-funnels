@@ -1,6 +1,8 @@
 # yugfx: Yug Desai (YugFx / Edge Lab)
 
-Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „Edge Lab 1-on-1 Mentorship“ über dem Edge Lab Course (R500/Monat). Stand: 06.10.2026. Status: **draft** (nicht live). Adresse nach Livegang: https://infooperate.pages.dev/yugfx/ (Slug ohne Unterstrich; Instagram-Handle yugfx_ in `content.json → instagram`).
+Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „Edge Lab 1-on-1 Mentorship“ über dem Edge Lab Course (R500/Monat). Stand: 06.10.2026. Status: **live** seit 06.10.2026. Adresse nach Livegang: https://infooperate.pages.dev/yugfx/ (Slug ohne Unterstrich; Instagram-Handle yugfx_ in `content.json → instagram`).
+
+Live geprüft 06.10.2026: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an realyugfx@gmail.com am 06.10.2026 (Link fügt der Nutzer ein).
 
 Kontakt: realyugfx@gmail.com („Business inquiries / Contact me at“ in seiner YouTube-Kanalbeschreibung, 06.10.2026; auch Nutzer-Tabelle).
 
