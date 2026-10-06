@@ -1,0 +1,422 @@
+{
+  "status": "draft",
+  "slug": "yugfx",
+  "instagram": "yugfx_",
+  "name": "Yug Desai",
+  "brandName": "Edge Lab",
+  "niche": "Forex, gold and index day trading with the Edge Lab LSD model (liquidity + supply/demand); prop firm and personal accounts; Edge Lab course on Whop; Cape Town, South Africa",
+  "offerName": "Edge Lab 1-on-1 Mentorship (proposed; today Edge Lab Course R500/month, self-paced, on Whop)",
+  "image": "assets/yug.jpg",
+  "brand": {
+    "_note": "YouTube banner/avatar: green #00bf62, black #241d20, white; dark theme with the banner green as accent; surface/line/muted derived [CONFIRM]",
+    "bg": "#111312",
+    "surface": "#1b1f1d",
+    "line": "#2e3532",
+    "text": "#f2f6f3",
+    "muted": "#b6c2bb",
+    "accent": "#00bf62",
+    "accent-ink": "#0b0f0d",
+    "signal": "#7fe5ad"
+  },
+  "headline": "Stop switching strategies: master the Edge Lab LSD model with Yug reviewing your trades.",
+  "subheadline": "The Edge Lab 1-on-1 Mentorship: the full LSD model, one-on-one trade reviews, and a plan for your prop firm or personal account. Apply first, talk to us, then decide.",
+  "demoBanner": "Demo built for Yug Desai (YugFx). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for Edge Lab",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "Edge Lab 1-on-1 mentorship",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "818K views on YouTube. The only paid step is R500 a month.",
+          "text": "Your vlogs pull 10,000 to 43,000 views each, and Edge Lab is the only thing to buy: a self-paced 30+ video course for R500 a month. That's a great way in. But there's nothing for the traders who want you, one-on-one, reviewing their trades.",
+          "stats": [
+            {
+              "value": "818K",
+              "label": "YouTube views"
+            },
+            {
+              "value": "9.22K",
+              "label": "subscribers"
+            },
+            {
+              "value": "R500",
+              "label": "Edge Lab per month"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "150+ members already trade your LSD model.",
+          "text": "Your own site shows it: Imo taking payout after payout, Leruo and Bobby passing Phase 1 soon after joining. Add 10.5K followers on Instagram and everyone waiting to get into the free Discord. These people already trust the model.",
+          "stats": [
+            {
+              "value": "150+",
+              "label": "Edge Lab members"
+            },
+            {
+              "value": "10.5K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "4",
+              "label": "member stories on your site"
+            }
+          ]
+        },
+        {
+          "kicker": "The bottleneck",
+          "title": "“WhatsApp me for mentorship” doesn't scale.",
+          "text": "Your Linktree says “WhatsApp Me For Trading Mentorship!”, and the free Discord starts with a WhatsApp number. So every serious conversation runs through your phone, with no way to see who's ready before you reply.",
+          "stats": [
+            {
+              "value": "1",
+              "label": "WhatsApp inbox for every lead"
+            },
+            {
+              "value": "0",
+              "label": "applications before a chat"
+            }
+          ]
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“I want Edge Lab to stay affordable.” It does.",
+          "text": "The R500 course stays exactly as it is and keeps bringing people in. The 1-on-1 mentorship sits on top: one page, a short application and a call, only for members who want you reviewing their trades. The course becomes the way in, not the ceiling.",
+          "quote": "“Too many traders either switch strategies, get confused, or simply cant execute consistently”",
+          "source": "Yug on Instagram"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "Sells the Edge Lab 1-on-1 Mentorship, explains the LSD model, and ends in a 7-question application.",
+            "href": "funnel/",
+            "url": "edgelabfx.com/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and where the official links are.",
+            "href": "funnel/thank-you/",
+            "url": "edgelabfx.com/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your YouTube, Instagram and Edge Lab audience. No payout numbers, no profit claims.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Edge Lab mentorship funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Edge Lab · 1-on-1 Mentorship",
+      "chips": [
+        "Forex · Gold · Indices",
+        "Edge Lab LSD model",
+        "Prop firm + personal accounts",
+        "1-on-1 review"
+      ],
+      "cta": "Apply for the mentorship",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Yug's mentorship VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You switch strategies",
+          "body": "A few losses and you're on to the next YouTube strategy, so you never master one."
+        },
+        {
+          "title": "The chart confuses you",
+          "body": "Zones everywhere, liquidity everywhere. You can't tell which ones actually matter."
+        },
+        {
+          "title": "You can't execute consistently",
+          "body": "You know the model on paper. In the moment, you enter early, late, or not at all."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "One model: LSD",
+      "body": "Edge Lab trades one model: liquidity plus supply and demand. You learn to mark the zones that matter, separate high-quality liquidity from the traps, and execute the same entry every time with fixed risk. In the mentorship, Yug reviews your trades with you until the model is yours.",
+      "pillars": [
+        {
+          "title": "Liquidity",
+          "body": "Spot where it sits and tell high-quality liquidity from low."
+        },
+        {
+          "title": "Supply & demand",
+          "body": "Mark only the zones that matter, not every candle."
+        },
+        {
+          "title": "Entry model",
+          "body": "Execute the LSD entry and avoid the traps."
+        },
+        {
+          "title": "Risk",
+          "body": "Fixed risk for prop firm and personal accounts."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside the mentorship",
+      "items": [
+        {
+          "title": "1-on-1 trade reviews",
+          "body": "Yug goes through your trades and your execution with you."
+        },
+        {
+          "title": "The full LSD course",
+          "body": "30+ videos: strategy, execution, risk management, psychology."
+        },
+        {
+          "title": "Weekly livestreams",
+          "body": "Trade recaps, member trade reviews and Q&A every week."
+        },
+        {
+          "title": "Your account plan",
+          "body": "How to run the model on a prop firm evaluation or a personal account."
+        },
+        {
+          "title": "LSD trap lessons",
+          "body": "The setups that look right and aren't, before they cost you."
+        },
+        {
+          "title": "The Edge Lab community",
+          "body": "Traders running the same model, sharing their trades every day."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Members",
+      "items": [
+        "Imo: one of the first Edge Lab members, reports multiple prop firm payouts (testimonial on edgelabfx.com)",
+        "Leruo: reports passing his first Phase 1 evaluation days after joining (testimonial on edgelabfx.com)",
+        "Bobby: reports passing Phase 1 shortly after joining (testimonial on edgelabfx.com)"
+      ],
+      "note": "Individual results, not typical. Trading forex, gold and indices involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "7 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Yug's team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the Edge Lab 1-on-1 Mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Forex",
+            "Gold",
+            "Indices",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "What kind of account do you trade?",
+          "type": "choice",
+          "options": [
+            "Prop firm evaluation",
+            "Funded prop firm account",
+            "Personal account",
+            "Not trading yet"
+          ]
+        },
+        {
+          "q": "What's the biggest thing holding your trading back right now?",
+          "type": "text"
+        },
+        {
+          "q": "Are you already in Edge Lab?",
+          "type": "choice",
+          "options": [
+            "Edge Lab course",
+            "Free Discord",
+            "Not yet"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the program now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "WhatsApp number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now the 1-on-1 mentorship isn't the right next step for you. Start with the Edge Lab course and the free vlogs on YouTube, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to master one model?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. The foreign exchange market is highly speculative and you may sustain a total loss of your funds. Trading forex, gold and indices carries a high level of risk and may not be suitable for all investors. Prop firm evaluations can be failed and their fees lost. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a few of your recent trades ready, wins and losses.\n\nOne note: nobody on my team will ever ask you to pay through a DM or WhatsApp message. Payments only happen through the official links from this email address.\n\nTalk soon,\nYug"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why one model beats five",
+      "previewText": "Stop switching strategies",
+      "body": "Hey {{first_name}},\n\nMost traders don't fail because their strategy is bad. They fail because they switch strategies, get confused, or can't execute the same way twice.\n\nEdge Lab runs on one model: liquidity plus supply and demand, with fixed risk on every trade.\n\nOn the call we'll look at where your execution breaks today.\n\nYug"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I already have the course\"",
+      "previewText": "Then you know the model",
+      "body": "Hey {{first_name}},\n\nGood. Then you know the LSD model.\n\nThe 1-on-1 mentorship is for when the videos aren't enough anymore: I go through your own trades with you, so you see exactly where your execution is off.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nYug"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What we'll cover on the call",
+      "previewText": "About 30 minutes, no pressure",
+      "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want your trading to look like in a year.\n3. How the mentorship works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nYug"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Yug's team",
+      "previewText": "Quick reminder",
+      "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nYug"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today's the day",
+      "previewText": "Your call is at {{call_time}}",
+      "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nYug"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "One model",
+      "hook": "Stop switching strategies.",
+      "script": "[Yug at the desk, chart on screen]\nEvery time you switch strategies, you start from zero.\nIn Edge Lab we trade one model: liquidity plus supply and demand.\nIn the 1-on-1 mentorship, I review your trades with you until it's yours.\nApply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Vlog viewers",
+      "hook": "You've watched me trade. Here's the next step.",
+      "script": "[Clip from a Cape Town vlog]\nIf you watch the vlogs, you've seen how I trade the LSD model.\nThe mentorship is where we work on how you trade it, one-on-one.\nApply, talk to my team, and we'll tell you if it fits.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Execution",
+      "hook": "You know the strategy. So why can't you execute it?",
+      "script": "[Yug to camera]\nYou know the setup on paper. Then you enter early, or late, or not at all.\nThat's an execution problem, and it's fixed by reviewing real trades.\nThat's what the 1-on-1 mentorship is for. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Course upgrade",
+      "hook": "Already in the Edge Lab course? This is the next level.",
+      "script": "[Edge Lab portal clip]\nIf you're in the Edge Lab course, you know the model.\nThe next level is one-on-one with me, on your own trades.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "Qi4OHkTZkMM",
+    "title": "DAY IN THE LIFE OF A 19-YEAR-OLD FOREX TRADER 🇿🇦 | QNA VLOG w/ MACFINANCE"
+  }
+}

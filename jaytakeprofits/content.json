@@ -1,0 +1,422 @@
+{
+  "status": "draft",
+  "slug": "jaytakeprofits",
+  "instagram": "jaytakeprofits",
+  "name": "Jay Wayne",
+  "brandName": "Jay Wayne Trades",
+  "niche": "Forex, gold and futures trading with a focus on prop firm challenges (FTMO, $200K challenge); Discord communities Team Take Profits and TTP Setups, Texas, US",
+  "offerName": "Team Take Profits Mentorship (proposed; today Full Trading Mentorship $80 and Trade Setups $25 on Discord)",
+  "image": "assets/jay.jpg",
+  "brand": {
+    "_note": "YouTube banner/avatar: navy #0a1932/#011732, blue #037ad8, cyan glow #59c5f9; accent lightened to #4cb8f5 for contrast; surface/line/muted derived [CONFIRM]",
+    "bg": "#08142a",
+    "surface": "#0f2140",
+    "line": "#23395c",
+    "text": "#eef4fb",
+    "muted": "#a9bdd6",
+    "accent": "#4cb8f5",
+    "accent-ink": "#08142a",
+    "signal": "#9ad9ff"
+  },
+  "headline": "One day. One trade at a time: get through your prop firm challenge with a plan, rules you keep, and Jay in your corner.",
+  "subheadline": "The Team Take Profits Mentorship: one-on-one help through your challenge, a trading plan built around your firm's rules, and the Team Take Profits community. Apply first, talk to us, then decide.",
+  "demoBanner": "Demo built for Jay Wayne (Jay Wayne Trades). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for Jay Wayne Trades",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "Team Take Profits mentorship",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "14.9K followers. Your full mentorship is $80.",
+          "text": "Every video ends with the same two links: your trade setups for $25 and the full trading mentorship for $80, both straight into Discord. That works for people who want your setups. It leaves nothing for the traders who want you in their corner while they go through a challenge.",
+          "stats": [
+            {
+              "value": "14.9K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "$80",
+              "label": "full trading mentorship"
+            },
+            {
+              "value": "$25",
+              "label": "trade setups"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "2,400 people in Team Take Profits.",
+          "text": "Another 345 are in TTP Setups, and you've posted 15 YouTube videos in 18 days documenting your $200K challenge trade by trade, losses included. The people watching you get $2,000 from passing are exactly the ones stuck in their own challenge.",
+          "stats": [
+            {
+              "value": "2,400",
+              "label": "in Team Take Profits"
+            },
+            {
+              "value": "345",
+              "label": "in TTP Setups"
+            },
+            {
+              "value": "15",
+              "label": "videos in 18 days"
+            }
+          ]
+        },
+        {
+          "kicker": "The bottleneck",
+          "title": "Every link is a Discord invite.",
+          "text": "Your bio, your Instagram link and every YouTube description go straight into a Discord server. There's no page that explains the mentorship, no application, and no conversation before someone joins. The traders who'd pay for real help never get asked what they need.",
+          "stats": [
+            {
+              "value": "2",
+              "label": "Discord invites, no page in between"
+            },
+            {
+              "value": "0",
+              "label": "calls before anyone buys"
+            }
+          ]
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“I'm still passing my own challenge.” That's the pitch.",
+          "text": "You don't sell perfect trades, you show the process: the rules, the mistakes, the trade you should have skipped. That's what someone stuck in their own challenge wants to see. The $25 setups and the $80 mentorship stay. The one-on-one mentorship sits on top, for the few who want you next to them.",
+          "quote": "“No pretending every trade is perfect. The goal is to show what trading actually looks like while becoming a better trader one decision at a time.”",
+          "source": "Jay on YouTube"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "Sells the Team Take Profits Mentorship, explains how Jay trades a challenge, and ends in a 7-question application.",
+            "href": "funnel/",
+            "url": "jaywaynetrades.com/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and where the official links are.",
+            "href": "funnel/thank-you/",
+            "url": "jaywaynetrades.com/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram, YouTube and Discord audience. No profit claims, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Team Take Profits mentorship funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Team Take Profits · Mentorship",
+      "chips": [
+        "Forex · Gold · Futures",
+        "Prop firm challenges",
+        "Plan · Execute · Repeat",
+        "1-on-1 review"
+      ],
+      "cta": "Apply for the mentorship",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Jay's mentorship VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You're up, then you give it back",
+          "body": "The challenge is going well. You keep trading anyway, and the profit is gone by the end of the day."
+        },
+        {
+          "title": "You break your own rules",
+          "body": "You know your plan. One bad trade later, you're revenge trading and the plan is gone."
+        },
+        {
+          "title": "The firm's rules catch you out",
+          "body": "Daily drawdown, max loss, minimum days. One rule you didn't read closely ends the challenge."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "Plan. Execute. Repeat.",
+      "body": "Passing a challenge isn't about one big trade. You plan the session before it starts, size every trade so one loss can't end the challenge, take only the trades in the plan, and review every one. In the mentorship, Jay goes through your challenge with you until that process is yours.",
+      "pillars": [
+        {
+          "title": "Plan",
+          "body": "Your setups, sessions and limits written down before the first trade."
+        },
+        {
+          "title": "Risk",
+          "body": "Fixed risk per trade and a daily stop built around your firm's rules."
+        },
+        {
+          "title": "Execute",
+          "body": "Take the planned trade, walk away when the target or the limit is hit."
+        },
+        {
+          "title": "Review",
+          "body": "Every trade reviewed, wins and losses, one decision at a time."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside the mentorship",
+      "items": [
+        {
+          "title": "1-on-1 challenge reviews",
+          "body": "Jay goes through your trades and your challenge with you."
+        },
+        {
+          "title": "Your challenge plan",
+          "body": "Risk per trade and daily limits matched to your prop firm's rules."
+        },
+        {
+          "title": "Prop firm rule breakdowns",
+          "body": "The rules traders overlook, before you buy your next challenge."
+        },
+        {
+          "title": "Setup breakdowns",
+          "body": "How Jay reads forex, gold and futures charts, Tuesday to Thursday."
+        },
+        {
+          "title": "Live Q&A sessions",
+          "body": "Bring your questions about your trades and your challenge."
+        },
+        {
+          "title": "Team Take Profits community",
+          "body": "Traders working the same process, holding each other to it."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Members",
+      "items": [
+        "{{SWAP}} Member story from Team Take Profits",
+        "{{SWAP}} Member story from Team Take Profits",
+        "{{SWAP}} Member video testimonial"
+      ],
+      "note": "Individual results, not typical. Trading forex, gold and futures involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "7 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Jay's team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the Team Take Profits Mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Forex",
+            "Gold",
+            "Futures",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "Where are you with prop firms?",
+          "type": "choice",
+          "options": [
+            "In a challenge right now",
+            "Already funded",
+            "Planning my first challenge",
+            "Not interested in prop firms"
+          ]
+        },
+        {
+          "q": "What's the biggest thing holding your trading back right now?",
+          "type": "text"
+        },
+        {
+          "q": "Are you already in Team Take Profits?",
+          "type": "choice",
+          "options": [
+            "Full trading mentorship",
+            "Trade setups",
+            "Not yet"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the program now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now the mentorship isn't the right next step for you. Follow the journey on YouTube first, with new videos on Tuesday and Saturday and a live stream on Sundays, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to trade your challenge with a plan?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading forex, gold, futures and other leveraged products involves substantial risk of loss and is not suitable for all investors. Prop firm challenges can be failed and their fees lost. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. If you're in a challenge, have your account rules and your last few trades ready.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nJay"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "Why most traders fail prop firms",
+      "previewText": "It's rarely the strategy",
+      "body": "Hey {{first_name}},\n\nMost traders don't fail a challenge because their strategy is bad. They fail because they keep trading after a good day, or they break their own rule after a bad one.\n\nI've done both on camera.\n\nThe mentorship is built on one process: plan the session, size every trade so one loss can't end the challenge, take only the planned trades, review every one.\n\nOn the call we'll look at where your process breaks today.\n\nJay"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I'm already in the Discord\"",
+      "previewText": "Then you know how I trade",
+      "body": "Hey {{first_name}},\n\nGood. Then you've seen the setups and how I trade them.\n\nThe mentorship is for when watching isn't enough anymore: one-on-one reviews of your own trades, and a plan built around your firm's rules, so you know exactly where your challenge goes wrong.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nJay"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What we'll cover on the call",
+      "previewText": "About 30 minutes, no pressure",
+      "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now: your trading, your challenges so far, what keeps going wrong.\n2. What you want your trading to look like in a year.\n3. How the mentorship works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nJay"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Jay's team",
+      "previewText": "Quick reminder",
+      "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nJay"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today's the day",
+      "previewText": "Your call is at {{call_time}}",
+      "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nOne day. One trade at a time.\nJay"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "The journey",
+      "hook": "I'm documenting my $200K challenge, losses included.",
+      "script": "[Jay at the desk, challenge dashboard on screen]\nI'm documenting my $200K challenge, every trade, losses included.\nIf you're in a challenge yourself, I'll go through it with you, one-on-one.\nPlan. Execute. Repeat.\nApply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Giving it back",
+      "hook": "Up on the day, then you give it all back?",
+      "script": "[Jay to camera, in the car]\nUp on the day, then you give it all back. I've done it.\nThe fix isn't a new strategy. It's a plan you follow and a limit you respect.\nIn the mentorship, we build that plan around your prop firm's rules.\nLink below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Prop firm rules",
+      "hook": "Read this before you buy your next challenge.",
+      "script": "[Screen recording of a prop firm rules page]\nMost challenges aren't lost on the chart. They're lost on a rule nobody read.\nDaily drawdown, max loss, minimum days.\nIn the mentorship, we go through your firm's rules and your trades together.\nApply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Discord upgrade",
+      "hook": "Already in Team Take Profits? This is the next step.",
+      "script": "[Discord clip, then Jay to camera]\nIf you're in Team Take Profits, you've seen how I trade.\nThe mentorship is the next step: one-on-one with me, on your own challenge.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "7rcSuSGVGXI",
+    "title": "How to Trade Futures & Become More Consistent"
+  }
+}

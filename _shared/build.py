@@ -190,6 +190,8 @@ def build_pitch(c, house_cases):
 
 # ---------- creator funnel (creator brand) ----------
 
+NUMBER_WORDS = {3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
+
 # Fixed labels of the funnel, thank-you, email and ad pages. A creator whose audience speaks
 # another language overrides any of them in content.json → ui (plus ui.lang for <html lang>).
 UI = {
@@ -201,7 +203,7 @@ UI = {
     "proofEyebrow": "Proof",
     "processEyebrow": "The process",
     "applyEyebrow": "Application",
-    "applyLead": "Six questions, about two minutes.",
+    "applyLead": "{n} questions, about two minutes.",
     "detailsLegend": "Your details",
     "bookedTitle": "Booked",
     "tyEyebrow": "Application received",
@@ -310,7 +312,7 @@ def build_funnel(c):
 <section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "proofEyebrow"))}</span><h2 class="reveal">{t(s["proof"]["title"])}</h2></div><div class="proof-grid">{proof}</div><p class="note">{t(s["proof"]["note"])}</p></div></section>
 <section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "processEyebrow"))}</span><h2 class="reveal">{t(s["howItWorks"]["title"])}</h2></div><ol class="steps">{steps(s["howItWorks"]["steps"])}</ol></div></section>
 <section id="apply"><div class="wrap narrow">
-  <div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "applyEyebrow"))}</span><h2 class="reveal">{t(s["qualification"]["title"])}</h2><p class="lead reveal">{t(ui(c, "applyLead"))}</p></div>
+  <div class="sec-head"><span class="eyebrow reveal">{t(ui(c, "applyEyebrow"))}</span><h2 class="reveal">{t(s["qualification"]["title"])}</h2><p class="lead reveal">{t(ui(c, "applyLead").replace("{n}", NUMBER_WORDS.get(len(s["qualification"]["questions"]), str(len(s["qualification"]["questions"])))))}</p></div>
   <form class="apply" id="apply-form" action="thank-you/" method="get">
     {''.join(qs)}
     <fieldset class="reveal"><legend><span>✓</span>{t(ui(c, "detailsLegend"))}</legend>{contact}</fieldset>
