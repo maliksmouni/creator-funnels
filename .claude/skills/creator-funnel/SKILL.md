@@ -1,6 +1,6 @@
 ---
 name: creator-funnel
-description: Baut aus einem Creator-Link (Instagram o. ä.) einen individuellen Creator-Funnel (Pitch-Seite, Call- oder Webinar-Funnel, Pre-Call-E-Mails, Ad-Scripts) auf Basis echter öffentlicher Recherche und deployed ihn über Cloudflare Pages. Nutzen, wenn ein neuer Funnel/Pitch für einen Creator erstellt werden soll, bei Änderungen an einem bestehenden Creator-Ordner oder bei "deploy it".
+description: Baut aus einem Creator-Link (Instagram o. ä.) einen individuellen Creator-Funnel (Pitch-Seite, Call- oder Webinar-Funnel, Pre-Call-E-Mails, Ad-Scripts) auf Basis echter öffentlicher Recherche und deployed ihn über Cloudflare Pages. Nutzen, wenn ein neuer Funnel/Pitch für einen Creator erstellt werden soll, bei Änderungen an einem bestehenden Creator-Ordner oder bei "deploy it". Deployt automatisch, sobald die QA bestanden ist.
 ---
 
 # Creator Funnel Skill
@@ -74,7 +74,7 @@ Aus dem Dossier ableiten: Wo ist die Lücke zwischen Reichweite und Monetarisier
 Struktur und Reihenfolge ändern sich nie, nur die Inhalte. Vorlage: `trading-diva/content.json`.
 
 ```
-host (fehlt = "cloudflare"; nur die älteren Creator gustavo-zapz und trading-diva haben "netlify"), status ("draft" bis „deploy it“, dann "live"), slug, name, brandName, niche, offerName, image
+host (fehlt = "cloudflare"; nur die älteren Creator gustavo-zapz und trading-diva haben "netlify"), status ("draft" bis die QA in Phase 6 bestanden ist, dann automatisch "live"), slug, name, brandName, niche, offerName, image
 brand: { bg, surface, line, text, muted, accent, accent-ink, signal }   ← Creator-Marke
 headline, subheadline                                                   ← Funnel-Hero
 demoBanner                                                              ← Pflicht, siehe Ehrlichkeitsregeln
@@ -185,11 +185,11 @@ node _shared/thumbs.mjs {slug}           # Vorschaubilder → {slug}/assets/prev
 
 ### Phase 7: Vorschau
 
-Lokal auf `localhost:8788` bauen. Der Nutzer kann localhost aus der Cloud-Session nicht öffnen: Screenshots schicken oder eine selbstständige HTML-Datei (Bild als data-URI) per Datei senden. Den Funnel in Creator-Optik nicht als öffentlichen Artifact-Link veröffentlichen.
+Kein Warten auf Freigabe: Der Nutzer will vor dem Livegang nichts prüfen (Entscheidung 06.10.2026). Direkt nach bestandener QA weiter mit Phase 8. Screenshots nur auf Nachfrage; der Nutzer kann localhost aus der Cloud-Session nicht öffnen. Den Funnel in Creator-Optik nicht als öffentlichen Artifact-Link veröffentlichen.
 
-### Phase 8: Deploy (nur auf „deploy it“)
+### Phase 8: Deploy (automatisch nach bestandener QA)
 
-Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`. `publish.py` kopiert dann nichts aus `/{slug}/` nach `dist/` (404). So kann der Stand gepusht werden (der Stop-Hook verlangt Pushes, und nichts geht verloren), ohne öffentlich zu sein. Bei „deploy it“: `status` auf `"live"` setzen, bauen, pushen, live prüfen.
+Der Nutzer hat entschieden (06.10.2026): Jeder neue Funnel geht ohne „deploy it“ live, sobald Phase 6 vollständig bestanden ist. Entwurfs-Status: Neue Creator bekommen in `content.json` `"status": "draft"`, solange gebaut wird. `publish.py` kopiert dann nichts aus `/{slug}/` nach `dist/` (404), Zwischenstände können also gepusht werden, ohne öffentlich zu sein. Nach bestandener QA: `status` auf `"live"` setzen, bauen, auf den Arbeitsbranch **und** den Production-Branch `claude/add-skill-k8god6` pushen (Fast-Forward; ist der Production-Branch kein Vorfahre, zuerst mergen), live prüfen, Outreach. Besteht die QA nicht und lässt sich der Fehler nicht beheben: Entwurf bleiben lassen und dem Nutzer sagen, was fehlt. `[CONFIRM]`-Punkte in README/Dossier (z. B. vorgeschlagenes Angebot, unsicherer Standort) halten den Deploy nicht auf; sie werden im Abschlussbericht kurz genannt.
 
 1. Committen: `Add funnel for {slug}` (neuer Creator) bzw. eine beschreibende Nachricht bei Änderungen. Pushen auf den Arbeitsbranch. Ist ein Creator bereits deployed, werden spätere Änderungswünsche direkt gebaut, gepusht und live geprüft.
 2. Neue Creator laufen auf Cloudflare Pages; gustavo-zapz und trading-diva bleiben auf Netlify (`host: "netlify"`, Netlify-Setup unverändert: Repo-Root, kein Build-Command, `_redirects`). Cloudflare Pages: Projekt `infooperate` unter `https://infooperate.pages.dev` (auch in `_shared/site.json` → cloudflare), Production-Branch `claude/add-skill-k8god6`, Build-Command `python3 _shared/publish.py`, Output-Verzeichnis `dist`, Root leer. Private Dateien werden gar nicht hochgeladen (Allowlist in `publish.py`); zusätzlich sperrt `functions/_middleware.js` (von `build.py` generiert) alles außer live Cloudflare-Creatorn und `/assets/`, auch wenn im Dashboard die Build-Einstellungen fehlen. Neue private Dateien in `PRIVATE_PER_CREATOR` eintragen. Lokal prüfen: `python3 _shared/publish.py` und `npx wrangler pages dev dist` (und `npx wrangler pages dev .`). Zusätzlich existiert der ältere Worker `creator-funnels` (`https://creator-funnels.smounimalik.workers.dev`, `wrangler.jsonc`), nur damit der an gocholive verschickte Link weiter funktioniert.
@@ -219,7 +219,7 @@ Hinweis: Das GitHub-Repo ist öffentlich. Dossier und Notizen sind dort sichtbar
 
 ## Nicht tun
 
-- Kein Deploy ohne expliziten Befehl
+- Kein Deploy, solange die QA (Phase 6) nicht bestanden ist; mit bestandener QA wird ohne Rückfrage deployt
 - Keine Layout-Variation zwischen Creatorn bei der Pitch-Seite; Änderungen am Master-Design gelten für alle und gehören in `_shared/pitch-master.css` + `HOUSE.md`
 - Keine erfundenen Kennzahlen, Testimonials, Zitate oder Preise
 - Keine Vermischung der beiden Design-Systeme
