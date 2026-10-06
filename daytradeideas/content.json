@@ -1,0 +1,424 @@
+{
+  "status": "live",
+  "slug": "daytradeideas",
+  "instagram": "daytradeideas",
+  "name": "Jason Sen",
+  "brandName": "Day Trade Ideas",
+  "niche": "Gold, silver, forex, WTI and index day trading; daily signals and analysis (£79–£174/month), courses and 1-on-1 mentoring; 40 years since the LIFFE floor; UK brand",
+  "offerName": "1-on-1 Mentorship (existing, £799 with a Buy Now button on the pricing page)",
+  "image": "assets/jason.jpg",
+  "brand": {
+    "_note": "Banner: navy #041123/#091627, blue #3c84d4/#5487bd, compass 'D' logo; accent lightened to #4c95e6; surface/line/muted derived [CONFIRM]",
+    "bg": "#06101f",
+    "surface": "#0d1b30",
+    "line": "#20344f",
+    "text": "#eef3fa",
+    "muted": "#a8b8cc",
+    "accent": "#4c95e6",
+    "accent-ink": "#06101f",
+    "signal": "#8ec2f5"
+  },
+  "headline": "Forty years since the LIFFE floor: learn Jason's three-step method one-on-one and trade with a plan.",
+  "subheadline": "The 1-on-1 Mentorship: technical analysis, disciplined trade and risk management, and trading psychology, with Jason as your personal mentor and performance coach. Apply first, talk to us, then decide.",
+  "demoBanner": "Demo built for Jason Sen (Day Trade Ideas). Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for Day Trade Ideas",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "1-on-1 mentorship",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "20.5K on YouTube. Your mentorship is a £799 buy button.",
+          "text": "“Learn to trade with Jason Sen as your personal mentor & performance coach” sits on your pricing page between £79 signals and a £93 course, with a “Buy Now” button. Someone about to spend £799 on a mentor usually wants to speak to him first.",
+          "stats": [
+            {
+              "value": "20.5K",
+              "label": "YouTube subscribers"
+            },
+            {
+              "value": "20.4K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "£799",
+              "label": "the mentorship"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "3,317 people on your free Telegram.",
+          "text": "Your channel has 2.59M views, and you posted 15 videos in the last two weeks alone. Your signal subscribers watch you trade every day. The ones who want to learn your method instead of copying it are your mentorship clients.",
+          "stats": [
+            {
+              "value": "3,317",
+              "label": "on free Telegram"
+            },
+            {
+              "value": "2.59M",
+              "label": "YouTube views"
+            },
+            {
+              "value": "15",
+              "label": "videos in 14 days"
+            }
+          ]
+        },
+        {
+          "kicker": "The bottleneck",
+          "title": "Eight products on one pricing page.",
+          "text": "A free course, three signal plans, three paid courses and the mentorship, all side by side. A visitor has to work out alone which one fits, and the most valuable one asks for £799 without a single conversation.",
+          "stats": [
+            {
+              "value": "8",
+              "label": "products on the pricing page"
+            },
+            {
+              "value": "0",
+              "label": "questions before £799"
+            }
+          ]
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“My signals are the business.” They stay.",
+          "text": "Signals keep running at £79 to £174 a month and keep bringing people in. The mentorship gets its own page, a short application and a call, so the traders who want your three-step method talk to you before they pay.",
+          "quote": "“With 40 years of trading experience from the Stock Exchange & LIFFE floors to digital trading, I provide battle-tested technical analysis and personalised mentoring that transforms struggling traders into consistent performers”",
+          "source": "Jason on YouTube"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Mentorship page",
+            "desc": "Sells the 1-on-1 Mentorship, explains the three-step method, and ends in a 7-question application.",
+            "href": "funnel/",
+            "url": "daytradeideas.co.uk/mentorship",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and where the official links are.",
+            "href": "funnel/thank-you/",
+            "url": "daytradeideas.co.uk/mentorship/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your YouTube, Instagram and Telegram audience. No win rates, no profit claims.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Day Trade Ideas mentorship funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Day Trade Ideas · 1-on-1 Mentorship",
+      "chips": [
+        "Gold · Silver · Forex",
+        "Indices · WTI",
+        "3-step method",
+        "1-on-1 mentoring"
+      ],
+      "cta": "Apply for the mentorship",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Jason's mentorship VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "Your chart reading isn't consistent",
+          "body": "Some days the levels make sense. Most days you're guessing where to enter."
+        },
+        {
+          "title": "Your risk changes with your mood",
+          "body": "Stops moved, size doubled after a loss, no rules for the account as a whole."
+        },
+        {
+          "title": "You sabotage your own trades",
+          "body": "You know what to do. In the moment, fear or impatience decides instead."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "Three steps, forty years of practice",
+      "body": "Jason's method comes from the trading floor: simple but effective technical analysis, strict trade, risk and account management, and the psychology to follow both. In the mentorship, he works through all three with you, tailored to your experience level and learning style.",
+      "pillars": [
+        {
+          "title": "Technical analysis",
+          "body": "Simple, effective chart reading across multiple time frames."
+        },
+        {
+          "title": "Trade management",
+          "body": "A clear entry, stop and target for every trade."
+        },
+        {
+          "title": "Risk & account",
+          "body": "Rules that protect the account, not just the trade."
+        },
+        {
+          "title": "Psychology",
+          "body": "Remove the self-destructive habits that cost traders most."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside the mentorship",
+      "items": [
+        {
+          "title": "1-on-1 mentoring calls",
+          "body": "Sixty-minute sessions with Jason, tailored to your level."
+        },
+        {
+          "title": "A personalised strategy",
+          "body": "Built around your markets, your schedule and your account."
+        },
+        {
+          "title": "Technical analysis mastery",
+          "body": "How Jason reads support, resistance and multi-time-frame charts."
+        },
+        {
+          "title": "Risk & account management",
+          "body": "The protocols that keep losses small."
+        },
+        {
+          "title": "Trading psychology",
+          "body": "Work on the behaviour behind your worst trades."
+        },
+        {
+          "title": "Daily analysis to learn from",
+          "body": "See Jason's market view every day while you build your own."
+        }
+      ]
+    },
+    "proof": {
+      "title": "What traders say",
+      "items": [
+        "Allistar B.: says Jason gives a complete picture of the markets, and says so when there's no trade (testimonial on daytradeideas.co.uk)",
+        "Cleveland B.: calls the reports very helpful, and adds you still need a solid trading plan (testimonial on daytradeideas.co.uk)",
+        "{{SWAP}} Mentee video testimonial"
+      ],
+      "note": "Individual results, not typical. Trading involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "7 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Jason."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for the 1-on-1 Mentorship",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "Forex",
+            "Gold & silver",
+            "Indices",
+            "Oil",
+            "Crypto"
+          ]
+        },
+        {
+          "q": "What kind of account do you trade?",
+          "type": "choice",
+          "options": [
+            "Personal account",
+            "Prop firm account",
+            "Demo only",
+            "Not trading yet"
+          ]
+        },
+        {
+          "q": "What's the biggest thing holding your trading back right now?",
+          "type": "text"
+        },
+        {
+          "q": "Are you already with Day Trade Ideas?",
+          "type": "choice",
+          "options": [
+            "Signals subscriber",
+            "Bought a course",
+            "Free Telegram",
+            "Not yet"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the mentorship now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "WhatsApp number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now the 1-on-1 Mentorship isn't the right next step for you. Start with the free beginner course and the free Telegram channel, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to learn the method, not just copy the trades?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading forex, gold, silver, oil, indices and other leveraged products involves substantial risk of loss and is not suitable for all investors. You can lose more than your initial deposit on some products. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call is confirmed",
+      "body": "Hi {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a few recent trades ready, wins and losses, and note what you trade.\n\nOne note: payments only happen through the official Day Trade Ideas website or from this email address, never through a DM.\n\nSpeak soon,\nJason"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "What the trading floor taught me",
+      "previewText": "Three things, in order",
+      "body": "Hi {{first_name}},\n\nI started on the LIFFE floor at 19. Forty years later, the traders who last all do three things: they read the chart simply, they manage every trade and the whole account with strict rules, and they work on their psychology as hard as their entries.\n\nThat's the three-step method we'll go through together.\n\nOn the call we'll look at which of the three is holding you back today.\n\nJason"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I already have the signals\"",
+      "previewText": "Then you've seen how I trade",
+      "body": "Hi {{first_name}},\n\nGood. Then you've seen my analysis every day.\n\nThe mentorship is for when copying isn't the goal anymore: we work on your own analysis, your risk rules and your psychology, so you can make the decisions yourself.\n\nIf you're not sure you need it, ask on the call. I'll tell you honestly.\n\nJason"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What we'll cover on the call",
+      "previewText": "About 30 minutes, no pressure",
+      "body": "Hi {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want your trading to look like in a year.\n3. How the mentorship works, what it costs, and whether it fits you.\n\nIf it isn't a fit, I'll tell you. No pressure either way.\n\nJason"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Jason",
+      "previewText": "Quick reminder",
+      "body": "Hi {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nJason"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today's the day",
+      "previewText": "Your call is at {{call_time}}",
+      "body": "Hi {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nSpeak soon,\nJason"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "The floor",
+      "hook": "We used hand signals to trade on the floor in the 1990s.",
+      "script": "[Jason at the desk, archive photo of the LIFFE floor]\nI started on the trading floor at 19. Forty years later, the basics haven't changed.\nRead the chart simply, manage every trade, master your psychology.\nIn my 1-on-1 mentorship, we work through all three. Apply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Copy vs learn",
+      "hook": "Copying trades won't make you a trader.",
+      "script": "[Chart on screen, Jason to camera]\nSignals show you what I'm doing. They don't teach you why.\nIf you want to make your own decisions, that's what the mentorship is for.\nApply, talk to me, and we'll see if it fits.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Probabilities",
+      "hook": "Trading is probabilities, not predictions.",
+      "script": "[Jason to camera]\nNobody knows where gold goes next. You don't need to.\nYou need a plan, fixed risk, and the discipline to follow both.\nThat's my three-step method. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Subscriber upgrade",
+      "hook": "On my signals? This is the next step.",
+      "script": "[Telegram trade sheet, then Jason]\nIf you get my daily analysis, you've seen how I read the market.\nThe next step is learning to do it yourself, one-on-one with me.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "5fN3sp6J288",
+    "title": "Precision Entries Live Webinar"
+  }
+}

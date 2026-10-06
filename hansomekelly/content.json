@@ -1,0 +1,423 @@
+{
+  "status": "live",
+  "slug": "hansomekelly",
+  "instagram": "hansomekelly_",
+  "name": "Hansome Kelly",
+  "brandName": "Hansome Kelly",
+  "niche": "Day trading US30, Nasdaq and gold with price action and a 1-hour-a-day routine; community The Profit Society ($150/month, Whop), program Trading Simplified; US",
+  "offerName": "Trading Simplified (existing program, price not public; today 'Apply Now' opens a free Calendly call directly)",
+  "image": "assets/kelly.jpg",
+  "brand": {
+    "_note": "YouTube banner: black/navy #000105/#07224d, blue #2e569c with brighter 'KELLY' lettering; accent lightened to #4a86ff for contrast; surface/line/muted derived [CONFIRM]",
+    "bg": "#070b14",
+    "surface": "#101828",
+    "line": "#24324c",
+    "text": "#f2f5fa",
+    "muted": "#aab6cb",
+    "accent": "#4a86ff",
+    "accent-ink": "#070b14",
+    "signal": "#9cc0ff"
+  },
+  "headline": "Trade one focused hour a day: a system that tells you when to trade, what to look for, and when to walk away.",
+  "subheadline": "Trading Simplified: the complete system for US30, Nasdaq, gold and forex, a personal trading journal, coaching on psychology and discipline, and The Profit Society. Apply first, talk to us, then decide.",
+  "demoBanner": "Demo built for Hansome Kelly. Not their official site.",
+  "pitch": {
+    "eyebrow": "Already built for Hansome Kelly",
+    "headline": {
+      "before": "I built the call funnel for your",
+      "mark": "Trading Simplified program",
+      "after": "."
+    },
+    "bridge": {
+      "title": "Four things I noticed",
+      "beats": [
+        {
+          "kicker": "The audience and the offer",
+          "title": "20.2K followers. 39 members in The Profit Society.",
+          "text": "You're verified, you post almost every day, and TPS is rated 5.0 at $150 a month. But Trading Simplified, the program that teaches the whole system, has no page that sells it before someone gets on your calendar.",
+          "stats": [
+            {
+              "value": "20.2K",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "$150",
+              "label": "TPS per month"
+            },
+            {
+              "value": "39",
+              "label": "TPS members"
+            }
+          ]
+        },
+        {
+          "kicker": "The warm audience",
+          "title": "200+ traders coached. 19 five-star reviews.",
+          "text": "Your YouTube says you've coached over 200 traders, TPS has 19 reviews at 5.0, and posts like “Comment TRADE” already pull people into your DMs. The demand is there. What's missing is a filter before it reaches you.",
+          "stats": [
+            {
+              "value": "200+",
+              "label": "traders coached"
+            },
+            {
+              "value": "5.0",
+              "label": "TPS rating, 19 reviews"
+            },
+            {
+              "value": "589",
+              "label": "YouTube videos"
+            }
+          ]
+        },
+        {
+          "kicker": "The bottleneck",
+          "title": "“Apply Now” books a free call with anyone.",
+          "text": "On your Trading Simplified page, both “Apply Now” and “Get Started” go straight to the free “Is Trading For Me?” Calendly. Nobody answers a single question first, so you only find out on the call who's ready and who isn't.",
+          "stats": [
+            {
+              "value": "0",
+              "label": "questions before a call"
+            },
+            {
+              "value": "2",
+              "label": "buttons straight to Calendly"
+            }
+          ]
+        },
+        {
+          "kicker": "The objection you're already forming",
+          "title": "“I already take calls.” Now they're the right calls.",
+          "text": "Keep the free call. Put one page and a seven-question application in front of it, so the people who book already know what Trading Simplified is, trade money they can afford to lose, and are ready to invest. Same calendar, better conversations.",
+          "quote": "“You don’t need to trade all day. You need a plan that tells you when to trade, what to look for, and when to walk away.”",
+          "source": "Hansome on Instagram"
+        }
+      ],
+      "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+    },
+    "deliverablesTitle": "Here are the sample deliverables:",
+    "groups": [
+      {
+        "label": "The funnel",
+        "items": [
+          {
+            "kicker": "01 · Application",
+            "title": "Program page",
+            "desc": "Sells Trading Simplified, explains the system, and ends in a 7-question application before the call.",
+            "href": "funnel/",
+            "url": "hansomekelly.com/trading-simplified",
+            "thumb": "assets/previews/funnel.jpg"
+          },
+          {
+            "kicker": "02 · Booked",
+            "title": "Booking + thank-you",
+            "desc": "Calendar after the application, what to prepare, and where the official links are.",
+            "href": "funnel/thank-you/",
+            "url": "hansomekelly.com/trading-simplified/booked",
+            "thumb": "assets/previews/thank-you.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Ad creatives",
+        "items": [
+          {
+            "kicker": "4 angles · video",
+            "title": "Ad creative scripts",
+            "desc": "For your Instagram, YouTube and TPS audience. No income claims, no trade calls.",
+            "href": "ads/",
+            "url": "scripts · 4 angles",
+            "thumb": "assets/previews/ads.jpg"
+          }
+        ]
+      },
+      {
+        "label": "Email sequence",
+        "items": [
+          {
+            "kicker": "6 emails · booked to call",
+            "title": "Pre-call sequence",
+            "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+            "href": "emails/",
+            "url": "sequence · 6 emails",
+            "thumb": "assets/previews/emails.jpg"
+          }
+        ]
+      }
+    ],
+    "cases": {
+      "title": "Case studies",
+      "items": []
+    },
+    "cta": {
+      "title": "Book a call",
+      "calendly": "https://calendly.com/maliksmouni/30min"
+    },
+    "footer": "Trading Simplified call funnel"
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Trading Simplified · Mentorship",
+      "chips": [
+        "US30 · Nasdaq · Gold",
+        "Price action",
+        "Mindset",
+        "1 focused hour a day"
+      ],
+      "cta": "Apply for Trading Simplified",
+      "navCta": "Apply",
+      "vslNote": "{{SWAP}} Hansome's program VSL (3–8 min)"
+    },
+    "problem": {
+      "title": "Sound familiar?",
+      "cards": [
+        {
+          "title": "You chase price",
+          "body": "You miss the move, jump in late, and turn a good setup into a bad trade."
+        },
+        {
+          "title": "You need the trade to win",
+          "body": "When the bills depend on today's trade, fear and greed make every decision for you."
+        },
+        {
+          "title": "You sit at the charts all day",
+          "body": "Hours in front of the screen, and the extra trades only make it worse."
+        }
+      ]
+    },
+    "mechanism": {
+      "title": "Think clearer. Trade smarter. Live freer.",
+      "body": "You don't need to trade all day. You need a plan: when to trade, what to look for, and when to walk away. Trading Simplified gives you a repeatable system for reading price, managing risk and executing with discipline, so trading fits around your life.",
+      "pillars": [
+        {
+          "title": "Plan",
+          "body": "Know your session, your setups and your limits before the market opens."
+        },
+        {
+          "title": "Structure",
+          "body": "Market structure, key levels, support and resistance."
+        },
+        {
+          "title": "Risk",
+          "body": "A risk management framework for every trade and every day."
+        },
+        {
+          "title": "Discipline",
+          "body": "Psychology and accountability, so you walk away when the plan says so."
+        }
+      ]
+    },
+    "deliverables": {
+      "title": "What's inside Trading Simplified",
+      "items": [
+        {
+          "title": "The full curriculum",
+          "body": "Futures, gold, indices and forex, from structure to execution."
+        },
+        {
+          "title": "Entry & exit system",
+          "body": "A repeatable process instead of another indicator."
+        },
+        {
+          "title": "Personal trading journal",
+          "body": "Track every trade and see your patterns."
+        },
+        {
+          "title": "News event framework",
+          "body": "How to handle data releases like NFP without guessing."
+        },
+        {
+          "title": "Psychology & discipline coaching",
+          "body": "Work on the habits that cost you more than any setup."
+        },
+        {
+          "title": "2 months of The Profit Society",
+          "body": "Live sessions, weekly coaching and the TPS community."
+        }
+      ]
+    },
+    "proof": {
+      "title": "Students",
+      "items": [
+        "{{SWAP}} Student story from Trading Simplified",
+        "{{SWAP}} TPS member review from Whop (19 reviews)",
+        "{{SWAP}} Student video testimonial"
+      ],
+      "note": "Individual results, not typical. Trading involves substantial risk of loss."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Apply",
+          "body": "7 short questions, about 2 minutes."
+        },
+        {
+          "title": "Book a call",
+          "body": "If it looks like a fit, pick a time to talk with Hansome's team."
+        },
+        {
+          "title": "Decide on the call",
+          "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+        }
+      ]
+    },
+    "qualification": {
+      "title": "Apply for Trading Simplified",
+      "questions": [
+        {
+          "q": "How long have you been trading?",
+          "type": "choice",
+          "options": [
+            "I'm brand new",
+            "Under 1 year",
+            "1–3 years",
+            "More than 3 years"
+          ]
+        },
+        {
+          "q": "What do you trade?",
+          "type": "multi",
+          "options": [
+            "US30 / Dow",
+            "Nasdaq",
+            "Gold",
+            "Forex",
+            "Nothing yet"
+          ]
+        },
+        {
+          "q": "How much time can you give trading each day?",
+          "type": "choice",
+          "options": [
+            "Under 1 hour",
+            "About 1 hour",
+            "2–3 hours",
+            "All day"
+          ]
+        },
+        {
+          "q": "What's the biggest thing holding your trading back right now?",
+          "type": "text"
+        },
+        {
+          "q": "Are you already in The Profit Society?",
+          "type": "choice",
+          "options": [
+            "Yes, I'm a TPS member",
+            "I follow the free content",
+            "Not yet"
+          ]
+        },
+        {
+          "q": "Do you only trade money you can afford to lose?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        },
+        {
+          "q": "If you're accepted, are you ready to invest in the program now?",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "In 1–3 months",
+            "No"
+          ],
+          "disqualify": [
+            "No"
+          ]
+        }
+      ],
+      "contactFields": [
+        "Name",
+        "Email",
+        "Phone number"
+      ],
+      "notFit": {
+        "title": "Thank you for being honest.",
+        "body": "Right now Trading Simplified isn't the right next step for you. Start with the free videos on YouTube and the Financial Vortex newsletter, and apply again when you're ready."
+      }
+    },
+    "finalCta": {
+      "title": "Ready to trade with a plan?",
+      "body": "Apply here. One application, one call, a straight answer.",
+      "cta": "Apply now",
+      "disclaimer": "Educational content only, not financial advice. Trading futures, indices, gold and forex involves substantial risk of loss and is not suitable for all investors. Do not trade with borrowed money or money you cannot afford to lose. Past performance is not indicative of future results. Individual results vary and are not typical."
+    }
+  },
+  "preCallEmails": [
+    {
+      "emailNumber": 1,
+      "type": "Confirmation",
+      "subject": "You're booked: here's what happens next",
+      "previewText": "Your call is confirmed",
+      "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think about where you are: how long you've been trading, what you trade, and how much time you really have each day.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nHansome"
+    },
+    {
+      "emailNumber": 2,
+      "type": "Conviction",
+      "subject": "You don't need to trade all day",
+      "previewText": "You need a plan",
+      "body": "Hey {{first_name}},\n\nI have a newborn and a 2-year-old. I don't have the time to sit in front of the charts all day, and you don't need to either.\n\nWhat you need is a plan that tells you when to trade, what to look for, and when to walk away.\n\nThat's what Trading Simplified is built on. On the call we'll look at where your plan breaks today.\n\nHansome"
+    },
+    {
+      "emailNumber": 3,
+      "type": "Objection handling",
+      "subject": "\"I'm already in TPS\"",
+      "previewText": "Then you've seen how we trade",
+      "body": "Hey {{first_name}},\n\nGood. Then you know the live sessions and the community.\n\nTrading Simplified is the full system behind them: structure, entries and exits, risk, and the psychology work, with your own journal, so you can trade it without watching someone else.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nHansome"
+    },
+    {
+      "emailNumber": 4,
+      "type": "Expectations",
+      "subject": "What we'll cover on the call",
+      "previewText": "About 30 minutes, no pressure",
+      "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. What you want your trading, and your schedule, to look like in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nHansome"
+    },
+    {
+      "emailNumber": 5,
+      "type": "One day out",
+      "subject": "Tomorrow: your call with Hansome's team",
+      "previewText": "Quick reminder",
+      "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nHansome"
+    },
+    {
+      "emailNumber": 6,
+      "type": "Morning of",
+      "subject": "Today's the day",
+      "previewText": "Your call is at {{call_time}}",
+      "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nThink clearer. Trade smarter. Live freer.\nHansome"
+    }
+  ],
+  "adScripts": [
+    {
+      "angle": "One hour a day",
+      "hook": "I trade one focused hour a day. Here's why.",
+      "script": "[Hansome at the desk, timer on screen]\nI have a newborn and a 2-year-old. I don't trade all day.\nOne focused hour, a plan for when to trade, what to look for, and when to walk away.\nThat's what I teach in Trading Simplified. Apply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Chasing price",
+      "hook": "Stop chasing price.",
+      "script": "[US30 chart, then Hansome to camera]\nYou missed the move. So you jump in late and it reverses.\nChasing price comes from scarcity. There's always another setup.\nIn Trading Simplified, you learn to wait for the one that matches your plan.\nLink below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "Pressure",
+      "hook": "Trading gets harder when you NEED the trade to win.",
+      "script": "[Hansome to camera]\nWhen rent is due, every trade feels bigger than it is. That's when the mistakes start.\nThe fix is a system and a risk plan you follow no matter what.\nApply for Trading Simplified at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    },
+    {
+      "angle": "TPS upgrade",
+      "hook": "Already in The Profit Society? This is the full system.",
+      "script": "[TPS live session clip]\nIf you're in TPS, you've seen how we trade live.\nTrading Simplified is the full system behind it, with your own journal and coaching.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+    }
+  ],
+  "video": {
+    "thumb": "assets/video-thumb.jpg",
+    "youtubeId": "xcf34Eb26SA",
+    "title": "How I Trade US30 | My Setup for Higher-Probability Trades"
+  }
+}
