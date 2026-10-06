@@ -2,6 +2,10 @@
 
 Repo für Creator-Funnels. Ablauf und Regeln stehen im Skill `.claude/skills/creator-funnel/SKILL.md`.
 
+## Creator-/Lead-Listen
+
+Whenever the user asks for a creator or lead list ("find creators", "new list", "10 leads" …), follow `_shared/lead-search/README.md` step by step, including step 2 (`find_ig.py` for channels that don't link Instagram on YouTube) and the exclusion of everyone on earlier lists. Use the parameters from the user's request; defaults are in the README prompt. The Apify token comes from the `APIFY_TOKEN` environment variable.
+
 ## Outreach-E-Mail nach dem Livegang
 
 After every funnel is live and verified, create a Gmail **draft** (never send it) to the creator's email address using the email template below. Replace {Name} with the creator's first name and {Nische} with their niche in one or two words. Put the placeholder line `>>> PASTE LINK HERE <<<` where {Link} goes. The user pastes the link and sends the draft themselves.
