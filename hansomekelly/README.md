@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel vor seinem bestehenden Programm **„Trading Simplified“** (Bewerbung vor dem Gratis-Call). Stand: 06.10.2026. Status: **live** seit 06.10.2026. Adresse: https://infooperate.pages.dev/hansomekelly/ (Instagram-Handle hansomekelly_ in `content.json → instagram`).
 
+Live geprüft 06.10.2026: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an welivinglavish@gmail.com am 06.10.2026 (Link fügt der Nutzer ein).
+
 Kontakt: welivinglavish@gmail.com (vom Nutzer genannt, 06.10.2026; selbst nicht öffentlich gefunden).
 
 ## Offene `[CONFIRM]`-Stellen (intern)

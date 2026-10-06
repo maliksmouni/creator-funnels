@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel vor seiner bestehenden **1-on-1-Mentorship** (£799, heute „Buy Now“). Stand: 06.10.2026. Status: **live** seit 06.10.2026. Adresse: https://infooperate.pages.dev/daytradeideas/
 
+Live geprüft 06.10.2026: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an jason@daytradeideas.co.uk am 06.10.2026 (Link fügt der Nutzer ein).
+
 Kontakt: jason@daytradeideas.co.uk (Website-Kontakt und IG-Captions, 06.10.2026; auch Nutzer-Tabelle).
 
 ## Offene `[CONFIRM]`-Stellen (intern)
