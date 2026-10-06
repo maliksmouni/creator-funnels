@@ -10,8 +10,8 @@ Finds creators for outreach: YouTube first, Instagram checked through Apify, onl
 | `apify_ig.py` | Instagram profiles via Apify (`APIFY_TOKEN` env), prints run cost + monthly usage |
 | `filter_leads.py` | Follower range + post dates, collects published emails, logs every checked handle |
 | `build_xlsx.py` | Writes the lead sheet (clickable links, missing emails yellow) |
-| `exclude_handles.txt` | Everyone already on a lead list. Add new leads after each run |
-| `checked_handles.tsv` | Every handle already checked on Apify (followers, last post, date), so it isn't paid for twice |
+| `exclude_handles.txt` | Everyone already on a lead list. `build_xlsx.py` appends each run's leads automatically; add same-person pairs by hand |
+| `checked_handles.tsv` | Every handle already checked on Apify (followers, last post, date). Skipped for 90 days (`--recheck-days`), then checked again because followers change |
 
 Lead sheets themselves (with emails) are not committed; they go to the user as a file.
 
@@ -42,7 +42,7 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
 
 1. **Discover** with many varied queries (strategies, markets, formats like "vlog", "live trading", "prop firm", "recap"). Mix channel search and `v:` video search (videos from this month find smaller, active creators). Results repeat quickly, so keep adding new angles; earlier runs used ~110 trading/forex/crypto queries, so look for new ones.
    `python3 yt_discover.py $S/channels.jsonl "query" "v:query" ...`
-2. **Candidates**: `python3 candidates.py $S/channels.jsonl --since <YYYY-MM-DD, YouTube window> --exclude <attached.xlsx> > $S/handles.txt`
+2. **Candidates** (skips everyone on an earlier list, every creator with a funnel in this repo, and accounts checked in the last 90 days): `python3 candidates.py $S/channels.jsonl --since <YYYY-MM-DD, YouTube window> --exclude <attached.xlsx> > $S/handles.txt`
    Rule of thumb: ~130 candidates per 10 leads. If too few, go back to step 1.
    ~70% of active US/UK channels don't link Instagram on YouTube. If candidates run dry, find their Instagram via their website / link-in-bio page, or try the same handle on Instagram, and only keep it when bio, name or YouTube link confirm it's the same person.
 3. **Instagram via Apify**: `python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
@@ -53,7 +53,7 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
    - Set `email` + `email_source` from `emails_found`, using only the creator's own address. Ignore sponsor/affiliate emails (prop firms, brokers, tools they promote) and generic legal/privacy addresses. Never guess an email; leave it empty if none fits.
    - Set a better `name` if `fullName` is a slogan, and put doubts in `notes` (e.g. bio flag suggests another country than YouTube says, community/brand-like account).
 6. **Sheet**: `python3 build_xlsx.py $S/review.json $S/<niche>_leads_<date>.xlsx`, send it to the user.
-7. **Update** `exclude_handles.txt` with the new leads (`checked_handles.tsv` is updated by `filter_leads.py`), commit and push both.
+7. **Commit and push** `exclude_handles.txt` (updated by `build_xlsx.py`) and `checked_handles.tsv` (updated by `filter_leads.py`). Without this push the next session would not know these creators.
 
 ## Report to the user
 
