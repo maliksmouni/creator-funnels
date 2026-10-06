@@ -1,0 +1,70 @@
+# Creators already on a lead list. candidates.py skips these. Add new leads after every run.
+# Same person under another handle: list both.
+
+# xtrading_influencers_50_lead.xlsx
+caan_berry
+stevenkiethhart
+tonyivanov_
+aaron.trades
+mindfully_trading
+fx.professor
+danielinskeep
+tradeswithrama
+kacijackson_
+pri_trading_investing
+eq.trades
+rockstarrfx
+zachaustintrades
+forexmacroqueen
+invest2give
+akilstokesrtm
+realmarcoribeiro
+mightystocks
+willssforex
+samuelkavanagh
+tradesbymatt
+claytrader
+bthestory87
+thetravel1ngtrader
+hertradingjournal
+the.real.trader.tom
+thecurlytrader
+chadiotrades
+maxoptionstrading
+options_insider
+photontrading
+masi_habibin
+unraveltrading
+market.moves.matt
+fxlifestyleforex
+profitxabdullah
+tanjatrades
+brandontrades
+patrickwielandinc
+nickshawnfx
+ryanbands_
+steluke
+michaelbamber
+kashwill__
+thetradingfraternity
+tradernickfx
+michaelglamothe
+dekmartrades_tradecaster
+hannahforex
+axel.trades
+jadecapofficial
+
+# trading test, 06.10.2026
+yugfx_
+iamsalfx
+jaytakeprofits
+elliotrades
+itsryanhildreth
+lumi_traders
+hansomekelly_
+daytradeideas
+brownreport
+traderkane
+
+# duplicates of listed creators
+realbthetrader	= bthestory87
