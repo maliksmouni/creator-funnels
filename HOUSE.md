@@ -60,5 +60,5 @@ Umgesetzt in `_shared/pitch-master.css` (Stil-Referenz: phil-pitch.pages.dev). [
 
 ## Besuchs-Alarm (Discord / Telegram)
 
-Öffnet jemand eine Pitch-Seite oder ein Deliverable auf infooperate.pages.dev, geht eine Nachricht an den eigenen Discord-Kanal (Webhook) und/oder Telegram-Bot (Name, Seite, Stadt/Land, Gerät, Quelle, Button zum Instagram-Profil). Einrichtung: Cloudflare Pages `infooperate` → Settings → Variables and secrets (Production): `DISCORD_WEBHOOK_URL` und/oder `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`. Eigene Geräte einmal mit `?me=1` öffnen. Selbsttest: `/{slug}/?alerttest={Discord-Webhook-ID oder Telegram-Chat-ID}`.
+Öffnet jemand eine Pitch-Seite oder ein Deliverable auf infooperate.com (oder der alten Adresse infooperate.pages.dev), geht eine Nachricht an den eigenen Discord-Kanal (Webhook) und/oder Telegram-Bot (Name, Seite, Stadt/Land, Gerät, Quelle, Button zum Instagram-Profil). Einrichtung: Cloudflare Pages `infooperate` → Settings → Variables and secrets (Production): `DISCORD_WEBHOOK_URL` und/oder `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`. Eigene Geräte einmal mit `?me=1` öffnen. Selbsttest: `/{slug}/?alerttest={Discord-Webhook-ID oder Telegram-Chat-ID}`.
 

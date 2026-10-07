@@ -14,7 +14,7 @@ After every funnel is live and verified, create a Gmail **draft** (never send it
 - At the very end of the reply for each finished funnel, show the pitch link on its own line in a code block for easy copy and paste, e.g.
 
   ```
-  https://infooperate.pages.dev/{slug}/
+  https://infooperate.com/{slug}/
   ```
 
   and say that the draft is waiting in Gmail → Drafts.
@@ -25,7 +25,7 @@ After every funnel is live and verified, create a Gmail **draft** (never send it
 
   Order at the end of the reply: story image + steps → Instagram profile link → pitch link.
 - "Live and verified" means: Phase 8 of the skill passed (all pages 200 on the live site, private files 404).
-- The link is the pitch page `https://infooperate.pages.dev/{slug}/`, not the funnel. No workers.dev address, no tracking link.
+- The link is the pitch page `https://infooperate.com/{slug}/`, not the funnel. No pages.dev or workers.dev address, no tracking link. (Links sent before 07.10.2026 used `infooperate.pages.dev`, which still serves the same pages.)
 - Use only an email address the creator publishes themselves (bio, website, YouTube "About") or one the user gives. Record where it came from in `{slug}/README.md`.
 - If the Gmail connector isn't available in the session, say so and hand over the finished email text (with the real link) instead.
 

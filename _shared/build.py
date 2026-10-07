@@ -447,7 +447,7 @@ export async function onRequest(ctx) {
   const res = await ctx.next();
   const at = url.searchParams.get("alerttest");
   if (at && [secret(ctx, "TELEGRAM_CHAT_ID"), discordId(ctx)].filter(Boolean).includes(at.trim())) {
-    const results = await sendAlert(ctx, "✅ Visit alert self-test\\nThe alerts from infooperate.pages.dev reach you.", null);
+    const results = await sendAlert(ctx, "✅ Visit alert self-test\\nThe alerts from infooperate.com reach you.", null);
     return withHeader(res, "x-alert-result", (results.join(" | ") || "no channel configured").split("\\n").join(" "));
   }
   if (url.searchParams.get("me") === "1") return withHeader(res, "set-cookie", "io_me=1; Path=/; Max-Age=31536000; Secure; SameSite=Lax");
