@@ -27,3 +27,6 @@ VSL; 3 Testimonials aus dem Highlight „Testimonials“.
 
 ## QA (30.09.2026)
 Kontrast Text 15,8:1, Muted 10,3:1, Gold/Navy 8,7:1, Button 8,7:1, Signal 11,8:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · Formularpfade ok · story.jpg 386 px frei
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

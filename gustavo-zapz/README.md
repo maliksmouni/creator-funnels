@@ -38,3 +38,6 @@ Hinweis: Das Video auf der Pitch-Seite steht für seine VSL (Thumbnail seines ne
 - 375 px / 1280 px: kein horizontales Scrollen auf allen 5 Seiten; keine kaputten Links
 - Drittanbieter: nur Calendly auf der Pitch-Seite
 - Formular: 4 Pfade getestet (qualifiziert → Buchung, „No“ bei Risikokapital/Investition → Not-a-fit)
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

@@ -27,3 +27,6 @@ VSL; 3 Mitgliederstimmen (PTU-Testimonials nicht auslesbar).
 
 ## QA (07.10.2026)
 Kontrast Text 16,4:1, Muted 9,3:1, Gold/Navy 10,4:1, Button 10,4:1, Signal 13,1:1 · 375/1440 px ohne Querscrollen (5 Seiten) · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · story.jpg 386 px frei
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

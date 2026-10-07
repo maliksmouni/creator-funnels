@@ -26,3 +26,6 @@ VSL; 3 Testimonials aus dem Highlight „Testimonials“.
 
 ## QA (02.10.2026)
 Kontrast Text 17,6:1, Muted 8,7:1, Gold/Schwarz 8,9:1, Button 8,9:1, Signal 5,5:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · Formularpfade ok · story.jpg 399 px frei
+
+## Outreach-Verlauf
+- 02.10.2026 Erst-Mail (alte Vorlage). **05.10.2026 Antwort: „Yes, I would be interested.“** Nutzer hat am 05.10. den Calendly-Link geschickt. Kein Follow-up-Entwurf (läuft).

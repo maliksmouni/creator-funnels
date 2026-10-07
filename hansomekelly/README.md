@@ -26,3 +26,6 @@ VSL; 3 Schüler-/Whop-Stimmen (Website-Testimonials nur als Einkommensbilder).
 
 ## QA (06.10.2026)
 Kontrast Text 18,0:1, Muted 9,6:1, Akzent/Dunkel 5,8:1, Button 5,8:1, Signal 10,7:1 · 375/1440 px ohne Querscrollen (5 Seiten) · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · story.jpg 386 px frei
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

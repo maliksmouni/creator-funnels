@@ -68,3 +68,6 @@ Auf den Seiten steht kein `[CONFIRM]` mehr. Diese Punkte sind als Vorschlag ausf
 - Drittanbieter-Requests: nur `assets.calendly.com` auf der Pitch-Seite; Funnel-Seiten: keine
 - Interne Links: alle erreichbar
 - Formular: qualifizierte Antworten → Thank-you-Seite, disqualifizierende → Not-a-fit-Hinweis (4 Pfade getestet). Noch kein Tool angeschlossen.
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

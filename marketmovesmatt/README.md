@@ -30,3 +30,6 @@ VSL; Studenten-Videos von der Website, Highlight „Students“, Stream „Insid
 
 ## QA (30.09.2026)
 Kontrast Text 17,6:1, Muted 10,0:1, Gelb/Schwarz 14,9:1, Signal 8,4:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · Formularpfade ok (inkl. „Under $5K“) · story.jpg 386 px frei
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

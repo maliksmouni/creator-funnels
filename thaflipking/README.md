@@ -43,3 +43,6 @@ Hinweis: Das Pitch-Video steht für seine VSL (Thumbnail seines neuesten Uploads
 - Drittanbieter: nur Calendly auf der Pitch-Seite
 - Kein `[CONFIRM]` auf den Seiten
 - Formular: qualifiziert → Buchung; „No“ bei Risikokapital oder Investition → Not-a-fit
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

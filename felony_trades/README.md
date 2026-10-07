@@ -42,3 +42,6 @@ Seiten: `index.html` (Pitch), `funnel/`, `funnel/thank-you/`, `emails/`, `ads/`.
 - Drittanbieter: nur Calendly auf der Pitch-Seite; kein `[CONFIRM]` auf den Seiten
 - Formular: qualifiziert → Buchung; „No“ bei Risikokapital oder Investitionsbereitschaft → Not-a-fit
 - story.jpg: 399 px frei für Sticker
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

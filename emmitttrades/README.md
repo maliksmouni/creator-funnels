@@ -28,3 +28,6 @@ VSL; 2 Whop-Reviews, 1 Video-Testimonial (fremde Aussagen nicht übernommen).
 
 ## QA (02.10.2026)
 Kontrast Text 16,7:1, Muted 9,8:1, Grün/Dunkel 9,2:1, Button 9,2:1, Signal 12,5:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · Formularpfade ok · story.jpg 386 px frei
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.

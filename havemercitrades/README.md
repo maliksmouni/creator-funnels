@@ -42,3 +42,6 @@ Hinweis: Das Pitch-Video steht für ihre VSL (Thumbnail ihres neuesten Uploads).
 - Kein `[CONFIRM]` auf den Seiten
 - Formular: qualifiziert → Buchung; „No“ bei Hausaufgaben, Risikokapital oder Investition → Not-a-fit
 - Story: 386 px frei für Sticker
+
+## Outreach-Verlauf
+- Erst-Mail mit Betreff „{Name}, I've built you something“ (alte Vorlage). Follow-up-Entwurf (Antwort im selben Thread, spezifische Beobachtung + Link-Platzhalter) am 07.10.2026 angelegt.
