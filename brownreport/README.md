@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel vor seinem bestehenden **ELITE** (12 Monate Small-Group-Coaching). Stand: 07.10.2026. Status: **live** seit 07.10.2026. Adresse: https://infooperate.com/brownreport/
 
+Live geprüft 07.10.2026 auf infooperate.com: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an info@thebrownreport.com am 07.10.2026 (Link fügt der Nutzer ein).
+
 Kontakt: info@thebrownreport.com (vom Nutzer genannt, 07.10.2026); öffentlich: info@powertradesuniversity.com.
 
 ## Offene `[CONFIRM]`-Stellen (intern)

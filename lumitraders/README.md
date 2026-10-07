@@ -2,6 +2,8 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „LumiTraders ICT Mentorship“. Stand: 07.10.2026. Status: **live** seit 07.10.2026. Adresse: https://infooperate.com/lumitraders/ (Instagram-Handle lumi_traders in `content.json → instagram`).
 
+Live geprüft 07.10.2026 auf infooperate.com: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an info@lumitraders.com am 07.10.2026 (Link fügt der Nutzer ein).
+
 Kontakt: info@lumitraders.com (vom Nutzer genannt, 07.10.2026; selbst nicht öffentlich gefunden).
 
 ## Offene `[CONFIRM]`-Stellen (intern)
