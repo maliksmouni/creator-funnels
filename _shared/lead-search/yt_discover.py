@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Find YouTube channels for search queries and record country, Instagram, emails and last upload.
 
-Usage: python3 yt_discover.py channels.jsonl "forex trading" "v:day trading" ...
+Usage: python3 yt_discover.py channels.jsonl [--region DE] "forex trading" "v:day trading" ...
+  --region DE  bias YouTube search to a country and its language (DE, AT, CH -> German results); default US
   plain query  -> channel search results
   "v:" prefix  -> video results uploaded this month (finds smaller, active creators)
 Appends one JSON line per new channel; channels already in the file are skipped.
@@ -17,12 +18,16 @@ def get(url):
                           capture_output=True, text=True, errors='ignore').stdout
 
 
+REGION = {'gl': 'US', 'hl': 'en'}
+
+
 def search(q):
+    loc = f"&gl={REGION['gl']}&hl={REGION['hl']}"
     if q.startswith('v:'):
-        s = get('https://www.youtube.com/results?search_query=' + urllib.parse.quote(q[2:]) + '&sp=CAISBAgEEAE%253D')
+        s = get('https://www.youtube.com/results?search_query=' + urllib.parse.quote(q[2:]) + '&sp=CAISBAgEEAE%253D' + loc)
         ids = re.findall(r'"browseId":"(UC[\w-]{22})"', s)
     else:
-        s = get('https://www.youtube.com/results?search_query=' + urllib.parse.quote(q) + '&sp=EgIQAg%253D%253D')
+        s = get('https://www.youtube.com/results?search_query=' + urllib.parse.quote(q) + '&sp=EgIQAg%253D%253D' + loc)
         ids = re.findall(r'"channelId":"(UC[\w-]{22})"', s)
     return list(dict.fromkeys(ids))
 
@@ -49,12 +54,16 @@ def about(cid):
 
 
 if __name__ == '__main__':
-    out = sys.argv[1]
+    args = sys.argv[1:]
+    if '--region' in args:
+        i = args.index('--region'); code = args[i + 1].upper(); del args[i:i + 2]
+        REGION.update(gl=code, hl='de' if code in ('DE', 'AT', 'CH') else 'en')
+    out = args[0]
     try:
         seen = {json.loads(l)['cid'] for l in open(out)}
     except FileNotFoundError:
         seen = set()
-    for q in sys.argv[2:]:
+    for q in args[1:]:
         new = 0
         for cid in search(q):
             if cid in seen:

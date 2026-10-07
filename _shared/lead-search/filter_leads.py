@@ -48,7 +48,7 @@ def find_emails(u, ch):
         if host and not any(h in host for h in HUBS):
             sites.add(host)
     for host in sites:
-        for page in ('contact', 'contact-us', 'about', 'privacy-policy', 'terms'):
+        for page in ('contact', 'contact-us', 'about', 'privacy-policy', 'terms', 'impressum', 'kontakt', 'datenschutz'):
             for e in emails(get(f'https://{host}/{page}')):
                 found.setdefault(e, f'Website {host}/{page}')
     return found

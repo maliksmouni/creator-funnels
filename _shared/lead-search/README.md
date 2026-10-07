@@ -58,6 +58,14 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
 7. **Sheet**: `python3 build_xlsx.py $S/review.json $S/<niche>_leads_<date>.xlsx`, send it to the user.
 8. **Commit and push** `exclude_handles.txt` (updated by `build_xlsx.py`) and `checked_handles.tsv` (updated by `filter_leads.py`). Without this push the next session would not know these creators.
 
+## German creators (DACH)
+
+When the user asks for German creators, run the same method with:
+- **Countries:** `--countries "Germany,Austria,Switzerland"` for `candidates.py` and `find_ig.py` (YouTube reports these names in English).
+- **Search:** `yt_discover.py --region DE …` with German queries, e.g. "Daytrading lernen", "Trading Strategie deutsch", "Forex Trading Anfänger", "v:Trading Vlog deutsch", "v:Prop Firm Challenge deutsch", "v:Daytrading live deutsch", plus English niche terms (many German traders use them).
+- **Emails:** German sites must have an Impressum, so `filter_leads.py` also checks `/impressum`, `/kontakt` and `/datenschutz`. An Impressum email is published by the creator and can be used.
+- **Sheet:** add "Language: German" in Notes. Funnels for these leads are built in German with "du" (see the funnel skill, section "Deutsche Creator").
+
 ## Report to the user
 
 - Table of the leads with email + where it was published.

@@ -5,6 +5,7 @@ Repo für Creator-Funnels. Ablauf und Regeln stehen im Skill `.claude/skills/cre
 ## Creator-/Lead-Listen
 
 Whenever the user asks for a creator or lead list ("find creators", "new list", "10 leads" …), follow `_shared/lead-search/README.md` step by step, including step 2 (`find_ig.py` for channels that don't link Instagram on YouTube) and the exclusion of everyone on earlier lists. Use the parameters from the user's request; defaults are in the README prompt. The Apify token comes from the `APIFY_TOKEN` environment variable.
+For German creators ("German", "deutsche", "DACH" …) use the README section "German creators (DACH)"; funnels for them are built in German with "du" (skill section "Deutsche Creator").
 
 ## Outreach-E-Mail nach dem Livegang
 
