@@ -219,6 +219,7 @@ Hinweis: Das GitHub-Repo ist öffentlich. Dossier und Notizen sind dort sichtbar
 
 ## Nicht tun
 
+- Keine `infooperate.pages.dev`- oder `workers.dev`-Adressen in neuen Links, Outreach, Stories oder Antworten: immer `https://infooperate.com/{slug}/` (Entscheidung des Nutzers, 07.10.2026)
 - Kein Deploy, solange die QA (Phase 6) nicht bestanden ist; mit bestandener QA wird ohne Rückfrage deployt
 - Keine Layout-Variation zwischen Creatorn bei der Pitch-Seite; Änderungen am Master-Design gelten für alle und gehören in `_shared/pitch-master.css` + `HOUSE.md`
 - Keine erfundenen Kennzahlen, Testimonials, Zitate oder Preise

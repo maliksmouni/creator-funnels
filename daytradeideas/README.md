@@ -1,6 +1,6 @@
 # daytradeideas: Jason Sen (Day Trade Ideas)
 
-Aware-Outreach-Pitch für einen Call-Funnel vor seiner bestehenden **1-on-1-Mentorship** (£799, heute „Buy Now“). Stand: 06.10.2026. Status: **live** seit 06.10.2026. Adresse: https://infooperate.pages.dev/daytradeideas/
+Aware-Outreach-Pitch für einen Call-Funnel vor seiner bestehenden **1-on-1-Mentorship** (£799, heute „Buy Now“). Stand: 06.10.2026. Status: **live** seit 06.10.2026. Adresse: https://infooperate.com/daytradeideas/ (alte Adresse https://infooperate.pages.dev/daytradeideas/ funktioniert weiter)
 
 Live geprüft 06.10.2026: 5 Seiten 200, story.jpg/og.jpg 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an jason@daytradeideas.co.uk am 06.10.2026 (Link fügt der Nutzer ein).
 

@@ -1,6 +1,6 @@
 # emmitttrades: Emmitt Smith (Zen Lab Capital)
 
-Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „Zen Lab Mentorship“. Stand: 02.10.2026. Status: **live** seit 02.10.2026. Adresse nach Livegang: https://infooperate.pages.dev/emmitttrades/ (Slug ohne Punkt; Instagram-Handle emmitt.trades in `content.json → instagram`).
+Aware-Outreach-Pitch für einen Call-Funnel vor einer **vorgeschlagenen** „Zen Lab Mentorship“. Stand: 02.10.2026. Status: **live** seit 02.10.2026. Adresse nach Livegang: https://infooperate.com/emmitttrades/ (alte Adresse https://infooperate.pages.dev/emmitttrades/ funktioniert weiter) (Slug ohne Punkt; Instagram-Handle emmitt.trades in `content.json → instagram`).
 
 Live geprüft 02.10.2026: 5 Seiten 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an zenlabcapital1@gmail.com am 02.10.2026 (Link fügt der Nutzer ein).
 

@@ -1,6 +1,6 @@
 # marketmovesmatt: Matt Giannino (Market Moves)
 
-Aware-Outreach-Pitch: eigener Call-Funnel für das „Capital Flywheel“-Coaching (Rebuild der Hub-Bewerbung). Stand: 30.09.2026. Status: **live** seit 30.09.2026. Adresse nach Livegang: https://infooperate.pages.dev/marketmovesmatt/ (Slug ohne Punkte; Instagram-Handle market.moves.matt in `content.json → instagram`).
+Aware-Outreach-Pitch: eigener Call-Funnel für das „Capital Flywheel“-Coaching (Rebuild der Hub-Bewerbung). Stand: 30.09.2026. Status: **live** seit 30.09.2026. Adresse nach Livegang: https://infooperate.com/marketmovesmatt/ (alte Adresse https://infooperate.pages.dev/marketmovesmatt/ funktioniert weiter) (Slug ohne Punkte; Instagram-Handle market.moves.matt in `content.json → instagram`).
 
 Live geprüft 30.09.2026: 5 Seiten 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an marketmovesmatt@gmail.com am 30.09.2026 (Link fügt der Nutzer ein).
 

@@ -1,6 +1,6 @@
 # felony_trades: Conner „C Tyrrell“ (FelonyTrades / First Step Trading)
 
-Aware-Outreach-Pitch für einen Call-Funnel vor der „FelonyTrades Mentorship“ ($3,000, heute direkter Whop-Checkout). Stand: 29.09.2026. Status: **live** seit 29.09.2026. Adresse nach Livegang: https://infooperate.pages.dev/felony_trades/
+Aware-Outreach-Pitch für einen Call-Funnel vor der „FelonyTrades Mentorship“ ($3,000, heute direkter Whop-Checkout). Stand: 29.09.2026. Status: **live** seit 29.09.2026. Adresse nach Livegang: https://infooperate.com/felony_trades/ (alte Adresse https://infooperate.pages.dev/felony_trades/ funktioniert weiter)
 
 Live geprüft 29.09.2026: 5 Seiten 200, private Dateien 404, noindex. Outreach: Gmail-Entwurf an felonytrades@gmail.com am 29.09.2026 (Link fügt der Nutzer ein).
 
