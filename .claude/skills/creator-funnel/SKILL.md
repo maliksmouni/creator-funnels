@@ -143,6 +143,15 @@ Diese Punkte hat der Nutzer ausdrücklich so bestimmt. Sie gelten für jeden Cre
 
 Neue Wünsche des Nutzers zum Design immer im Template umsetzen (nicht nur für einen Creator), in diese Tabelle eintragen, pushen und live prüfen.
 
+### Deutsche Creator (noch nicht eingerichtet, Entscheidung 07.10.2026)
+
+Beim ersten deutschen Creator vor dem Bauen einmalig einrichten, dann für alle deutschen Creator nutzen:
+- Alles auf Deutsch mit **du**: `content.json`, Funnel-Labels über `content.json → ui` (+ `ui.lang = "de"`), Pre-Call-Mails, Ads.
+- Noch fest auf Englisch und dafür übersetzbar machen: Pitch-Sticky „Book a call“ und Link-Vorschau-Titel „Built for …“ (`build.py`), Case Studies aus `HOUSE.md` (deutsche Fassung ergänzen), Story/og-Karte („Already built for“, „Tap the link“, „… are ready“ in `thumbs.mjs`).
+- Deutsche Outreach-Vorlage entwerfen und vom Nutzer freigeben lassen, dann in `CLAUDE.md` neben der englischen ergänzen.
+- **Impressum + Datenschutzhinweis** (Calendly-Einbettung) auf deutschen Pitch-Seiten: Angaben (Name, Anschrift, Kontakt) beim Nutzer erfragen, nie erfinden; Rechtsprüfung empfehlen.
+- Trading-Nische: BaFin statt FTC/CFTC als `[CONFIRM]`.
+
 ### Phase 4: Design
 
 Zwei getrennte Design-Systeme, nie mischen:

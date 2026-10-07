@@ -15,7 +15,7 @@ Feste Daten, die bei jedem Funnel-Bau automatisch verwendet werden. Einmal ausf√
 ## Ton & Stil
 
 - Bevorzugter Ton: [z. B. direkt, kein Fluff / warm und beratend / etc.]
-- Anrede-Stil: [Du/Sie, Vorname/Nachname]
+- Anrede-Stil: Englisch wie bisher; deutsche Creator mit **du** (Entscheidung 07.10.2026)
 
 ## Eigene Case Studies (echte, verifizierte Ergebnisse)
 
