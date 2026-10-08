@@ -87,4 +87,6 @@ When the user says "start":
 4. Build both funnels with the full pipeline (skill), deploy, verify, then the outreach section above (draft, story, Instagram link, pitch link). Alternate the subject A/B across creators.
 5. Don't write `x` for the new batch yet. That happens at the next "start", once the emails are in Sent.
 
+**New lead lists go into the same sheet:** after `build_xlsx.py`, append the new leads below the last row of tab `Leads` (same columns B–L, column A empty, same order as in the .xlsx; read the sheet first and write only below the last filled row). Then "start" picks them up automatically. Still send the .xlsx as a backup.
+
 If the Sheets connector isn't available, say so and ask the user to turn it on; don't work from an old copy of the list.

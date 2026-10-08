@@ -55,7 +55,7 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
    - Remove brands, brokers, prop firms, academies, software, media (e.g. Topstep, IG UK, tastylive, FX Replay, London Academy of Trading), accounts whose bio says they're inactive, and people already on a list under another handle (e.g. @realbthetrader = @bthestory87; add such pairs to `exclude_handles.txt`).
    - Set `email` + `email_source` from `emails_found`, using only the creator's own address. Ignore sponsor/affiliate emails (prop firms, brokers, tools they promote) and generic legal/privacy addresses. Never guess an email; leave it empty if none fits.
    - Set a better `name` if `fullName` is a slogan, and put doubts in `notes` (e.g. bio flag suggests another country than YouTube says, community/brand-like account).
-7. **Sheet**: `python3 build_xlsx.py $S/review.json $S/<niche>_leads_<date>.xlsx`, send it to the user.
+7. **Sheet**: `python3 build_xlsx.py $S/review.json $S/<niche>_leads_<date>.xlsx`, send it to the user, and append the leads to the user's Google Sheet (tab `Leads`, see "Batch mode" in CLAUDE.md).
 8. **Commit and push** `exclude_handles.txt` (updated by `build_xlsx.py`) and `checked_handles.tsv` (updated by `filter_leads.py`). Without this push the next session would not know these creators.
 
 ## German creators (DACH)
