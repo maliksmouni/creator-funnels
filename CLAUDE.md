@@ -78,12 +78,12 @@ Malik
 
 ## Batch mode with the lead sheet ("start")
 
-Lead sheet: Google Sheets `1FMU4LB-2l_BiKkkEGZJYZn_uoJrDWmjxb5CE6piOD9U`, tab `Leads` (needs the Google Sheets connector in the session). Column A = `x` when the funnel is live **and** the first email is in Sent. Columns B–L as in the lead sheet (Name, User Handle, Profile link, Follower, Email, Youtube link, …).
+Lead sheet: Google Sheets `1FMU4LB-2l_BiKkkEGZJYZn_uoJrDWmjxb5CE6piOD9U`, tab `Leads` (needs the Google Sheets connector in the session). Column A = `x` when the funnel is live **and** the first email is in Sent, `skipped` when the row has no email. Columns B–L as in the lead sheet (Name, User Handle, Profile link, Follower, Email, Youtube link, …).
 
 When the user says "start":
 1. **Mark the last batch:** for every row without `x` whose creator already has a live funnel in the repo, search Gmail `in:sent to:{email}`. Found → write `x` in column A. Not found → leave it empty and tell the user the draft is still waiting.
 2. **Follow-ups:** run the "Follow-up" section above for all sent first emails.
-3. **Next batch:** take the next **2** rows from the top without `x`, without a funnel in the repo and **with an email** in column F. Skip rows without an email and list them at the end (the user can add the address from YouTube "View email address").
+3. **Next batch:** take the next **2** rows from the top with an empty column A and without a funnel in the repo. A row without an email in column F gets `skipped` in column A and the next row is taken instead (decision 08.10.2026). Name the skipped creators at the end.
 4. Build both funnels with the full pipeline (skill), deploy, verify, then the outreach section above (draft, story, Instagram link, pitch link). Alternate the subject A/B across creators.
 5. Don't write `x` for the new batch yet. That happens at the next "start", once the emails are in Sent.
 
