@@ -1,0 +1,421 @@
+{
+ "status": "live",
+ "slug": "smallcapfessor",
+ "instagram": "smallcapfessor",
+ "name": "Payd",
+ "brandName": "The Stockfessor",
+ "niche": "Small-cap and low-float stock day trading (momentum, VWAP, catalysts, scanners), 18 years; coaching $250/30 min, courses, free Discord; US",
+ "offerName": "Small-Cap Mentorship (proposed; today 1-on-1 Zoom coaching $250/30 min, $400/60 min via buy button, courses, Course 2 presale)",
+ "image": "assets/payd.jpg",
+ "brand": {
+  "_note": "Logo/avatar: black, red #82181c/#c4161c, white; accent red lightened to #e5484d for contrast; surface/line/muted derived [CONFIRM]",
+  "bg": "#0c0b0d",
+  "surface": "#17151a",
+  "line": "#2d2a30",
+  "text": "#f5f2ef",
+  "muted": "#b9b2ac",
+  "accent": "#e5484d",
+  "accent-ink": "#0c0b0d",
+  "signal": "#ffb3a6"
+ },
+ "headline": "Always ask why it's moving: trade small caps with Payd's setups, scanners and risk rules, one-on-one.",
+ "subheadline": "The Small-Cap Mentorship: 18 years of small-cap day trading turned into one repeatable process, with Payd reviewing your trades. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Payd (The Stockfessor). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "DfD8F9fAEZY",
+  "title": "My Complete Small Cap Trading Routine When Multiple Stocks Are Running"
+ },
+ "pitch": {
+  "eyebrow": "Already built for The Stockfessor",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "small-cap mentorship",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "18 years of small caps. 10 YouTube subscribers.",
+     "text": "Your BYND short was featured by SMB Capital, and you've traded small caps for 18 years. But the channel you link everywhere has 10 subscribers, and your reels get a few dozen views. The trades are real. Almost nobody sees them.",
+     "stats": [
+      {
+       "value": "18",
+       "label": "years trading small caps"
+      },
+      {
+       "value": "10",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "16.2K",
+       "label": "Instagram followers"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "The work is already there.",
+     "text": "104 videos, 15 of them uploaded on a single day, a textbook course, scanners, a Course 2 presale and 167 traders in your free Discord. The content exists. What's missing is a steady way to bring the right traders to it.",
+     "stats": [
+      {
+       "value": "104",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "15",
+       "label": "uploads on 7 October"
+      },
+      {
+       "value": "167",
+       "label": "in the free Discord"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Your coaching is a buy button for 30 minutes.",
+     "text": "$250 for half an hour, $400 for an hour, paid up front, then an email to schedule. Nobody gets asked what they trade or whether they're ready, and every session ends without a next step.",
+     "stats": [
+      {
+       "value": "$250",
+       "label": "per 30 minutes"
+      },
+      {
+       "value": "0",
+       "label": "questions before payment"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I don't have the audience for a funnel.” That's what it's for.",
+     "text": "A funnel with ads doesn't need a big channel. It needs proof, and you have it: 18 years and real trades on video. Ads bring small-cap traders to one page, the application filters them, the call decides. No income claims needed in the ads.",
+     "quote": "“I teach real-world small-cap stock trading through real trades, repeatable setups, and practical day trading strategies.”",
+     "source": "Payd on YouTube"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Mentorship page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "thestockfessor.com/mentorship",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "thestockfessor.com/mentorship/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "The Stockfessor mentorship funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "The Stockfessor · Small-Cap Mentorship",
+   "chips": [
+    "Small caps · Low float",
+    "Momentum · VWAP",
+    "Scanners",
+    "1-on-1 review"
+   ],
+   "cta": "Apply for the mentorship",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Payd's mentorship VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You chase runners too late",
+     "body": "By the time you see it on social media, the move is over and you're the exit liquidity."
+    },
+    {
+     "title": "You trade the headline",
+     "body": "A news alert, a big green candle, and you're in before you know if the catalyst is real."
+    },
+    {
+     "title": "One loss turns into five",
+     "body": "Revenge trades after a stop-out wipe out a good week in an hour."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Always ask: why is it moving?",
+   "body": "Small caps move on catalysts, float and volume. You learn to verify the news, find the stocks before they run, trade a few repeatable setups and only take trades with at least 1:4 risk to reward. In the mentorship, Payd reviews your trades with you until the process is yours.",
+   "pillars": [
+    {
+     "title": "Catalyst",
+     "body": "Check the news and the fine print before the chart."
+    },
+    {
+     "title": "Scanner",
+     "body": "Find the runners early with Payd's scanner setup."
+    },
+    {
+     "title": "Setup",
+     "body": "VWAP reclaims, opening range breakouts, day-2 continuations."
+    },
+    {
+     "title": "Risk",
+     "body": "The 1:4 risk-reward rule and red flags that keep you out."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the mentorship",
+   "items": [
+    {
+     "title": "1-on-1 trade reviews",
+     "body": "Payd goes through your trades, entries and exits with you."
+    },
+    {
+     "title": "Textbook Playbook course",
+     "body": "The setups and routines, start to finish."
+    },
+    {
+     "title": "Scanner setup",
+     "body": "The scanners Payd uses to find stocks before they move."
+    },
+    {
+     "title": "Live trading course",
+     "body": "Course 2, Textbook Trading Live, when it's released."
+    },
+    {
+     "title": "Daily routine",
+     "body": "How to choose between several runners in the first hours."
+    },
+    {
+     "title": "Discord community",
+     "body": "Small-cap traders following the same process."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Students",
+   "items": [
+    "{{SWAP}} Trustpilot review",
+    "{{SWAP}} Student story",
+    "{{SWAP}} Student video testimonial"
+   ],
+   "note": "Individual results, not typical. Trading small-cap stocks involves substantial risk of loss."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Payd's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the Small-Cap Mentorship",
+   "questions": [
+    {
+     "q": "How long have you been trading?",
+     "type": "choice",
+     "options": [
+      "I'm brand new",
+      "Under 1 year",
+      "1–3 years",
+      "More than 3 years"
+     ]
+    },
+    {
+     "q": "What do you trade now?",
+     "type": "multi",
+     "options": [
+      "Small caps / low float",
+      "Large caps",
+      "Options",
+      "Nothing yet"
+     ]
+    },
+    {
+     "q": "Can you trade during the first hours of the market?",
+     "type": "choice",
+     "options": [
+      "Yes, every day",
+      "A few days a week",
+      "No"
+     ]
+    },
+    {
+     "q": "What's the biggest thing holding your trading back right now?",
+     "type": "text"
+    },
+    {
+     "q": "Are you already in Payd's Discord or courses?",
+     "type": "choice",
+     "options": [
+      "Course or coaching",
+      "Free Discord",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "Do you only trade money you can afford to lose?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the mentorship now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the mentorship isn't the right next step for you. Join the free Discord and watch the trades on YouTube, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to trade small caps with a process?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only, not financial advice. Trading small-cap and low-float stocks is highly risky and you can lose your entire investment. Results are not typical and will vary from person to person. Past performance is not indicative of future results."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a few recent trades ready, wins and losses, and note your platform and scanner.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nPayd"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Always ask why it's moving",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost small-cap traders lose on stocks they never should have touched: no real catalyst, too late in the move, no plan for the exit.\n\nThe mentorship is built on one process: verify the catalyst, find it on the scanner, trade the setup, respect the 1:4 rule.\n\nOn the call we'll look at where you are today.\n\nPayd"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already bought the course\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGood. Then you know the setups.\n\nThe mentorship is for when knowing isn't enough: I go through your own trades with you, so you see where you break the process.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nPayd"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nPayd"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Payd's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nPayd"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nPayd"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Why is it moving",
+   "hook": "Before you buy a runner, ask one question.",
+   "script": "[Payd at the desk, scanner on screen]\nWhy is it moving? If you can't answer that, don't touch it.\nI've traded small caps for 18 years. In my mentorship, I teach the full process and review your trades.\nApply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Headlines",
+   "hook": "Stop trading headlines. Read the fine print.",
+   "script": "[News alert on screen, then Payd]\nA headline isn't a catalyst. Half of them fall apart in the fine print.\nThat's step one of the process I teach one-on-one.\nLink below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Revenge trading",
+   "hook": "Are you a revenge trader?",
+   "script": "[Payd to camera]\nOne stop-out, then five bad trades to win it back. Know thyself.\nThe mentorship builds the rules that stop it. Apply at the link.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Course buyers",
+   "hook": "Bought the course? This is the next step.",
+   "script": "[Course portal clip]\nIf you've got the Textbook Playbook, you know the setups.\nThe mentorship is where I review how you actually trade them.\nApplications are open. Link below.\n[On-screen: Educational content only. Trading involves substantial risk of loss.]"
+  }
+ ]
+}
