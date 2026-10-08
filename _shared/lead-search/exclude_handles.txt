@@ -71,7 +71,6 @@ realbthetrader	= bthestory87
 
 # trading_creators_leads_2026-10-08.xlsx, 2026-10-08
 damngoodtrading
-rowdycrypto
 bjcowen
 smallcapfessor
 imtylertrades
@@ -83,3 +82,9 @@ fearingtrades
 optionalpha
 investorsunderground
 hanckfx
+
+# creator_leads_2026-10-08.xlsx, 2026-10-08
+yourmoneymateuk
+kevinfinancialtutor
+damientalksmoney
+schwabnetwork
