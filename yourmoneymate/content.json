@@ -1,0 +1,424 @@
+{
+ "status": "live",
+ "slug": "yourmoneymate",
+ "instagram": "yourmoneymateuk",
+ "name": "Ash",
+ "brandName": "Your Money Mate",
+ "niche": "UK DIY investing (ETFs, ISAs, dividends, long-term wealth); YouTube 6.81K, Instagram 12.2K, Plus membership £9.99/month; UK",
+ "offerName": "Your Money Mate Mastery programme (proposed format; today Free Membership and Plus at £9.99/month or £99/year, Mastery announced as coming soon)",
+ "image": "assets/ash.jpg",
+ "brand": {
+  "_note": "Banner navy #0f172a, website accent teal #4faca1, avatar mint; surface/line/muted derived [CONFIRM]",
+  "bg": "#0f172a",
+  "surface": "#162036",
+  "line": "#26324a",
+  "text": "#f1f5f9",
+  "muted": "#a9b4c6",
+  "accent": "#4faca1",
+  "accent-ink": "#0f172a",
+  "signal": "#9ad9c8"
+ },
+ "headline": "Build wealth the boring way that works: a 12-week programme for UK DIY investors, with Ash.",
+ "subheadline": "Your Money Mate Mastery: your investing plan, your ISA and pension set-up, and a simple ETF portfolio you understand, built step by step in a small group. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Ash Davidson (Your Money Mate). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "htwplnz8Aek",
+  "title": "Why I Changed Everything About My Investing Strategy"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Your Money Mate",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "Mastery programme",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "97,000 views on one reel. The top price is £9.99.",
+     "text": "Your Vanguard ETF reel passed 97,000 views, you've posted 388 YouTube videos in 16 months, and before this you taught 25,000+ people through Learning:Crypto. But the most anyone can pay you today is £9.99 a month for Plus.",
+     "stats": [
+      {
+       "value": "97.6K",
+       "label": "views on one reel"
+      },
+      {
+       "value": "388",
+       "label": "videos in 16 months"
+      },
+      {
+       "value": "£9.99",
+       "label": "highest price, per month"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "“Comment Screener” already works.",
+     "text": "One “Comment 'Screener'” reel drew 171 comments. Your free membership collects emails with a course, a budget planner, a wealth tracker and a Discord. These are UK investors who already use your tools and want more of you.",
+     "stats": [
+      {
+       "value": "171",
+       "label": "comments on one reel"
+      },
+      {
+       "value": "12.2K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "6.81K",
+       "label": "YouTube subscribers"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Everything is self-serve. Mastery is still “coming soon”.",
+     "text": "Plus gives people tools and videos, but nobody gets to build their plan with you. Mastery is announced on the Plus page without details, so there's no path yet from “I use the screener” to a programme with you.",
+     "stats": [
+      {
+       "value": "1",
+       "label": "paid tier"
+      },
+      {
+       "value": "0",
+       "label": "programmes with you live"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I'm not a financial adviser.” You don't need to be.",
+     "text": "The programme teaches people to make their own decisions: how ISAs and pensions work, how to build and check an ETF portfolio, how to stick to a plan. No personal recommendations, exactly the DIY approach you already teach.",
+     "quote": "“If you want fast wins and flashy headlines, this probably isn’t for you.”",
+     "source": "Ash on yourmoneymate.co.uk"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Programme page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "yourmoneymate.co.uk/mastery",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "yourmoneymate.co.uk/mastery/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Your Money Mate Mastery funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Your Money Mate · Mastery",
+   "chips": [
+    "ETFs",
+    "ISAs & pensions",
+    "Dividends",
+    "Small group"
+   ],
+   "cta": "Apply for Mastery",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Ash's Mastery VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You know you should invest",
+     "body": "But ISA, SIPP, LISA, ETF, fund. You don't know where to start."
+    },
+    {
+     "title": "You own a bit of everything",
+     "body": "Five funds that hold the same companies, and no idea if it's a plan."
+    },
+    {
+     "title": "You check it every day",
+     "body": "Every headline makes you want to sell, buy or switch."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Simple investing, done consistently.",
+   "body": "There's no secret ETF. Long-term investing is about doing the boring things well: knowing your numbers, using the right accounts, holding a portfolio you understand and sticking to it. In Mastery you build each piece with Ash, in a small group, over 12 weeks.",
+   "pillars": [
+    {
+     "title": "Plan",
+     "body": "Your budget, emergency fund and how much you can invest each month."
+    },
+    {
+     "title": "Wrappers",
+     "body": "How ISAs, pensions and LISAs work, and which order makes sense for you."
+    },
+    {
+     "title": "Portfolio",
+     "body": "Choose and check ETFs, avoid overlap, keep costs low."
+    },
+    {
+     "title": "Habit",
+     "body": "Automate it, review it calmly, and ignore the noise."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside Mastery",
+   "items": [
+    {
+     "title": "12-week programme",
+     "body": "One module a week, from your first plan to a portfolio you understand."
+    },
+    {
+     "title": "Live group calls",
+     "body": "Weekly calls with Ash to ask questions and work through the module."
+    },
+    {
+     "title": "Plus tools included",
+     "body": "ETF and stock screener, portfolio analysis and overlap tools."
+    },
+    {
+     "title": "Research checklist",
+     "body": "Ash's checklist for researching ETFs and quality companies."
+    },
+    {
+     "title": "Private community",
+     "body": "A small group of UK investors going through the same steps."
+    },
+    {
+     "title": "Your written plan",
+     "body": "Finish with an investing plan you've written yourself."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Member story",
+    "{{SWAP}} Plus member review",
+    "{{SWAP}} Member video testimonial"
+   ],
+   "note": "Individual experiences vary. The value of investments can go down as well as up, and you may get back less than you invest."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Ash's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for Your Money Mate Mastery",
+   "questions": [
+    {
+     "q": "Where are you with investing right now?",
+     "type": "choice",
+     "options": [
+      "Not started yet",
+      "Saving, not investing yet",
+      "Investing, but without a plan",
+      "Investing with a plan, want to refine it"
+     ]
+    },
+    {
+     "q": "Which accounts do you use today?",
+     "type": "multi",
+     "options": [
+      "Stocks & Shares ISA",
+      "Workplace pension",
+      "SIPP",
+      "Lifetime ISA",
+      "None yet"
+     ]
+    },
+    {
+     "q": "What's the biggest money question you want answered?",
+     "type": "text"
+    },
+    {
+     "q": "Are you already a Your Money Mate member?",
+     "type": "choice",
+     "options": [
+      "Plus",
+      "Free membership",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "Can you give it about an hour a week for 12 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Do you understand that investing involves risk and you may get back less than you put in?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the programme now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now Mastery isn't the right next step for you. Start with the free membership and the free investing course, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to invest with a plan?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Your Money Mate is not a financial adviser and nothing here is personalised financial advice. The value of investments can go down as well as up, and you may get back less than you invest. Tax rules can change and depend on your circumstances. Past performance is not a guide to future returns."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a rough idea of your monthly budget and which accounts you already have (ISA, pension, etc.).\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nAsh"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Simple investing often wins",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost people don't need a clever strategy. They need a plan they understand and will stick to.\n\nThat's what Mastery is built on: your numbers, the right accounts, a simple portfolio, and the habit to keep going.\n\nOn the call we'll look at where you are today.\n\nAsh"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already have Plus\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat. Then you've got the tools.\n\nMastery is for when tools aren't enough: 12 weeks to build your own plan step by step, with live calls and a group doing the same.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nAsh"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nAsh"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Ash's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nAsh"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nAsh"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Boring works",
+   "hook": "The most boring way to invest is usually the one that works.",
+   "script": "[Ash at the desk]\nNo secret ETF. No overnight wins.\nJust a plan, the right accounts, and a portfolio you understand.\nThat's what we build in Your Money Mate Mastery. Apply at the link.\n[On-screen: Educational content only, not financial advice. Investments can go down as well as up.]"
+  },
+  {
+   "angle": "Where to start",
+   "hook": "ISA, SIPP, LISA... where do you even start?",
+   "script": "[Ash, screen with account names]\nMost UK investors get stuck before they buy anything.\nIn Mastery, we go through it step by step, in a small group.\nLink below.\n[On-screen: Educational content only, not financial advice. Investments can go down as well as up.]"
+  },
+  {
+   "angle": "Overlap",
+   "hook": "Five funds, one portfolio?",
+   "script": "[Ash showing an overlap tool]\nIf your funds all hold the same companies, you're not as diversified as you think.\nIn Mastery you learn to check and build your own portfolio.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Investments can go down as well as up.]"
+  },
+  {
+   "angle": "Plus members",
+   "hook": "Using the screener? Here's the next step.",
+   "script": "[Screener clip, then Ash]\nThe tools show you the data.\nMastery is where you turn it into a plan, with me and a small group.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial advice. Investments can go down as well as up.]"
+  }
+ ]
+}
