@@ -1,0 +1,420 @@
+{
+ "status": "live",
+ "slug": "damngoodtrading",
+ "instagram": "damngoodtrading",
+ "name": "Kyle",
+ "brandName": "Damn Good Trading",
+ "niche": "Futures day trading on prop firm accounts (NQ, live every weekday), prop firm reviews (DamnPropFirms.com); YouTube 13.7K, Discord 4,872; US",
+ "offerName": "DGT Futures Mentorship (proposed; today no paid program, only prop firm discount code DGT, free Discord and free live streams)",
+ "image": "assets/kyle.jpg",
+ "brand": {
+  "_note": "Banner: magenta-purple #982b67/#472153, desert orange #d77541; dark theme, orange lightened for contrast; derived [CONFIRM]",
+  "bg": "#120c18",
+  "surface": "#1c1424",
+  "line": "#33283f",
+  "text": "#f7f2f8",
+  "muted": "#bdb2c4",
+  "accent": "#f08a4b",
+  "accent-ink": "#120c18",
+  "signal": "#d3a6ff"
+ },
+ "headline": "Trade futures prop firm accounts with a plan: learn Kyle's process live, from the eval rules to scaling.",
+ "subheadline": "The DGT Futures Mentorship: the process Kyle trades live every weekday, taught step by step, with your trades reviewed. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Kyle (Damn Good Trading). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "j5jBDXagjqY",
+  "title": "The Cut SEMI FINALS: Me vs ForexIke — Head to Head, Live"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Damn Good Trading",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "DGT futures mentorship",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "4,872 traders in your Discord. The only thing to buy is a discount code.",
+     "text": "You trade live every weekday, your channel has 13.7K subscribers, and DamnPropFirms has become a real resource. But there's no DGT product. Everything your audience spends goes to the prop firms, and code DGT is the only way you take part in it.",
+     "stats": [
+      {
+       "value": "4,872",
+       "label": "Discord members"
+      },
+      {
+       "value": "13.7K",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "0",
+       "label": "programs of your own"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "They already watch you trade for hours.",
+     "text": "681 videos, live sessions most weekday mornings, 901 people online in your Discord when I checked, and a Chrome extension that applies your code. That's an audience that already trusts your process. It just has no way to learn it from you directly.",
+     "stats": [
+      {
+       "value": "681",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "901",
+       "label": "online in Discord at once"
+      },
+      {
+       "value": "15",
+       "label": "uploads in 25 days"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "The prop firms set your terms.",
+     "text": "Affiliate income depends on firms you don't control: their rules, their payouts, their commission. When a firm changes or disappears, so does that part of the business. A program of your own is the one piece nobody else can change.",
+     "stats": [
+      {
+       "value": "7",
+       "label": "partner firms in your bio"
+      },
+      {
+       "value": "1",
+       "label": "code, DGT"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“No fake gurus.” That's exactly why it works.",
+     "text": "Fake gurus hide their trades. You show all of them live, wins and losses. A mentorship built on that same transparency is the opposite of a guru course, and the application keeps out anyone looking for a shortcut.",
+     "quote": "“Built by a funded futures trader. No corporate team. No paid placements. No fake gurus.”",
+     "source": "Kyle on DamnPropFirms.com"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Mentorship page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "damngoodtrading.com/mentorship",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "damngoodtrading.com/mentorship/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Damn Good Trading mentorship funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Damn Good Trading · Futures Mentorship",
+   "chips": [
+    "Futures · NQ",
+    "Prop firm accounts",
+    "Live sessions",
+    "Trade reviews"
+   ],
+   "cta": "Apply for the mentorship",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Kyle's mentorship VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You keep buying evals",
+     "body": "Pass, blow, buy again. The discount helps, but the cycle doesn't stop."
+    },
+    {
+     "title": "You don't know the rules",
+     "body": "Trailing drawdown, consistency rules, payout conditions. One missed rule ends the account."
+    },
+    {
+     "title": "You trade without a plan",
+     "body": "You watch the live streams, but on your own account you're still guessing."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Trade the account, not just the chart.",
+   "body": "Prop firm trading is its own game. Every firm has different rules, and the plan has to fit them. In the mentorship you learn how Kyle chooses firms, plans each session around the rules, manages several accounts, and handles the payout conditions, then you trade it with your trades reviewed.",
+   "pillars": [
+    {
+     "title": "Firm",
+     "body": "Pick the firm and account type that fit how you trade."
+    },
+    {
+     "title": "Rules",
+     "body": "Drawdown, consistency and payout rules, built into your plan."
+    },
+    {
+     "title": "Execution",
+     "body": "Kyle's live session routine, from the open to the last trade."
+    },
+    {
+     "title": "Scaling",
+     "body": "Managing and copying several accounts without losing control."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the mentorship",
+   "items": [
+    {
+     "title": "Live mentorship sessions",
+     "body": "Trade the morning session alongside Kyle, with Q&A."
+    },
+    {
+     "title": "Trade reviews",
+     "body": "Your trades and accounts reviewed, wins and losses."
+    },
+    {
+     "title": "Prop firm playbook",
+     "body": "Rules, account types and payout conditions explained firm by firm."
+    },
+    {
+     "title": "Session plan",
+     "body": "A written plan for each session that fits your firm's rules."
+    },
+    {
+     "title": "Multi-account setup",
+     "body": "How Kyle copies trades across accounts with Tradesyncer."
+    },
+    {
+     "title": "Private mentorship channel",
+     "body": "A place for mentees inside the DGT Discord."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Mentee story",
+    "{{SWAP}} Discord member testimonial",
+    "{{SWAP}} Mentee video testimonial"
+   ],
+   "note": "Individual results, not typical. Most day traders lose money. Futures trading involves substantial risk of loss."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Kyle's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the DGT Futures Mentorship",
+   "questions": [
+    {
+     "q": "How long have you been trading futures?",
+     "type": "choice",
+     "options": [
+      "I'm brand new",
+      "Under 1 year",
+      "1–3 years",
+      "More than 3 years"
+     ]
+    },
+    {
+     "q": "Where are you with prop firms right now?",
+     "type": "choice",
+     "options": [
+      "Haven't bought an eval yet",
+      "Working on an eval",
+      "Funded, no payout yet",
+      "Funded and received payouts"
+     ]
+    },
+    {
+     "q": "Can you trade the morning session on weekdays?",
+     "type": "choice",
+     "options": [
+      "Yes, every day",
+      "A few days a week",
+      "No"
+     ]
+    },
+    {
+     "q": "What's the biggest thing holding your trading back right now?",
+     "type": "text"
+    },
+    {
+     "q": "Are you in the DGT Discord?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "Do you only trade money you can afford to lose?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the mentorship now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the mentorship isn't the right next step for you. Join the free DGT Discord and watch the live sessions on YouTube, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to trade your accounts with a plan?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only, not financial advice. Futures trading involves substantial risk of loss and is not suitable for everyone. Most day traders lose money. Never risk more than you can afford to lose. Prop firm evaluations are simulated accounts. Results are not typical."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Note which prop firms and account types you trade, and have a few recent trades ready.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nKyle"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Trade the account, not just the chart",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost traders blow prop firm accounts on rules, not on bad entries: a trailing drawdown they didn't plan for, a consistency rule they forgot.\n\nThe mentorship starts there: the firm's rules first, then a session plan that fits them, then execution.\n\nOn the call we'll look at where you are today.\n\nKyle"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already watch the live streams\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGood. Then you've seen how I trade.\n\nThe mentorship is for when watching isn't enough: you get a plan for your own accounts and I review how you actually trade it.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nKyle"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nKyle"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Kyle's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nKyle"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nKyle"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Rules first",
+   "hook": "Most prop firm accounts die on rules, not entries.",
+   "script": "[Kyle at the desk, accounts on screen]\nTrailing drawdown, consistency rules, payout conditions. Miss one and it's over.\nIn my mentorship, we build your plan around the rules first.\nApply at the link.\n[On-screen: Educational content only. Futures trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Watching vs doing",
+   "hook": "You watch me trade live. Now trade it yourself.",
+   "script": "[Live stream clip, then Kyle to camera]\nYou've seen the process every morning.\nThe mentorship is where I teach it step by step and review your trades.\nApplications are open. Link below.\n[On-screen: Educational content only. Futures trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Eval cycle",
+   "hook": "Pass, blow, buy again?",
+   "script": "[Kyle to camera]\nIf you keep buying evals, the discount isn't the problem.\nThe plan is. Let's fix that in the DGT mentorship.\nLink below.\n[On-screen: Educational content only. Futures trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "No fake gurus",
+   "hook": "No fake gurus. Every trade live.",
+   "script": "[Montage of live sessions, wins and losses]\nI show every trade, wins and losses.\nThe mentorship is built the same way: real process, real reviews.\nApply at the link.\n[On-screen: Educational content only. Futures trading involves substantial risk of loss.]"
+  }
+ ]
+}
