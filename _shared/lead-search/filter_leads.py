@@ -83,10 +83,10 @@ with open(os.path.join(HERE, 'checked_handles.tsv'), 'a') as log:
             last = max(ps) if ps else ''
             c = ch.get(h, {})
             source = c.get('ig_source', 'youtube')
+            log.write(f'{h}\t{n}\t{last}\t{today}\n')  # every checked handle, so it is never paid for twice
             if source in ('guess', 'website-check') and not matches_channel(u, c):
                 stats['not_same_person'] += 1  # guessed handle belongs to someone else (or a sponsor)
                 continue
-            log.write(f'{h}\t{n}\t{last}\t{today}\n')
             if n is None or not a.min <= n <= a.max:
                 continue
             stats['in_range'] += 1
