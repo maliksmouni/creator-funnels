@@ -68,3 +68,18 @@ traderkane
 
 # duplicates of listed creators
 realbthetrader	= bthestory87
+
+# trading_creators_leads_2026-10-08.xlsx, 2026-10-08
+damngoodtrading
+rowdycrypto
+bjcowen
+smallcapfessor
+imtylertrades
+ibbyansari
+nickelninjatrades
+fearingtrades
+
+# not a fit (brand, agency), 2026-10-08
+optionalpha
+investorsunderground
+hanckfx
