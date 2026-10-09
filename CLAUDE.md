@@ -95,7 +95,7 @@ Lead sheet: Google Sheets `1FMU4LB-2l_BiKkkEGZJYZn_uoJrDWmjxb5CE6piOD9U`, tab `L
 When the user says "start":
 1. **Mark the last batch:** for every row without `x` whose creator already has a live funnel in the repo, search Gmail `in:sent to:{email}`. Found → write `x` in column A. Not found → leave it empty and tell the user the draft is still waiting.
 2. **Follow-ups:** run the "Follow-up" section above for all sent first emails.
-3. **Next batch:** take the next **2** rows from the top with an empty column A and without a funnel in the repo. A row without an email in column F gets `skipped` in column A and the next row is taken instead (decision 08.10.2026). Name the skipped creators at the end.
+3. **Next batch:** take the next **2** rows from the top with an empty column A and without a funnel in the repo. A row without an email in column F gets `skipped` in column A and the next row is taken instead (decision 08.10.2026). The same applies when the research shows the creator already runs a complete call funnel (application + booking + pre-call pages): `skipped`, and the reason appended to the Notes column (decision 09.10.2026, Nick Ireland). Name the skipped creators at the end.
 4. Build both funnels with the full pipeline (skill), deploy, verify, then the outreach section above (draft, story, Instagram link, pitch link). Alternate the subject A/B across creators.
 5. Don't write `x` for the new batch yet. That happens at the next "start", once the emails are in Sent.
 
