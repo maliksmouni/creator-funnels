@@ -16,7 +16,7 @@ Referenz-Umsetzungen: `trading-diva/` (Simran Nigam, Mentoring über einem Recor
 ```
 HOUSE.md                    feste Operator-Daten + Design-Master (jeder Lauf liest das)
 _shared/build.py            rendert alle Seiten eines Creators aus content.json
-_shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten, die Link-Vorschau-Karte (og.jpg), die Instagram-Story (story.jpg) und das Vorschaubild für die Erst-Mail (email.jpg)
+_shared/thumbs.mjs          macht die Vorschaubilder für die Deliverable-Karten, die Link-Vorschau-Karte (og.jpg) und die Instagram-Story (story.jpg)
 _shared/yt_thumb.py         holt das Thumbnail des neuesten YouTube-Uploads als Video-Platzhalter
 _shared/site.json           öffentliche Basis-URL je Host (für Link-Vorschau-Tags): cloudflare = https://infooperate.com (eigene Domain seit 07.10.2026; infooperate.pages.dev liefert weiterhin dieselben Seiten), netlify = https://infooperate.netlify.app
 _shared/pitch-master.css    Master-Design der Pitch-Seite (für alle Creator gleich)

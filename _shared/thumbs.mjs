@@ -78,21 +78,4 @@ if (free < 300) console.warn(`story.jpg: only ${Math.round(free)}px left for sti
 else console.log(`story.jpg: ${Math.round(free)}px free for stickers`);
 await st.screenshot({ path: new URL(`../${slug}/assets/story.jpg`, import.meta.url).pathname, type: 'jpeg', quality: 88 });
 console.log('wrote', `${slug}/assets/story.jpg`);
-// Preview for the first outreach email (1200px wide, shown at ~600px): the funnel in a browser frame on paper.
-// The Gmail connector strips images from drafts, so the user drags this file into the email by hand.
-const em = await b.newPage({ viewport: { width: 1200, height: 860 }, deviceScaleFactor: 1 });
-await em.goto('http://127.0.0.1:8788/404.html');
-await em.setContent(`<!doctype html><html><head><style>
-@font-face{font-family:M;src:url(http://127.0.0.1:8788/assets/fonts/jetbrains-mono-latin-wght-normal.woff2)}
-*{box-sizing:border-box;margin:0}body{width:1200px;padding:56px 64px 64px;background:repeating-linear-gradient(135deg,rgba(27,25,23,.022) 0 2px,transparent 2px 12px),#f5f2ec}
-.c{background:#fff;border-radius:26px;padding:14px;border:1px solid rgba(27,25,23,.1);box-shadow:0 40px 80px -30px rgba(27,25,23,.35)}
-.bar{display:flex;align-items:center;gap:10px;padding:8px 12px 16px}.bar i{width:15px;height:15px;border-radius:50%;background:#e86a5b}
-.bar i:nth-child(2){background:#e8b44b}.bar i:nth-child(3){background:#6cc36b}
-.u{margin-left:14px;flex:1;background:#f1ede5;border-radius:10px;padding:10px 16px;font:20px M;color:#5f5850}
-.c img{display:block;width:100%;height:auto;border-radius:14px}
-</style></head><body><div class="c"><div class="bar"><i></i><i></i><i></i><span class="u">your call funnel · built for ${esc(c.brandName)}</span></div>
-<img src="http://127.0.0.1:8788/${slug}/assets/previews/funnel.jpg"></div></body></html>`, { waitUntil: 'networkidle' });
-await em.evaluate(() => document.fonts.ready);
-await em.locator('body').screenshot({ path: new URL(`../${slug}/assets/email.jpg`, import.meta.url).pathname, type: 'jpeg', quality: 80 });
-console.log('wrote', `${slug}/assets/email.jpg`);
 await b.close();
