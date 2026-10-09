@@ -28,4 +28,4 @@ VSL; 3 Teilnehmerstimmen.
 Kontrast min. 6,3:1 (Akzent auf Surface), Button 7,6:1 · 375/1440 px ohne Querscrollen (5 Seiten) · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · story.jpg 423 px frei
 
 ## Outreach-Verlauf
-- Erst-Mail (Vorlage ab 09.10.2026: ohne Link, „Can I send you the link?“), Betreff **B**: „Index Funds for Beginners: one thing I'd fix“, Entwurf am 09.10.2026.
+- Erst-Mail (Vorlage ab 09.10.2026: ohne Link, „Can I send you the link?“), Betreff **B**: „Index Funds for Beginners: one thing I'd fix“, von Claude gesendet am 09.10.2026, 10:33 UK-Zeit. Follow-up (ohne Link) geplant für 13.10.2026, 10:20 UK-Zeit (send_later trig_01Kzuutiey341kviL9koztzx).

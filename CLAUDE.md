@@ -9,18 +9,18 @@ For German creators ("German", "deutsche", "DACH" …) use the README section "G
 
 ## Outreach-E-Mail nach dem Livegang
 
-After every funnel is live and verified, create a Gmail **draft** (never send it) to the creator's email address using the email template below. Replace {Name} with the creator's first name and fill {Angebot} and {Beobachtung} as described below the template. The follow-up draft comes later (section "Follow-up").
+After every funnel is live and verified, **send** the first email from the user's Gmail (`send_message`) to the creator's address, using the email template below, within the send window (see "Sending"). The user decided this on 09.10.2026; it applies only to emails without a link. Replace {Name} with the creator's first name and fill {Angebot} and {Beobachtung} as described below the template. The follow-up draft comes later (section "Follow-up").
 
-**Since 09.10.2026 the first email has no link.** It is plain text (no link, no image, no attachment, for the best inbox placement) and asks "Can I send you the link?", so the creator only has to reply (easier than clicking an unknown link, and replies help deliverability). The user sends the draft themselves. A preview image in the email was considered and dropped on 09.10.2026 (Promotions-tab risk). When the creator replies yes, create a reply draft in the same thread with the link placeholder `>>> PASTE LINK HERE <<<` (see "Reply with the link").
+**Since 09.10.2026 the first email has no link.** It is plain text (no link, no image, no attachment, for the best inbox placement) and asks "Can I send you the link?", so the creator only has to reply (easier than clicking an unknown link, and replies help deliverability). A preview image in the email was considered and dropped on 09.10.2026 (Promotions-tab risk). When the creator replies yes, create a reply draft in the same thread with the link placeholder `>>> PASTE LINK HERE <<<` (see "Reply with the link").
 
-- Why no sending and no link in drafts: the Gmail connector rewrites every URL (plain text, HTML, bare domains, drafts) to an unsigned `https://www.google.com/url?q=…` link, and clicking it shows Google's "Redirect notice" warning page instead of the funnel (tested 28.09.2026). A link pasted by hand in Gmail works normally.
+- **Anything with a link stays a draft** that the user sends (the reply with the link, follow-ups to first emails sent before 09.10.2026). Why: the Gmail connector rewrites every URL (plain text, HTML, bare domains, drafts) to an unsigned `https://www.google.com/url?q=…` link, and clicking it shows Google's "Redirect notice" warning page instead of the funnel (tested 28.09.2026). A link pasted by hand in Gmail works normally.
 - At the very end of the reply for each finished funnel, show the pitch link on its own line in a code block for easy copy and paste, e.g.
 
   ```
   https://infooperate.com/{slug}/
   ```
 
-  and say that the draft is waiting in Gmail → Drafts.
+  and say whether the first email was sent (and when) or is scheduled for the next send window.
 - Also send the user `{slug}/assets/story.jpg` (the Instagram story, made by `_shared/thumbs.mjs`) as a file, with these steps: upload as a story, add a link sticker with the pitch link under "Tap the link", add a mention sticker `@{creator handle}`, share to **Close Friends** (creator on the list). Posting is always done by the user in the app.
 - Right after the story image, show the creator's Instagram profile link on its own line as a **clickable link, not in a code block** (the user taps it on mobile to open the profile and add them to Close Friends), e.g.
 
@@ -30,7 +30,14 @@ After every funnel is live and verified, create a Gmail **draft** (never send it
 - "Live and verified" means: Phase 8 of the skill passed (all pages 200 on the live site, private files 404).
 - The link is the pitch page `https://infooperate.com/{slug}/`, not the funnel. No pages.dev or workers.dev address, no tracking link. (Links sent before 07.10.2026 used `infooperate.pages.dev`, which still serves the same pages.)
 - Use only an email address the creator publishes themselves (bio, website, YouTube "About") or one the user gives. Record where it came from in `{slug}/README.md`.
-- If the Gmail connector isn't available in the session, say so and hand over the finished email text (with the real link) instead.
+- If the Gmail connector isn't available in the session, say so and hand over the finished email text instead.
+
+### Sending (since 09.10.2026)
+
+- **Send window**, in the creator's local time on weekdays: US creators 9:00–12:00 Eastern (15:00–18:00 German time), UK creators 10:00–17:00 UK time, other countries 9:00–17:00 local. Check `date` before sending.
+- **Outside the window:** schedule it with `send_later` (claude-code-remote) for the next window, with a message that says exactly what to send (to, subject, body or template values, replyToMessageId for follow-ups), and tell the user the time. Don't send at night or on weekends.
+- **Follow-ups without a link:** after a first email is sent, schedule its follow-up right away with `send_later` for day 3–4 in the send window. When it fires, check the thread first: if the creator replied, don't send. Tell the user and, on a yes, create the "Reply with the link" draft.
+- After every send: write `x` in the lead sheet right away, and log the date and subject in `{slug}/README.md` (Outreach-Verlauf).
 
 Template (since 09.10.2026: plain text, no link, reply CTA; before that the same text with the link, since 07.10.2026; the old generic "{Name}, I've built you something" got 1 reply from 17 emails):
 
@@ -74,7 +81,7 @@ Malik
 
 ## Follow-up (3–4 days later, no reply)
 
-A reply needs the first email to be sent, so at the start of each session check `in:sent (subject:funnel OR subject:"built you something" OR subject:"quick question about" OR subject:"one thing I'd fix")` for first emails without a follow-up and create the follow-up as a Gmail draft **reply in the same thread** (`replyToMessageId` = the sent first email), so the user only sends it on the day. Tell the user the send date (first email + 3–4 days). Skip creators who already replied. First emails sent before 09.10.2026 had the link, so their follow-up keeps it: replace the last line with "Here it is again:", the line `>>> PASTE LINK HERE <<<` and "Worth a 2-minute look?".
+A reply needs the first email to be sent, so at the start of each session check `in:sent (subject:funnel OR subject:"built you something" OR subject:"quick question about" OR subject:"one thing I'd fix")` for first emails without a follow-up and handle the follow-up as a **reply in the same thread** (`replyToMessageId` = the sent first email): without a link, schedule and send it yourself (see "Sending"); with a link (first emails before 09.10.2026), create it as a draft so the user only sends it on the day. Tell the user the send date (first email + 3–4 days). Skip creators who already replied. First emails sent before 09.10.2026 had the link, so their follow-up keeps it: replace the last line with "Here it is again:", the line `>>> PASTE LINK HERE <<<` and "Worth a 2-minute look?".
 
 ```
 Hey {Name},
@@ -96,8 +103,8 @@ When the user says "start":
 1. **Mark the last batch:** for every row without `x` whose creator already has a live funnel in the repo, search Gmail `in:sent to:{email}`. Found → write `x` in column A. Not found → leave it empty and tell the user the draft is still waiting.
 2. **Follow-ups:** run the "Follow-up" section above for all sent first emails.
 3. **Next batch:** take the next **2** rows from the top with an empty column A and without a funnel in the repo. A row without an email in column F gets `skipped` in column A and the next row is taken instead (decision 08.10.2026). The same applies when the research shows the creator already runs a complete call funnel (application + booking + pre-call pages): `skipped`, and the reason appended to the Notes column (decision 09.10.2026, Nick Ireland). Name the skipped creators at the end.
-4. Build both funnels with the full pipeline (skill), deploy, verify, then the outreach section above (draft, story, Instagram link, pitch link). Alternate the subject A/B across creators.
-5. Don't write `x` for the new batch yet. That happens at the next "start", once the emails are in Sent.
+4. Build both funnels with the full pipeline (skill), deploy, verify, then the outreach section above (send or schedule the first email, story, Instagram link, pitch link). Alternate the subject A/B across creators.
+5. Write `x` as soon as the first email is actually sent (by you or by a scheduled send). Step 1 still catches anything sent by hand.
 
 **New lead lists go into the same sheet:** after `build_xlsx.py`, append the new leads below the last row of tab `Leads` (same columns B–L, column A empty, same order as in the .xlsx; read the sheet first and write only below the last filled row). Then "start" picks them up automatically. Still send the .xlsx as a backup.
 
