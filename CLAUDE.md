@@ -9,7 +9,7 @@ For German creators ("German", "deutsche", "DACH" …) use the README section "G
 
 ## Outreach-E-Mail nach dem Livegang
 
-After every funnel is live and verified, **send** the first email from the user's Gmail (`send_message`) to the creator's address, using the email template below, within the send window (see "Sending"). The user decided this on 09.10.2026; it applies only to emails without a link. Replace {Name} with the creator's first name and fill {Angebot} and {Beobachtung} as described below the template. The follow-up draft comes later (section "Follow-up").
+After every funnel is live and verified, **send** the first email from the user's Gmail (`send_message`) to the creator's address, using the email template below, within the send window (see "Sending"). The user decided this on 09.10.2026; it applies only to emails without a link. Replace {Name} with the creator's first name and fill {Angebot} and {Beobachtung} as described below the template. The follow-up comes later (section "Follow-up").
 
 **Since 09.10.2026 the first email has no link.** It is plain text (no link, no image, no attachment, for the best inbox placement) and asks "Can I send you the link?", so the creator only has to reply (easier than clicking an unknown link, and replies help deliverability). A preview image in the email was considered and dropped on 09.10.2026 (Promotions-tab risk). When the creator replies yes, create a reply draft in the same thread with the link placeholder `>>> PASTE LINK HERE <<<` (see "Reply with the link").
 
