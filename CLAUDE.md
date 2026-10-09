@@ -109,3 +109,9 @@ When the user says "start" (default 2 creators; "start 6", "do 3 batches" etc. m
 **New lead lists go into the same sheet:** after `build_xlsx.py`, append the new leads below the last row of tab `Leads` (same columns B–L, column A empty, same order as in the .xlsx; read the sheet first and write only below the last filled row). Then "start" picks them up automatically. Still send the .xlsx as a backup.
 
 If the Sheets connector isn't available, say so and ask the user to turn it on; don't work from an old copy of the list.
+
+## Parked ideas (not active, only on request)
+
+- **Website contact forms as a second touch** (09.10.2026): only forms without captcha/honeypot/login, one message per creator 2–3 days after the email, no link, same reply CTA, logged in `{slug}/README.md`.
+- **Apify YouTube search** instead of the free one (≈ $2.20 per 25-lead list, see `_shared/lead-search/README.md`).
+- **X / Discord / voice-note DMs:** Claude can only write the text; the user sends (no automation of user accounts).
