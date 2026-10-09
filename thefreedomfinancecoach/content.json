@@ -1,0 +1,424 @@
+{
+ "status": "live",
+ "slug": "thefreedomfinancecoach",
+ "instagram": "thefreedomfinancecoach",
+ "name": "Harriet",
+ "brandName": "The Freedom Finance Coach",
+ "niche": "UK beginner investing for savers (ISAs, pensions, Freedom Finance Framework); webinar funnel on ClickFunnels; Instagram 15.1K; UK",
+ "offerName": "Freedom Finance coaching programme after the First Steps To Investing Masterclass (proposed; today the free masterclass and a lead magnet)",
+ "image": "assets/harriet.jpg",
+ "brand": {
+  "_note": "Website navy #1D2E3B, gold #D4AF37, red #9c1c17; light theme, gold darkened as signal; derived [CONFIRM]",
+  "bg": "#f7f5f1",
+  "surface": "#ffffff",
+  "line": "#e4ded5",
+  "text": "#1d2e3b",
+  "muted": "#54606b",
+  "accent": "#1d2e3b",
+  "accent-ink": "#ffffff",
+  "signal": "#8a6a14"
+ },
+ "headline": "Turn your savings into investments with confidence: the Freedom Finance Framework, step by step with Harriet.",
+ "subheadline": "Freedom Finance coaching: for savers who came to the masterclass and want help putting the framework into practice. Small group, live calls, your own plan. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Harriet (The Freedom Finance Coach). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "nBjnxoCP2zI",
+  "title": "What I Learned After Paying Off My Mortgage Early"
+ },
+ "pitch": {
+  "eyebrow": "Already built for The Freedom Finance Coach",
+  "headline": {
+   "before": "I built the call funnel behind your",
+   "mark": "First Steps To Investing Masterclass",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "A full webinar funnel. Then it stops.",
+     "text": "Your masterclass page on ClickFunnels collects names, emails and phone numbers, with SMS reminders for 15 October. 15,000 people follow you on Instagram and you've posted 393 YouTube videos since April 2025. After the masterclass, I couldn't find an application or a way to book a call.",
+     "stats": [
+      {
+       "value": "15.1K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "393",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "1",
+       "label": "live date: 15 October"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "Savers who already trust you.",
+     "text": "You post every day for exactly one person: someone with money in savings who's afraid to invest it. Your “7 Paralysing Money Fears” guide speaks straight to them. Those are people who need a conversation before they commit.",
+     "stats": [
+      {
+       "value": "10",
+       "label": "posts in 9 days"
+      },
+      {
+       "value": "90",
+       "label": "minute masterclass"
+      },
+      {
+       "value": "7",
+       "label": "money fears guide"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Everything rides on one evening.",
+     "text": "If someone can't make 8pm on 15 October, or they need to talk before deciding, there's no next step. Nervous savers rarely buy from a webinar alone, they want to ask their own question first.",
+     "stats": [
+      {
+       "value": "0",
+       "label": "application questions"
+      },
+      {
+       "value": "0",
+       "label": "ways to book a call"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“The masterclass already does the selling.” Keep it.",
+     "text": "The masterclass stays the front door. The call funnel sits behind it, so attendees who aren't ready to buy on the night, and everyone who missed it, can apply and talk to you first.",
+     "quote": "“I help people who are new to investing that have money in savings but don't know how or where to start with investing.”",
+     "source": "Harriet on YouTube"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Coaching page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "thefreedomfinancecoach.com/coaching",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "thefreedomfinancecoach.com/coaching/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "The Freedom Finance Coach funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "The Freedom Finance Coach · Coaching",
+   "chips": [
+    "Beginners welcome",
+    "ISAs & pensions",
+    "Small group",
+    "UK"
+   ],
+   "cta": "Apply for coaching",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Harriet's coaching VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You're great at saving",
+     "body": "But the money sits in a savings account while inflation eats into it."
+    },
+    {
+     "title": "You're scared of losing it",
+     "body": "You've read about investing for months and still haven't made a start."
+    },
+    {
+     "title": "You don't know the order",
+     "body": "Cash ISA, Stocks and Shares ISA, pension. Which first, and how much?"
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "The Freedom Finance Framework.",
+   "body": "You don't need to become an expert. You need someone to show you the order to do things in. In the coaching you go through the framework with Harriet in a small group, and leave with your own plan and your first investments made with confidence.",
+   "pillars": [
+    {
+     "title": "Foundation",
+     "body": "Emergency fund and what to keep in cash."
+    },
+    {
+     "title": "Accounts",
+     "body": "ISAs, LISAs and pensions, in the right order for you."
+    },
+    {
+     "title": "First investments",
+     "body": "Simple funds you understand, without the jargon."
+    },
+    {
+     "title": "Confidence",
+     "body": "A plan for market drops, so fear doesn't decide for you."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the coaching",
+   "items": [
+    {
+     "title": "Live group coaching",
+     "body": "Weekly calls with Harriet to work through your questions."
+    },
+    {
+     "title": "The framework, step by step",
+     "body": "One module a week, in order."
+    },
+    {
+     "title": "Your investing plan",
+     "body": "Written down, with amounts and accounts."
+    },
+    {
+     "title": "Account walkthroughs",
+     "body": "How to open and set up the accounts you choose."
+    },
+    {
+     "title": "Small group",
+     "body": "Savers starting from the same place."
+    },
+    {
+     "title": "Masterclass replay",
+     "body": "Revisit the First Steps To Investing Masterclass any time."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Clients",
+   "items": [
+    "{{SWAP}} Client story",
+    "{{SWAP}} Masterclass attendee review",
+    "{{SWAP}} Client video testimonial"
+   ],
+   "note": "Individual experiences vary. Capital at risk: the value of investments can go down as well as up."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Harriet's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for Freedom Finance coaching",
+   "questions": [
+    {
+     "q": "Did you join the First Steps To Investing Masterclass?",
+     "type": "choice",
+     "options": [
+      "Yes, live",
+      "I watched part of it",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "Where are you right now?",
+     "type": "choice",
+     "options": [
+      "Saving, not investing yet",
+      "Just started investing",
+      "Investing, but unsure",
+      "Paying off debt first"
+     ]
+    },
+    {
+     "q": "Which accounts do you have?",
+     "type": "multi",
+     "options": [
+      "Cash ISA",
+      "Stocks & Shares ISA",
+      "Workplace pension",
+      "Lifetime ISA",
+      "None yet"
+     ]
+    },
+    {
+     "q": "What's stopped you from investing so far?",
+     "type": "text"
+    },
+    {
+     "q": "Can you give it about an hour a week for the next 8 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Do you understand that investing involves risk and you may get back less than you put in?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in coaching now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now coaching isn't the right next step for you. Start with the free masterclass and the 7 Money Fears guide, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to make your savings work for you?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. It does not take into account your individual circumstances and is not personal financial advice. Harriet is not authorised or regulated by the Financial Conduct Authority. Capital at risk: the value of investments can go down as well as up, and you may get back less than you invest."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a rough idea of your savings and any accounts you already have.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nHarriet"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "You just need the order",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nYou don't have to become an investing expert. Most savers just need someone to show them the order to do things in.\n\nThat's what the Freedom Finance Framework is, and what we'll talk about on the call.\n\nOn the call we'll look at where you are today.\n\nHarriet"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already watched the masterclass\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat. Then you know the framework.\n\nCoaching is for putting it into practice: a small group, live calls and your own plan, so you actually make your first investments.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nHarriet"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nHarriet"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Harriet's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nHarriet"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nHarriet"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Savers",
+   "hook": "Great at saving, scared to invest?",
+   "script": "[Harriet to camera]\nYou're not bad with money. You just haven't been shown the order.\nIn my coaching we go step by step, in a small group.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  },
+  {
+   "angle": "Inflation",
+   "hook": "£10,000 in savings could feel like £8,000 in a few years.",
+   "script": "[Harriet, simple graphic]\nCash isn't as safe as it feels.\nCoaching helps you invest it with confidence. Link below.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  },
+  {
+   "angle": "Missed masterclass",
+   "hook": "Missed the masterclass?",
+   "script": "[Harriet at home]\nYou can still start. Apply for coaching and we'll talk through where you are.\nLink below.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  },
+  {
+   "angle": "The order",
+   "hook": "Cash ISA or Stocks and Shares ISA first?",
+   "script": "[Harriet to camera]\nThe order matters more than the fund.\nThat's the Freedom Finance Framework. Apply for coaching at the link.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  }
+ ]
+}
