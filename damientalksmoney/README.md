@@ -2,7 +2,7 @@
 
 Aware-Outreach-Pitch für einen Call-Funnel vor einem vorgeschlagenen **Index Funds Programme** als bezahltem nächsten Schritt nach dem Gratis-Kurs „Index Funds for Beginners“. Heute: kein eigenes bezahltes Produkt. Stand: 09.10.2026. Status: **live** seit 09.10.2026. Adresse: https://infooperate.com/damientalksmoney/
 
-Kontakt: Damientalksmoney@gmail.com (YouTube-Kanalbeschreibung „For anything else“, 09.10.2026; Lead-Sheet Zeile 12). Sponsoring läuft über eine Agentur (will@getmost.co.uk), nicht anschreiben.
+Kontakt: Damientalksmoney@gmail.com (YouTube-Kanalbeschreibung „For anything else“, 09.10.2026; Lead-Sheet Zeile 11). Sponsoring läuft über eine Agentur (will@getmost.co.uk), nicht anschreiben.
 
 ## Hinweis
 Deutlich größer als die Zielgruppe (419K YouTube, 78K Newsletter, Team + Agentur). Pitch-Headline weicht bewusst vom Standard ab („I built the paid next step for your Index Funds for Beginners course.“), weil es kein bezahltes Angebot gibt.
