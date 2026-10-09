@@ -28,3 +28,4 @@ Malik Alexander Smouni
 Follow-up-Satz: offer a small-group programme where you set up people's system with them, next to the binders and the $5 membership.
 
 ## Outreach-Verlauf
+- Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).

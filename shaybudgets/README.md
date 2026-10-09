@@ -29,3 +29,4 @@ Malik Alexander Smouni
 Follow-up-Satz: give your viewers an eight-week programme instead of single $60 hours, so you help more people in the same time.
 
 ## Outreach-Verlauf
+- Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).

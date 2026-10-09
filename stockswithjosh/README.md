@@ -28,3 +28,4 @@ Malik Alexander Smouni
 Follow-up-Satz: add a small-group tier above SWJ where you review members' own trades, so your most serious members have a reason to stay.
 
 ## Outreach-Verlauf
+- Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).

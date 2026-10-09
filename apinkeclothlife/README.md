@@ -28,3 +28,4 @@ Malik Alexander Smouni
 Follow-up-Satz: give the people who see themselves in your 15-card story a way to get guided by you, not only tools from the shop.
 
 ## Outreach-Verlauf
+- Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).
