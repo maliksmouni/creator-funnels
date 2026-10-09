@@ -1,0 +1,424 @@
+{
+ "status": "live",
+ "slug": "damientalksmoney",
+ "instagram": "damientalksmoney",
+ "name": "Damien",
+ "brandName": "Damien Talks Money",
+ "niche": "UK personal finance and index fund investing; YouTube 419K, newsletter 78K readers, free course 18,700 students, no paid product; UK",
+ "offerName": "Index Funds Programme (proposed paid next step after the free Index Funds for Beginners course)",
+ "image": "assets/damien.jpg",
+ "brand": {
+  "_note": "YouTube banner/avatar navy #141f3c/#172041, white; blue accent from financialinterest.com #0693e3, lightened for contrast; derived [CONFIRM]",
+  "bg": "#111a33",
+  "surface": "#18233f",
+  "line": "#2a3655",
+  "text": "#f3f5fa",
+  "muted": "#aeb8cc",
+  "accent": "#5aa9ff",
+  "accent-ink": "#0b1226",
+  "signal": "#a9d1ff"
+ },
+ "headline": "You've learned what index funds are. Now build your own plan, step by step, with Damien.",
+ "subheadline": "The Index Funds Programme: eight weeks in a small group, from the free course to a written plan for your ISA, your pension and a simple index fund portfolio. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Damien Jordan (Damien Talks Money). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "5pHNruev_eE",
+  "title": "Is This the Worst Time Ever to Buy a House in the UK?"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Damien Talks Money",
+  "headline": {
+   "before": "I built the paid next step for your",
+   "mark": "Index Funds for Beginners",
+   "after": " course."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "419,000 subscribers. Nothing of yours to buy.",
+     "text": "Your house-price video passed 846,000 views in six days, the newsletter reaches 78,000 readers, and the podcast has guests like Deborah Meaden. But everything you offer is free, and the paid parts belong to someone else: sponsors and broker sign-up bonuses.",
+     "stats": [
+      {
+       "value": "419K",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "78K",
+       "label": "newsletter readers"
+      },
+      {
+       "value": "0",
+       "label": "paid products of your own"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "18,700 people took your course.",
+     "text": "Index Funds for Beginners has 18,700 students, and the comments read like thank-you notes: “I just opened my first Vanguard account.” These people already trust you with their first steps, and many will want help with the next ones.",
+     "stats": [
+      {
+       "value": "18.7K",
+       "label": "course students"
+      },
+      {
+       "value": "846K",
+       "label": "views on your latest video"
+      },
+      {
+       "value": "29.6K",
+       "label": "Instagram followers"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "After the course, the next step is a broker link.",
+     "text": "When someone finishes the free course, the path leads to a platform sign-up bonus. The people who want structure, accountability and help building their own plan have nowhere to go with you, so that demand goes elsewhere.",
+     "stats": [
+      {
+       "value": "2 hrs",
+       "label": "free course, then nothing"
+      },
+      {
+       "value": "0",
+       "label": "programmes with you"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I keep it free on purpose.” Keep it free.",
+     "text": "The videos, the newsletter and the course stay free, that's the front door. The programme is only for the small share who want to go further with you, and the application keeps it to people who are ready.",
+     "quote": "“This is the course I wish someone gave me 10 years ago.”",
+     "source": "Damien on financialinterest.com"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Programme page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "financialinterest.com/programme",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "financialinterest.com/programme/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Damien Talks Money programme funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Damien Talks Money · Index Funds Programme",
+   "chips": [
+    "Index funds",
+    "ISAs & SIPPs",
+    "Your own plan",
+    "Small group"
+   ],
+   "cta": "Apply for the programme",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Damien's programme VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You finished the course",
+     "body": "You understand index funds. You still haven't decided what to actually buy."
+    },
+    {
+     "title": "You're stuck on the order",
+     "body": "ISA, SIPP, workplace pension, Lifetime ISA. Which one first, and how much?"
+    },
+    {
+     "title": "You keep second-guessing",
+     "body": "Every headline about house prices or the market makes you want to wait."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "From knowing to doing.",
+   "body": "The free course explains how index funds work. The programme turns that into your own written plan: what you invest in, through which accounts, how much each month, and what you do when the market drops. Eight weeks, in a small group, with Damien.",
+   "pillars": [
+    {
+     "title": "Numbers",
+     "body": "Your budget, your emergency fund and what you can invest each month."
+    },
+    {
+     "title": "Accounts",
+     "body": "The order of ISAs, pensions and Lifetime ISAs that fits your situation."
+    },
+    {
+     "title": "Portfolio",
+     "body": "A simple index fund portfolio you understand and can explain."
+    },
+    {
+     "title": "Staying put",
+     "body": "Rules for market drops, so you don't sell at the worst moment."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the programme",
+   "items": [
+    {
+     "title": "8 weekly modules",
+     "body": "Each week one step, from your numbers to a finished plan."
+    },
+    {
+     "title": "Live group sessions",
+     "body": "Weekly calls with Damien to work through questions."
+    },
+    {
+     "title": "Plan templates",
+     "body": "Spreadsheets for your budget, accounts and portfolio."
+    },
+    {
+     "title": "Platform guide",
+     "body": "How the main UK platforms compare on fees and features."
+    },
+    {
+     "title": "Small cohort",
+     "body": "A group of UK investors going through the same steps."
+    },
+    {
+     "title": "Your written plan",
+     "body": "Finish with an investing plan in your own words."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Students",
+   "items": [
+    "{{SWAP}} Student story",
+    "{{SWAP}} Course review",
+    "{{SWAP}} Student video testimonial"
+   ],
+   "note": "Individual experiences vary. Capital at risk: the value of investments can go down as well as up."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Damien's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the Index Funds Programme",
+   "questions": [
+    {
+     "q": "Have you taken Index Funds for Beginners?",
+     "type": "choice",
+     "options": [
+      "Yes, all of it",
+      "Some of it",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "Where are you with investing right now?",
+     "type": "choice",
+     "options": [
+      "Not started",
+      "Saving, not investing yet",
+      "Investing without a plan",
+      "Investing with a plan"
+     ]
+    },
+    {
+     "q": "Which accounts do you have?",
+     "type": "multi",
+     "options": [
+      "Stocks & Shares ISA",
+      "Workplace pension",
+      "SIPP",
+      "Lifetime ISA",
+      "None yet"
+     ]
+    },
+    {
+     "q": "What's the one money decision you keep putting off?",
+     "type": "text"
+    },
+    {
+     "q": "Can you give it about an hour a week for 8 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Do you understand that investing involves risk and you may get back less than you put in?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the programme now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the programme isn't the right next step for you. Start with the free Index Funds for Beginners course and the newsletter, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to turn what you know into a plan?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Nothing here is personalised financial advice. Capital at risk: the value of investments can go down as well as up, and you may get back less than you invest. Tax treatment depends on your circumstances and can change. Past performance is not a guide to future returns."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a rough idea of your monthly budget and which accounts you already have (ISA, pension, etc.).\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nDamien"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "From knowing to doing",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost people who take the free course understand index funds. What they don't have yet is a plan: which accounts, how much, what to do when the market drops.\n\nThat's what the programme is for.\n\nOn the call we'll look at where you are today.\n\nDamien"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already took the free course\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat. That's exactly where the programme starts.\n\nThe course gives you the knowledge. The programme gives you eight weeks, a small group and a written plan you actually follow.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nDamien"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nDamien"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Damien's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nDamien"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nDamien"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Knowing vs doing",
+   "hook": "You know what an index fund is. So why haven't you started?",
+   "script": "[Damien to camera]\nKnowing isn't the hard part. Deciding is.\nIn the Index Funds Programme we build your plan together, in a small group.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Capital at risk. Investments can go down as well as up.]"
+  },
+  {
+   "angle": "Which account first",
+   "hook": "ISA, SIPP or Lifetime ISA first?",
+   "script": "[Damien, simple graphic]\nThe order matters more than most people think.\nThat's week two of the programme. Link below.\n[On-screen: Educational content only, not financial advice. Capital at risk. Investments can go down as well as up.]"
+  },
+  {
+   "angle": "Market drops",
+   "hook": "What will you do when the market drops 20%?",
+   "script": "[Damien at the desk]\nMost people sell at the worst moment because they never decided in advance.\nIn the programme you write your rules before it happens.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Capital at risk. Investments can go down as well as up.]"
+  },
+  {
+   "angle": "Course students",
+   "hook": "Took my free course? Here's the next step.",
+   "script": "[Course clip, then Damien]\n18,700 people took Index Funds for Beginners.\nThe programme is for the ones who want to build their plan with me.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial advice. Capital at risk. Investments can go down as well as up.]"
+  }
+ ]
+}
