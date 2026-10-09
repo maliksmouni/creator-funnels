@@ -27,3 +27,4 @@ Kontrast min. 7,3:1, Button 8,0:1 · 375/1440 px ohne Querscrollen · nur Calend
 
 ## Outreach-Verlauf
 - Erst-Mail (ohne Link) Betreff **B**: „Finance & Success Academy mentorship: one thing I'd fix“, von Claude gesendet am 09.10.2026, 12:01 UK-Zeit (Thread 1a12052dbfd51fa6). Follow-up geplant für 13.10.2026, 11:05 UK-Zeit (trig_014FYGmNChbWVafV4Sb2G8Nx).
+- **09.10.2026, 15:47 UTC: Antwort von Amy (Course Ambassador & Student Success Manager): „Due to Neil's schedule, he is not doing personal mentorship for the time being.“** Follow-up gestrichen (trig_014FYGmNChbWVafV4Sb2G8Nx nur noch Dahlia).
