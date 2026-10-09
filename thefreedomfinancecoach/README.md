@@ -15,3 +15,4 @@ Hat schon einen Webinar-Funnel, aber keine Bewerbung/Call-Buchung gefunden → n
 Kontrast min. 4,6:1 (Gold-Signal auf Hintergrund), Button 13,9:1 · 375/1440 px ohne Querscrollen (nach Header-Fix) · nur Calendly extern · kein `[CONFIRM]` auf den Seiten
 
 ## Outreach-Verlauf
+- Erst-Mail (ohne Link) Betreff **B**: „First Steps To Investing Masterclass: one thing I'd fix“, von Claude gesendet am 09.10.2026, 14:35 UK-Zeit (Thread 1a120e060e45906f). Follow-up geplant für 13.10.2026, 15:20 UK-Zeit (trig_01PNGVJ86y8FGMxng2PhYK4N).

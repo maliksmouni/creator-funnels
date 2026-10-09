@@ -16,3 +16,4 @@ Inhalte stark auf Crash-/Krisen-Warnungen. Funnel bewusst ohne Angst-Sprache, oh
 Kontrast min. 7,4:1, Button 10,3:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · story.jpg 386 px frei
 
 ## Outreach-Verlauf
+- Erst-Mail (ohne Link) Betreff **A**: „Quick question about your wealth-building mentorship“, von Claude gesendet am 09.10.2026, 9:35 ET (Thread 1a120e05d19660d8). Follow-up geplant für 13.10.2026, 10:20 ET (trig_01PNGVJ86y8FGMxng2PhYK4N).
