@@ -99,7 +99,7 @@ Malik
 
 Lead sheet: Google Sheets `1FMU4LB-2l_BiKkkEGZJYZn_uoJrDWmjxb5CE6piOD9U`, tab `Leads` (needs the Google Sheets connector in the session). Column A = `x` when the funnel is live **and** the first email is in Sent, `skipped` when the row has no email. Columns B–L as in the lead sheet (Name, User Handle, Profile link, Follower, Email, Youtube link, …).
 
-When the user says "start":
+When the user says "start" (default 2 creators; "start 6", "do 3 batches" etc. means that many creators, worked through in batches of 2 back to back, steps 1–5 per batch, without waiting for the user in between):
 1. **Mark the last batch:** for every row without `x` whose creator already has a live funnel in the repo, search Gmail `in:sent to:{email}`. Found → write `x` in column A. Not found → leave it empty and tell the user the draft is still waiting.
 2. **Follow-ups:** run the "Follow-up" section above for all sent first emails.
 3. **Next batch:** take the next **2** rows from the top with an empty column A and without a funnel in the repo. A row without an email in column F gets `skipped` in column A and the next row is taken instead (decision 08.10.2026). Only mark rows `skipped` when the user says "start" and the row is reached; never pre-mark rows further down, because the user fills in missing emails by hand until then. A row marked `skipped` for a missing email that has an email in column F by now counts as open again: clear the mark and take it. The same applies when the research shows the creator already runs a complete call funnel (application + booking + pre-call pages): `skipped`, and the reason appended to the Notes column (decision 09.10.2026, Nick Ireland). Name the skipped creators at the end.
