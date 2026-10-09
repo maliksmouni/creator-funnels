@@ -1,0 +1,424 @@
+{
+ "status": "live",
+ "slug": "neilmccoyward",
+ "instagram": "neilmccoyward",
+ "name": "Neil",
+ "brandName": "Neil McCoy-Ward",
+ "niche": "UK economy news and personal finance education (protect and grow your money); YouTube 560K; Finance & Success Academy 17,000+ students; UK / Isle of Man",
+ "offerName": "Finance & Success Academy mentorship (proposed; today 10 self-paced courses, quiz, free Financial Survival Guide)",
+ "image": "assets/neil.jpg",
+ "brand": {
+  "_note": "Banner navy #060921, white; accent blue chosen to fit the navy; derived [CONFIRM]",
+  "bg": "#080c24",
+  "surface": "#10163a",
+  "line": "#232b55",
+  "text": "#f2f4fa",
+  "muted": "#aab1c9",
+  "accent": "#79a6ff",
+  "accent-ink": "#080c24",
+  "signal": "#c6d6ff"
+ },
+ "headline": "Protect and grow your money, with Neil in your corner: a small-group mentorship for people who want more than a course.",
+ "subheadline": "The Finance & Success Academy mentorship: twelve weeks, live sessions with Neil, and a written plan for protecting what you have and building what you want. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Neil McCoy-Ward. Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "RxA1nkutu5Y",
+  "title": "Just Happened! (London MASS Power Outage!)"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Neil McCoy-Ward",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "Finance & Success Academy mentorship",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "17,000 students. None of them can work with you directly.",
+     "text": "Your channel has 560,000 subscribers, your power-outage video passed 200,000 views in four days, and 17,000+ students have bought your courses. But everything you sell is self-paced, and there's no way to get you in their corner.",
+     "stats": [
+      {
+       "value": "560K",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "17K+",
+       "label": "course students"
+      },
+      {
+       "value": "10",
+       "label": "self-paced courses"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "Your quiz already asks the right question.",
+     "text": "“How are you doing financially?” sorts people by stage, and the Financial Survival Guide brings new ones in. Those are people telling you exactly where they are and what worries them.",
+     "stats": [
+      {
+       "value": "206K",
+       "label": "views on your latest video"
+      },
+      {
+       "value": "1,313",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "4.89",
+       "label": "course rating"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Every path ends at a course checkout.",
+     "text": "Whatever someone answers in the quiz, the next step is another course. The students who would pay most for personal guidance, the ones with a pension to protect or a business to build, get the same self-paced option as everyone else.",
+     "stats": [
+      {
+       "value": "0",
+       "label": "ways to work with you live"
+      },
+      {
+       "value": "1",
+       "label": "next step: a course"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“Courses scale, calls don't.” Only a few need a call.",
+     "text": "The courses stay exactly as they are. The application filters out everyone else, so the calls are only with the small share who want more than a course, and a small-group mentorship needs no new content, just your time.",
+     "quote": "“I help you to PROTECT and GROW your finances (in a world that's designed to work against you).”",
+     "source": "Neil on YouTube"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Mentorship page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "neilmccoyward.com/mentorship",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "neilmccoyward.com/mentorship/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Neil McCoy-Ward mentorship funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Finance & Success Academy · Mentorship",
+   "chips": [
+    "Protect",
+    "Grow",
+    "Income",
+    "Small group"
+   ],
+   "cta": "Apply for the mentorship",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Neil's mentorship VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You watch the news and worry",
+     "body": "Energy, inflation, pensions. You know what's coming, not what to do about it."
+    },
+    {
+     "title": "You've done the courses",
+     "body": "You know a lot more than before, and you still haven't acted on most of it."
+    },
+    {
+     "title": "Your plan lives in your head",
+     "body": "Savings here, a pension there, an idea for extra income. Nothing written down."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Protect first. Then grow.",
+   "body": "A world that works against you needs a plan in the right order: secure what you have, cut what's leaking, build income you control, then grow it. In the mentorship you build that plan over twelve weeks, with Neil and a small group.",
+   "pillars": [
+    {
+     "title": "Protect",
+     "body": "Emergency reserves, insurance gaps and what to do if things go wrong."
+    },
+    {
+     "title": "Cut",
+     "body": "Find the costs and fees that quietly drain your money."
+    },
+    {
+     "title": "Income",
+     "body": "Build an extra income stream you control."
+    },
+    {
+     "title": "Grow",
+     "body": "A long-term plan for pensions and investments."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the mentorship",
+   "items": [
+    {
+     "title": "12-week programme",
+     "body": "One step each week, with clear actions."
+    },
+    {
+     "title": "Live sessions with Neil",
+     "body": "Group calls to work through your plan and questions."
+    },
+    {
+     "title": "All Academy courses",
+     "body": "Full access to the Finance & Success Academy."
+    },
+    {
+     "title": "Personal plan template",
+     "body": "Write down your protect-and-grow plan."
+    },
+    {
+     "title": "Small group",
+     "body": "Members working through the same steps together."
+    },
+    {
+     "title": "Quarterly check-in",
+     "body": "Review your plan after the programme."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Students",
+   "items": [
+    "{{SWAP}} Student story",
+    "{{SWAP}} Course review",
+    "{{SWAP}} Student video testimonial"
+   ],
+   "note": "Individual experiences vary. Capital at risk: the value of investments can go down as well as up."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Neil's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the mentorship",
+   "questions": [
+    {
+     "q": "Have you taken any of Neil's courses?",
+     "type": "choice",
+     "options": [
+      "Yes, more than one",
+      "Yes, one",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "What worries you most about your finances right now?",
+     "type": "multi",
+     "options": [
+      "Pension won't be enough",
+      "Rising costs",
+      "Savings losing value",
+      "Job or income security",
+      "No plan at all"
+     ]
+    },
+    {
+     "q": "What would you most like to have in place 12 months from now?",
+     "type": "text"
+    },
+    {
+     "q": "How do you follow Neil?",
+     "type": "choice",
+     "options": [
+      "YouTube",
+      "Instagram",
+      "Email list",
+      "Somewhere else"
+     ]
+    },
+    {
+     "q": "Can you give it about an hour a week for 12 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Do you understand that investing involves risk and you may get back less than you put in?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the mentorship now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the mentorship isn't the right next step for you. Start with the free Financial Survival Guide and Neil's videos, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to have Neil in your corner?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Nothing here is personalised financial advice. Capital at risk: the value of investments can go down as well as up, and you may get back less than you invest. Results vary from person to person."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a rough idea of your savings, pension and monthly costs.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nNeil"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Protect first, then grow",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost people do it the other way round: chase growth, then get caught out when something goes wrong.\n\nThe mentorship starts with protecting what you have, then builds from there.\n\nOn the call we'll look at where you are today.\n\nNeil"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I've already done the courses\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGood. Then you've got the knowledge.\n\nThe mentorship is for putting it into action: twelve weeks, live sessions and a written plan, with me and a small group.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nNeil"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nNeil"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Neil's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nNeil"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nNeil"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Plan not panic",
+   "hook": "You know what's coming. What's your plan?",
+   "script": "[Neil at the desk]\nWatching the news isn't a plan.\nIn my mentorship we build yours in twelve weeks: protect first, then grow.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  },
+  {
+   "angle": "Course students",
+   "hook": "Taken my courses? Here's the next step.",
+   "script": "[Neil to camera]\n17,000 people have taken my courses.\nThe mentorship is for the ones who want me in their corner while they act on it.\nLink below.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  },
+  {
+   "angle": "Leaks",
+   "hook": "Your money is leaking. Here's where.",
+   "script": "[Neil, simple graphic]\nFees, subscriptions, idle savings.\nWeek two of the mentorship finds them. Apply at the link.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  },
+  {
+   "angle": "Written plan",
+   "hook": "Is your financial plan written down?",
+   "script": "[Neil with notebook]\nIf it's only in your head, it's not a plan.\nIn the mentorship you leave with one on paper.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial advice. Capital at risk.]"
+  }
+ ]
+}
