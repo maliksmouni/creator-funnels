@@ -441,6 +441,8 @@ const BOTS = /bot|crawl|spider|slurp|preview|facebookexternalhit|facebot|whatsap
 export async function onRequest(ctx) {
   let url, path;
   try { url = new URL(ctx.request.url); path = decodeURIComponent(url.pathname); } catch { return notFound(ctx); }
+  const px = path.match(/^\\/o\\/([a-z0-9_-]+)(?:\\/([a-z]+))?\\.gif$/);
+  if (px) return openPixel(ctx, px[1], px[2] || "");
   const parts = path.split("/");
   const allowed = path === "/404" || path === "/404.html" || ALLOW.some(a => path === a.slice(0, -1) || path.startsWith(a));
   if (!allowed || PRIVATE.has(parts[parts.length - 1]) || parts.some(x => x.startsWith(".") || x.startsWith("_"))) return notFound(ctx);
@@ -452,6 +454,27 @@ export async function onRequest(ctx) {
   }
   if (url.searchParams.get("me") === "1") return withHeader(res, "set-cookie", "io_me=1; Path=/; Max-Age=31536000; Secure; SameSite=Lax");
   try { maybeNotify(ctx, url, path, res.status); } catch (e) {}
+  return res;
+}
+
+// Open alerts: the outreach emails carry a 1x1 GIF at /o/{slug}/{first|followup}.gif. Gmail loads it through
+// its image proxy (GoogleImageProxy) each time the email is opened with images on, so an alert means "opened",
+// not "read". Caveats: Apple Mail can preload it (Mail Privacy Protection), clients that block images send
+// nothing, and the owner's own look at the draft or the sent email also triggers it.
+const GIF = Uint8Array.from(atob("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"), ch => ch.charCodeAt(0));
+
+function openPixel(ctx, slug, tag) {
+  const res = new Response(GIF, { headers: { "content-type": "image/gif", "cache-control": "no-store, no-cache, must-revalidate, max-age=0", "x-robots-tag": "noindex" } });
+  const c = CREATORS[slug];
+  if (!c || !channels(ctx).length || ctx.request.method !== "GET") return res;
+  const h = ctx.request.headers, ua = h.get("user-agent") || "";
+  if (/(^|;\\s*)io_me=1/.test(h.get("cookie") || "")) return res;
+  const client = /googleimageproxy/i.test(ua) ? "Gmail" : /yahoo/i.test(ua) ? "Yahoo Mail" : /outlook|microsoft|office/i.test(ua) ? "Outlook" : /iphone|ipad|macintosh/i.test(ua) ? "Apple Mail (can be a preload)" : "mail app";
+  const cf = ctx.request.cf || {};
+  const where = client === "Gmail" ? "" : [cf.city, cf.country].filter(Boolean).join(", ");
+  const text = `📬 ${c.name} opened your ${tag === "followup" ? "follow-up" : "email"}\\n${slug} · ${client}${where ? " · " + where : ""}`;
+  const button = c.instagram ? { text: `Open @${c.instagram} on Instagram`, url: `https://www.instagram.com/${c.instagram}/` } : null;
+  ctx.waitUntil(sendAlert(ctx, text, button));
   return res;
 }
 
