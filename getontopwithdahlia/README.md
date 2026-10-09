@@ -23,3 +23,4 @@ VSL; 3 Stimmen.
 Kontrast min. 5,6:1 (Gold auf Hintergrund), Button 6,0:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten
 
 ## Outreach-Verlauf
+- Erst-Mail (ohne Link) Betreff **A**: „Quick question about your Get On Top programme“, von Claude gesendet am 09.10.2026, 12:01 UK-Zeit (Thread 1a12052d641c4547). Follow-up geplant für 13.10.2026, 11:05 UK-Zeit (trig_014FYGmNChbWVafV4Sb2G8Nx).

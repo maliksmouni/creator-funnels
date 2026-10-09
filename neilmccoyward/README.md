@@ -26,3 +26,4 @@ VSL; 3 Stimmen.
 Kontrast min. 7,3:1, Button 8,0:1 · 375/1440 px ohne Querscrollen · nur Calendly extern · kein `[CONFIRM]` auf den Seiten · story.jpg 351 px frei
 
 ## Outreach-Verlauf
+- Erst-Mail (ohne Link) Betreff **B**: „Finance & Success Academy mentorship: one thing I'd fix“, von Claude gesendet am 09.10.2026, 12:01 UK-Zeit (Thread 1a12052dbfd51fa6). Follow-up geplant für 13.10.2026, 11:05 UK-Zeit (trig_014FYGmNChbWVafV4Sb2G8Nx).
