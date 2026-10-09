@@ -114,4 +114,5 @@ If the Sheets connector isn't available, say so and ask the user to turn it on; 
 
 - **Website contact forms as a second touch** (09.10.2026): only forms without captcha/honeypot/login, one message per creator 2–3 days after the email, no link, same reply CTA, logged in `{slug}/README.md`.
 - **Apify YouTube search** instead of the free one (≈ $2.20 per 25-lead list, see `_shared/lead-search/README.md`).
+- **Free alternative to Apify for Instagram checks:** Meta's official Instagram Graph API (Business Discovery): followers, bio, website, recent posts with date/likes/comments for business/creator accounts; ~200 calls/hour; needs a professional IG account, a linked Facebook Page, a Meta app and a 60-day token (`META_IG_TOKEN`). Discussed 09.10.2026, user stays with Apify for now.
 - **X / Discord / voice-note DMs:** Claude can only write the text; the user sends (no automation of user accounts).
