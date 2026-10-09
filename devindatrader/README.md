@@ -29,3 +29,4 @@ Kontrast Text 17,6:1, Muted 8,7:1, Gold/Schwarz 8,9:1, Button 8,9:1, Signal 5,5:
 
 ## Outreach-Verlauf
 - 02.10.2026 Erst-Mail (alte Vorlage). **05.10.2026 Antwort: „Yes, I would be interested.“** Nutzer hat am 05.10. den Calendly-Link geschickt. Kein Follow-up-Entwurf (läuft).
+- 09.10.2026, 11:50 ET: Follow-up nach der Zusage (ohne Link, von Claude gesendet, im selben Thread): Call-Inhalt (Bewerbung statt Buy Now, Booking-Flow, erste Ads), ca. 20 Min., nichts vorab zu zahlen; Booking-Link aus der letzten Mail oder Wunschtermin per Antwort.
