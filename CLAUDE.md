@@ -9,9 +9,11 @@ For German creators ("German", "deutsche", "DACH" …) use the README section "G
 
 ## Outreach-E-Mail nach dem Livegang
 
-After every funnel is live and verified, create a Gmail **draft** (never send it) to the creator's email address using the email template below. Replace {Name} with the creator's first name and fill {Angebot} and {Beobachtung} as described below the template. The follow-up draft comes later (section "Follow-up"). Put the placeholder line `>>> PASTE LINK HERE <<<` where {Link} goes. The user pastes the link and sends the draft themselves.
+After every funnel is live and verified, create a Gmail **draft** (never send it) to the creator's email address using the email template below. Replace {Name} with the creator's first name and fill {Angebot} and {Beobachtung} as described below the template. The follow-up draft comes later (section "Follow-up").
 
-- Why no sending and no link in the draft: the Gmail connector rewrites every URL (plain text, HTML, bare domains, drafts) to an unsigned `https://www.google.com/url?q=…` link, and clicking it shows Google's "Redirect notice" warning page instead of the funnel (tested 28.09.2026). A link pasted by hand in Gmail works normally.
+**Since 09.10.2026 the first email has no link.** It shows a preview image and asks "Can I send you the link?", so the creator only has to reply (easier than clicking an unknown link, and replies help deliverability). Put the placeholder line `>>> INSERT PREVIEW IMAGE HERE <<<` where the image goes; the user drags `{slug}/assets/email.jpg` (made by `_shared/thumbs.mjs`) into that spot in Gmail and sends the draft themselves. The Gmail connector strips images from drafts (tested 09.10.2026), so the image can't be put in by Claude. When the creator replies yes, create a reply draft in the same thread with the link placeholder `>>> PASTE LINK HERE <<<` (see "Reply with the link").
+
+- Why no sending and no link in drafts: the Gmail connector rewrites every URL (plain text, HTML, bare domains, drafts) to an unsigned `https://www.google.com/url?q=…` link, and clicking it shows Google's "Redirect notice" warning page instead of the funnel (tested 28.09.2026). A link pasted by hand in Gmail works normally.
 - At the very end of the reply for each finished funnel, show the pitch link on its own line in a code block for easy copy and paste, e.g.
 
   ```
@@ -19,21 +21,22 @@ After every funnel is live and verified, create a Gmail **draft** (never send it
   ```
 
   and say that the draft is waiting in Gmail → Drafts.
+- Send the user `{slug}/assets/email.jpg` (the preview for the email) as a file, with the step: drag it into the email at `>>> INSERT PREVIEW IMAGE HERE <<<` (Gmail on a computer; in the Gmail app attach it as a photo).
 - Also send the user `{slug}/assets/story.jpg` (the Instagram story, made by `_shared/thumbs.mjs`) as a file, with these steps: upload as a story, add a link sticker with the pitch link under "Tap the link", add a mention sticker `@{creator handle}`, share to **Close Friends** (creator on the list). Posting is always done by the user in the app.
 - Right after the story image, show the creator's Instagram profile link on its own line as a **clickable link, not in a code block** (the user taps it on mobile to open the profile and add them to Close Friends), e.g.
 
   [instagram.com/{handle}](https://www.instagram.com/{handle}/)
 
-  Order at the end of the reply: story image + steps → Instagram profile link → pitch link.
+  Order at the end of the reply: email preview image → story image + steps → Instagram profile link → pitch link.
 - "Live and verified" means: Phase 8 of the skill passed (all pages 200 on the live site, private files 404).
 - The link is the pitch page `https://infooperate.com/{slug}/`, not the funnel. No pages.dev or workers.dev address, no tracking link. (Links sent before 07.10.2026 used `infooperate.pages.dev`, which still serves the same pages.)
 - Use only an email address the creator publishes themselves (bio, website, YouTube "About") or one the user gives. Record where it came from in `{slug}/README.md`.
 - If the Gmail connector isn't available in the session, say so and hand over the finished email text (with the real link) instead.
 
-Template (since 07.10.2026; the old generic "{Name}, I've built you something" got 1 reply from 17 emails):
+Template (since 09.10.2026: preview image, no link, reply CTA; before that the same text with the link, since 07.10.2026; the old generic "{Name}, I've built you something" got 1 reply from 17 emails):
 
 - **Subject**, alternate A and B per creator and record which one in `{slug}/README.md` (compare later via visit alerts and replies):
-  - A: `{Name}, I built the funnel for your {Angebot}`
+  - A: `Quick question about your {Angebot}` (since 09.10.2026; reads like a business enquiry. Before: `{Name}, I built the funnel for your {Angebot}`, used for Kevin, Kyle, Ash)
   - B: `{Angebot}: one thing I'd fix`
   {Angebot} = the offer exactly as in the pitch headline (`pitch.headline.mark`), e.g. "Team Take Profits mentorship", "£799 mentorship".
 - **{Beobachtung}** = card 3 of "Four things I noticed" (the concrete bottleneck), rewritten as 1–2 plain sentences addressed to the creator. It is the preview line in the inbox, so it must be specific to them. No income claims.
@@ -45,20 +48,36 @@ Hey {Name},
 
 {Beobachtung}
 
-So I built the fix: a complete call funnel for your {Angebot}, with the page, the application, the pre-call emails and the ad scripts:
+So I built the fix: a complete call funnel for your {Angebot}, with the page, the application, the pre-call emails and the ad scripts. Here's a preview:
 
-{Link}
+>>> INSERT PREVIEW IMAGE HERE <<<
 
 I recently helped Karl Pierre generate 10K in 2 days, and another creator did 6K in 8 days.
 
-I work on a performance basis. Let me know if you want to implement this.
+I work on a performance basis. Can I send you the link?
 
 Malik Alexander Smouni
 ```
 
+### Reply with the link
+
+When a creator answers the first email (yes, send it, sure …), create a draft **reply in the same thread** right away and tell the user:
+
+```
+Hey {Name},
+
+Here it is:
+
+>>> PASTE LINK HERE <<<
+
+It's built for your {Angebot}: the page, the application, the pre-call emails and the ad scripts. Have a look and let me know what you think.
+
+Malik
+```
+
 ## Follow-up (3–4 days later, no reply)
 
-A reply needs the first email to be sent, so at the start of each session check `in:sent subject:funnel OR subject:"built you something"` for first emails without a follow-up and create the follow-up as a Gmail draft **reply in the same thread** (`replyToMessageId` = the sent first email), so the user only sends it on the day. Tell the user the send date (first email + 3–4 days). Skip creators who already replied. Same link placeholder rule.
+A reply needs the first email to be sent, so at the start of each session check `in:sent (subject:funnel OR subject:"built you something" OR subject:"quick question about" OR subject:"one thing I'd fix")` for first emails without a follow-up and create the follow-up as a Gmail draft **reply in the same thread** (`replyToMessageId` = the sent first email), so the user only sends it on the day. Tell the user the send date (first email + 3–4 days). Skip creators who already replied. First emails sent before 09.10.2026 had the link, so their follow-up keeps it: replace the last line with "Here it is again:", the line `>>> PASTE LINK HERE <<<` and "Worth a 2-minute look?".
 
 ```
 Hey {Name},
@@ -67,11 +86,7 @@ Quick follow-up on the funnel I built for your {Angebot}.
 
 The one thing I'd change first: {Beobachtung, one sentence}
 
-Here it is again:
-
->>> PASTE LINK HERE <<<
-
-Worth a 2-minute look?
+Want me to send it over? It takes 2 minutes to look through.
 
 Malik
 ```
