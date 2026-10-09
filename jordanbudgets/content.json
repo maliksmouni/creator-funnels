@@ -1,0 +1,425 @@
+{
+ "status": "live",
+ "slug": "jordanbudgets",
+ "instagram": "jordanbudgets",
+ "name": "Jordan",
+ "brandName": "Jordan Budgets",
+ "niche": "US zero-based cash stuffing on a low income, budget binders shop, $5 membership; YouTube 48.5K",
+ "offerName": "The Practical Budget programme (proposed; today binders, savings challenge sets and a $5 membership)",
+ "image": "assets/jordan.jpg",
+ "brand": {
+  "_note": "Banner/avatar mint #c5e4e7, rust; teal darkened for contrast; derived [CONFIRM]",
+  "bg": "#f2f9f9",
+  "surface": "#ffffff",
+  "line": "#d3e6e7",
+  "text": "#1b2a2b",
+  "muted": "#4a5d5e",
+  "accent": "#2c6a6e",
+  "accent-ink": "#ffffff",
+  "signal": "#8a4a37"
+ },
+ "headline": "Budget on one income without the stress: set up your system with Jordan in one afternoon, then keep it for good.",
+ "subheadline": "The Practical Budget programme: six weeks in a small group, zero-based cash stuffing set up for your real income, with Jordan checking in every week. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Jordan (Jordan Budgets). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "GGHL7jOq-3s",
+  "title": "How to Completely Organize Your Money in One Afternoon"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Jordan Budgets",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "Practical Budget programme",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "48,000 subscribers. A $5 membership.",
+     "text": "Your “organize your money in one afternoon” video passed 11,000 views and you have 48,500 subscribers. What people can buy from you is binders, savings challenge sets and a $5 membership.",
+     "stats": [
+      {
+       "value": "48.5K",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "11.2K",
+       "label": "views on one video"
+      },
+      {
+       "value": "$5",
+       "label": "membership"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "They follow your system, not just your binders.",
+     "text": "People watch you set up your money binders every month and budget on one income. The system is what they want to copy, and it's yours.",
+     "stats": [
+      {
+       "value": "599",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "19.1K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "8.8K",
+       "label": "views on your 10-minute budget"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Products need huge volume. Help doesn't.",
+     "text": "Your own video talks about five months trying to save the shop. Binders and a $5 membership only work at large numbers, while the people who want help setting up their system have nothing to buy that includes you.",
+     "stats": [
+      {
+       "value": "5",
+       "label": "months saving the shop"
+      },
+      {
+       "value": "0",
+       "label": "ways to work with you"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“My audience is on a low income.” So is the programme.",
+     "text": "Small groups keep the price fair, and the application makes sure people can afford it and are ready. A handful of members a month adds more than a lot of binders.",
+     "quote": "“my mission is to share the ups and downs of budgeting and starting a business on a low income.”",
+     "source": "Jordan on YouTube"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Programme page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "thepracticalbudget.com/programme",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "thepracticalbudget.com/programme/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Jordan Budgets programme funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Jordan Budgets · The Practical Budget",
+   "chips": [
+    "Cash stuffing",
+    "One income",
+    "Sinking funds",
+    "Small group"
+   ],
+   "cta": "Apply for the programme",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Jordan's programme VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "One income, a lot of bills",
+     "body": "Every paycheck is gone before the next one arrives."
+    },
+    {
+     "title": "You've bought the binders",
+     "body": "But the system never quite fits your real life."
+    },
+    {
+     "title": "Budgeting feels stressful",
+     "body": "Looking at your numbers makes you anxious, so you avoid it."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Zero-based cash stuffing, set up for your life.",
+   "body": "Every dollar gets a job before the month starts. In the programme Jordan helps you set up your system in one afternoon, then checks in every week for six weeks while you run it, so it survives real life.",
+   "pillars": [
+    {
+     "title": "One afternoon setup",
+     "body": "Your categories, envelopes and paycheck plan."
+    },
+    {
+     "title": "Zero-based plan",
+     "body": "Every dollar assigned before the month starts."
+    },
+    {
+     "title": "Sinking funds",
+     "body": "Plan for the costs that always catch you out."
+    },
+    {
+     "title": "Weekly check-ins",
+     "body": "Fix what breaks before it derails the month."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the programme",
+   "items": [
+    {
+     "title": "Setup session",
+     "body": "Set up your full system with Jordan's method."
+    },
+    {
+     "title": "6 weekly group calls",
+     "body": "Live check-ins with Jordan."
+    },
+    {
+     "title": "Binder bundle",
+     "body": "A Jordan Budgets binder set included."
+    },
+    {
+     "title": "Paycheck templates",
+     "body": "Plans for weekly, biweekly and irregular pay."
+    },
+    {
+     "title": "Small group",
+     "body": "Other budgeters on one income."
+    },
+    {
+     "title": "Membership access",
+     "body": "Jordan's membership included for the programme."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Member story",
+    "{{SWAP}} Shop customer review",
+    "{{SWAP}} Member video testimonial"
+   ],
+   "note": "Individual results vary."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Jordan's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for The Practical Budget programme",
+   "questions": [
+    {
+     "q": "Where are you with your money right now?",
+     "type": "choice",
+     "options": [
+      "Living paycheck to paycheck",
+      "Paying off debt",
+      "Budgeting, but it keeps falling apart",
+      "Saving and want a plan"
+     ]
+    },
+    {
+     "q": "What do you want help with most?",
+     "type": "multi",
+     "options": [
+      "Making a budget I stick to",
+      "Paying off debt",
+      "Building savings",
+      "Cash stuffing / sinking funds",
+      "Planning for the year"
+     ]
+    },
+    {
+     "q": "What's the one money habit you'd most like to change?",
+     "type": "text"
+    },
+    {
+     "q": "How do you know Jordan?",
+     "type": "choice",
+     "options": [
+      "YouTube",
+      "Instagram",
+      "Etsy / shop",
+      "Somewhere else"
+     ]
+    },
+    {
+     "q": "Can you give it about an hour a week for the next 6 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Are you ready to be honest about your numbers with a coach?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the programme now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the programme isn't the right next step for you. Start with Jordan's free videos and the membership, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to budget without the stress?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Nothing here is personalised financial, tax or legal advice. Results depend on your own situation and effort and are not guaranteed."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have your monthly income and your list of bills ready.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nJordan"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Every dollar gets a job",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nZero-based budgeting isn't about having more money. It's about deciding where it goes before the month starts.\n\nThat's what we'll set up together.\n\nOn the call we'll look at where you are today.\n\nJordan"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already have the binders\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat, that's the hardware.\n\nThe programme is the setup and the weekly check-ins, so the system actually works on your income.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nJordan"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nJordan"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Jordan's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nJordan"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nJordan"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "One income",
+   "hook": "Budgeting on one income?",
+   "script": "[Jordan at the desk with binders]\nI do it too, with two kids.\nIn The Practical Budget programme I help you set up yours and check in every week.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "One afternoon",
+   "hook": "Organize your money in one afternoon.",
+   "script": "[Setup time-lapse]\nThat's the first session. Then six weeks of check-ins so it sticks.\nLink below.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Stress",
+   "hook": "Does looking at your bank account stress you out?",
+   "script": "[Jordan to camera]\nA plan makes it calmer. Let's build yours together.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Binder owners",
+   "hook": "Bought the binders? Here's the next step.",
+   "script": "[Binder close-up, then Jordan]\nThe binder is the tool. The programme is how you use it.\nLink below.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  }
+ ]
+}

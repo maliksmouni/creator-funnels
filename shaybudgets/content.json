@@ -1,0 +1,425 @@
+{
+ "status": "live",
+ "slug": "shaybudgets",
+ "instagram": "shaybudgets",
+ "name": "Shay",
+ "brandName": "Shay Budgets",
+ "niche": "US budgeting, debt payoff and planning (certified financial social worker); YouTube 95.3K; hourly coaching via Wix booking",
+ "offerName": "Budget coaching programme (proposed; today single coaching hours: budget $60, YouTube/Etsy $100, group $300/$500)",
+ "image": "assets/shay.jpg",
+ "brand": {
+  "_note": "Banner cream/grey script logo, avatar dark brown; derived [CONFIRM]",
+  "bg": "#f7f4f1",
+  "surface": "#ffffff",
+  "line": "#e5ddd6",
+  "text": "#1d1916",
+  "muted": "#5c524b",
+  "accent": "#6e4e3d",
+  "accent-ink": "#ffffff",
+  "signal": "#8a5a3c"
+ },
+ "headline": "Stop restarting your budget every month. Build one that lasts, with Shay.",
+ "subheadline": "The Shay Budgets coaching programme: eight weeks with a certified financial social worker, from your first honest budget to a debt and savings plan you actually keep. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Shay (Shay Budgets). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "xcar3g7Tw3w",
+  "title": "Q4 STARTS NOW | My October Reset + Goals for the Rest of 2026"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Shay Budgets",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "budget coaching programme",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "95,000 subscribers. Coaching for $60 an hour.",
+     "text": "You've built 95,300 subscribers over 1,060 videos, and you're a certified financial social worker. But your coaching is sold by the hour on a booking page: $60 for budget coaching, $100 for YouTube or Etsy coaching.",
+     "stats": [
+      {
+       "value": "95.3K",
+       "label": "YouTube subscribers"
+      },
+      {
+       "value": "1,060",
+       "label": "videos"
+      },
+      {
+       "value": "$60",
+       "label": "per coaching hour"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "They already watch you budget every month.",
+     "text": "“Budget With Me”, “October Reset”, “How close are we to debt freedom”: your viewers follow your process month after month. Many of them want someone to do the same with their numbers.",
+     "stats": [
+      {
+       "value": "18.2K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "4K",
+       "label": "views on your October reset"
+      },
+      {
+       "value": "6",
+       "label": "coaching options on the page"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Every hour you sell is an hour you have to find.",
+     "text": "You work full time as a school counselor. Selling single hours caps you at your calendar, and each session ends without a next step, so every sale starts from zero.",
+     "stats": [
+      {
+       "value": "1 hr",
+       "label": "per sale"
+      },
+      {
+       "value": "0",
+       "label": "programmes after the session"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I don't have more hours.” A programme needs fewer.",
+     "text": "A small-group programme with weekly calls serves several people in the same hour, and the application makes sure they're ready. More help, less of your calendar.",
+     "quote": "“I feel like I have a duty to do more – to help more.”",
+     "source": "Shay on shaybudgets.com"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Programme page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "shaybudgets.com/coaching",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "shaybudgets.com/coaching/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Shay Budgets coaching funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Shay Budgets · Coaching",
+   "chips": [
+    "Budgeting",
+    "Debt payoff",
+    "Savings",
+    "Small group"
+   ],
+   "cta": "Apply for coaching",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Shay's coaching VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "Your budget lasts two weeks",
+     "body": "You start strong every month, then life happens and the plan falls apart."
+    },
+    {
+     "title": "Unexpected expenses wipe you out",
+     "body": "Car, school, birthdays. Every surprise ends up on a credit card."
+    },
+    {
+     "title": "The debt never seems to move",
+     "body": "You pay every month and the balance barely changes."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "A budget you keep, not one you restart.",
+   "body": "Most budgets fail because they're built once and never adjusted. In the programme you build yours with Shay, test it for a month, fix what breaks, and add a debt and savings plan on top. Eight weeks, in a small group, with weekly calls.",
+   "pillars": [
+    {
+     "title": "Honest numbers",
+     "body": "Where your money actually goes, without judgement."
+    },
+    {
+     "title": "A budget that fits",
+     "body": "Paper, digital or cash envelopes, whatever you'll use."
+    },
+    {
+     "title": "Sinking funds",
+     "body": "Plan for the expenses that keep surprising you."
+    },
+    {
+     "title": "Debt and savings",
+     "body": "A payoff order and a savings goal you can see."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the programme",
+   "items": [
+    {
+     "title": "8 weekly group calls",
+     "body": "Live with Shay, questions answered on the spot."
+    },
+    {
+     "title": "Personal budget review",
+     "body": "Shay looks at your budget and helps you fix it."
+    },
+    {
+     "title": "Planner templates",
+     "body": "Shay's digital and printable planners included."
+    },
+    {
+     "title": "Debt payoff plan",
+     "body": "Your order, your timeline, your milestones."
+    },
+    {
+     "title": "Small group",
+     "body": "People working on the same goals at the same time."
+    },
+    {
+     "title": "Q4 / year-end plan",
+     "body": "Leave with a plan for the next 12 months."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Clients",
+   "items": [
+    "{{SWAP}} Coaching client story",
+    "{{SWAP}} Group coaching review",
+    "{{SWAP}} Client video testimonial"
+   ],
+   "note": "Individual results vary."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Shay's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for Shay Budgets coaching",
+   "questions": [
+    {
+     "q": "Where are you with your money right now?",
+     "type": "choice",
+     "options": [
+      "Living paycheck to paycheck",
+      "Paying off debt",
+      "Budgeting, but it keeps falling apart",
+      "Saving and want a plan"
+     ]
+    },
+    {
+     "q": "What do you want help with most?",
+     "type": "multi",
+     "options": [
+      "Making a budget I stick to",
+      "Paying off debt",
+      "Building savings",
+      "Cash stuffing / sinking funds",
+      "Planning for the year"
+     ]
+    },
+    {
+     "q": "What's the one money habit you'd most like to change?",
+     "type": "text"
+    },
+    {
+     "q": "How do you know Shay?",
+     "type": "choice",
+     "options": [
+      "YouTube",
+      "Instagram",
+      "Etsy shop",
+      "Somewhere else"
+     ]
+    },
+    {
+     "q": "Can you give it about an hour a week for the next 8 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Are you ready to be honest about your numbers with a coach?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the programme now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the programme isn't the right next step for you. Start with Shay's free videos and planners, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready for a budget that lasts?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Nothing here is personalised financial, tax or legal advice. Results depend on your own situation and effort and are not guaranteed."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have last month's bank statement or spending list ready.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nShay"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "A budget you keep, not one you restart",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost budgets don't fail because people are bad with money. They fail because nobody adjusts them when real life happens.\n\nThat's what we fix in the programme.\n\nOn the call we'll look at where you are today.\n\nShay"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I've booked a coaching hour before\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat, then you know how I work.\n\nAn hour answers questions. The programme follows up for eight weeks, so the budget actually sticks.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nShay"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nShay"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Shay's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nShay"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nShay"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Restart",
+   "hook": "Starting your budget over again this month?",
+   "script": "[Shay at the desk]\nYou're not bad with money. Your budget just never got adjusted.\nIn my coaching programme we fix that together, in a small group.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Surprises",
+   "hook": "Unexpected expenses keep ruining your budget?",
+   "script": "[Shay with planner]\nThey're not unexpected if you plan for them.\nSinking funds are week three of the programme. Link below.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Social worker",
+   "hook": "I'm a financial social worker. Here's what I see most.",
+   "script": "[Shay to camera]\nPeople don't need more willpower. They need a system and someone to check in.\nThat's the programme. Apply at the link.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Debt freedom",
+   "hook": "How close are you to debt freedom?",
+   "script": "[Shay budget-with-me clip]\nYou've watched me do it. Now let's do yours.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  }
+ ]
+}

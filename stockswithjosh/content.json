@@ -1,0 +1,423 @@
+{
+ "status": "live",
+ "slug": "stockswithjosh",
+ "instagram": "stockjoshfam",
+ "name": "Josh",
+ "brandName": "Stocks with Josh",
+ "niche": "US stocks, options and crypto technical analysis ('Chart GOAT'); SWJ paid community $79.99–$160/month with live sessions",
+ "offerName": "Chart GOAT mentorship (proposed 1-on-1/small-group tier above the SWJ membership)",
+ "image": "assets/josh.jpg",
+ "brand": {
+  "_note": "Banner navy #0a192d/#2d567d, white, green chart lines; derived [CONFIRM]",
+  "bg": "#0a1628",
+  "surface": "#11213a",
+  "line": "#22375a",
+  "text": "#f1f5fb",
+  "muted": "#a9b6c9",
+  "accent": "#6cb6ff",
+  "accent-ink": "#0a1628",
+  "signal": "#8fe3a8"
+ },
+ "headline": "Read the chart like Josh: a small-group mentorship with your own trades reviewed, beyond the live sessions.",
+ "subheadline": "The Chart GOAT mentorship: twelve weeks, a small group, Josh reviewing your levels, entries and risk rules one by one. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Josh Nichols (Stocks with Josh). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "qYo0YvY-JBc",
+  "title": "NVIDIA’s Next Big Rival Is Powering the AI Boom"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Stocks with Josh",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "Chart GOAT mentorship",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "40,000 views on one video. The top tier is $160 a month.",
+     "text": "Your “Moon Boys” video passed 40,000 views in its first day and a half, and SWJ has 784 reviews at 4.6 stars. But the highest thing anyone can buy is the $160 monthly tier, cancel anytime.",
+     "stats": [
+      {
+       "value": "40K",
+       "label": "views on one video"
+      },
+      {
+       "value": "784",
+       "label": "SWJ reviews"
+      },
+      {
+       "value": "$160",
+       "label": "top tier, per month"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "Your members already want more of you.",
+     "text": "15 live sessions a week, Chart GOAT University, a VIP Discord and eight uploads in three days. The most serious members would pay to have you look at their trades, not just watch yours.",
+     "stats": [
+      {
+       "value": "15",
+       "label": "live sessions a week"
+      },
+      {
+       "value": "8",
+       "label": "videos in 3 days"
+      },
+      {
+       "value": "23.9K",
+       "label": "Instagram followers"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Everyone gets the same thing, month by month.",
+     "text": "Every member is on a monthly plan they can cancel any time, and there's no tier where you work with someone directly. The ones who'd stay longest and pay most leave the same way as everyone else.",
+     "stats": [
+      {
+       "value": "2",
+       "label": "monthly tiers"
+      },
+      {
+       "value": "0",
+       "label": "1-on-1 or mentorship tiers"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I already do 15 sessions a week.” This is fewer people.",
+     "text": "The mentorship isn't more sessions. It's a small group whose own charts you review, chosen through an application. Fewer people, more depth, and members who stay.",
+     "quote": "“breaking down complicated topics into easy to digest videos for new traders.”",
+     "source": "Josh on YouTube"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Mentorship page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "stockswithjosh.com/mentorship",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "stockswithjosh.com/mentorship/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Stocks with Josh mentorship funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Stocks with Josh · Chart GOAT Mentorship",
+   "chips": [
+    "Levels",
+    "Breakouts",
+    "Risk rules",
+    "Trade reviews"
+   ],
+   "cta": "Apply for the mentorship",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Josh's mentorship VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You follow, but can't do it alone",
+     "body": "With the live session it makes sense. On your own, you freeze or chase."
+    },
+    {
+     "title": "Your levels don't hold",
+     "body": "You draw them, but price never seems to respect yours."
+    },
+    {
+     "title": "Risk rules on paper only",
+     "body": "You know them, and break them on the first bad trade."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Levels. Breakouts. Risk rules.",
+   "body": "Josh's approach is built on key levels, clean breakouts and strict risk rules. In the mentorship you apply it to your own charts, and Josh reviews your levels, entries and exits until you can do it without the live session.",
+   "pillars": [
+    {
+     "title": "Levels",
+     "body": "Mark the levels that matter, the way Josh does."
+    },
+    {
+     "title": "Breakouts",
+     "body": "Which breaks to trade and which to skip."
+    },
+    {
+     "title": "Risk rules",
+     "body": "Position size, stops and when to walk away."
+    },
+    {
+     "title": "Review",
+     "body": "Your own trades, reviewed by Josh every week."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the mentorship",
+   "items": [
+    {
+     "title": "Weekly trade reviews",
+     "body": "Josh goes through your charts and trades."
+    },
+    {
+     "title": "Small-group calls",
+     "body": "Live Q&A for mentorship members only."
+    },
+    {
+     "title": "SWJ Trader included",
+     "body": "Full SWJ membership for the mentorship."
+    },
+    {
+     "title": "Chart GOAT University",
+     "body": "The full course, in a structured order."
+    },
+    {
+     "title": "Personal trading plan",
+     "body": "Your rules, written down and checked."
+    },
+    {
+     "title": "Private mentorship channel",
+     "body": "Direct access inside the VIP Discord."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Member story",
+    "{{SWAP}} SWJ review",
+    "{{SWAP}} Member video testimonial"
+   ],
+   "note": "Individual results, not typical. Trading involves substantial risk of loss."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Josh's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the Chart GOAT mentorship",
+   "questions": [
+    {
+     "q": "How long have you been trading?",
+     "type": "choice",
+     "options": [
+      "Under 1 year",
+      "1–3 years",
+      "More than 3 years",
+      "I'm brand new"
+     ]
+    },
+    {
+     "q": "What do you trade?",
+     "type": "multi",
+     "options": [
+      "Stocks",
+      "Options",
+      "Crypto",
+      "Futures"
+     ]
+    },
+    {
+     "q": "Are you an SWJ member?",
+     "type": "choice",
+     "options": [
+      "SWJ Trader",
+      "Friendly Tools",
+      "Not yet"
+     ]
+    },
+    {
+     "q": "What's the biggest thing holding your trading back right now?",
+     "type": "text"
+    },
+    {
+     "q": "Can you trade or review charts at least 3 days a week?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Do you only trade money you can afford to lose?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the mentorship now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the mentorship isn't the right next step for you. Start with Josh's free videos or the SWJ community, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to read the chart on your own?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only, not financial advice. Trading stocks, options and crypto involves substantial risk of loss and is not suitable for everyone. Results are not typical. Past performance is not indicative of future results."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a few recent trades ready, with your levels and why you took them.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nJosh"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Levels, breakouts, risk rules",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost traders know the rules and still break them, because nobody looks at their trades.\n\nThe mentorship is where I do exactly that.\n\nOn the call we'll look at where you are today.\n\nJosh"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I'm already in SWJ\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat, then you know how I trade.\n\nThe mentorship is a small group where I review your own charts every week, on top of everything in SWJ.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nJosh"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nJosh"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Josh's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nJosh"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nJosh"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Alone",
+   "hook": "Can you trade it without the live session?",
+   "script": "[Josh at the charts]\nWatching is easy. Doing it alone is the skill.\nIn the Chart GOAT mentorship I review your own trades.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Levels",
+   "hook": "Why don't your levels hold?",
+   "script": "[Chart with levels]\nMost people draw too many. I'll show you which matter, on your charts.\nLink below.\n[On-screen: Educational content only, not financial advice. Trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "Risk",
+   "hook": "Your risk rules are only as good as the day you break them.",
+   "script": "[Josh to camera]\nThe mentorship keeps you accountable to yours. Apply at the link.\n[On-screen: Educational content only, not financial advice. Trading involves substantial risk of loss.]"
+  },
+  {
+   "angle": "SWJ members",
+   "hook": "In SWJ? Here's the next level.",
+   "script": "[Discord clip, then Josh]\nA small group, your trades reviewed by me.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial advice. Trading involves substantial risk of loss.]"
+  }
+ ]
+}

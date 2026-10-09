@@ -1,0 +1,425 @@
+{
+ "status": "live",
+ "slug": "apinkeclothlife",
+ "instagram": "apinkeclothlife",
+ "name": "Tina",
+ "brandName": "Pinkecloth",
+ "niche": "US cash budgeting on a low income, debt-free journey (15 maxed-out credit cards), budgeting tools shop; YouTube 29.1K, Instagram 22.1K",
+ "offerName": "Debt-free coaching programme (proposed; today budgeting tools, stickers, binders, a monthly membership)",
+ "image": "assets/tina.jpg",
+ "brand": {
+  "_note": "Banner pink/plum #865066, 'Plan · Save · Thrive'; derived [CONFIRM]",
+  "bg": "#fdf6f7",
+  "surface": "#ffffff",
+  "line": "#f0dfe2",
+  "text": "#2a1a22",
+  "muted": "#634f5a",
+  "accent": "#865066",
+  "accent-ink": "#ffffff",
+  "signal": "#a8325b"
+ },
+ "headline": "From maxed-out cards to a plan that works: get debt-free with Tina, one paycheck at a time.",
+ "subheadline": "The Pinkecloth debt-free programme: eight weeks in a small group with someone who paid off 15 maxed-out credit cards, from your first cash budget to a payoff plan you keep. Apply first, talk to us, then decide.",
+ "demoBanner": "Demo built for Tina (APinkeClothlife). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "C1rDJULn__Q",
+  "title": "September Budget Reset | Going Back to the Basics 2026"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Pinkecloth",
+  "headline": {
+   "before": "I built the call funnel for your",
+   "mark": "debt-free coaching programme",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "411,000 views on one reel. Everything you sell is a product.",
+     "text": "One of your reels passed 411,000 views, you have 29,100 YouTube subscribers and 22,100 on Instagram. What people can buy is stickers, binders, trays and a membership.",
+     "stats": [
+      {
+       "value": "411K",
+       "label": "views on one reel"
+      },
+      {
+       "value": "796",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "0",
+       "label": "ways to work with you"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "Your story is the reason they follow you.",
+     "text": "You paid off 15 maxed-out credit cards and say so openly. People living paycheck to paycheck see themselves in that, and your “Comment ‘Dine’” challenges show they want to be guided.",
+     "stats": [
+      {
+       "value": "15",
+       "label": "maxed-out cards paid off"
+      },
+      {
+       "value": "1,644",
+       "label": "Instagram posts"
+      },
+      {
+       "value": "9.2K",
+       "label": "views on your September reset"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Stickers don't pay off debt. Guidance does.",
+     "text": "Your audience's real problem is debt and no savings, and the shop sells them tools. The people who want you to walk them through it have nowhere to go, so every sale is a small one.",
+     "stats": [
+      {
+       "value": "4",
+       "label": "places to buy products"
+      },
+      {
+       "value": "0",
+       "label": "coaching offers"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I'm not a financial advisor.” You don't need to be.",
+     "text": "You coach habits and systems from your own experience: cash budgeting, savings challenges, a payoff order. No investment advice, exactly what you already share, with people accountable to you.",
+     "quote": "“Having overcome 15 maxed-out credit cards, no savings, and a complete lack of budgeting, I know firsthand how challenging it can be to regain financial control.”",
+     "source": "Tina on YouTube"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Programme page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "pinkecloth.co/programme",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "pinkecloth.co/programme/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Pinkecloth programme funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Pinkecloth · Debt-free programme",
+   "chips": [
+    "Cash budgeting",
+    "Debt payoff",
+    "Savings challenges",
+    "Small group"
+   ],
+   "cta": "Apply for the programme",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Tina's programme VSL (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "Paycheck to paycheck",
+     "body": "The money's gone before the next payday, every time."
+    },
+    {
+     "title": "Cards that never go down",
+     "body": "Minimum payments, and the balances barely move."
+    },
+    {
+     "title": "No savings at all",
+     "body": "One surprise bill and you're back on the card."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "Plan. Save. Thrive.",
+   "body": "Tina got out of 15 maxed-out credit cards with cash budgeting, small savings wins and a clear payoff order. In the programme you set up the same system for your paycheck, in a small group, with weekly check-ins.",
+   "pillars": [
+    {
+     "title": "Plan",
+     "body": "A cash budget for every paycheck, low income included."
+    },
+    {
+     "title": "Save",
+     "body": "Savings challenges that build a buffer fast."
+    },
+    {
+     "title": "Pay off",
+     "body": "A payoff order for your cards you can stick to."
+    },
+    {
+     "title": "Thrive",
+     "body": "Habits that keep you out of debt for good."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the programme",
+   "items": [
+    {
+     "title": "8 weekly group calls",
+     "body": "Live with Tina, questions answered."
+    },
+    {
+     "title": "Paycheck budget setup",
+     "body": "Your cash system set up for your real income."
+    },
+    {
+     "title": "Debt payoff tracker",
+     "body": "Pinkecloth payoff tools included."
+    },
+    {
+     "title": "Savings challenges",
+     "body": "Tina's challenges to build your first buffer."
+    },
+    {
+     "title": "Small group",
+     "body": "People on the same debt-free journey."
+    },
+    {
+     "title": "Membership included",
+     "body": "Pinkecloth monthly membership for the programme."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Member story",
+    "{{SWAP}} Shop customer review",
+    "{{SWAP}} Member video testimonial"
+   ],
+   "note": "Individual results vary."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Tina's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the debt-free programme",
+   "questions": [
+    {
+     "q": "Where are you with your money right now?",
+     "type": "choice",
+     "options": [
+      "Living paycheck to paycheck",
+      "Paying off debt",
+      "Budgeting, but it keeps falling apart",
+      "Saving and want a plan"
+     ]
+    },
+    {
+     "q": "What do you want help with most?",
+     "type": "multi",
+     "options": [
+      "Making a budget I stick to",
+      "Paying off debt",
+      "Building savings",
+      "Cash stuffing / sinking funds",
+      "Planning for the year"
+     ]
+    },
+    {
+     "q": "What's the one money habit you'd most like to change?",
+     "type": "text"
+    },
+    {
+     "q": "How do you know Tina?",
+     "type": "choice",
+     "options": [
+      "Instagram",
+      "YouTube",
+      "Pinkecloth shop",
+      "Somewhere else"
+     ]
+    },
+    {
+     "q": "Can you give it about an hour a week for the next 8 weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Are you ready to be honest about your numbers with a coach?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the programme now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the programme isn't the right next step for you. Start with Tina's free videos and savings challenges, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to get debt-free with a plan?",
+   "body": "Apply here. One application, one call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Nothing here is personalised financial, tax or legal advice. Results depend on your own situation and effort and are not guaranteed."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have your monthly income and a list of your debts (balance and minimum payment) ready.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nTina"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "I had 15 maxed-out cards",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nI know what it feels like when every card is full and nothing is left at the end of the month.\n\nWhat got me out was a cash budget, small savings wins and a payoff order. That's what we'll build for you.\n\nOn the call we'll look at where you are today.\n\nTina"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I already use the savings challenges\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nLove that, that's a great start.\n\nThe programme adds the plan around them: your budget, your payoff order and weekly check-ins.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nTina"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nTina"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Tina's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nTina"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nTina"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "My story",
+   "hook": "I had 15 maxed-out credit cards.",
+   "script": "[Tina to camera]\nNo savings, no budget. Here's what got me out.\nIn my programme I walk you through the same steps, in a small group.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Paycheck",
+   "hook": "Living paycheck to paycheck?",
+   "script": "[Cash stuffing clip]\nA cash budget for every paycheck changes everything.\nWe set yours up in week one. Link below.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Challenges",
+   "hook": "Love savings challenges? Let's go further.",
+   "script": "[Challenge sheet, then Tina]\nChallenges build the habit. The programme builds the plan.\nApply at the link.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  },
+  {
+   "angle": "Debt order",
+   "hook": "Which card should you pay off first?",
+   "script": "[Tina with tracker]\nThe order matters. That's week three.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial advice. Individual results vary.]"
+  }
+ ]
+}
