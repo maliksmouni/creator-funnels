@@ -81,3 +81,10 @@ When the user asks for German creators, run the same method with:
 - Instagram first (`apify~instagram-search-scraper`) failed: 0 leads from 171 accounts (no country filter, place names pull in unrelated accounts, few have YouTube, more expensive). Don't use it.
 - Crypto: 0 leads from 22 candidates; creators skew to over 30K or brands, and channels are very international.
 - About half of the leads have a published email (Instagram bio, YouTube description or own website).
+
+## Known facts (investing / personal finance run, 09.10.2026)
+
+- 3 discovery rounds (~200 queries, ~2,100 new channels) → 19 leads. The free YouTube search took 1–2 hours; that's the slow step, not Apify.
+- **Guessed Instagram handles barely pay off:** 252 guesses → 3 in range. Handles linked from YouTube or the creator's website: ~4% become leads. From round 2 on only linked handles were checked (`ig_source` youtube/website); do the same by default.
+- Common non-leads in this niche: brands/platforms (InvestEngine, PensionBee, BiggerPockets), TV/media people, and channels whose name contains "money" or "millionaire" but aren't finance (fitness, gaming, vlogs).
+- Apify YouTube search (apidojo~youtube-channel-information-scraper, $0.001/search + $0.0005/channel ≈ $2.20 per 25-lead list) was considered and **not used for now** (user decision 09.10.2026): the free search is good enough for 1–2 lists a week.
