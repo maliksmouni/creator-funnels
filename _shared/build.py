@@ -465,7 +465,7 @@ const GIF = Uint8Array.from(atob("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA
 
 function openPixel(ctx, slug, tag) {
   const res = new Response(GIF, { headers: { "content-type": "image/gif", "cache-control": "no-store, no-cache, must-revalidate, max-age=0", "x-robots-tag": "noindex" } });
-  const c = CREATORS[slug] || (slug === "test" ? { name: "Test", instagram: "" } : null);  // /o/test/first.gif = setup test
+  const c = CREATORS[slug];
   if (!c || !channels(ctx).length || ctx.request.method !== "GET") return res;
   const h = ctx.request.headers, ua = h.get("user-agent") || "";
   if (/(^|;\\s*)io_me=1/.test(h.get("cookie") || "")) return res;
