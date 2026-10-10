@@ -32,3 +32,4 @@ Malik Alexander Smouni
 Follow-up-Satz: let applicants book a short fit call right after they click "Request your spot", instead of waiting 24 to 48 hours for an email.
 
 ## Outreach-Verlauf
+- 10.10.2026, 20:28 UTC (16:28 ET): Erst-Mail gesendet an service@coachcarson.com, Betreff A: „Quick question about your Rental Property Mastery“ (ohne Link, Thread 1a1277fd130cff13). Lead-Sheet Zeile 28 = x.

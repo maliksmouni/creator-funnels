@@ -1,0 +1,425 @@
+{
+ "status": "live",
+ "slug": "thelisaasmith",
+ "instagram": "thelisaasmith",
+ "name": "Lisa Smith",
+ "brandName": "Lisa Smith",
+ "niche": "US early retirement and investing education for women, former teacher, retired at 45; IG 27.2K; Blueprint $1,497; Wealth Building Mastermind (12 months, capped, price not public)",
+ "offerName": "Wealth Building Mastermind: application on resources.lisasmith.com/apply, thank-you page says the team replies within 2 business days; no booked call, no pre-call pages",
+ "image": "assets/lisa.jpg",
+ "brand": {
+  "_note": "Navy #1C2B3A, gold #BF9544, cream #FAF5EC from resources.lisasmith.com CSS; gold darkened for text contrast",
+  "bg": "#faf5ec",
+  "surface": "#ffffff",
+  "line": "#e9e2d3",
+  "text": "#1c2b3a",
+  "muted": "#55606e",
+  "accent": "#1c2b3a",
+  "accent-ink": "#ffffff",
+  "signal": "#8a6524"
+ },
+ "headline": "Your retirement date is a math problem. Solve it in a small circle of women, with Lisa.",
+ "subheadline": "The Wealth Building Mastermind: twelve months of live coaching and advanced investing strategy with Lisa Smith, in a capped group of women. Apply, book a short call, then decide.",
+ "demoBanner": "Demo built for Lisa Smith. Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "_Rduqa_Bt1s",
+  "title": "The Rule of 55: How to Access Your 401(k) Early Without Penalties"
+ },
+ "pitch": {
+  "eyebrow": "Already built for Lisa Smith",
+  "headline": {
+   "before": "I built the booked-call funnel for your",
+   "mark": "Wealth Building Mastermind",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "54,000 views this week. One small circle.",
+     "text": "Your “Comment RETIRE” Reel passed 54,000 views and 496 comments this week, and you have 27,200 followers. Your top offer is a 12-month mastermind for a capped group of women.",
+     "stats": [
+      {
+       "value": "27.2K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "54K",
+       "label": "views on one Reel"
+      },
+      {
+       "value": "496",
+       "label": "comments on it"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "They're asking you about their own retirement.",
+     "text": "Rule of 55, “how long $1 million lasts”, “zero saved at 50”: hundreds of women comment for your guides every week. The ones close to retiring are exactly who the mastermind is for.",
+     "stats": [
+      {
+       "value": "2",
+       "label": "Reels a day"
+      },
+      {
+       "value": "376K",
+       "label": "views on your top Reel"
+      },
+      {
+       "value": "$1,497",
+       "label": "Blueprint"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "“I'm ready now”, then two business days of waiting.",
+     "text": "Your mastermind application ends with “my team will reply personally within 2 business days”. The woman who just said she's ready has nothing to book and nothing to prepare with while she waits.",
+     "stats": [
+      {
+       "value": "2 days",
+       "label": "wait after applying"
+      },
+      {
+       "value": "0",
+       "label": "calls to book"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“My team replies to everyone.” They still can.",
+     "text": "A calendar on the thank-you page doesn't replace the personal touch, it times it. Your team talks to women who already picked a slot and watched what to expect, instead of chasing replies.",
+     "quote": "“Your retirement date is a math problem. Let's solve it.”",
+     "source": "Lisa on lisasmith.com/blueprint"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Mastermind application page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "lisasmith.com/mastermind",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "lisasmith.com/mastermind/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "Lisa Smith Wealth Building Mastermind funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "Lisa Smith · Wealth Building Mastermind",
+   "chips": [
+    "12 months",
+    "Women only",
+    "Live coaching",
+    "Capped group"
+   ],
+   "cta": "Apply for the Mastermind",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Lisa's Mastermind video (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You've saved, but you don't know if it's enough",
+     "body": "The number in your accounts is real. Whether it gets you out early is still a guess."
+    },
+    {
+     "title": "The rules feel like a maze",
+     "body": "Rule of 55, Roth conversions, Social Security timing. One wrong move could cost you years."
+    },
+    {
+     "title": "Nobody looks at your numbers",
+     "body": "Free videos explain the ideas. You want someone to check your plan."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "From “can I retire?” to a date on the calendar.",
+   "body": "The mastermind turns what you've saved into a plan with a date. Twelve months of live coaching with Lisa, advanced strategies applied to your own accounts, and a small group of women doing the same, with accountability coaches between calls.",
+   "pillars": [
+    {
+     "title": "Your freedom number",
+     "body": "What you actually need, worked out for your life."
+    },
+    {
+     "title": "Access before 59½",
+     "body": "The legal ways to reach your money early."
+    },
+    {
+     "title": "Income in retirement",
+     "body": "How your savings turn into a paycheck that lasts."
+    },
+    {
+     "title": "Accountability",
+     "body": "Coaches and a circle of women keeping you on track."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside the Mastermind",
+   "items": [
+    {
+     "title": "Live coaching with Lisa",
+     "body": "Group calls where your questions get answered."
+    },
+    {
+     "title": "Advanced strategies",
+     "body": "Applied to your own accounts and timeline."
+    },
+    {
+     "title": "Accountability coaches",
+     "body": "Support between the live calls."
+    },
+    {
+     "title": "The Blueprint included",
+     "body": "Lisa's Financial Independence Blueprint modules."
+    },
+    {
+     "title": "A capped circle of women",
+     "body": "Small on purpose, so everyone is seen."
+    },
+    {
+     "title": "Twelve months",
+     "body": "Enough time to put the plan into action."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Mastermind member story",
+    "{{SWAP}} Member video testimonial",
+    "{{SWAP}} Before/after plan example"
+   ],
+   "note": "Individual results vary and are not typical."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Lisa's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for the Wealth Building Mastermind",
+   "questions": [
+    {
+     "q": "Where are you right now?",
+     "type": "choice",
+     "options": [
+      "Just getting serious about investing",
+      "Saving steadily, unsure if it's enough",
+      "Close to retiring",
+      "Already retired, planning income"
+     ]
+    },
+    {
+     "q": "When would you like to retire?",
+     "type": "choice",
+     "options": [
+      "Within 3 years",
+      "In 3–10 years",
+      "More than 10 years",
+      "Already retired"
+     ]
+    },
+    {
+     "q": "What worries you most about retirement?",
+     "type": "multi",
+     "options": [
+      "Running out of money",
+      "Accessing money before 59½",
+      "Taxes and Roth conversions",
+      "Social Security timing",
+      "Investing the right way"
+     ]
+    },
+    {
+     "q": "What would make the next 12 months a success for you?",
+     "type": "text"
+    },
+    {
+     "q": "How did you find Lisa?",
+     "type": "choice",
+     "options": [
+      "Instagram",
+      "YouTube",
+      "TikTok",
+      "A friend",
+      "Somewhere else"
+     ]
+    },
+    {
+     "q": "Can you join live coaching calls most weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the Mastermind now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Right now the Mastermind isn't the right next step. Start with Lisa's free guides, the quiz or the Blueprint, and apply again when you're ready."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to put a date on it?",
+   "body": "Apply here. One application, one short call, a straight answer.",
+   "cta": "Apply now",
+   "disclaimer": "Educational content only. Nothing here is personalised financial, tax or legal advice. Investing involves risk, including loss of principal. Results depend on your own situation and are not guaranteed."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Have a rough list of your accounts ready: 401(k), IRA, brokerage and savings.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nLisa"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "A math problem, not a mystery",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost women I work with have done more right than they think. What's missing is someone looking at their numbers and turning them into a date.\n\nThat's what we do in the Mastermind.\n\nOn the call we'll look at where you are today.\n\nLisa"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I've already got the Blueprint\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nGreat, then you know how I teach.\n\nThe Blueprint gives you the method. The Mastermind is where we apply it to your accounts, live, for twelve months.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nLisa"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nLisa"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Lisa's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nLisa"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nLisa"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Enough?",
+   "hook": "Have you saved enough to retire early?",
+   "script": "[Lisa to camera]\nMost women don't know, and that's the problem.\nIn my Wealth Building Mastermind we work it out, on your numbers.\nApply at the link.\n[On-screen: Educational content only, not financial, tax or legal advice. Investing involves risk. Individual results vary.]"
+  },
+  {
+   "angle": "Rule of 55",
+   "hook": "Turning 55? You might reach your 401(k) early.",
+   "script": "[Lisa with whiteboard]\nThe rules matter. So does applying them to your situation.\nThat's what the Mastermind is for. Link below.\n[On-screen: Educational content only, not financial, tax or legal advice. Investing involves risk. Individual results vary.]"
+  },
+  {
+   "angle": "Teacher",
+   "hook": "I started on a $24,000 teacher salary.",
+   "script": "[Lisa, classroom photo]\nI retired at 45. Now I help women build their own plan.\nApply for the Mastermind at the link.\n[On-screen: Educational content only, not financial, tax or legal advice. Investing involves risk. Individual results vary.]"
+  },
+  {
+   "angle": "Circle",
+   "hook": "A small circle of women, solving retirement together.",
+   "script": "[Zoom call footage]\nLive coaching, real numbers, twelve months.\nApplications are open. Link below.\n[On-screen: Educational content only, not financial, tax or legal advice. Investing involves risk. Individual results vary.]"
+  }
+ ]
+}

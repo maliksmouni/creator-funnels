@@ -1,0 +1,426 @@
+{
+ "status": "live",
+ "slug": "catherinemorganmoney",
+ "instagram": "catherinemorganmoney",
+ "name": "Catherine Morgan",
+ "brandName": "The Money Panel",
+ "niche": "UK/Jersey money psychology and somatic financial coaching, former financial adviser; IG 11.5K, podcast, 10k+ newsletter; free Money Circle, £27 Body of Wealth, Wealth Resonance ($1,349 / VIP $4,050, waitlist)",
+ "offerName": "Wealth Resonance programme as an evergreen, application-based programme (today: launch windows + waitlist, 1:1 only prepaid £495 without a call)",
+ "image": "assets/catherine.jpg",
+ "brand": {
+  "_note": "Violet #3E006F, mint #92D6BC, coral #E96656 from YouTube banner and website CSS; coral darkened for text contrast",
+  "bg": "#f8f6fa",
+  "surface": "#ffffff",
+  "line": "#e4dcea",
+  "text": "#1d1328",
+  "muted": "#5a4f66",
+  "accent": "#3e006f",
+  "accent-ink": "#ffffff",
+  "signal": "#a8392b"
+ },
+ "headline": "Feel safe with money, not just know the numbers.",
+ "subheadline": "Wealth Resonance with Catherine Morgan: a small, guided programme for women who've done the budgets and the plans and still don't feel safe with money. Apply, book a call, then decide.",
+ "demoBanner": "Demo built for Catherine Morgan (The Money Panel). Not their official site.",
+ "video": {
+  "thumb": "assets/video-thumb.jpg",
+  "youtubeId": "KWyd22043oE",
+  "title": "Why You're Strict With Money One Week and Avoid It the Next"
+ },
+ "pitch": {
+  "eyebrow": "Already built for The Money Panel",
+  "headline": {
+   "before": "I built the year-round call funnel for your",
+   "mark": "Wealth Resonance programme",
+   "after": "."
+  },
+  "bridge": {
+   "title": "Four things I noticed",
+   "beats": [
+    {
+     "kicker": "The audience and the offer",
+     "title": "A free circle, a waitlist, and nothing in between.",
+     "text": "You have 11,500 Instagram followers, a podcast and a newsletter of more than 10,000. People join the free Money Circle, and the next step is a £27 course or a waitlist, because Wealth Resonance is closed right now.",
+     "stats": [
+      {
+       "value": "11.5K",
+       "label": "Instagram followers"
+      },
+      {
+       "value": "10k+",
+       "label": "newsletter readers"
+      },
+      {
+       "value": "£27",
+       "label": "next step today"
+      }
+     ]
+    },
+    {
+     "kicker": "The warm audience",
+     "title": "Your content speaks to women who already have a plan.",
+     "text": "“Why knowing you're financially safe doesn't make you feel safe”, “You can have 6 figures in the bank and still not feel safe.” That's the woman who'd invest in Wealth Resonance, and she's listening every week.",
+     "stats": [
+      {
+       "value": "259",
+       "label": "YouTube videos"
+      },
+      {
+       "value": "1",
+       "label": "new episode every Monday"
+      },
+      {
+       "value": "$4,050",
+       "label": "Wealth Resonance VIP"
+      }
+     ]
+    },
+    {
+     "kicker": "The bottleneck",
+     "title": "Your best offers only sell in launch windows.",
+     "text": "Wealth Resonance is on a waitlist and the coach cohort opens in November. Between launches, the only way to work with you is a prepaid £495 session, booked without a conversation first.",
+     "stats": [
+      {
+       "value": "0",
+       "label": "year-round ways to apply"
+      },
+      {
+       "value": "£495",
+       "label": "prepaid, no call first"
+      }
+     ]
+    },
+    {
+     "kicker": "The objection you're already forming",
+     "title": "“I don't want to sell on calls.” It's a conversation about safety.",
+     "text": "An application and a short call let her feel seen before she invests, which is the whole point of your work. You only talk to women who've already said they're ready.",
+     "quote": "“People don't change just because we tell them what to do. They change when they feel safe.”",
+     "source": "Catherine on themoneypanel.co.uk"
+    }
+   ],
+   "closing": "So instead of explaining it, I built it. The page, the application, the emails and the ads, all below."
+  },
+  "deliverablesTitle": "Here are the sample deliverables:",
+  "groups": [
+   {
+    "label": "The funnel",
+    "items": [
+     {
+      "kicker": "01 · Application",
+      "title": "Programme application page",
+      "desc": "Sells the program, explains the approach, and ends in a 7-question application.",
+      "href": "funnel/",
+      "url": "themoneypanel.co.uk/wealth-resonance",
+      "thumb": "assets/previews/funnel.jpg"
+     },
+     {
+      "kicker": "02 · Booked",
+      "title": "Booking + thank-you",
+      "desc": "Calendar after the application, what to prepare, and where the official links are.",
+      "href": "funnel/thank-you/",
+      "url": "themoneypanel.co.uk/wealth-resonance/booked",
+      "thumb": "assets/previews/thank-you.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Ad creatives",
+    "items": [
+     {
+      "kicker": "4 angles · video",
+      "title": "Ad creative scripts",
+      "desc": "For cold traffic and your existing audience. No income or return claims.",
+      "href": "ads/",
+      "url": "scripts · 4 angles",
+      "thumb": "assets/previews/ads.jpg"
+     }
+    ]
+   },
+   {
+    "label": "Email sequence",
+    "items": [
+     {
+      "kicker": "6 emails · booked to call",
+      "title": "Pre-call sequence",
+      "desc": "Six emails that get a booked applicant to the call on time, with the usual objections already answered.",
+      "href": "emails/",
+      "url": "sequence · 6 emails",
+      "thumb": "assets/previews/emails.jpg"
+     }
+    ]
+   }
+  ],
+  "cases": {
+   "title": "Case studies",
+   "items": []
+  },
+  "cta": {
+   "title": "Book a call",
+   "calendly": "https://calendly.com/maliksmouni/30min"
+  },
+  "footer": "The Money Panel Wealth Resonance funnel"
+ },
+ "sections": {
+  "hero": {
+   "eyebrow": "The Money Panel · Wealth Resonance",
+   "chips": [
+    "Money psychology",
+    "Somatic tools",
+    "Small group",
+    "Live with Catherine"
+   ],
+   "cta": "Apply for Wealth Resonance",
+   "navCta": "Apply",
+   "vslNote": "{{SWAP}} Catherine's Wealth Resonance video (3–8 min)"
+  },
+  "problem": {
+   "title": "Sound familiar?",
+   "cards": [
+    {
+     "title": "You have a plan, and still feel anxious",
+     "body": "The budget, the savings pots, the spreadsheet. The worry hasn't gone anywhere."
+    },
+    {
+     "title": "Strict one week, avoiding it the next",
+     "body": "You swing between controlling every pound and not wanting to look at all."
+    },
+    {
+     "title": "The same money loop, again",
+     "body": "You know what you should do. Something older keeps pulling you back."
+    }
+   ]
+  },
+  "mechanism": {
+   "title": "It's not about the money. It never was.",
+   "body": "Wealth Resonance works where budgets don't reach: the beliefs and body responses you inherited about money. With Catherine, a former financial adviser turned trauma-informed financial coach, you learn to feel safe with money, so the decisions you already know how to make finally stick.",
+   "pillars": [
+    {
+     "title": "Your money story",
+     "body": "Find the belief that keeps running the show."
+    },
+    {
+     "title": "Safety in the body",
+     "body": "Somatic tools for the moments money feels threatening."
+    },
+    {
+     "title": "Confident decisions",
+     "body": "Make money choices from calm, not panic."
+    },
+    {
+     "title": "Worth and wealth",
+     "body": "Charge, earn and receive what you're worth."
+    }
+   ]
+  },
+  "deliverables": {
+   "title": "What's inside Wealth Resonance",
+   "items": [
+    {
+     "title": "Live group sessions",
+     "body": "Guided by Catherine, in a small group."
+    },
+    {
+     "title": "Money StoryType work",
+     "body": "Understand the pattern behind your money habits."
+    },
+    {
+     "title": "Somatic practices",
+     "body": "Short tools you can use whenever money feels hard."
+    },
+    {
+     "title": "Private community",
+     "body": "Women working on the same thing, inside the Circle hub."
+    },
+    {
+     "title": "VIP option",
+     "body": "Extra 1:1 time with Catherine."
+    },
+    {
+     "title": "Recordings and workbooks",
+     "body": "Go back to every session at your own pace."
+    }
+   ]
+  },
+  "proof": {
+   "title": "Members",
+   "items": [
+    "{{SWAP}} Wealth Resonance member story",
+    "{{SWAP}} Podcast listener review",
+    "{{SWAP}} Member video testimonial"
+   ],
+   "note": "Individual results vary."
+  },
+  "howItWorks": {
+   "title": "How it works",
+   "steps": [
+    {
+     "title": "Apply",
+     "body": "7 short questions, about 2 minutes."
+    },
+    {
+     "title": "Book a call",
+     "body": "If it looks like a fit, pick a time to talk with Catherine's team."
+    },
+    {
+     "title": "Decide on the call",
+     "body": "We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way."
+    }
+   ]
+  },
+  "qualification": {
+   "title": "Apply for Wealth Resonance",
+   "questions": [
+    {
+     "q": "How do you feel about money most days?",
+     "type": "choice",
+     "options": [
+      "Anxious, even with a plan",
+      "Avoidant: I'd rather not look",
+      "In control, but it's exhausting",
+      "Mostly calm, ready to go deeper"
+     ]
+    },
+    {
+     "q": "What would you most like to change?",
+     "type": "multi",
+     "options": [
+      "Feeling safe with money",
+      "Stopping the strict-then-avoid cycle",
+      "Charging my worth",
+      "Money conversations with my partner",
+      "Making confident decisions"
+     ]
+    },
+    {
+     "q": "What's the money moment you keep coming back to?",
+     "type": "text"
+    },
+    {
+     "q": "How do you know Catherine?",
+     "type": "choice",
+     "options": [
+      "Podcast",
+      "Instagram",
+      "The Money Circle",
+      "Newsletter",
+      "Somewhere else"
+     ]
+    },
+    {
+     "q": "Can you give it about two hours a week for eight weeks?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    },
+    {
+     "q": "Are you looking for coaching rather than regulated financial advice?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "No, I need a financial adviser"
+     ],
+     "disqualify": [
+      "No, I need a financial adviser"
+     ]
+    },
+    {
+     "q": "If you're accepted, are you ready to invest in the programme now?",
+     "type": "choice",
+     "options": [
+      "Yes",
+      "In 1–3 months",
+      "No"
+     ],
+     "disqualify": [
+      "No"
+     ]
+    }
+   ],
+   "contactFields": [
+    "Name",
+    "Email",
+    "Phone number"
+   ],
+   "notFit": {
+    "title": "Thank you for being honest.",
+    "body": "Wealth Resonance isn't the right next step for you right now. Join the free Money Circle and the podcast, and apply again when the timing is right."
+   }
+  },
+  "finalCta": {
+   "title": "Ready to feel safe with money?",
+   "body": "Apply here. One application, one gentle conversation, a clear answer.",
+   "cta": "Apply now",
+   "disclaimer": "Coaching and education only. Nothing here is financial advice, and this service is not regulated by the Financial Conduct Authority. It is not therapy. Results depend on your own situation and are not guaranteed."
+  }
+ },
+ "preCallEmails": [
+  {
+   "emailNumber": 1,
+   "type": "Confirmation",
+   "subject": "You're booked: here's what happens next",
+   "previewText": "Your call is confirmed",
+   "body": "Hey {{first_name}},\n\nYour call is booked for {{call_time}}. The link is in your calendar invite.\n\nBefore we talk:\n1. Keep the time free.\n2. Think of one recent money moment that made you anxious, and bring it to the call.\n\nOne note: nobody on my team will ever ask you to pay through a DM. Payments only happen through the official links from this email address.\n\nTalk soon,\nCatherine"
+  },
+  {
+   "emailNumber": 2,
+   "type": "Conviction",
+   "subject": "Knowing isn't the same as feeling safe",
+   "previewText": "Why a plan beats one more tip",
+   "body": "Hey {{first_name}},\n\nMost women I work with already know what they should do with money. The gap is that their body doesn't feel safe doing it.\n\nThat's where Wealth Resonance starts.\n\nOn the call we'll look at where you are today.\n\nCatherine"
+  },
+  {
+   "emailNumber": 3,
+   "type": "Objection handling",
+   "subject": "\"I've done budgeting courses before\"",
+   "previewText": "Then this is the next step",
+   "body": "Hey {{first_name}},\n\nSo have most of the women in the programme.\n\nBudgets work on the numbers. Wealth Resonance works on the reason the numbers keep slipping.\n\nIf you're not sure you need it, ask on the call. We'll tell you honestly.\n\nCatherine"
+  },
+  {
+   "emailNumber": 4,
+   "type": "Expectations",
+   "subject": "What we'll cover on the call",
+   "previewText": "About 30 minutes, no pressure",
+   "body": "Hey {{first_name}},\n\nThe call takes about 30 minutes:\n\n1. Where you are now and what you've tried.\n2. Where you want to be in a year.\n3. How the program works, what it costs, and whether it fits you.\n\nIf it isn't a fit, we'll tell you. No pressure either way.\n\nCatherine"
+  },
+  {
+   "emailNumber": 5,
+   "type": "One day out",
+   "subject": "Tomorrow: your call with Catherine's team",
+   "previewText": "Quick reminder",
+   "body": "Hey {{first_name}},\n\nQuick reminder: your call is tomorrow at {{call_time}}.\n\nIf the time doesn't work anymore, reschedule with the link in your invite so someone else can take the slot.\n\nSee you tomorrow,\nCatherine"
+  },
+  {
+   "emailNumber": 6,
+   "type": "Morning of",
+   "subject": "Today's the day",
+   "previewText": "Your call is at {{call_time}}",
+   "body": "Hey {{first_name}},\n\nYour call is today at {{call_time}}. Find a quiet spot and have your questions ready.\n\nTalk soon,\nCatherine"
+  }
+ ],
+ "adScripts": [
+  {
+   "angle": "Six figures",
+   "hook": "Six figures in the bank, and you still don't feel safe?",
+   "script": "[Catherine to camera]\nThat's not a numbers problem.\nIn Wealth Resonance we work on what's underneath.\nApply at the link.\n[On-screen: Coaching and education only, not financial advice and not regulated by the FCA. Individual results vary.]"
+  },
+  {
+   "angle": "Strict / avoid",
+   "hook": "Strict with money one week, avoiding it the next?",
+   "script": "[Catherine on the beach in Jersey]\nThat swing has a cause, and it can change.\nLink below.\n[On-screen: Coaching and education only, not financial advice and not regulated by the FCA. Individual results vary.]"
+  },
+  {
+   "angle": "Adviser",
+   "hook": "I was a financial adviser for 20 years. Here's what I missed.",
+   "script": "[Catherine to camera]\nFinancial success and feeling safe with money aren't the same thing.\nWealth Resonance is where we work on the second. Apply at the link.\n[On-screen: Coaching and education only, not financial advice and not regulated by the FCA. Individual results vary.]"
+  },
+  {
+   "angle": "Money Circle",
+   "hook": "Loved the Money Circle? Here's the next step.",
+   "script": "[Zoom clip, then Catherine]\nA small group, guided by me, all year round.\nApplications are open. Link below.\n[On-screen: Coaching and education only, not financial advice and not regulated by the FCA. Individual results vary.]"
+  }
+ ]
+}
