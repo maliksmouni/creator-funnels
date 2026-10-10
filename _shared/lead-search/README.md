@@ -26,7 +26,7 @@ Build me a creator lead list with the lead search in _shared/lead-search/ (read 
 
 Parameters:
 - Niche: trading (day trading, forex, futures, options)
-- Countries: United States, United Kingdom
+- Countries: United States, United Kingdom, Canada (Canada added 10.10.2026)
 - Instagram followers: 10,000–30,000
 - Instagram: at least one post in the last 30 days
 - YouTube: channel required, at least one upload in the last 6 months
@@ -47,7 +47,7 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
 2. **Find missing Instagram handles**: `python3 find_ig.py $S/channels.jsonl --since <YouTube window date>`. Adds handles for channels that don't link Instagram on YouTube: trusted when the creator's own website/link page links an account resembling the channel, otherwise marked for verification. `filter_leads.py` drops any unverified handle whose Instagram profile neither links the YouTube channel nor carries its name (sponsors such as TradingView or prop firms often appear on creators' sites). In the test this turned 0 remaining candidates into 287.
 3. **Candidates** (skips everyone on an earlier list, every creator with a funnel in this repo, and accounts checked in the last 90 days): `python3 candidates.py $S/channels.jsonl --since <YYYY-MM-DD, YouTube window> --exclude <attached.xlsx> > $S/handles.txt`
    Rule of thumb: ~130 candidates per 10 leads. If too few, go back to step 1.
-   ~70% of active US/UK channels don't link Instagram on YouTube. If candidates run dry, find their Instagram via their website / link-in-bio page, or try the same handle on Instagram, and only keep it when bio, name or YouTube link confirm it's the same person.
+   ~70% of active US/UK/Canadian channels don't link Instagram on YouTube. If candidates run dry, find their Instagram via their website / link-in-bio page, or try the same handle on Instagram, and only keep it when bio, name or YouTube link confirm it's the same person.
 4. **Instagram via Apify**: `python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
    Never call Instagram directly (this server gets 429 / "please wait" blocks), no mirror sites, never a logged-in Instagram or Google account or cookies.
 5. **Filter + emails**: `python3 filter_leads.py $S/channels.jsonl $S/profiles*.json --min 10000 --max 30000 --ig-since <date> --yt-since <date> > $S/review.json`

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pick Instagram handles to check from yt_discover output.
 
-Usage: python3 candidates.py channels.jsonl --since 2026-04-06 [--countries "United States,United Kingdom"]
+Usage: python3 candidates.py channels.jsonl --since 2026-04-06 [--countries "United States,United Kingdom,Canada"]
          [--exclude file.xlsx|file.txt ...] > handles.txt
 Keeps channels in the given countries with an upload on/after --since and a linked Instagram,
 minus creators already listed or pitched, so nobody lands on two lists:
@@ -28,7 +28,7 @@ def load_exclude(path):
 p = argparse.ArgumentParser()
 p.add_argument('channels')
 p.add_argument('--since', required=True, help='earliest YouTube upload date, YYYY-MM-DD')
-p.add_argument('--countries', default='United States,United Kingdom')
+p.add_argument('--countries', default='United States,United Kingdom,Canada')
 p.add_argument('--exclude', nargs='*', default=[])
 p.add_argument('--recheck-days', type=int, default=90, help='re-check rejected handles after this many days')
 a = p.parse_args()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Find Instagram handles for channels that don't link Instagram on YouTube.
 
-Usage: python3 find_ig.py channels.jsonl [--since 2026-04-06] [--countries "United States,United Kingdom"]
+Usage: python3 find_ig.py channels.jsonl [--since 2026-04-06] [--countries "United States,United Kingdom,Canada"]
 Rewrites channels.jsonl in place. For each channel in the countries, active since --since and without
 an Instagram handle:
   1. website: open the channel's own links (website, Linktree, Beacons, Stan, Whop ...; affiliate links
@@ -55,7 +55,7 @@ def from_links(r):
 p = argparse.ArgumentParser()
 p.add_argument('channels')
 p.add_argument('--since', default='0000')
-p.add_argument('--countries', default='United States,United Kingdom')
+p.add_argument('--countries', default='United States,United Kingdom,Canada')
 a = p.parse_args()
 countries = set(a.countries.split(','))
 
