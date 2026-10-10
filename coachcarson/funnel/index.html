@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Coach Carson: Mentorship</title>
+<style>:root{--bg:#f4f8fc;--surface:#ffffff;--line:#d6e2ee;--text:#10243a;--muted:#4a5d72;--accent:#115290;--accent-ink:#ffffff;--signal:#b14d1a}
+/* Creator funnel layout. Colors come from each creator's content.json → brand.
+   Typography stays neutral (Inter) so it never borrows the pitch master's display face. */
+@font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-display:swap}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--bg)}
+body{margin:0;color:var(--text);font:17px/1.6 "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;letter-spacing:-.01em;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background:radial-gradient(70% 50% at 85% 0%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 60%),radial-gradient(50% 40% at 0% 60%,color-mix(in srgb,var(--signal) 7%,transparent),transparent 60%),var(--bg);background-attachment:fixed}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--accent)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(16px,5vw,32px)}
+.narrow{max-width:780px}
+h1,h2,h3{margin:0 0 .5em;line-height:1.08;letter-spacing:-.035em;text-wrap:balance}
+h1{font-size:clamp(2.1rem,5vw,3.6rem);font-weight:800}
+h2{font-size:clamp(1.7rem,3.4vw,2.5rem);font-weight:800}
+h3{font-size:1.1rem;font-weight:700;letter-spacing:-.015em;line-height:1.25}
+p{margin:0 0 1em}
+.lead{font-size:1.12rem;color:var(--muted);text-wrap:pretty}
+.flag{font:600 .72em/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent);border:1px dashed color-mix(in srgb,var(--accent) 45%,transparent);border-radius:6px;padding:.25em .45em;overflow-wrap:anywhere;-webkit-box-decoration-break:clone;box-decoration-break:clone;vertical-align:.1em}
+
+.demo{background:var(--accent);color:var(--accent-ink);text-align:center;font-size:.82rem;font-weight:600;padding:8px 16px}
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:12px 0}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.logo{white-space:nowrap;font-weight:900;letter-spacing:.16em;text-transform:uppercase;font-size:.9rem;color:var(--text)}
+.logo b{color:var(--accent)}
+.top .btn{flex-shrink:0}
+@media(max-width:420px){.logo{white-space:normal;font-size:.8rem;letter-spacing:.1em;line-height:1.25}}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.74rem;text-transform:uppercase;letter-spacing:.2em;color:var(--accent);font-weight:700;margin-bottom:18px}
+.eyebrow::before{content:"";width:24px;height:1px;background:var(--accent)}
+
+section{padding:clamp(64px,10vh,112px) 0}
+.hero{padding-top:clamp(48px,8vh,88px)}
+.hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.portrait{margin:0;position:relative}
+.portrait::after{content:"";position:absolute;inset:auto -12px -12px auto;width:60%;height:60%;border:1px solid color-mix(in srgb,var(--accent) 50%,transparent);border-radius:22px;z-index:-1}
+.portrait img{width:100%;border-radius:22px;border:1px solid var(--line);box-shadow:0 40px 80px -40px rgba(0,0,0,.8)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none}
+.chips li{font-size:.8rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px;background:color-mix(in srgb,var(--surface) 70%,transparent)}
+
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:var(--accent-ink);padding:15px 26px;border-radius:999px;text-decoration:none;font-weight:700;border:0;font-size:1rem;cursor:pointer;box-shadow:0 14px 34px -14px color-mix(in srgb,var(--accent) 80%,transparent);transition:transform .25s,filter .25s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.btn svg{width:14px;height:14px;flex:none}
+.btn.sm{padding:9px 16px;font-size:.88rem;box-shadow:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+.vsl{margin-top:clamp(40px,6vh,64px);aspect-ratio:16/9;max-height:560px;width:100%;border-radius:22px;border:1px solid var(--line);display:grid;place-items:center;text-align:center;padding:16px;position:relative;overflow:hidden;
+  background:radial-gradient(55% 60% at 50% 50%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 70%),var(--surface)}
+.vsl__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vsl:has(.vsl__img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.45))}
+.vsl__play,.vsl__note{position:relative;z-index:1}
+.vsl__play{width:82px;height:82px;border-radius:50%;background:var(--accent);display:grid;place-items:center;box-shadow:0 0 0 12px color-mix(in srgb,var(--accent) 16%,transparent)}
+.vsl__play svg{width:26px;height:26px;margin-left:4px;fill:var(--accent-ink)}
+.vsl__note{position:absolute;bottom:16px;left:0;right:0;font-size:.8rem;color:var(--muted)}
+
+.sec-head{max-width:720px;margin-bottom:clamp(32px,5vh,48px)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(180deg,color-mix(in srgb,var(--surface) 100%,transparent),color-mix(in srgb,var(--surface) 60%,transparent));border:1px solid var(--line);border-radius:18px;padding:26px}
+.card .num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);font-weight:800;font-size:.85rem;margin-bottom:16px}
+.card p{color:var(--muted);margin:0}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:36px}
+.pillar{border-top:1px solid var(--accent);padding-top:16px}
+.pillar span{color:var(--signal);font-weight:800;font-size:.8rem;letter-spacing:.14em}
+.pillar h3{margin-top:8px}
+.pillar p{color:var(--muted);margin:0}
+.proof-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.proof-slot{border:1.5px dashed var(--line);border-radius:18px;padding:36px 20px;text-align:center;color:var(--muted)}
+.note{font-size:.84rem;color:var(--muted);margin-top:14px}
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.steps li{display:flex;gap:18px;padding:22px;border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--surface) 70%,transparent)}
+.steps .n{flex:0 0 38px;height:38px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-weight:800}
+.steps h3{margin:6px 0 4px}
+.steps p{margin:0;color:var(--muted)}
+
+.apply{display:grid;gap:14px}
+.apply fieldset{border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:0;background:color-mix(in srgb,var(--surface) 80%,transparent)}
+.apply legend{font-weight:700;padding:0 8px;margin-left:-8px}
+.apply legend span{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-size:.8rem;margin-right:8px}
+.opts{display:grid;gap:8px;margin-top:10px}
+.opt{display:flex;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:12px;cursor:pointer;transition:border-color .2s,background .2s}
+.opt:hover{border-color:var(--accent)}
+.opt:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.opt input{accent-color:var(--accent);width:18px;height:18px;margin:0}
+.field{display:block;margin:10px 0 0;font-size:.88rem;color:var(--muted)}
+.apply input:not([type]),.apply textarea{display:block;width:100%;margin-top:6px;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit}
+.apply textarea{margin-top:10px}
+.apply input:focus,.apply textarea:focus{border-color:var(--accent);outline:none}
+.final{text-align:center}
+.final .wrap{border:1px solid var(--line);border-radius:28px;padding:clamp(40px,7vw,72px) clamp(20px,5vw,56px);background:radial-gradient(60% 80% at 50% 0%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 70%),var(--surface)}
+footer{padding:36px 0 48px;color:var(--muted);text-align:center;font-size:.82rem}
+
+/* long-form pages (emails, ads) */
+.doc{display:grid;gap:18px}
+.mail{border:1px solid var(--line);border-radius:18px;background:var(--surface);overflow:hidden}
+.mail__head{padding:18px 22px;border-bottom:1px solid var(--line);display:grid;gap:4px}
+.mail__type{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.mail__subj{font-weight:700;font-size:1.08rem}
+.mail__prev{font-size:.88rem;color:var(--muted)}
+.mail__body{padding:20px 22px;white-space:pre-wrap;color:var(--text);font-size:.96rem;line-height:1.65}
+.mail__body code{color:var(--accent);font:inherit}
+
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .portrait{max-width:340px}
+  .grid3{grid-template-columns:1fr}
+  .pillars{grid-template-columns:repeat(2,1fr)}
+}
+.notfit{text-align:center;padding:36px 28px}.notfit h3{font-size:1.4rem}
+</style>
+<script>
+document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',()=>{const els=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+els.forEach(e=>io.observe(e))});
+</script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23115290%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2245%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2CHelvetica%2Csans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3EC%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div class="demo">Demo built for Chad Carson (Coach Carson). Not their official site.</div>
+<header class="top"><div class="wrap"><span class="logo">Coach <b>Carson</b></span><a class="btn sm" href="#apply">Apply</a></div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow reveal">Coach Carson · Rental Property Mastery</span>
+      <h1 class="reveal">More freedom from the rentals you already own, not more doors.</h1>
+      <p class="lead reveal">Rental Property Mastery: coaching, small groups and hot seats with Chad Carson and investors who already own rentals. Apply, book a short fit call, then decide.</p>
+      <ul class="chips reveal"><li>Rental investors</li><li>1:1 + small groups</li><li>Hot seats</li><li>Capped at 300</li></ul>
+      <a class="btn reveal" href="#apply">Apply to join RPM <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+    <figure class="portrait reveal"><img src="../assets/chad.jpg" alt="Chad Carson" width="600" height="600"></figure>
+  </div>
+  <div class="vsl reveal" role="img" aria-label="Video placeholder"><img class="vsl__img" src="../assets/video-thumb.jpg" alt="" width="1280" height="720"><div class="vsl__play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div><p class="vsl__note"><span class="flag">{{SWAP}} Chad&#x27;s RPM video (3–8 min)</span></p></div>
+</div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The problem</span><h2 class="reveal">Sound familiar?</h2></div><div class="grid3"><div class="card reveal"><span class="num">01</span><h3>You own rentals, but not your time</h3><p>The properties cash flow, yet you&#x27;re still the one handling every call and repair.</p></div><div class="card reveal"><span class="num">02</span><h3>More doors feels like the only answer</h3><p>Everyone online says scale, and you&#x27;re not sure that&#x27;s the freedom you wanted.</p></div><div class="card reveal"><span class="num">03</span><h3>You&#x27;ve read enough</h3><p>You know the information. What you&#x27;re missing is someone checking your numbers and your next move.</p></div></div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The method</span><h2 class="reveal">Small and mighty: freedom from the portfolio you have.</h2><p class="lead reveal">RPM isn&#x27;t another course. It&#x27;s a community of investors who already own rentals, with Chad&#x27;s coaching, small groups and hot seats where your own deals and decisions get looked at. You leave with a plan that fits your life, not a bigger to-do list.</p></div><div class="pillars"><div class="pillar reveal"><span>01</span><h3>Your numbers checked</h3><p>Underwriting, financing and cash flow, looked at by people who&#x27;ve done it.</p></div><div class="pillar reveal"><span>02</span><h3>Systems, not hustle</h3><p>Management that gives you your time back.</p></div><div class="pillar reveal"><span>03</span><h3>The next deal, or none</h3><p>Find the right one, or decide you have enough.</p></div><div class="pillar reveal"><span>04</span><h3>Living on your equity</h3><p>Turn what you&#x27;ve built into income and freedom.</p></div></div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">The mentorship</span><h2 class="reveal">What&#x27;s inside RPM</h2></div><div class="grid3"><div class="card reveal"><span class="num">01</span><h3>Coaching with Chad</h3><p>1:1 and group coaching on your situation.</p></div><div class="card reveal"><span class="num">02</span><h3>Small groups</h3><p>Investors at your stage, meeting regularly.</p></div><div class="card reveal"><span class="num">03</span><h3>Hot seats</h3><p>Bring a deal or a decision, get it worked through live.</p></div><div class="card reveal"><span class="num">04</span><h3>All of Chad&#x27;s courses</h3><p>Deal finding, analysis, contract-to-closing, seller financing and more.</p></div><div class="card reveal"><span class="num">05</span><h3>Member forum</h3><p>Questions answered by people who own rentals too.</p></div><div class="card reveal"><span class="num">06</span><h3>Meetups</h3><p>Meet other members in person.</p></div></div></div></section>
+<section><div class="wrap"><div class="sec-head"><span class="eyebrow reveal">Proof</span><h2 class="reveal">Members</h2></div><div class="proof-grid"><div class="proof-slot reveal"><span class="flag">{{SWAP}} RPM member story</span></div><div class="proof-slot reveal"><span class="flag">{{SWAP}} Hot-seat clip</span></div><div class="proof-slot reveal"><span class="flag">{{SWAP}} Member video testimonial</span></div></div><p class="note">Individual results vary and are not typical.</p></div></section>
+<section><div class="wrap narrow"><div class="sec-head"><span class="eyebrow reveal">The process</span><h2 class="reveal">How it works</h2></div><ol class="steps"><li class="reveal"><span class="n">1</span><div><h3>Apply</h3><p>7 short questions, about 2 minutes.</p></div></li><li class="reveal"><span class="n">2</span><div><h3>Book a call</h3><p>If it looks like a fit, pick a time to talk with Chad&#x27;s team.</p></div></li><li class="reveal"><span class="n">3</span><div><h3>Decide on the call</h3><p>We look at where you are and whether it makes sense. The investment is explained on the call. No pressure either way.</p></div></li></ol></div></section>
+<section id="apply"><div class="wrap narrow">
+  <div class="sec-head"><span class="eyebrow reveal">Application</span><h2 class="reveal">Apply to join Rental Property Mastery</h2><p class="lead reveal">Seven questions, about two minutes.</p></div>
+  <form class="apply" id="apply-form" action="thank-you/" method="get">
+    <fieldset class="reveal"><legend><span>1</span>How many rental units do you own?</legend><div class="opts"><label class="opt"><input type="radio" name="q1" value="None yet" required data-disqualify> None yet</label><label class="opt"><input type="radio" name="q1" value="1–3" required> 1–3</label><label class="opt"><input type="radio" name="q1" value="4–10" required> 4–10</label><label class="opt"><input type="radio" name="q1" value="More than 10" required> More than 10</label></div></fieldset><fieldset class="reveal"><legend><span>2</span>Where are you right now?</legend><div class="opts"><label class="opt"><input type="radio" name="q2" value="Looking for my next deal" required> Looking for my next deal</label><label class="opt"><input type="radio" name="q2" value="Fixing systems and management" required> Fixing systems and management</label><label class="opt"><input type="radio" name="q2" value="Deciding whether to grow or hold" required> Deciding whether to grow or hold</label><label class="opt"><input type="radio" name="q2" value="Planning to live on my equity" required> Planning to live on my equity</label></div></fieldset><fieldset class="reveal"><legend><span>3</span>What do you want help with most?</legend><div class="opts"><label class="opt"><input type="checkbox" name="q3" value="Finding deals"> Finding deals</label><label class="opt"><input type="checkbox" name="q3" value="Analysing and financing"> Analysing and financing</label><label class="opt"><input type="checkbox" name="q3" value="Property management"> Property management</label><label class="opt"><input type="checkbox" name="q3" value="Creative / seller financing"> Creative / seller financing</label><label class="opt"><input type="checkbox" name="q3" value="Long-term portfolio plan"> Long-term portfolio plan</label></div></fieldset><fieldset class="reveal"><legend><span>4</span>What&#x27;s the one decision you&#x27;d most like a second opinion on?</legend><textarea name="q4" rows="3" required></textarea></fieldset><fieldset class="reveal"><legend><span>5</span>How did you first hear about Coach Carson?</legend><div class="opts"><label class="opt"><input type="radio" name="q5" value="YouTube" required> YouTube</label><label class="opt"><input type="radio" name="q5" value="Podcast" required> Podcast</label><label class="opt"><input type="radio" name="q5" value="Newsletter" required> Newsletter</label><label class="opt"><input type="radio" name="q5" value="Books" required> Books</label><label class="opt"><input type="radio" name="q5" value="Somewhere else" required> Somewhere else</label></div></fieldset><fieldset class="reveal"><legend><span>6</span>Can you join at least a couple of calls or groups a month?</legend><div class="opts"><label class="opt"><input type="radio" name="q6" value="Yes" required> Yes</label><label class="opt"><input type="radio" name="q6" value="No" required data-disqualify> No</label></div></fieldset><fieldset class="reveal"><legend><span>7</span>If you&#x27;re accepted, are you ready to invest in RPM now?</legend><div class="opts"><label class="opt"><input type="radio" name="q7" value="Yes" required> Yes</label><label class="opt"><input type="radio" name="q7" value="In 1–3 months" required> In 1–3 months</label><label class="opt"><input type="radio" name="q7" value="No" required data-disqualify> No</label></div></fieldset>
+    <fieldset class="reveal"><legend><span>✓</span>Your details</legend><label class="field">Name<input name="name" required></label><label class="field">Email<input name="email" required></label><label class="field">Phone number<input name="phone" required></label></fieldset>
+    <div><button class="btn" type="submit">Apply now <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+  </form>
+  <div class="card notfit" id="not-fit" hidden><h3>Thank you for being honest.</h3><p>RPM is built for investors who already own at least one rental. Start with Chad&#x27;s free toolkit, the podcast and the courses, and apply when you&#x27;re ready.</p></div>
+  <script>
+  document.getElementById('apply-form').addEventListener('submit',e=>{
+    if(!e.target.querySelector('input[data-disqualify]:checked'))return;
+    e.preventDefault();e.target.hidden=true;const n=document.getElementById('not-fit');n.hidden=false;n.scrollIntoView({behavior:'smooth',block:'center'});
+  });
+  </script>
+</div></section>
+<section class="final"><div class="wrap narrow"><h2 class="reveal">Ready to get more freedom from what you own?</h2><p class="lead reveal">Apply here. One application, one short call, a straight answer.</p><a class="btn reveal" href="#apply">Apply now <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></section>
+</main>
+<footer><div class="wrap">Educational content only. Nothing here is personalised financial, tax or legal advice. Real estate investing involves risk, including loss of capital. Results depend on your own situation and effort and are not guaranteed.</div></footer>
+</body>
+</html>
