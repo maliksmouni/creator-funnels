@@ -2,7 +2,7 @@
 
 Call-Funnel (Bewerbung + Call) für das **Wealth Resonance programme** als ganzjähriges Bewerbungsprogramm. Heute: Launch-Fenster + Warteliste, 1:1 nur vorab bezahlt (£495) ohne Gespräch; Calendly-Discovery-Call nur für die Coach-Zertifizierung, ohne Bewerbung und Pre-Call-Seite (Call-Funnel-Check: PARTIAL → nicht übersprungen). Stand: 10.10.2026. Adresse: https://infooperate.com/catherinemorganmoney/
 
-Kontakt: hello@themoneypanel.co.uk (themoneypanel.co.uk/terms-and-conditions/ und /financial-coach-programme-waitlist-ty/; Lead-Sheet Zeile 33). Ort: Jersey → UK-Zeit (Sendefenster 9–21 Uhr UK).
+Kontakt: hello@themoneypanel.co.uk (themoneypanel.co.uk/terms-and-conditions/ und /financial-coach-programme-waitlist-ty/; Lead-Sheet Zeile 33). Ort: Jersey → UK-Zeit (Sendefenster 9–22 Uhr UK).
 
 ## Vorgeschlagene Standardwerte
 - Ganzjährige Bewerbung statt Launch-Fenster, 8 Wochen, ca. 2 Std./Woche, VIP mit extra 1:1-Zeit (Format abgeleitet von "VIP Experience").
@@ -32,4 +32,4 @@ Malik Alexander Smouni
 Follow-up-Satz: let women apply for Wealth Resonance all year with a short call, instead of waiting for the next launch.
 
 ## Outreach-Verlauf
-- Erst-Mail geplant für So 11.10.2026, 09:10 UTC (10:10 UK), trig_01Q9m7KvjjkvLLxfmAQBGBJo.
+- 10.10.2026, 20:38 UTC (21:38 UK): Erst-Mail gesendet an hello@themoneypanel.co.uk, Betreff B: „Wealth Resonance programme: one thing I'd fix“ (ohne Link, Thread 1a127898049c8b4e; UK-Fenster bis 22:00 seit 10.10.2026). Lead-Sheet Zeile 33 = x. Follow-up geplant für Di 13.10.2026, 17:10 UTC (18:10 UK), trig_013u3BayBi6TNuWprXg3PSZd.

@@ -2,7 +2,7 @@
 
 Call-Funnel mit Selbstbuchung des Fit-Calls für den **Leap Year Mastermind** (12 Monate, max. 8 Frauen, $4,500/Monat oder $45,000; Start der aktuellen Runde 12.10.2026). Heute: Tally-Bewerbung ohne Weiterleitung, Olivia meldet sich selbst zur Terminbuchung (Call-Funnel-Check: PARTIAL → nicht übersprungen). Stand: 10.10.2026. Adresse: https://infooperate.com/theoliviatati/
 
-Kontakt: olivia@oliviatati.com (selbst veröffentlicht auf oliviatati.com/leapyear und im Footer von /about; Lead-Sheet Zeile 29). Ort: YouTube-Land USA, lebte 2026 in Costa Rica, Italien, Denver, London (IG 07./08.10.2026) → Versand im Überschneidungsfenster UK + US Eastern.
+Kontakt: olivia@oliviatati.com (selbst veröffentlicht auf oliviatati.com/leapyear und im Footer von /about; Lead-Sheet Zeile 29). Ort: YouTube-Land USA, lebte 2026 in Costa Rica, Italien, Denver, London (IG 07./08.10.2026) → Versand nach YouTube-Land (USA), Nutzerentscheidung 10.10.2026.
 
 ## Vorgeschlagene Standardwerte
 - 30-Min-Fit-Call (Olivias eigene Angabe), Bewerbung mit 7 Fragen; Preis steht auf der Seite (wie bei ihr).
@@ -33,4 +33,4 @@ Malik Alexander Smouni
 Follow-up-Satz: let qualified applicants book their 30-minute fit call themselves right after the form, so nobody waits on your reply.
 
 ## Outreach-Verlauf
-- Erst-Mail geplant für So 11.10.2026, 14:10 UTC (15:10 UK / 10:10 ET, Zeitzone unklar), trig_01CQTBSKkfkUxFZwKQzaZxXL.
+- 10.10.2026, 20:38 UTC (16:38 ET): Erst-Mail gesendet an olivia@oliviatati.com, Betreff B: „Leap Year Mastermind: one thing I'd fix“ (ohne Link, Thread 1a127898271456c3; nach YouTube-Land USA gesendet, Nutzerentscheidung 10.10.2026). Lead-Sheet Zeile 29 = x. Follow-up geplant für Di 13.10.2026, 17:10 UTC (13:10 ET), trig_013u3BayBi6TNuWprXg3PSZd.

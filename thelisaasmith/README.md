@@ -32,4 +32,4 @@ Malik Alexander Smouni
 Follow-up-Satz: put a calendar on the thank-you page, so the women who say "I'm ready now" book their call right away instead of waiting two business days.
 
 ## Outreach-Verlauf
-- 10.10.2026, 20:29 UTC (14:29 MT / 16:29 ET): Erst-Mail gesendet an support@lisasmith.com, Betreff A: „Quick question about your Wealth Building Mastermind“ (ohne Link, Thread 1a12781f1650bc7f). Lead-Sheet Zeile 31 = x. Follow-up geplant für Di 13.10.2026, 17:10 UTC (11:10 MT), trig_01S1GncxqevMKWZjH8ES8Xpz.
+- 10.10.2026, 20:29 UTC (14:29 MT / 16:29 ET): Erst-Mail gesendet an support@lisasmith.com, Betreff A: „Quick question about your Wealth Building Mastermind“ (ohne Link, Thread 1a12781f1650bc7f). Lead-Sheet Zeile 31 = x. Follow-up geplant für Di 13.10.2026, 17:10 UTC (11:10 MT), trig_013u3BayBi6TNuWprXg3PSZd.

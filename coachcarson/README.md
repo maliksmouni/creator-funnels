@@ -33,4 +33,4 @@ Follow-up-Satz: let applicants book a short fit call right after they click "Req
 
 ## Outreach-Verlauf
 - 10.10.2026, 20:28 UTC (16:28 ET): Erst-Mail gesendet an service@coachcarson.com, Betreff A: „Quick question about your Rental Property Mastery“ (ohne Link, Thread 1a1277fd130cff13). Lead-Sheet Zeile 28 = x.
-- Follow-up geplant für Di 13.10.2026, 17:10 UTC (13:10 ET), trig_01S1GncxqevMKWZjH8ES8Xpz.
+- Follow-up geplant für Di 13.10.2026, 17:10 UTC (13:10 ET), trig_013u3BayBi6TNuWprXg3PSZd.
