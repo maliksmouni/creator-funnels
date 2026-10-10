@@ -81,7 +81,7 @@ Malik
 
 ## Follow-up (3–4 days later, no reply)
 
-A reply needs the first email to be sent, so at the start of each session check `in:sent (subject:funnel OR subject:"built you something" OR subject:"quick question about" OR subject:"one thing I'd fix")` for first emails without a follow-up and handle the follow-up as a **reply in the same thread** (`replyToMessageId` = the sent first email): without a link, schedule and send it yourself (see "Sending"); with a link (first emails before 09.10.2026), create it as a draft so the user only sends it on the day. Tell the user the send date (first email + 3–4 days). Skip creators who already replied. First emails sent before 09.10.2026 had the link, so their follow-up keeps it: replace the last line with "Here it is again:", the line `>>> PASTE LINK HERE <<<` and "Worth a 2-minute look?".
+A reply needs the first email to be sent, so at the start of each session check `in:sent (subject:funnel OR subject:"built you something" OR subject:"quick question about" OR subject:"one thing I'd fix")` for first emails without a follow-up and handle the follow-up as a **reply in the same thread** (`replyToMessageId` = the sent first email): without a link, schedule and send it yourself (see "Sending"); with a link (first emails before 09.10.2026), create it as a draft so the user only sends it on the day. Tell the user the send date (first email + 3–4 days). Skip creators who already replied, and never follow up with Devin Roberts (devindatrader, user decision 10.10.2026). First emails sent before 09.10.2026 had the link, so their follow-up keeps it: replace the last line with "Here it is again:", the line `>>> PASTE LINK HERE <<<` and "Worth a 2-minute look?".
 
 ```
 Hey {Name},
