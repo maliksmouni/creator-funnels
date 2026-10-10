@@ -34,7 +34,7 @@ After every funnel is live and verified, **send** the first email from the user'
 
 ### Sending (since 09.10.2026)
 
-- **Send window**, in the creator's local time, every day including weekends (user decision 09.10.2026): US creators 9:00–12:00 Eastern (15:00–18:00 German time), UK creators 10:00–17:00 UK time, other countries 9:00–17:00 local. Check `date` before sending.
+- **Send window**, in the creator's local time, every day including weekends (user decision 09.10.2026): US creators 9:00–21:00 Eastern (15:00–03:00 German time), UK creators 9:00–21:00 UK time (10:00–22:00 German time), other countries 9:00–17:00 local (windows extended by the user on 10.10.2026). Check `date` before sending.
 - **Outside the window:** schedule it with `send_later` (claude-code-remote) for the next window, with a message that says exactly what to send (to, subject, body or template values, replyToMessageId for follow-ups), and tell the user the time. Don't send at night.
 - **Follow-ups without a link:** after a first email is sent, schedule its follow-up right away with `send_later` for day 3–4 in the send window. When it fires, check the thread first: if the creator replied, don't send. Tell the user and, on a yes, create the "Reply with the link" draft.
 - After every send: write `x` in the lead sheet right away, and log the date and subject in `{slug}/README.md` (Outreach-Verlauf).
