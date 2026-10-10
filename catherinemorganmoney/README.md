@@ -32,3 +32,4 @@ Malik Alexander Smouni
 Follow-up-Satz: let women apply for Wealth Resonance all year with a short call, instead of waiting for the next launch.
 
 ## Outreach-Verlauf
+- Erst-Mail geplant für So 11.10.2026, 09:10 UTC (10:10 UK), trig_01Q9m7KvjjkvLLxfmAQBGBJo.

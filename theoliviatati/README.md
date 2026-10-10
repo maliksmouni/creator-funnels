@@ -33,3 +33,4 @@ Malik Alexander Smouni
 Follow-up-Satz: let qualified applicants book their 30-minute fit call themselves right after the form, so nobody waits on your reply.
 
 ## Outreach-Verlauf
+- Erst-Mail geplant für So 11.10.2026, 14:10 UTC (15:10 UK / 10:10 ET, Zeitzone unklar), trig_01CQTBSKkfkUxFZwKQzaZxXL.
