@@ -27,7 +27,7 @@ Build me a creator lead list with the lead search in _shared/lead-search/ (read 
 Parameters:
 - Niche: trading (day trading, forex, futures, options)
 - Countries: United States, United Kingdom, Canada (Canada added 10.10.2026)
-- Instagram followers: 10,000–30,000
+- Instagram followers: 9,000–30,000 (lower bound 10,000 → 9,000 on 10.10.2026)
 - Instagram: at least one post in the last 30 days
 - YouTube: channel required, at least one upload in the last 6 months
 - Number of leads: 10
@@ -50,7 +50,7 @@ Scratch files (channels.jsonl, handles, profiles, review.json) go in the session
    ~70% of active US/UK/Canadian channels don't link Instagram on YouTube. If candidates run dry, find their Instagram via their website / link-in-bio page, or try the same handle on Instagram, and only keep it when bio, name or YouTube link confirm it's the same person.
 4. **Instagram via Apify**: `python3 apify_ig.py $S/handles.txt $S/profiles1.json` (one batch can hold hundreds of handles).
    Never call Instagram directly (this server gets 429 / "please wait" blocks), no mirror sites, never a logged-in Instagram or Google account or cookies.
-5. **Filter + emails**: `python3 filter_leads.py $S/channels.jsonl $S/profiles*.json --min 10000 --max 30000 --ig-since <date> --yt-since <date> > $S/review.json`
+5. **Filter + emails**: `python3 filter_leads.py $S/channels.jsonl $S/profiles*.json --min 9000 --max 30000 --ig-since <date> --yt-since <date> > $S/review.json`
 6. **Review review.json by hand** and edit it:
    - Remove brands, brokers, prop firms, academies, software, media (e.g. Topstep, IG UK, tastylive, FX Replay, London Academy of Trading), accounts whose bio says they're inactive, and people already on a list under another handle (e.g. @realbthetrader = @bthestory87; add such pairs to `exclude_handles.txt`).
    - Set `email` + `email_source` from `emails_found`, using only the creator's own address. Ignore sponsor/affiliate emails (prop firms, brokers, tools they promote) and generic legal/privacy addresses. Never guess an email; leave it empty if none fits.

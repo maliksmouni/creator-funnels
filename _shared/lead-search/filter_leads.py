@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Filter Apify profiles to leads and collect published emails.
 
-Usage: python3 filter_leads.py channels.jsonl profiles.json [profiles2.json ...] --min 10000 --max 30000
+Usage: python3 filter_leads.py channels.jsonl profiles.json [profiles2.json ...] --min 9000 --max 30000
          --ig-since 2026-09-06 [--yt-since 2026-04-06] > review.json
 Logs every checked handle to checked_handles.tsv (so later runs skip it), prints funnel stats to stderr
 and writes the remaining leads as JSON for review. Remove brands/companies/duplicates by hand, then
