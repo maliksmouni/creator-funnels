@@ -30,3 +30,4 @@ Follow-up-Satz: give your viewers an eight-week programme instead of single $60 
 
 ## Outreach-Verlauf
 - Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).
+- 10.10.2026, ~13:22 UTC (9:22 ET): Erst-Mail gesendet an info@shaybudgets.com, Betreff A: „Quick question about your budget coaching programme“ (ohne Link, Thread 1a125fb823fd0fe1). Lead-Sheet Zeile 22 = x. Follow-up geplant für Di 13.10.2026, 15:10 UTC (11:10 ET), trig_01CdcA9CPNJy8GhHsyoNE5Pt.

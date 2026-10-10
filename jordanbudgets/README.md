@@ -29,3 +29,4 @@ Follow-up-Satz: offer a small-group programme where you set up people's system w
 
 ## Outreach-Verlauf
 - Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).
+- 10.10.2026, ~13:22 UTC (9:22 ET): Erst-Mail gesendet an jordanbudgets@gmail.com, Betreff B: „Practical Budget programme: one thing I'd fix“ (ohne Link, Thread 1a125fbb2f337a6f). Lead-Sheet Zeile 23 = x. Follow-up geplant für Di 13.10.2026, 15:10 UTC (11:10 ET), trig_01CdcA9CPNJy8GhHsyoNE5Pt.

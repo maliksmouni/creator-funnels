@@ -29,3 +29,4 @@ Follow-up-Satz: give the people who see themselves in your 15-card story a way t
 
 ## Outreach-Verlauf
 - Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).
+- 10.10.2026, ~13:23 UTC (9:23 ET): Erst-Mail gesendet an pinkecloth@gmail.com, Betreff A: „Quick question about your debt-free coaching programme“ (ohne Link, Thread 1a125fbe28bae22d). Lead-Sheet Zeile 25 = x. Follow-up geplant für Di 13.10.2026, 15:10 UTC (11:10 ET), trig_01CdcA9CPNJy8GhHsyoNE5Pt.

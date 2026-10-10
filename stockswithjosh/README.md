@@ -29,3 +29,5 @@ Follow-up-Satz: add a small-group tier above SWJ where you review members' own t
 
 ## Outreach-Verlauf
 - Erst-Mail geplant für Sa 10.10.2026, 9:20 ET (send_later trig_013YCfTd7DfMuEg9Sdrpqaor).
+- 10.10.2026, ~13:23 UTC (9:23 ET): Erst-Mail gesendet an stockcryptobots@gmail.com, Betreff B: „Chart GOAT mentorship: one thing I'd fix“ (ohne Link, Thread 1a125fc256e47e4e). Lead-Sheet Zeile 27 = x. Follow-up geplant für Di 13.10.2026, 15:10 UTC (11:10 ET), trig_01CdcA9CPNJy8GhHsyoNE5Pt.
+- Hinweis: An dieselbe Adresse gingen 2025 schon drei ältere Pitches des Nutzers (12.03., 22.04., 06.10.2025, anderer Ansatz), keine Antwort.
